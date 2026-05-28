@@ -1,0 +1,338 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 5
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 8
+
+MaxHeight: 20
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,SAND,STATIONARY_WATER,biomesoplenty:blood
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(0,0,-1,HUGE_MUSHROOM_2:10)
+Block(1,0,-1,HUGE_MUSHROOM_2:10)
+Block(-1,0,0,HUGE_MUSHROOM_2:10)
+Block(1,0,0,HUGE_MUSHROOM_2:10)
+Block(0,0,1,HUGE_MUSHROOM_2:10)
+Block(0,0,0,HUGE_MUSHROOM_2:10)
+Block(0,1,-1,HUGE_MUSHROOM_2:10)
+Block(1,1,-1,HUGE_MUSHROOM_2:10)
+Block(-1,1,0,HUGE_MUSHROOM_2:10)
+Block(0,1,0,HUGE_MUSHROOM_2:10)
+Block(1,1,0,HUGE_MUSHROOM_2:10)
+Block(0,1,1,HUGE_MUSHROOM_2:10)
+Block(0,2,-1,HUGE_MUSHROOM_2:10)
+Block(-1,2,0,HUGE_MUSHROOM_2:10)
+Block(0,2,0,HUGE_MUSHROOM_2:10)
+Block(1,2,0,HUGE_MUSHROOM_2:10)
+Block(0,3,-1,HUGE_MUSHROOM_2:10)
+Block(0,3,0,HUGE_MUSHROOM_2:10)
+Block(-1,4,-1,HUGE_MUSHROOM_2:10)
+Block(0,4,-1,HUGE_MUSHROOM_2:10)
+Block(0,4,0,HUGE_MUSHROOM_2:10)
+Block(-1,5,-1,HUGE_MUSHROOM_2:10)
+Block(-2,5,0,HUGE_MUSHROOM_2:10)
+Block(-1,5,0,HUGE_MUSHROOM_2:10)
+Block(0,5,0,HUGE_MUSHROOM_2:10)
+Block(-1,6,-1,HUGE_MUSHROOM_2:10)
+Block(-2,6,0,HUGE_MUSHROOM_2:10)
+Block(-1,6,0,HUGE_MUSHROOM_2:10)
+Block(-2,6,1,HUGE_MUSHROOM_2:10)
+Block(-1,6,1,HUGE_MUSHROOM_2:10)
+Block(-2,7,0,HUGE_MUSHROOM_2:10)
+Block(-1,7,0,HUGE_MUSHROOM_2:10)
+Block(-3,7,1,HUGE_MUSHROOM_2:10)
+Block(-2,7,1,HUGE_MUSHROOM_2:10)
+Block(-1,7,1,HUGE_MUSHROOM_2:10)
+Block(-2,7,2,HUGE_MUSHROOM_2:10)
+Block(-4,8,-5,HUGE_MUSHROOM_2:1)
+Block(-3,8,-5,HUGE_MUSHROOM_2:1)
+Block(-2,8,-5,HUGE_MUSHROOM_2:1)
+Block(-1,8,-5,HUGE_MUSHROOM_2:3)
+Block(0,8,-5,HUGE_MUSHROOM_2:3)
+Block(-6,8,-4,HUGE_MUSHROOM_2:1)
+Block(-5,8,-4,HUGE_MUSHROOM_2:1)
+Block(1,8,-4,HUGE_MUSHROOM_2:3)
+Block(2,8,-4,HUGE_MUSHROOM_2:3)
+Block(-7,8,-3,HUGE_MUSHROOM_2:1)
+Block(3,8,-3,HUGE_MUSHROOM_2:3)
+Block(-7,8,-2,HUGE_MUSHROOM_2:1)
+Block(3,8,-2,HUGE_MUSHROOM_2:3)
+Block(-8,8,-1,HUGE_MUSHROOM_2:1)
+Block(4,8,-1,HUGE_MUSHROOM_2:3)
+Block(-8,8,0,HUGE_MUSHROOM_2:1)
+Block(-2,8,0,HUGE_MUSHROOM_2:10)
+Block(4,8,0,HUGE_MUSHROOM_2:3)
+Block(-8,8,1,HUGE_MUSHROOM_2:7)
+Block(-3,8,1,HUGE_MUSHROOM_2:10)
+Block(-2,8,1,HUGE_MUSHROOM_2:10)
+Block(-1,8,1,HUGE_MUSHROOM_2:10)
+Block(4,8,1,HUGE_MUSHROOM_2:3)
+Block(-8,8,2,HUGE_MUSHROOM_2:7)
+Block(-2,8,2,HUGE_MUSHROOM_2:10)
+Block(4,8,2,HUGE_MUSHROOM_2:9)
+Block(-8,8,3,HUGE_MUSHROOM_2:7)
+Block(4,8,3,HUGE_MUSHROOM_2:9)
+Block(-7,8,4,HUGE_MUSHROOM_2:7)
+Block(3,8,4,HUGE_MUSHROOM_2:9)
+Block(-7,8,5,HUGE_MUSHROOM_2:7)
+Block(2,8,5,HUGE_MUSHROOM_2:9)
+Block(3,8,5,HUGE_MUSHROOM_2:9)
+Block(-6,8,6,HUGE_MUSHROOM_2:7)
+Block(-5,8,6,HUGE_MUSHROOM_2:7)
+Block(1,8,6,HUGE_MUSHROOM_2:9)
+Block(2,8,6,HUGE_MUSHROOM_2:9)
+Block(-4,8,7,HUGE_MUSHROOM_2:7)
+Block(-3,8,7,HUGE_MUSHROOM_2:7)
+Block(-2,8,7,HUGE_MUSHROOM_2:9)
+Block(-1,8,7,HUGE_MUSHROOM_2:9)
+Block(0,8,7,HUGE_MUSHROOM_2:9)
+Block(-3,9,-5,HUGE_MUSHROOM_2:1)
+Block(-2,9,-5,HUGE_MUSHROOM_2:1)
+Block(-1,9,-5,HUGE_MUSHROOM_2:3)
+Block(-5,9,-4,HUGE_MUSHROOM_2:1)
+Block(-4,9,-4,HUGE_MUSHROOM_2:1)
+Block(0,9,-4,HUGE_MUSHROOM_2:3)
+Block(1,9,-4,HUGE_MUSHROOM_2:3)
+Block(-6,9,-3,HUGE_MUSHROOM_2:1)
+Block(2,9,-3,HUGE_MUSHROOM_2:3)
+Block(-7,9,-2,HUGE_MUSHROOM_2:1)
+Block(2,9,-2,HUGE_MUSHROOM_2:3)
+Block(3,9,-2,HUGE_MUSHROOM_2:3)
+Block(-7,9,-1,HUGE_MUSHROOM_2:1)
+Block(3,9,-1,HUGE_MUSHROOM_2:3)
+Block(-8,9,0,HUGE_MUSHROOM_2:1)
+Block(-2,9,0,HUGE_MUSHROOM_2:10)
+Block(4,9,0,HUGE_MUSHROOM_2:3)
+Block(-8,9,1,HUGE_MUSHROOM_2:7)
+Block(-3,9,1,HUGE_MUSHROOM_2:10)
+Block(-2,9,1,LOG:0)
+Block(-1,9,1,HUGE_MUSHROOM_2:10)
+Block(4,9,1,HUGE_MUSHROOM_2:3)
+Block(-8,9,2,HUGE_MUSHROOM_2:7)
+Block(-2,9,2,HUGE_MUSHROOM_2:10)
+Block(4,9,2,HUGE_MUSHROOM_2:9)
+Block(-7,9,3,HUGE_MUSHROOM_2:7)
+Block(3,9,3,HUGE_MUSHROOM_2:9)
+Block(-7,9,4,HUGE_MUSHROOM_2:7)
+Block(3,9,4,HUGE_MUSHROOM_2:9)
+Block(-6,9,5,HUGE_MUSHROOM_2:7)
+Block(2,9,5,HUGE_MUSHROOM_2:9)
+Block(-5,9,6,HUGE_MUSHROOM_2:7)
+Block(-4,9,6,HUGE_MUSHROOM_2:7)
+Block(0,9,6,HUGE_MUSHROOM_2:9)
+Block(1,9,6,HUGE_MUSHROOM_2:9)
+Block(-3,9,7,HUGE_MUSHROOM_2:7)
+Block(-2,9,7,HUGE_MUSHROOM_2:9)
+Block(-1,9,7,HUGE_MUSHROOM_2:9)
+Block(-3,10,-4,HUGE_MUSHROOM_2:1)
+Block(-2,10,-4,HUGE_MUSHROOM_2:1)
+Block(-1,10,-4,HUGE_MUSHROOM_2:3)
+Block(-5,10,-3,HUGE_MUSHROOM_2:1)
+Block(-4,10,-3,HUGE_MUSHROOM_2:1)
+Block(-3,10,-3,HUGE_MUSHROOM_2:1)
+Block(-2,10,-3,HUGE_MUSHROOM_2:1)
+Block(-1,10,-3,HUGE_MUSHROOM_2:3)
+Block(0,10,-3,HUGE_MUSHROOM_2:3)
+Block(1,10,-3,HUGE_MUSHROOM_2:3)
+Block(-6,10,-2,HUGE_MUSHROOM_2:1)
+Block(-5,10,-2,HUGE_MUSHROOM_2:7)
+Block(-4,10,-2,HUGE_MUSHROOM_2:7)
+Block(-3,10,-2,HUGE_MUSHROOM_2:2)
+Block(-2,10,-2,HUGE_MUSHROOM_2:2)
+Block(-1,10,-2,HUGE_MUSHROOM_2:2)
+Block(0,10,-2,HUGE_MUSHROOM_2:7)
+Block(1,10,-2,HUGE_MUSHROOM_2:7)
+Block(2,10,-2,HUGE_MUSHROOM_2:3)
+Block(-6,10,-1,HUGE_MUSHROOM_2:1)
+Block(-5,10,-1,HUGE_MUSHROOM_2:7)
+Block(-4,10,-1,HUGE_MUSHROOM_2:2)
+Block(0,10,-1,HUGE_MUSHROOM_2:2)
+Block(1,10,-1,HUGE_MUSHROOM_2:7)
+Block(2,10,-1,HUGE_MUSHROOM_2:3)
+Block(-7,10,0,HUGE_MUSHROOM_2:1)
+Block(-6,10,0,HUGE_MUSHROOM_2:1)
+Block(-5,10,0,HUGE_MUSHROOM_2:7)
+Block(-2,10,0,HUGE_MUSHROOM_2:10)
+Block(1,10,0,HUGE_MUSHROOM_2:2)
+Block(2,10,0,HUGE_MUSHROOM_2:3)
+Block(3,10,0,HUGE_MUSHROOM_2:3)
+Block(-7,10,1,HUGE_MUSHROOM_2:7)
+Block(-6,10,1,HUGE_MUSHROOM_2:7)
+Block(-5,10,1,HUGE_MUSHROOM_2:7)
+Block(-3,10,1,HUGE_MUSHROOM_2:10)
+Block(-2,10,1,LOG:0)
+Block(-1,10,1,HUGE_MUSHROOM_2:10)
+Block(1,10,1,HUGE_MUSHROOM_2:2)
+Block(2,10,1,HUGE_MUSHROOM_2:3)
+Block(3,10,1,HUGE_MUSHROOM_2:3)
+Block(-7,10,2,HUGE_MUSHROOM_2:7)
+Block(-6,10,2,HUGE_MUSHROOM_2:7)
+Block(-5,10,2,HUGE_MUSHROOM_2:7)
+Block(-2,10,2,HUGE_MUSHROOM_2:10)
+Block(1,10,2,HUGE_MUSHROOM_2:2)
+Block(2,10,2,HUGE_MUSHROOM_2:9)
+Block(3,10,2,HUGE_MUSHROOM_2:9)
+Block(-6,10,3,HUGE_MUSHROOM_2:7)
+Block(-5,10,3,HUGE_MUSHROOM_2:7)
+Block(-4,10,3,HUGE_MUSHROOM_2:7)
+Block(0,10,3,HUGE_MUSHROOM_2:6)
+Block(1,10,3,HUGE_MUSHROOM_2:7)
+Block(2,10,3,HUGE_MUSHROOM_2:9)
+Block(-6,10,4,HUGE_MUSHROOM_2:7)
+Block(-5,10,4,HUGE_MUSHROOM_2:9)
+Block(-4,10,4,HUGE_MUSHROOM_2:9)
+Block(-3,10,4,HUGE_MUSHROOM_2:9)
+Block(-2,10,4,HUGE_MUSHROOM_2:9)
+Block(-1,10,4,HUGE_MUSHROOM_2:9)
+Block(0,10,4,HUGE_MUSHROOM_2:9)
+Block(1,10,4,HUGE_MUSHROOM_2:9)
+Block(2,10,4,HUGE_MUSHROOM_2:9)
+Block(-5,10,5,HUGE_MUSHROOM_2:7)
+Block(-4,10,5,HUGE_MUSHROOM_2:7)
+Block(-3,10,5,HUGE_MUSHROOM_2:7)
+Block(-2,10,5,HUGE_MUSHROOM_2:9)
+Block(-1,10,5,HUGE_MUSHROOM_2:9)
+Block(0,10,5,HUGE_MUSHROOM_2:9)
+Block(1,10,5,HUGE_MUSHROOM_2:9)
+Block(-3,10,6,HUGE_MUSHROOM_2:7)
+Block(-2,10,6,HUGE_MUSHROOM_2:9)
+Block(-1,10,6,HUGE_MUSHROOM_2:9)
+Block(-3,11,-1,HUGE_MUSHROOM_2:1)
+Block(-2,11,-1,HUGE_MUSHROOM_2:3)
+Block(-1,11,-1,HUGE_MUSHROOM_2:3)
+Block(-4,11,0,HUGE_MUSHROOM_2:1)
+Block(-3,11,0,HUGE_MUSHROOM_2:3)
+Block(-2,11,0,HUGE_MUSHROOM_2:3)
+Block(-1,11,0,HUGE_MUSHROOM_2:3)
+Block(0,11,0,HUGE_MUSHROOM_2:3)
+Block(-4,11,1,HUGE_MUSHROOM_2:7)
+Block(-3,11,1,HUGE_MUSHROOM_2:7)
+Block(-2,11,1,HUGE_MUSHROOM_2:7)
+Block(-1,11,1,HUGE_MUSHROOM_2:9)
+Block(0,11,1,HUGE_MUSHROOM_2:9)
+Block(-4,11,2,HUGE_MUSHROOM_2:7)
+Block(-3,11,2,HUGE_MUSHROOM_2:7)
+Block(-2,11,2,HUGE_MUSHROOM_2:7)
+Block(-1,11,2,HUGE_MUSHROOM_2:9)
+Block(0,11,2,HUGE_MUSHROOM_2:9)
+Block(-3,11,3,HUGE_MUSHROOM_2:7)
+Block(-2,11,3,HUGE_MUSHROOM_2:7)
+Block(-1,11,3,HUGE_MUSHROOM_2:9)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,-1,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+BlockCheck(1,-1,-1,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+BlockCheck(-1,-1,0,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+BlockCheck(1,-1,0,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+BlockCheck(0,-1,1,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+BlockCheck(0,-1,0,DIRT,STAINED_CLAY:14,MYCEL,STAINED_CLAY:15)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
