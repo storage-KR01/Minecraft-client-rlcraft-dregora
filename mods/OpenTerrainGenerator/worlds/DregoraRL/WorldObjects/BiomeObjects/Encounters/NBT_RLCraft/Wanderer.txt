@@ -1,0 +1,25 @@
+{
+  PersistenceRequired:1b,
+  Flying:1,
+  Passengers:[{
+    id:"minecraft:wither_skeleton",
+    HandItems:[
+      {id:"iceandfire:dragonbone_bow",Count:1,tag:{disarm:1, display:{Lore:["You sense a strange opposing aura from this weapon, as if it wants to cut you..."]},ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:long_drown"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"iceandfire:deathworm_yellow_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:deathworm_yellow_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:deathworm_yellow_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:deathworm_yellow_leggings",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:forest_troll_leather_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:forest_troll_leather_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"sombrero"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Wanderer",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}
+
+
+
+
+

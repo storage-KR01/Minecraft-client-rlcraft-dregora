@@ -1,0 +1,19 @@
+{
+  PersistenceRequired:1b,
+  Passengers:[{
+    id:"minecraft:stray",
+    HandItems:[
+      {id:"switchbow:switchcrossbow",Count:1,tag:{ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:explode"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"iceandfire:armor_white_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:armor_white_boots",Count:1b},classy_hat_invisible:1b}},
+      {},
+      {id:"iceandfire:armor_silver_metal_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:armor_silver_metal_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"mask_happy"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Unfroster",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

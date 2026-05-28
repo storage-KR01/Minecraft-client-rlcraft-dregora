@@ -1,0 +1,1 @@
+{CustomNameVisible:0,PersistenceRequired:1b,powered:1,Fuse:10,ExplosionRadius:3,CustomName:"Fuser",Health:15,ActiveEffects:[{Id:15,Duration:200,ShowParticles:0b},{Id:9,Duration:300,ShowParticles:0b},{Id:18,Duration:200,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.5f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:15f}]}

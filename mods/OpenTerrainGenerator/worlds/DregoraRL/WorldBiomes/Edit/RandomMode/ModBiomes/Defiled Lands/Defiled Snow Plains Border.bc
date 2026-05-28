@@ -1,0 +1,416 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 1
+
+BiomeRarity: 100
+
+BiomeColor: #7d7391
+
+ReplaceToBiomeName: defiledlands:hills_defiled
+
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome:
+
+BiomeSizeWhenIsle: 9
+
+BiomeRarityWhenIsle: 98
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: Defiled Snow Plains
+
+NotBorderNear: Defiled Snow Spikes
+
+BiomeSizeWhenBorder: 7
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: -0.7
+
+BiomeVolatility: 0.0
+
+SmoothRadius: 20
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -1.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 200.0, -50.0, -50.0, 200.0, -200.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: Defiled Snow Plains Border
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: defiledlands:stone_defiled
+
+SurfaceBlock: defiledlands:grass_defiled
+
+GroundBlock: COBBLESTONE
+
+SurfaceAndGroundControl: 
+
+ReplacedBlocks: (ICE,PACKED_ICE,60,68),(SNOW_BLOCK,ICE,79,86),(SNOW_BLOCK,ICE,91,96)
+
+
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: false
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: ICE
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 0.5
+
+BiomeWetness: 0.5
+
+SkyColor: #11205f
+
+WaterColor: #817318
+
+GrassColor: #c8c5ab
+
+Grasscolor2: #184700
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #d4bfba
+
+FoliageColor2: #184700
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+#OLD FogColor: #9a7b65
+
+FogDensity: 0.0
+#OLD FogDensity: 0.1
+
+FogTimeWeight: 0.5
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Defiled Lands                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Plant(defiledlands:scuronotte,10,100.0,0,128,DEFILEDLANDS:DIRT_DEFILED,DEFILEDLANDS:GRASS_DEFILED)
+Tree(40,VileSpine_02,100,VileSpine_03,100,VileSpine_04,100,VileSpine_05,100,VileSpine_06,100,VileSpine_07,100,VileSpine_08,100,VileSpine_09,100,VileSpine_10,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biomes O Plenty                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Grass(traverse:cold_grass,NotGrouped,10,100.0,biomesoplenty:grass)
+CustomObject(DL_Blastem)
+
+Ore(defiledlands:hephaestite_ore,17,20,100.0,0,127,defiledlands:stone_defiled)
+Ore(defiledlands:umbrium_ore,9,20,100.0,0,63,defiledlands:stone_defiled)
+Ore(defiledlands:scarlite_ore,8,1,100.0,0,15,defiledlands:stone_defiled)
+
+Grass(Snow:0,NotGrouped,30,50.0,biomesoplenty:grass,GRASS)
+Grass(Snow:1,NotGrouped,20,50.0,biomesoplenty:grass,GRASS)
+Grass(Snow:2,NotGrouped,10,50.0,biomesoplenty:grass,GRASS)
+Grass(Snow:3,NotGrouped,1,50.0,biomesoplenty:grass,GRASS)
+
+CustomStructure(VeryHighIceCrystal,0.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Rustic Resources                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#RusticResourceUniqueLine
+Plant(rustic:mooncap_mushroom:3,1,5.0,0,30,GRASS,BIOMESOPLENTY:GRASS,STONE)
+Plant(rustic:core_root:3,1,25.0,0,30,STONE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Encounters                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#Defiled Encounters
+CustomStructure(Defiled_King,100.0,Detonator,100.0,Executioner,100.0,Morbid_Skeleton,100.0,Umbrium_Knight,100.0)
+CustomStructure(Aimton,100.0,Al_Capone,100.0,Bufffaton_Bill,100.0,ChevaxiTon,100.0,GokuTon,100.0,JesterTon,100.0,OldMan,100.0,Tax_Collector,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+## Lead Ore
+Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#StupidRandomBiome
+CustomStructure(origin,0.0)
+
+
+#IceAndFireResources_ICE
+CustomObject(TrollCaveIce_01,TrollCaveIce_02,TrollCaveIce_03,TrollCaveIce_04,TrollCaveIce_05,TrollCaveIce_06)
+
+#RecurrentComplex
+CustomStructure(P_TreeDungeon,0.0)
+
+#RuinsConversionQueue
+#Structure bog:
+CustomStructure(Billboard,100.0)
+CustomStructure(Bomb,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building2,100.0)
+CustomStructure(Building3,100.0)
+CustomStructure(Building4,100.0)
+CustomStructure(Building5,100.0)
+CustomStructure(Building6,100.0)
+CustomStructure(Building7,100.0)
+CustomStructure(CaveSpiderBurrow,100.0)
+CustomStructure(GantryCrane,100.0)
+CustomStructure(PowerLineSmall,100.0)
+CustomStructure(SmallFactory,100.0)
+CustomStructure(SmallFactory2,100.0)
+CustomStructure(SmallFactory3,100.0)
+CustomStructure(SmallFactory4,100.0)
+CustomStructure(StoneHouse_Ruined,100.0)
+CustomStructure(StoneHouseMruined,100.0)
+CustomStructure(STP,100.0)
+
+
+
+
+#SpecialStructureQueue
+CustomStructure(cyclops_main,0.0,GorgonTemple,0.0)
+
+#TeleportQueue
+CustomStructure(TeleportReceiver_FG,0.0)
+CustomStructure(TeleportReceiver_TH,0.0)
+CustomStructure(TeleportReceiver_VS,0.0)
+CustomStructure(TeleportReceiver_SG,0.0)
+CustomStructure(TeleportReceiver_PF,0.0)
+CustomStructure(TeleportReceiver_SD,0.0)
+CustomStructure(TeleportReceiver_GD,0.0)
+CustomStructure(TeleportTower_FG,0.0)
+CustomStructure(TeleportTower_TH,0.0)
+CustomStructure(TeleportTower_VS,0.0)
+CustomStructure(TeleportTower_SG,0.0)
+CustomStructure(TeleportTower_PF,0.0)
+CustomStructure(TeleportTower_SD,0.0)
+CustomStructure(TeleportTower_GD,0.0)
+
+#GlobalStructureQueue
+CustomStructure(f_bunker_any,100.0)
+CustomObject(Artifact_Mimic,Concrete_Mimic)
+CustomStructure(Herbalist,0.0)
+CustomStructure(v_bunker_start,0.0)
+CustomStructure(maintenance_shaft_bottom,0.0)
+CustomStructure(DungeonSpawner02,0.0)
+CustomStructure(CityGridOcean,0.0)
+CustomStructure(CityGridFrozen,0.0)
+CustomStructure(EmptyCityGrid,0.0,single_skyscraper_spawner_city,0.0)
+CustomStructure(DeepTunnel_EntranceLowSpecial,0.0)
+CustomStructure(f_bunker_tunnel,0.0)
+CustomStructure(Mineshaft,0.0,W-Mineshaft,0.0)
+
+#RandomModeStructureQueue
+
+#MonsterQueue
+#Cold BiomeGroup
+CustomObject(Frosted,Frostling,Frozen_Draugr_Axe,Frozen_Draugr_Axe_Axe,Frozen_Draugr_Sword,Frozen_Draugr_Sword_Shield,Hell_Walker,Sinmarn)
+#Spooky BiomeGroup
+CustomObject(Eye_Nuts,Poltergeist,Shadow,Phantom,Wretch,Wraith,Eye_Nuts)
+#Congealed Wastelands Biomegroup
+CustomObject(Corrupted_Mutant_T10,Corrupted_Mutant_T11,Corrupted_Mutant_T12)
+
+#Default Ore Resources
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+CustomObject(SmallDungeon)
+CustomObject(MagmaChasm,WaterChasm)
+Dungeon(8,100.0,0,128)
+Ore(DIRT,33,10,100.0,0,60,STONE,PACKED_ICE)
+Ore(GRAVEL,33,8,100.0,0,60,STONE,PACKED_ICE)
+Ore(STONE:1,33,10,100.0,0,60,STONE,PACKED_ICE)
+Ore(STONE:3,33,10,100.0,0,60,STONE,PACKED_ICE)
+Ore(STONE:5,33,10,100.0,0,60,STONE,PACKED_ICE)
+Ore(COAL_ORE,17,20,100.0,0,60,STONE,PACKED_ICE)
+Ore(IRON_ORE,9,20,100.0,0,60,STONE,PACKED_ICE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE,PACKED_ICE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE,PACKED_ICE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE,PACKED_ICE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE,PACKED_ICE)
+Liquid(WATER,20,100.0,8,60,STONE,PACKED_ICE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+#WarningZone
+CustomObject(RLD_C_ZonePost_0b,RLD_C_ZonePost_0b_1,RLD_C_ZonePost_0b_10,RLD_C_ZonePost_0b_11,RLD_C_ZonePost_0b_12,RLD_C_ZonePost_0b_13,RLD_C_ZonePost_0b_2,RLD_C_ZonePost_0b_3,RLD_C_ZonePost_0b_4,RLD_C_ZonePost_0b_5,RLD_C_ZonePost_0b_6,RLD_C_ZonePost_0b_7,RLD_C_ZonePost_0b_8,RLD_C_ZonePost_0b_9,RLD_C_ZonePost_1b,RLD_C_ZonePost_1b_1,RLD_C_ZonePost_1b_2,RLD_C_ZonePost_1b_3,RLD_C_ZonePost_1b_4,RLD_C_ZonePost_2b,RLD_C_ZonePost_2b_1,RLD_C_ZoneWall_0b_1,RLD_C_ZoneWall_1b_1,RLD_C_ZoneWall_2b,RLD_C_ZoneWall_2b_1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+Sapling(Oak,Tree,20,TreeSwamp03,5,TreeSwamp04,5,TreeSwamp06,5,TreeSwamp07,5,TreeSwamp08,5,TreeSwamp10,5,80,5,81,5,82,5,83,5,84,5,85,5,BigTree,100)
+Sapling(Birch,TallBirch,20,SA2S,5,SA19S,5,SA11S,5,SA11L,5,NA7L,5,NA11S,5,EUR3S,5,Birch,100)
+Sapling(Redwood,Taiga1,20,pine04,5,pine05,5,pine06,5,pine07,5,pine08,5,pine09,5,pine10,5,ME1,5,ME2,5,ME3,5,ME4,5,52,5,53,5,Taiga2,100)
+Sapling(HugeRedwood,HugeTaiga1,20,SpookyTree1,5,SpookyTree3,5,SpookyTree4,5,ME5,5,51,5,HugeTaiga2,100)
+Sapling(SmallJungle,GroundBush,20,CocoaTree,20,tropicaltree_tiny_01,5,tropicaltree_tiny_02,5,tropicaltree_tiny_03,5,tropicaltree_tiny_04,5,tropicaltree_tiny_05,5,tropicaltree_tiny_06,5,tropicaltree_tiny_07,5,tropicaltree_tiny_08,5,tropicaltree_tiny_09,5,tropicaltree_tiny_10,5,CocoaTree,100)
+Sapling(BigJungle,JungleTree,50,RFGodTree01,1,RFGodTree02,1,RFMedTree01,2,RFMedTree02,2,RFMedTree03,2,RFTree01,4,RFTree05,4,RFTree10,4,RFTree15,4,RFTree20,4,RFTree25,4,RFTree30,4,RFTree35,4,JungleTree,100)
+Sapling(RedMushroom,MushroomRedWideTall,10,MushroomRedWide,10,MushroomRedSmall,10,MushroomRedMedium,10,MushroomRedDiagonal,10,HugeRedMushroom,100)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10,MushroomBrownRedSingle,10,HugeMushroom,20,HugeBrownMushroom,100)
+Sapling(Acacia,Acacia,50,AFR3L,5,AFR3S,5,AFR5S,5,AFR6L,5,AFR8L,5,AFR8S,5,AFR9L,5,AFR9S,5,AFR10L,5,AFR10S,5,AFR11S,5,AFR11L,5,AFR12L,5,Acacia,100)
+Sapling(DarkOak,DarkOak,50,Dense01,5,Dense02,5,Dense03,5,Dense04,5,Dense05,5,Dense06,5,Dense07,5,Dense08,5,Dense09,5,Dense10,5,DarkOak,100)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: false
+
+VillageType: disabled
+
+MineshaftType: disabled
+
+MineshaftRarity: 0.0
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#SpawnMonsters: [{"mob": "minecraft:husk", "weight":100, "min":0, "max":8},{"mob": "minecraft:spider", "weight":100, "min":0, "max":4},{"mob": "minecraft:husk", "weight":95, "min":0, "max":4},{"mob": "minecraft:zombie_villager", "weight":5, "min":0, "max":1},{"mob": "minecraft:skeleton", "weight":100, "min":0, "max":4},{"mob": "minecraft:creeper", "weight":100, "min":0, "max":4},{"mob": "minecraft:slime", "weight":100, "min":0, "max":4},{"mob": "minecraft:enderman", "weight":10, "min":0, "max":4},{"mob": "minecraft:witch", "weight":5, "min":0, "max":1}]
+#SpawnCreatures: [{"mob": "minecraft:sheep", "weight":12, "min":0, "max":1},{"mob": "minecraft:pig", "weight":10, "min":0, "max":4},{"mob": "minecraft:chicken", "weight":10, "min":0, "max":4},{"mob": "minecraft:cow", "weight":8, "min":0, "max":4},{"mob": "minecraft:horse", "weight":1, "min":0, "max":6},{"mob": "minecraft:donkey", "weight":1, "min":0, "max":4}]
+#SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight":10, "min":0, "max":4}]
+#SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight":10, "min":8, "max":8}]
+
+SpawnMonsters: [{"mob": "iceandfire:dread_lich", "weight":50, "min":0, "max":1},{"mob": "iceandfire:dread_knight", "weight":80, "min":0, "max":1},{"mob": "iceandfire:dread_horse", "weight":80, "min":0, "max":1}]
+SpawnCreatures: []
+SpawnWaterCreatures: []
+SpawnAmbientCreatures: []
+
+
+BiomeDictId: SPOOKY
+
+InheritMobsBiomeName: defiledlands:ice_plains_defiled
+

@@ -1,0 +1,31 @@
+{
+  Flying:1,
+  PersistenceRequired:1b,
+  AgeTicks:960357,
+  Gender:1,
+  ArmorHead:1,
+  ArmorNeck:1,
+  ArmorBody:1,
+  ArmorTail:1,
+  AgingDisabled:1,
+  CustomName:"Draco",
+  CustomNameVisible:0,
+  Health:300,
+  Attributes:[{Name:"generic.maxHealth",Base:300}],
+  Passengers:[{
+    id:"minecraft:wither_skeleton",
+    CustomName:"Asher",CustomNameVisible:0,PersistenceRequired:1b,
+    HandItems:[
+      {id:"iceandfire:dragonbone_bow",Count:1,tag:{DragonRider:1b,ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:strong_fire"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"iceandfire:deathworm_red_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:deathworm_red_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:forest_troll_leather_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:forest_troll_leather_leggings",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:forest_troll_leather_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:forest_troll_leather_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:armor_copper_helmet",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:armor_copper_helmet",Count:1b},classy_hat_invisible:1b}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F]
+  }]
+}

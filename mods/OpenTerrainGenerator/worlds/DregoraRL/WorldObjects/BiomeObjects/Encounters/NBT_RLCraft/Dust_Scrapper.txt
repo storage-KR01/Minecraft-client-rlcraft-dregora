@@ -1,0 +1,20 @@
+{
+  PersistenceRequired:1b,
+  Flying:1,
+  Passengers:[{
+    id:"minecraft:wither_skeleton",
+    HandItems:[
+      {id:"spartanfire:longbow_dragonbone",Count:1,tag:{disarm:1, display:{Lore:["You sense a strange opposing aura from this weapon, as if it wants to cut you..."]},ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:long_rust"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"variedcommodities:assassin_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:assassin_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"variedcommodities:assassin_legs",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:assassin_legs",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:forest_troll_leather_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:forest_troll_leather_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"tricorne"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Dust Scrapper",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

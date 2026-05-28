@@ -1,0 +1,5 @@
+{PersistenceRequired:1b,IsChickenJockey:1,Passengers:[{PersistenceRequired:1b,id:"minecraft:zombie_pigman",IsBaby:1,CustomName:"Flesh Dweller",CustomNameVisible:0,CanPickUpLoot:1b,Health:15,Attributes:[{Name:"generic.maxHealth",Base:15},{Name:"generic.knockbackResistance",Base:0.3f}],HandItems:[{id:"minecraft:stone_axe",tag:{ench:[{id:16,lvl:5}]},Count:1},{}],ArmorItems:[{Count:1,id:"minecraft:chainmail_boots"},{id:"minecraft:chainmail_leggings",Count:1},{},
+
+{id:"minecraft:skull",Damage:3,tag:{display:{Name:"Rotten Mooshroom",Lore:["A Mutant's Head"]},SkullOwner:{Id:"b831bd62-cfae-4ae1-aa6f-4c137605590e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFkY2IxZjJhNjlkZTFkNjU5ZTdjZWViN2M2NGJhYzY2NzU5ODg2MDRiN2ExNDE1ZGRkMDIwYzdmYTRkM2QifX19"}]}}},Count:1}
+
+],ArmorDropChances:[0.35F,0F,0F,0F],ActiveEffects:[{Id:12,Amplifier:0,Duration:2147483647}]}]}

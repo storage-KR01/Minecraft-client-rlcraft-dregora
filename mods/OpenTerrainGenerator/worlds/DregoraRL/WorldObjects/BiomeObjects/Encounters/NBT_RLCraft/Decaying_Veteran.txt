@@ -1,0 +1,20 @@
+{
+  PersistenceRequired:1b,
+  Flying:1,
+  Passengers:[{
+    id:"quark:pirate",
+    HandItems:[
+      {id:"spartanfire:longbow_jungle",Count:1,tag:{disarm:1, display:{Lore:["You sense a strange opposing aura from this weapon, as if it wants to cut you..."]},ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:strong_potion_sickness"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"variedcommodities:soldier_bottom",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:soldier_bottom",Count:1b},classy_hat_invisible:1b}},
+      {id:"variedcommodities:soldier_legs",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:soldier_legs",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:armor_black_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:armor_black_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"paperbag"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Decaying Veteran",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

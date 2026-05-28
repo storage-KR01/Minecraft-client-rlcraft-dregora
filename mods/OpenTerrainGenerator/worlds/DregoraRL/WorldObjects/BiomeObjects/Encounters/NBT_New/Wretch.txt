@@ -1,0 +1,1 @@
+{CustomNameVisible:0,CustomName:"Wretch",Health:20,ActiveEffects:[{Id:14,Duration:10000,Amplifier:1,ShowParticles:1b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:1b}],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.maxHealth",Base:20f}]}

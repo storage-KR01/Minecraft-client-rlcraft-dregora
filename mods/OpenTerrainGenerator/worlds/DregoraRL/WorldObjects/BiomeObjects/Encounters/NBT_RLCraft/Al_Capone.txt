@@ -1,0 +1,19 @@
+{
+  PersistenceRequired:1b,
+  Passengers:[{
+    id:"quark:pirate",
+    HandItems:[
+      {id:"srparasites:weapon_bow_sentient",Count:1,tag:{ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "xat:goblin"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"rlmixins:steel_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:steel_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"variedcommodities:ninja_legs",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:ninja_legs",Count:1b},classy_hat_invisible:1b}},
+      {id:"variedcommodities:ninja_chest",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:ninja_chest",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"bowler"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Al Capone",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

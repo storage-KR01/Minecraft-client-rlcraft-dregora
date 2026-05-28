@@ -1,0 +1,1 @@
+{CustomNameVisible:0,PersistenceRequired:1b,powered:1,Fuse:1,ExplosionRadius:2,CustomName:"Surger",Health:10,ActiveEffects:[{Id:9,Duration:300,Amplifier:2,ShowParticles:0b},{Id:15,Duration:200,Amplifier:2,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.6f},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.maxHealth",Base:10f}]}

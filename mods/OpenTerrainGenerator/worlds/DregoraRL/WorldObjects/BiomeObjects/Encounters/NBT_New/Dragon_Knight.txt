@@ -1,0 +1,19 @@
+{
+  PersistenceRequired:1b,
+  CustomName:"Dragon Steel Knight",
+  CustomNameVisible:0,
+  id:"minecraft:wither_skeleton",
+  DeathLootTable:"dregora:entities/encounters/dragon_steel",
+  HandItems:[
+  {id:"spartanweaponry:halberd_steel",Count:1,tag:{ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+    {id:"spartanshields:shield_tower_obsidian",Damage:0,Count:1}
+    ],
+  HandDropChances:[0.0F,0.0F],
+  ArmorItems:[
+    {id:"rlmixins:steel_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:steel_boots",Count:1b},classy_hat_invisible:1b}},
+    {id:"rlmixins:steel_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:steel_leggings",Count:1b},classy_hat_invisible:1b}},
+    {id:"rlmixins:steel_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:steel_chestplate",Count:1b},classy_hat_invisible:1b}},
+    {id:"rlmixins:steel_helmet",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:steel_helmet",Count:1b},classy_hat_invisible:1b}}
+  ],
+  ArmorDropChances:[0.0F,0.0F,0.0F,0.0F]
+}

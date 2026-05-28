@@ -1,0 +1,5 @@
+{PersistenceRequired:1b,CustomName:Imposter,CustomNameVisible:0,Health:2,Attributes:[{Name:"generic.maxHealth",Base:2},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.attackDamage",Base:1}],HandItems:[{id:"minecraft:iron_axe",tag:{ench:[{id:20,lvl:2}]},Count:1},{}],ArmorItems:[{},{},{},
+
+{id:"minecraft:skull",Damage:3,tag:{display:{Name:"Villager"},SkullOwner:{Id:"58404a7e-a14d-4b48-b97c-cdb98a8e1018",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19"}]}}},Count:1}
+
+]}

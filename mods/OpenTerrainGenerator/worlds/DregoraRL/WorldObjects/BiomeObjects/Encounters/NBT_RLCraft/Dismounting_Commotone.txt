@@ -1,0 +1,20 @@
+{
+  PersistenceRequired:1b,
+  Size:0.6,
+  Passengers:[{
+    id:"quark:pirate",
+    HandItems:[
+      {id:"spartanweaponry:longbow_steel",Count:1,tag:{ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:long_nausea"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"variedcommodities:commissar_bottom",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:commissar_bottom",Count:1b},classy_hat_invisible:1b}},
+      {id:"variedcommodities:assassin_legs",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:assassin_legs",Count:1b},classy_hat_invisible:1b}},
+      {id:"iceandfire:mountain_troll_leather_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:mountain_troll_leather_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"quark:pirate_hat",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"quark:pirate_hat",Count:1b},classy_hat_invisible:1b}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"Dismounting Commotone",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

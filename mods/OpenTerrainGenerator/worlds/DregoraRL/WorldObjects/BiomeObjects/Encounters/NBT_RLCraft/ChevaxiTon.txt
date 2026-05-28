@@ -1,0 +1,21 @@
+{
+  PersistenceRequired:1b,
+  Size:0.5,
+  Passengers:[{
+    id:"minecraft:skeleton",
+    DeathLootTable:"dregora:entities/encounters/chevaxi",
+    HandItems:[
+      {id:"spartanweaponry:longbow_electrum",Count:1,tag:{ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:strong_hunger"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"variedcommodities:full_bronze_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"variedcommodities:full_bronze_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"defiledlands:scale_golden_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"defiledlands:scale_golden_leggings",Count:1b},classy_hat_invisible:1b}},
+      {id:"defiledlands:scale_golden_chestplate",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"defiledlands:scale_golden_chestplate",Count:1b},classy_hat_invisible:1b}},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"farmerbrim"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],
+    CustomName:"ChefvaxiTon",CustomNameVisible:0,PersistenceRequired:1b
+  }]
+}

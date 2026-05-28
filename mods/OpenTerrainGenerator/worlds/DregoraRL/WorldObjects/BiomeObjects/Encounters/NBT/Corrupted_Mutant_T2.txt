@@ -1,0 +1,5 @@
+{PersistenceRequired:1b,CustomName:"Seeker Infant",CustomNameVisible:0,CanPickUpLoot:1b,Health:3,Attributes:[{Name:"generic.maxHealth",Base:3},{Name:"generic.knockbackResistance",Base:0.3f},{Name:"generic.movementSpeed",Base:0.25f}],IsBaby:1,Anger:32767,HandItems:[{id:"minecraft:stick",Count:1},{}],ArmorItems:[{Count:1,id:"minecraft:iron_boots"},{id:"minecraft:chainmail_leggings",Count:1},{},
+
+{id:"minecraft:skull",Damage:3,tag:{display:{Name:"Mutant Head",Lore:["A Mutant's Head"]},SkullOwner:{Id:"6540c046-d6ea-4aff-9766-32a54ebe6958",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ=="}]}}},Count:1}
+
+],ArmorDropChances:[0.35F,0F,0F,0F],ActiveEffects:[{Id:1,Amplifier:0,Duration:2147483647},{Id:8,Amplifier:0,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647}]}

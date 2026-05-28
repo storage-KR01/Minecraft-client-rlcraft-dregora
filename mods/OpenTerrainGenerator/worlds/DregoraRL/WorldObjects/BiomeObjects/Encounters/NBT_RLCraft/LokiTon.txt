@@ -1,0 +1,31 @@
+{
+  PersistenceRequired:1b,
+  AgeTicks:960357,
+  Flying:1,
+  Gender:1,
+  ArmorHead:1,
+  ArmorNeck:1,
+  ArmorBody:1,
+  ArmorTail:1,
+  AgingDisabled:1,
+  CustomName:"Loki's Magical Mount",
+  CustomNameVisible:0,
+  Health:300,
+  Attributes:[{Name:"generic.maxHealth",Base:300}],
+  Passengers:[{
+    id:"minecraft:skeleton",
+    CustomName:"LokiTon",CustomNameVisible:0,PersistenceRequired:1b,
+    HandItems:[
+      {id:"spartanfire:longbow_dragonbone",Count:1,tag:{disarm:1, display:{Lore:["You sense a strange opposing aura from this weapon, as if it wants to cut you..."]},DragonRider:1b,ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+      {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion: "potioncore:strong_curse"}}
+      ],
+    HandDropChances:[0.0F,2.0F],
+    ArmorItems:[
+      {id:"iceandfire:frost_troll_leather_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"iceandfire:frost_troll_leather_boots",Count:1b},classy_hat_invisible:1b}},
+      {id:"ceandfire:deathworm_red_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"ceandfire:deathworm_red_leggings",Count:1b},classy_hat_invisible:1b}},
+      {},
+      {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"largehorns"}}
+    ],
+    ArmorDropChances:[0.0F,0.0F,0.0F,0.0F]
+  }]
+}

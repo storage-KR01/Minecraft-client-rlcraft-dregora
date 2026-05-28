@@ -1,0 +1,621 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 1
+
+BiomeRarity: 100
+
+BiomeColor: #18B51F
+
+ReplaceToBiomeName: minecraft:beaches
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 7
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 9
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: -1.85
+
+BiomeVolatility: 0.1
+
+SmoothRadius: 10
+
+CustomHeightControlSmoothRadius: 2
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -0.5
+
+Volatility2: -0.5
+
+VolatilityWeight1: 0.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: Jungle Ruins Creek
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: GRASS
+
+GroundBlock: DIRT
+
+SurfaceAndGroundControl: GRAVEL, STONE, -0.9 
+
+ReplacedBlocks: (SAND,GRASS,79,256),(GRAVEL,GRASS,79,256),(SNOW:0,AIR,0,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: STATIONARY_LAVA
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.7
+
+BiomeWetness: 1.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #3F76E4
+
+GrassColor: #91BD59
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #77AB2F
+
+FoliageColor2: #ED2E0F
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.0
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+#^Block\((.*),(.*),(.*),DOUBLE_STEP:0\)
+#RandomBlock\(\1,\2,\3,DOUBLE_STEP:0,50,STEP:0,20,STEP:8,20,AIR:0,30,DOUBLE_STEP:0,100\)
+
+#^Block\((.*),(.*),(.*),MOSSY_COBBLESTONE:0\)
+#RandomBlock\(\1,\2,\3,MOSSY_COBBLESTONE:0,50,COBBLESTONE:0,10,AIR:0,10,COBBLESTONE:0,100\)
+
+#^Block\((.*),(.*),(.*),WOOD:0\)
+#RandomBlock\(\1,\2,\3,WOOD:0,50,AIR,10,WOOD:1,50,WOOD:0,100\)
+
+#^Block\((.*),(.*),(.*),COBBLESTONE:0\)
+#RandomBlock\(\1,\2,\3,COBBLESTONE:0,75,MONSTER_EGG:1,100\)
+
+SPRUCE_WOOD_STAIRS -> COBBLESTONE_STAIRS
+
+#^Block\((.*),(.*),(.*),DOUBLE_STEP:0\)
+#RandomBlock\(\1,\2,\3,DOUBLE_STEP:0,50,quark:stone_basalt_slab_double,100\)
+
+#^Block\((.*),(.*),(.*),CONCRETE:0\)
+#RandomBlock\(\1,\2,\3,CONCRETE:0,25,quark:world_stone_bricks:1,25,notreepunching:cobblestone/diorite,25,STONE:5,25,quark:stone_diorite_wall,10,quark:cobbed_stone_wall,10,CONCRETE:0,100\)
+
+#^Block\((.*),(.*),(.*),STAINED_CLAY:14\)
+#RandomBlock\(\1,\2,\3,STAINED_CLAY:14,25,BRICK:0,25,STONE:2,25,quark:sandy_bricks,25,quark:brick_wall,10,quark:jasper_wall,10,STAINED_CLAY:14,100\)
+
+#^Block\((.*),(.*),(.*),STEP:0\)
+#RandomBlock\(\1,\2,\3,STEP:0,50,quark:stone_basalt_slab,100\)
+
+#^Block\((.*),(.*),(.*),WOOD:1\)
+#RandomBlock\(\1,\2,\3,iceandfire:chared_gravel,25,iceandfire:chared_stone,25,iceandfire:crackled_stone,25,iceandfire:crackled_cobblestone,25,biomesoplenty:planks_0:14,25,BRICK:0,25,iceandfire:crackled_stone,100\)
+
+#^Block\((.*),(.*),(.*),STEP:3\)
+#RandomBlock\(\1,\2,\3,STONE:5,25,quark:stone_andesite_slab,25,quark:cobblestone_mossy_slab,25,STEP:3,100\)
+
+#^Block\((.*),(.*),(.*),STEP:5\)
+#RandomBlock\(\1,\2,\3,STONE:5,25,STEP:3,25,quark:stonebrick_mossy_slab,25,STEP:5,100\)
+
+#^Block\((.*),(.*),(.*),DOUBLE_STEP:5\)
+#^Block\((.*),(.*),(.*),SMOOTH_BRICK:0\)
+#RandomBlock\(\1,\2,\3,SMOOTH_BRICK:0,25,SMOOTH_BRICK:1,25,SMOOTH_BRICK:2,25,COBBLESTONE:0,15,quark:stonebrick_mossy_slab,10,STEP:5,10,SMOOTH_STAIRS:0,5,SMOOTH_STAIRS:1,5,SMOOTH_STAIRS:2,5,SMOOTH_STAIRS:3,5,SMOOTH_BRICK:0,100\)
+
+#^Block\((.*),(.*),(.*),STONE:6\)
+#RandomBlock\(\1,\2,\3,STONE:6,25,quark:world_stone_pavement:2,25,quark:world_stone_pavement:5,25,quark:limestone:1,100\)
+
+#^Block\((.*),(.*),(.*),BRICK:0\)
+#RandomBlock\(\1,\2,\3,BRICK:0,25,quark:sandy_bricks,25,STONE:2,25,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,quark:sandy_bricks_stairs,10,quark:sandy_bricks_stairs:0,10,quark:sandy_bricks_stairs:1,10,quark:sandy_bricks_stairs:2,10,quark:sandy_bricks_slab,5,STEP:4,5,quark:sandy_bricks,100\)
+
+
+
+#^Block\((.*),(.*),(.*),iceandfire:goldpile\)
+#RandomBlock\(\1,\2,\3,iceandfire:goldpile:0,10,iceandfire:goldpile:1,10,iceandfire:goldpile:2,10,iceandfire:goldpile:3,10,iceandfire:goldpile:4,10,GOLD_PLATE:0,10,contenttweaker:bone_pile,10,betternether:cincinnasite_plate,10,iceandfire:silverpile:0,5,iceandfire:silverpile:1,5,iceandfire:silverpile:2,5,iceandfire:silverpile:3,5,iceandfire:silverpile:4,5,iceandfire:goldpile:0,25,iceandfire:goldpile:1,25,iceandfire:goldpile:2,25,iceandfire:goldpile:3,25,iceandfire:goldpile:4,25,iceandfire:goldpile:0,100\)
+#
+#^Block\((.*),(.*),(.*),COBBLESTONE:0\)
+#RandomBlock\(\1,\2,\3,AIR,10,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100\)
+#
+#^Block\((.*),(.*),(.*),WOOD:0\)
+#RandomBlock\(\1,\2,\3,WOOD:0,85\)
+#
+#^Block\((.*),(.*),(.*),MONSTER_EGGS:2\)
+#RandomBlock\(\1,\2,\3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100\)
+#
+#^Block\((.*),(.*),(.*),MONSTER_EGGS:4\)
+#RandomBlock\(\1,\2,\3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100\)
+#
+#^Block\((.*),(.*),(.*),STAINED_GLASS_PANE:6\)
+#RandomBlock\(\1,\2,\3,STAINED_GLASS_PANE:7,75\)
+#
+#^Block\((.*),(.*),(.*),STONE:1\)
+#RandomBlock\(\1,\2,\3,STONE:0,66\)
+#
+#^Block\((.*),(.*),(.*),SMOOTH_BRICK:0\)
+#RandomBlock\(\1,\2,\3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100\)
+#
+#^Block\((.*),(.*),(.*),MOSSY_COBBLESTONE:0\)
+#RandomBlock\(\1,\2,\3,MOSSY_COBBLESTONE:0,20,GRASS,10,DIRT:1,20,COBBLESTONE:0,100\)
+#
+#^Block\((.*),(.*),(.*),WEB:0\)
+#RandomBlock\(\1,\2,\3,WEB:0,50,AIR:0,100\)
+#
+#
+#^Block\((.*),(.*),(.*),QUARK:LIMESTONE:0\)
+#RandomBlock\(\1,\2,\3,QUARK:LIMESTONE:1,30,QUARK:LIMESTONE_WALL,10,QUARK:LIMESTONE:0,100\)
+#
+#
+#^Block\((.*),(.*),(.*),RUSTIC:IRON_LATTICE:0\)
+#RandomBlock\(\1,\2,\3,RUSTIC:IRON_LATTICE:0,30,RUSTIC:IRON_LATTICE:1,100\)
+#
+#
+#^Block\((.*),(.*),(.*),REDSTONE_ORE\)
+#RandomBlock\(\1,\2,\3,REDSTONE_ORE,30,STONE:0,100\)
+
+#^Block\((.*),(.*),(.*),MOB_SPAWNER:0\)
+#RandomBlock\(\1,\2,\3,MOB_SPAWNER:0,5,CHEST:0,5,AIR:0,100\)
+
+#
+#DIRT:0 -> DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100
+#
+#WEB:0 -> WEB:0,14,AIR:0,100
+#
+#WORKBENCH:0 -> AIR,50,WORKBENCH:0,100
+#
+#BOOKSHELF:0 -> WEB,10,AIR,10,BOOKSHELF:0,100
+#
+#MOB_SPAWNER:0 -> DOUBLE_STEP:0,16,IRON_FENCE:0,16,MOB_SPAWNER:0,100
+#
+#CAULDRON:0 -> CAULDRON:0,25,AIR:0,100
+#
+#WOOL:7 -> BRICK:0,25,AIR:0,100
+#
+#BREWING_STAND:0 -> BREWING_STAND:0,6,AIR:0,100
+#
+#BRICK_STAIRS:2 -> BRICK_STAIRS:2,66,BRICK:0,100
+#
+#GLOWSTONE:0 -> GLOWSTONE:0,6,AIR:0,100
+#
+#BRICK_STAIRS:1 -> BRICK_STAIRS:1,66,BRICK:0,100
+#
+#STEP:4 -> BRICK:0,30,BRICK_STAIRS:0,30,STEP:4,30,AIR:0,100
+#
+#
+#^Block\((.*),(.*),(.*),CONCRETE:8\)
+#RandomBlock\(\1,\2,\3,rustic:iron_lattice:0,5,CONCRETE_POWDER:8,10,quark:limestone:1,15,quark:limestone,15,quark:world_stone_pavement:5,15,CONCRETE:8,100\)
+#
+#
+#^Block\((.*),(.*),(.*),STAINED_CLAY:7\)
+#RandomBlock\(\1,\2,\3,rustic:iron_lattice:0,5,STAINED_CLAY:8,15,STAINED_CLAY:15,15,STAINED_CLAY:7,100\)
+#
+#^Block\((.*),(.*),(.*),CONCRETE:7\)
+#RandomBlock\(\1,\2,\3,CONCRETE_POWDER:7,25,CONCRETE:7,100\)
+#
+#
+#^Block\((.*),(.*),(.*),STAINED_CLAY:9\)
+#RandomBlock\(\1,\2,\3,rustic:iron_lattice:0,5,quark:iron_plate:1,15,quark:iron_plate_slab:8,15,quark:world_stone_pavement:5,15,STAINED_CLAY:9,100\)
+#
+#
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CustomStructure(f_bunker_any,100.0)
+
+#Structure nuclear_biome:
+CustomStructure(f_bunker_atrium,100.0)
+CustomStructure(f_bunker_mid_nuclear,100.0)
+CustomStructure(f_bunker_radio,100.0)
+CustomStructure(f_bunker_silo,100.0)
+CustomStructure(f_bunker_tunnel,100.0)
+
+#CustomStructure(TowerEasy,100.0)
+#CustomStructure(Tower-edit,100.0)
+#CustomStructure(Tower-ruined-short,100.0)
+#CustomStructure(MobTower,100.0)
+
+
+#CustomStructure(brutal_pipebig_01,100.0)
+#CustomStructure(brutal_pipebig_02,100.0)
+
+
+#CustomStructure(P_TreeDungeon,100.0)
+
+#CustomStructure(AdvancedAntenna,100.0)
+#CustomStructure(AdvancedShelter,100.0)
+#CustomStructure(SolarPanel,100.0)
+#CustomStructure(Airship_Bomber,100.0)
+#CustomStructure(AlchemistsDungeon,100.0)
+#CustomStructure(Altar,100.0)
+#CustomStructure(AncientFountain,100.0)
+#CustomStructure(Antenna,100.0)
+#CustomStructure(ArrowTrapTomb,100.0)
+#CustomStructure(Barn,100.0)
+#
+#CustomStructure(Barn-ruined,100.0)
+#CustomStructure(BattleBasementEasy,100.0)
+#CustomStructure(Billboard,100.0)
+#CustomStructure(Bomb,100.0)
+#CustomStructure(Building,100.0)
+#CustomStructure(Building2,100.0)
+#CustomStructure(Building3,100.0)
+#CustomStructure(Building4,100.0)
+#CustomStructure(Building5,100.0)
+#CustomStructure(Building6,100.0)
+#CustomStructure(Building7,100.0)
+#
+#CustomStructure(Bunker,100.0)
+#CustomStructure(BuriedChest,100.0)
+#CustomStructure(CastleModified,100.0)
+#CustomStructure(CastleModifiedRuined,100.0)
+#CustomStructure(CastleOcean,100.0)
+#CustomStructure(CaveSpiderBurrow,100.0)
+#CustomStructure(CellTower,100.0)
+##CustomStructure(CoolingTower,100.0)
+##CustomStructure(CoolingTower2,100.0)
+#CustomStructure(Crane,100.0)
+#CustomStructure(DesertPanthenon,100.0)
+#
+#CustomStructure(DesertPanthenonRuined,100.0)
+#CustomStructure(NuclearPowerPlant,100.0)
+#CustomStructure(DiamondWell,100.0)
+#CustomStructure(DoomHouse,100.0)
+#CustomStructure(DoomTower,100.0)
+#CustomStructure(DwarfBase,100.0)
+#CustomStructure(FlamingSkullHouse,100.0)
+#CustomStructure(Floater,100.0)
+#CustomStructure(GantryCrane,100.0)
+#CustomStructure(Gazebo,100.0)
+#CustomStructure(Gnomeworks,100.0)
+#
+#CustomStructure(GoldWell,100.0)
+#CustomStructure(Graveyard,100.0)
+#CustomStructure(GraveyardHaunted,100.0)
+#CustomStructure(Greenhouse,100.0)
+#CustomStructure(GuardHouse,100.0)
+#CustomStructure(Guardian,100.0)
+#CustomStructure(GuardianFull,100.0)
+#CustomStructure(Hive,100.0)
+#CustomStructure(HutIntact,100.0)
+#CustomStructure(HutRuined,100.0)
+#CustomStructure(Igloo,100.0)
+#
+#CustomStructure(Lab,100.0)
+#CustomStructure(LargeSandstoneHouse,100.0)
+#CustomStructure(LargeStoneHouse,100.0)
+#CustomStructure(LargeStoneHouseWBasement,100.0)
+#CustomStructure(LargeStoneTwoStoryHouse,100.0)
+#CustomStructure(LightHouse,100.0)
+#CustomStructure(littlepyramid,100.0)
+#CustomStructure(Locator,100.0)
+#CustomStructure(Locator2,100.0)
+#CustomStructure(Locator3,100.0)
+#CustomStructure(LookoutPoint,100.0)
+#
+#CustomStructure(LostSubmarine,100.0)
+#CustomStructure(Mausoleum,100.0)
+#CustomStructure(MinersHut,100.0)
+#CustomStructure(MoaiHead,100.0)
+#CustomStructure(MobTower,100.0)
+#CustomStructure(Monolith,100.0)
+#CustomStructure(Observatory,100.0)
+#CustomStructure(OceanVolcanicVent,100.0)
+#CustomStructure(OilRig,100.0)
+#
+#CustomStructure(OldFoundation,100.0)
+#CustomStructure(PhoneTower,100.0)
+CustomStructure(PirateShip,100.0)
+#CustomStructure(Piston-BunkerUnderground,100.0)
+#CustomStructure(Piston-CreeperRoom,100.0)
+#CustomStructure(Piston-CreeperRoom-old,100.0)
+#CustomStructure(Piston-LavaTrap,100.0)
+#CustomStructure(Piston-LavaTrap-New,100.0)
+#CustomStructure(Pit-big,100.0)
+#
+#CustomStructure(Pit-med,100.0)
+#CustomStructure(Pit-small,100.0)
+#CustomStructure(PowerLineSmall,100.0)
+#CustomStructure(PowerLineNew,100.0)
+#CustomStructure(PowerLine,100.0)
+#CustomStructure(Pump,100.0)
+#CustomStructure(Pyramid,100.0)
+#CustomStructure(PyramidStone,100.0)
+#CustomStructure(RadioTelescope,100.0)
+#CustomStructure(Reservoir,100.0)
+#CustomStructure(Reservoir1,100.0)
+#CustomStructure(RotaryExcavator,100.0)
+#
+#CustomStructure(SandCastle,100.0)
+#CustomStructure(SandstoneBld1_Intact,100.0)
+#CustomStructure(SandstoneBld1_Ruined,100.0)
+#CustomStructure(SandstoneBld2_Intact,100.0)
+#CustomStructure(SandstoneBld2_Ruined,100.0)
+#CustomStructure(SandstoneBld3_Intact,100.0)
+#CustomStructure(SandstoneBld3_Ruined,100.0)
+#CustomStructure(SandstoneBld4_Intact,100.0)
+#CustomStructure(SandstoneBld4_Ruined,100.0)
+#
+#CustomStructure(SandstoneBld5_Intact,100.0)
+#CustomStructure(SandstoneBld5_Ruined,100.0)
+#CustomStructure(SandstoneBld6_Intact,100.0)
+#CustomStructure(SandstoneBld6_Ruined,100.0)
+#CustomStructure(SandstoneHouse,100.0)
+#CustomStructure(SandstoneHouse1_Intact,100.0)
+#CustomStructure(SandstoneHouse1_Ruined,100.0)
+#CustomStructure(SandstoneHouse2_Intact,100.0)
+#
+#CustomStructure(SandstoneHouse2_Ruined,100.0)
+#CustomStructure(SandstoneHouse3_Intact,100.0)
+#CustomStructure(SandstoneHouse3_Ruined,100.0)
+#CustomStructure(SandstonePool_Intact,100.0)
+#CustomStructure(SandstoneRuin,100.0)
+#CustomStructure(SandstoneStructure1_Intact,100.0)
+#CustomStructure(SandstoneStructure1_Ruined,100.0)
+#CustomStructure(SandstoneStructure2_Intact,100.0)
+#CustomStructure(SandstoneStructure2_Ruined,100.0)
+#
+#CustomStructure(SandstoneVanillaL-Modified,100.0)
+#CustomStructure(SandstoneVanillaS-Modified,100.0)
+#CustomStructure(SandTrap,100.0)
+#CustomStructure(ship,100.0)
+#CustomStructure(ship1,100.0)
+#CustomStructure(Ship2,100.0)
+#CustomStructure(Ship3,100.0)
+#CustomStructure(Ship4,100.0)
+#
+#CustomStructure(Ship5,100.0)
+#CustomStructure(shipwreck,100.0)
+#CustomStructure(ShortTower,100.0)
+#CustomStructure(SkyCastle,100.0)
+#CustomStructure(SmallFactory,100.0)
+#CustomStructure(SmallFactory2,100.0)
+#CustomStructure(SmallFactory3,100.0)
+#
+#CustomStructure(SmallFactory4,100.0)
+#CustomStructure(SnowCastle,100.0)
+#CustomStructure(SnowCastleIce,100.0)
+#CustomStructure(SnowCastleSpire,100.0)
+#CustomStructure(SnowFarm,100.0)
+#CustomStructure(SnowHenge,100.0)
+#CustomStructure(StoneHouse,100.0)
+#CustomStructure(StoneHouse_Intact,100.0)
+#
+#CustomStructure(StoneHouse_Ruined,100.0)
+#CustomStructure(StoneHouseM,100.0)
+#CustomStructure(StoneHouseMruined,100.0)
+#CustomStructure(STP,100.0)
+#CustomStructure(SunkenShip-v2,100.0)
+#CustomStructure(SunkenShip-v3,100.0)
+#CustomStructure(Tanks,100.0)
+#CustomStructure(ThrownHouse,100.0)
+#CustomStructure(ThrownHouse1,100.0)
+#
+#CustomStructure(ThrownHouse2,100.0)
+#CustomStructure(ThrownHouse3,100.0)
+#CustomStructure(TinyFarmField,100.0)
+#CustomStructure(TowerEasy,100.0)
+#CustomStructure(Tower-edit,100.0)
+#CustomStructure(Tower-ruined-short,100.0)
+#CustomStructure(TP_FishingShack,100.0)
+#CustomStructure(TreeDungeon,100.0)
+#CustomStructure(TreeHouse,100.0)
+#CustomStructure(Tubes,100.0)
+#
+#CustomStructure(UndergroundShelter,100.0)
+#CustomStructure(UnderwaterBase,100.0)
+#CustomStructure(UnderwaterHouse,100.0)
+#CustomStructure(VolcanicVent,100.0)
+#CustomStructure(WatchtowerIntact,100.0)
+#CustomStructure(WatchtowerRuined,100.0)
+#CustomStructure(WaterTower,100.0)
+#CustomStructure(WaterTrapRoom,100.0)
+#CustomStructure(WindTurbine,100.0)
+#
+#CustomStructure(WindTurbineBroken,100.0)
+#CustomStructure(WoodHouse_Intact,100.0)
+#CustomStructure(WoodHouse_Ruined,100.0)
+#CustomStructure(WoodHouse2_Intact,100.0)
+#CustomStructure(WoodHouse2_Ruined,100.0)
+#CustomStructure(WoodHouse3_Intact,100.0)
+#CustomStructure(WoodHouse3_Ruined,100.0)
+#CustomStructure(Zeppelin,100.0)
+#CustomStructure(Ziggurat,100.0)
+#
+#CustomStructure(ZombieHut,100.0)
+#CustomStructure(Melonfield,100.0)
+#CustomStructure(OilPump,100.0)
+#CustomStructure(OilPump2,100.0)
+#CustomStructure(PillarBase,100.0)
+#CustomStructure(PumpkinField,100.0)
+#CustomStructure(RuinedDryFountain,100.0)
+#CustomStructure(RuinedSmallFountainDiagonal,100.0)
+#CustomStructure(RuinedTripleFountain,100.0)
+#
+#CustomStructure(SnowHouse1,100.0)
+#CustomStructure(SnowHouse2,100.0)
+#CustomStructure(SnowHouse3,100.0)
+#CustomStructure(StoneGrill,100.0)
+#CustomStructure(StonePillar,100.0)
+
+#CustomStructure(PowerLineNew,100.0,PowerLineSmall,100.0,PowerLine,100.0,SmallFactory,100.0,SmallFactory2,100.0,SmallFactory3,100.0,SmallFactory4,100.0,NuclearPowerPlant,100.0,GantryCrane,100.0,Piston-BunkerUnderground,100.0,Reservoir,100.0,Reservoir1,100.0,Tanks,100.0,Tubes,100.0,OilPump,100.0,OilPump2,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Sapling(Oak,Tree,20.0,TreeSwamp03,5.0,TreeSwamp04,5.0,TreeSwamp06,5.0,TreeSwamp07,5.0,TreeSwamp08,5.0,TreeSwamp10,5.0,80,5.0,81,5.0,82,5.0,83,5.0,84,5.0,85,5.0,BigTree,100.0)
+Sapling(Redwood,Taiga1,20.0,pine04,5.0,pine05,5.0,pine06,5.0,pine07,5.0,pine08,5.0,pine09,5.0,pine10,5.0,ME1,5.0,ME2,5.0,ME3,5.0,ME4,5.0,52,5.0,53,5.0,Taiga2,100.0)
+Sapling(Birch,TallBirch,20.0,SA2S,5.0,SA19S,5.0,SA11S,5.0,SA11L,5.0,NA7L,5.0,NA11S,5.0,EUR3S,5.0,Birch,100.0)
+Sapling(SmallJungle,GroundBush,20.0,CocoaTree,20.0,tropicaltree_tiny_01,5.0,tropicaltree_tiny_02,5.0,tropicaltree_tiny_03,5.0,tropicaltree_tiny_04,5.0,tropicaltree_tiny_05,5.0,tropicaltree_tiny_06,5.0,tropicaltree_tiny_07,5.0,tropicaltree_tiny_08,5.0,tropicaltree_tiny_09,5.0,tropicaltree_tiny_10,5.0,CocoaTree,100.0)
+Sapling(BigJungle,JungleTree,50.0,RFGodTree01,1.0,RFGodTree02,1.0,RFMedTree01,2.0,RFMedTree02,2.0,RFMedTree03,2.0,RFTree01,4.0,RFTree05,4.0,RFTree10,4.0,RFTree15,4.0,RFTree20,4.0,RFTree25,4.0,RFTree30,4.0,RFTree35,4.0,JungleTree,100.0)
+Sapling(RedMushroom,MushroomRedWideTall,10.0,MushroomRedWide,10.0,MushroomRedSmall,10.0,MushroomRedMedium,10.0,MushroomRedDiagonal,10.0,HugeRedMushroom,100.0)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10.0,MushroomBrownRedSingle,10.0,HugeMushroom,20.0,HugeBrownMushroom,100.0)
+Sapling(Acacia,Acacia,50.0,AFR3L,5.0,AFR3S,5.0,AFR5S,5.0,AFR6L,5.0,AFR8L,5.0,AFR8S,5.0,AFR9L,5.0,AFR9S,5.0,AFR10L,5.0,AFR10S,5.0,AFR11S,5.0,AFR11L,5.0,AFR12L,5.0,Acacia,100.0)
+Sapling(DarkOak,DarkOak,50.0,Dense01,5.0,Dense02,5.0,Dense03,5.0,Dense04,5.0,Dense05,5.0,Dense06,5.0,Dense07,5.0,Dense08,5.0,Dense09,5.0,Dense10,5.0,DarkOak,100.0)
+Sapling(HugeRedwood,HugeTaiga1,20.0,SpookyTree1,5.0,SpookyTree3,5.0,SpookyTree4,5.0,ME5,5.0,51,5.0,HugeTaiga2,100.0)
+InheritSaplingResource: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+MineshaftType: normal
+
+MineshaftRarity: 1.0
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: [{"mob": "srparasites:sim_human", "weight": 100, "min": 1, "max": 2}, {"mob": "srparasites:incompleteform_small", "weight": 100, "min": 1, "max": 1}, {"mob": "srparasites:incompleteform_medium", "weight": 100, "min": 1, "max": 1}, {"mob": "srparasites:movingflesh", "weight": 90, "min": 1, "max": 1}, {"mob": "srparasites:crux", "weight": 90, "min": 0, "max": 1}, {"mob": "srparasites:dispatcher_si", "weight": 85, "min": 1, "max": 1}, {"mob": "srparasites:marauder", "weight": 80, "min": 1, "max": 1}]
+
+SpawnCreatures: [{"mob": "minecraft:sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "minecraft:pig", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:cow", "weight": 8, "min": 4, "max": 4}]
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId: RARE, SWAMP, JUNGLE, CANYON
+
+InheritMobsBiomeName: minecraft:jungle
+

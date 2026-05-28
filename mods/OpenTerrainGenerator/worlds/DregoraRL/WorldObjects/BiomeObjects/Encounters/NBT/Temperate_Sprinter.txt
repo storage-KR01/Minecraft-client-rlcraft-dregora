@@ -1,0 +1,1 @@
+{CustomNameVisible:0,PersistenceRequired:1b,Fuse:1,ExplosionRadius:2,CustomName:"Sprinter",Health:10,ActiveEffects:[{Id:9,Duration:200,Amplifier:1,ShowParticles:0b},{Id:15,Duration:100,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.8f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:10f}]}

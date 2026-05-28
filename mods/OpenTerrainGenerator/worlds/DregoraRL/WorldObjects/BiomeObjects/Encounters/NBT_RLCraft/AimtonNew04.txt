@@ -1,0 +1,16 @@
+{
+  id:"minecraft:wither_skeleton",
+  CustomName:"Aimton",CustomNameVisible:0,PersistenceRequired:1b,
+  HandItems:[
+    {id:"srparasites:weapon_bow_sentient",Count:1,tag:{disarm:1, display:{Lore:["You sense a strange opposing aura from this weapon, as if it wants to cut you..."]},DragonRider:1b,ench:[{id:71,lvl:1}],"Quark:RuneAttached":1b,"Quark:RuneColor":15}},
+    {id:"minecraft:tipped_arrow",Damage:0,Count:3,tag:{Potion:"potioncore:invert"}}
+    ],
+  HandDropChances:[0.0F,2.0F],
+  ArmorItems:[
+    {id:"rlmixins:scarlite_boots",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:scarlite_boots",Count:1b},classy_hat_invisible:1b}},
+    {id:"rlmixins:scarlite_leggings",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"rlmixins:scarlite_leggings",Count:1b},classy_hat_invisible:1b}},
+    {id:"srparasites:armor_chest_sentient",Count:1,tag:{ench:[{id:71,lvl:1}],classy_hat_disguise:{id:"srparasites:armor_chest_sentient",Count:1b},classy_hat_invisible:1b}},
+    {id:"classyhats:hat",Count:1,tag:{ench:[{id:71,lvl:1}],hat:"amalgalichhat"}}
+  ],
+  ArmorDropChances:[0.0F,0.0F,0.0F,0.0F]
+}

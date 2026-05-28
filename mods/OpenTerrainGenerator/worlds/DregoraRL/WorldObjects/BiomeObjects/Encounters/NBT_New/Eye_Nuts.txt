@@ -1,0 +1,11 @@
+{
+  PersistenceRequired:1b,
+  CustomName:"EyeNuts",
+  CustomNameVisible:1,
+  Passengers:[{
+    id:"lycanitesmobs:banshee",
+    PersistenceRequired:1b
+  }]
+}
+
+

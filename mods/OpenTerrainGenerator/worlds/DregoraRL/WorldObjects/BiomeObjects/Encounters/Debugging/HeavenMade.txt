@@ -1,0 +1,151 @@
+Last Ones with custom heads.
+
+Ashen
+
+ADD: Fire on hit + Burn effect
+
+/summon minecraft:stray ~ ~ ~ {CustomName:"Ashen",Health:30,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_sword,Count:1},{id:magma,Count:1}],HandDropChances:[0.02f,0.10f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:2f},{Name:"generic.attackDamage",Base:8f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.maxHealth",Base:30f}]}
+
+Charred
+
+ADD: Fire + Blindness on hit + Burn effect
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Charred",Health:40,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_sword,Count:1},{id:magma,Count:1}],HandDropChances:[0.02f,0.10f],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.attackDamage",Base:12f},{Name:"generic.armorToughness",Base:2f},{Name:"generic.attackSpeed",Base:4f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:40f}]}
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Charred",Health:40,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_sword,Count:1},{id:magma,Count:1}],HandDropChances:[0.02f,0.10f],ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"e307413e-a49b-4fd6-acae-554e80015efa",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFmNGY0ZGMzYjA5ODQ4MWQ4MTc1ZDg0ODkyYzE0NjM3ODU5YWNlNmI1MjQxN2Q0ZWRmZWRmNThlNmRiNTRmOSJ9fX0="}]}}}}],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.attackDamage",Base:12f},{Name:"generic.armorToughness",Base:2f},{Name:"generic.attackSpeed",Base:4f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:40f}]}
+
+Burned
+
+ADD: Burn effect
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Burned",Health:30,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b}],HandItems:[{id:bow,Count:1},{}],HandDropChances:[0.02f],Attributes:[{Name:"generic.armor",Base:1f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:10f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:30f}]}
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Burned",Health:30,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b}],HandItems:[{id:bow,Count:1},{}],HandDropChances:[0.02f],ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"7a161435-84e5-4673-90ff-d5d5c0103802",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1Nzc1ZWFiYmJmODFmOGE5ZTNmYjE0MGZiN2RjYjBlNjhjNWIyZDAyZTEwYjEwNDM1NjQxMjU0OTRmMWEyZiJ9fX0="}]}}}}],Attributes:[{Name:"generic.armor",Base:1f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:10f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:30f}]}
+
+Ashen Rider + Ashen Mount
+
+ADD: Fire on hit + Burn effect
+
+/summon minecraft:skeleton_horse ~ ~ ~ {SaddleItem:{id:saddle,Count:1},Tame:1,CustomName:"Ash Mount",Health:15,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:2,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.armorToughness",Base:2f},{Name:"generic.maxHealth",Base:15f}],Passengers:[{id:stray,CustomName:"Ashen",Health:30,CanPickUpLoot:1b,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_sword,Count:1},{id:magma,Count:1}],HandDropChances:[0.02f,0.10f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:2f},{Name:"generic.attackDamage",Base:8f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.maxHealth",Base:30f}]}]}
+
+Surter
+
+Add: Fire Attack on hit + Burn effect
+
+/summon minecraft:vex ~ ~ ~ {LifeTicks:10000,CustomName:"Surter",Health:10,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:magma,Count:1},{id:magma,Count:1}],HandDropChances:[0.10f,0.10f],ArmorItems:[{},{},{},{id:"minecraft:skull",Damage:1,Count:1}],Attributes:[{Name:"generic.attackSpeed",Base:2f},{Name:"generic.attackDamage",Base:6f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.maxHealth",Base:10f}],ArmorDropChances:[0f,0f,0f,0f]}
+
+/summon minecraft:vex ~ ~ ~ {LifeTicks:10000,CustomName:"Surter",Health:10,ActiveEffects:[{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:magma,Count:1},{id:magma,Count:1}],HandDropChances:[0.10f,0.10f],ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"95b93eb6-4ed9-4841-81ee-729f6d1516e4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmYzZWEzZmE1NGE4ZDcwMTQ5NjkyMjY2NmNiMjQyNTg5MGNjZGRhYzY1OTkzYjVkNzViMjY0MmJmN2U2YWY4ZCJ9fX0="}]}}}}],Attributes:[{Name:"generic.attackSpeed",Base:2f},{Name:"generic.attackDamage",Base:6f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.maxHealth",Base:10f}],ArmorDropChances:[0f,0f,0f,0f]}
+
+Starved
+
+Add: Hunger on hit
+
+/summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"Starved",Health:15,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:11,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:3,ShowParticles:0b}],HandItems:[{id:rotten_flesh,Count:1},{id:rotten_flesh,Count:1}],HandDropChances:[0.10f,0.10f],ArmorItems:[{},{},{},{id:"minecraft:skull",Damage:0,Count:1}],Attributes:[{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:15f}],ArmorDropChances:[0f,0f,0f,0f]}
+
+/summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"Starved",Health:15,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:11,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:1,Duration:10000,Amplifier:3,ShowParticles:0b}],HandItems:[{id:rotten_flesh,Count:1},{id:rotten_flesh,Count:1}],HandDropChances:[0.10f,0.10f],ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"4b4e15fb-b01d-48a1-9a6f-f1f29aa34a06",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NlMTliZjA3NzA2NmFhZDIwMzJlZTAwNDYwYTZmOWQ0ZjFhNzFiNTVhOTliNTIyOWEyYmI2ZTgwNTUzZjg3OCJ9fX0="}]}}}}],Attributes:[{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:15f}],ArmorDropChances:[0f,0f,0f,0f]}
+
+Horror
+
+/summon minecraft:creeper ~ ~ ~ {powered:1,Fuse:20,ExplosionRadius:4,CustomName:"Horror",Health:25,ActiveEffects:[{Id:15,Duration:200,Amplifier:1,ShowParticles:0b},{Id:18,Duration:300,Amplifier:1,ShowParticles:0b},{Id:9,Duration:100,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.knockbackResistance",Base:0.4f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.maxHealth",Base:25f}]}
+
+Nightmare
+
+/summon minecraft:creeper ~ ~ ~ {powered:1,Fuse:20,ExplosionRadius:6,CustomName:"Nightmare",Health:30,ActiveEffects:[{Id:15,Duration:400,Amplifier:2,ShowParticles:0b},{Id:18,Duration:300,Amplifier:2,ShowParticles:0b},{Id:9,Duration:200,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.knockbackResistance",Base:0.6f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.maxHealth",Base:30f}]}
+
+Surger
+
+/summon minecraft:creeper ~ ~ ~ {powered:1,Fuse:1,ExplosionRadius:2,CustomName:"Surger",Health:10,ActiveEffects:[{Id:9,Duration:300,Amplifier:2,ShowParticles:0b},{Id:15,Duration:200,Amplifier:2,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.6f},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.maxHealth",Base:10f}]}
+
+Fuser
+
+/summon minecraft:creeper ~ ~ ~ {powered:1,Fuse:10,ExplosionRadius:3,CustomName:"Fuser",Health:15,ActiveEffects:[{Id:15,Duration:200,ShowParticles:0b},{Id:9,Duration:300,ShowParticles:0b},{Id:18,Duration:200,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.5f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:15f}]}
+
+Sprinter
+
+Add: Team of sprinters (Multiple spawns)
+
+/summon minecraft:creeper ~ ~ ~ {Fuse:1,ExplosionRadius:2,CustomName:"Sprinter",Health:10,ActiveEffects:[{Id:9,Duration:200,Amplifier:1,ShowParticles:0b},{Id:15,Duration:100,Amplifier:1,ShowParticles:0b}],Attributes:[{Name:"generic.movementSpeed",Base:0.8f},{Name:"generic.knockbackResistance",Base:0.5f},{Name:"generic.maxHealth",Base:10f}]}
+
+Revenant
+
+ADD: Fire on hit, Blindness on hit, On Fire, Fallen Reinforcements
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Revenant",Health:60,CanPickUpLoot:1b,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:5,Duration:10000,Amplifier:2,ShowParticles:0b}],HandItems:[{id:diamond_sword,Count:1},{id:totem_of_undying,Count:2}],HandDropChances:[0.05f,0.00f],ArmorItems:[{id:iron_boots,Count:1},{id:iron_leggings,Count:1},{id:iron_chestplate,Count:1},{id:iron_helmet,Count:1}],ArmorDropChances:[0.05f,0.05f,0.05f,0f],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:10f},{Name:"generic.attackSpeed",Base:8f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.2f},{Name:"generic.maxHealth",Base:60f}]}
+
+/summon minecraft:wither_skeleton ~ ~ ~ {CustomName:"Revenant",Health:60,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:12,Duration:10000,Amplifier:4,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:5,Duration:10000,Amplifier:2,ShowParticles:1b}],HandItems:[{id:diamond_sword,Count:1},{id:totem_of_undying,Count:3}],HandDropChances:[0.05f,0.00f],ArmorItems:[{id:iron_boots,Count:1},{id:chainmail_leggings,Count:1},{id:iron_chestplate,Count:1},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"7bf2354c-59dd-496c-998d-ab5cca954997",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThjYTRiYzdiODNjNTI5N2YxMDY3MDQ2ZjM4MGMzMmEzZmYwMGJmNTA5YjMyMTM0NjRhNDhjOTE3MWZlZDc2NiJ9fX0="}]}}}}],ArmorDropChances:[0.05f,0.05f,0.05f,0f],Attributes:[{Name:"generic.armor",Base:3f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:10f},{Name:"generic.attackSpeed",Base:8f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.knockbackResistance",Base:0.4f},{Name:"generic.maxHealth",Base:60f}]}
+
+
+Broodmother
+
+/summon minecraft:spider ~ ~ ~ {CustomName:"Broodmother",Health:20,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:3,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.armor"},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.maxHealth",Base:20f}]}
+
+Broodling
+
+/summon minecraft:cave_spider ~ ~ ~ {CustomName:"Broodling",Health:10,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:14,Duration:10000,Amplifier:1,ShowParticles:1b}],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackSpeed",Base:2f},{Name:"generic.maxHealth",Base:10f}]}
+
+Broodmother + Broodling
+
+/summon minecraft:spider ~ ~ ~ {CustomName:"Broodmother",Health:20,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:3,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.armor"},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.maxHealth",Base:20f}],Passengers:[{id:cave_spider,CustomName:"Broodling",Health:10,ActiveEffects:[{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:14,Duration:10000,Amplifier:1,ShowParticles:1b}],Attributes:[{Name:"generic.armor",Base:2f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackSpeed",Base:2f},{Name:"generic.maxHealth",Base:10f}]}]}
+
+Widower
+
+/summon minecraft:cave_spider ~ ~ ~ {CustomName:"Widower",Health:30,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:2,ShowParticles:0b}],HandItems:[{id:totem_of_undying,Count:1},{id:totem_of_undying,Count:1}],HandDropChances:[0.00f,0.00f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackSpeed",Base:4f},{Name:"generic.attackDamage",Base:4f},{Name:"generic.knockbackResistance",Base:0.4f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.maxHealth",Base:30f}]}
+
+Wretch
+
+/summon minecraft:spider ~ ~ ~ {CustomName:"Wretch",Health:20,ActiveEffects:[{Id:14,Duration:10000,Amplifier:1,ShowParticles:1b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:1b}],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackSpeed",Base:2f},{Name:"generic.maxHealth",Base:20f}]}
+
+Huntsman
+
+/summon minecraft:spider ~ ~ ~ {CustomName:"Huntsman",Health:40,ActiveEffects:[{Id:22,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:2,ShowParticles:0b}],HandItems:[{id:totem_of_undying,Count:1},{id:totem_of_undying,Count:1}],HandDropChances:[0.00f,0.00f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackSpeed",Base:4f},{Name:"generic.attackDamage",Base:6f},{Name:"generic.movementSpeed",Base:0.5f},{Name:"generic.maxHealth",Base:40f}]}
+
+Shadow
+
+/summon minecraft:husk ~ ~ ~ {CanBreakDoors:1,CustomName:"Shadow",Health:30,ActiveEffects:[{Id:14,Duration:10000,Amplifier:1,ShowParticles:1b},{Id:1,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_sword,Count:1},{id:iron_hoe,Count:1}],HandDropChances:[0.05f,0.05f],Attributes:[{Name:"generic.movementSpeed",Base:0.3f},{Name:"generic.attackSpeed",Base:15f},{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:10f},{Name:"generic.maxHealth",Base:30f}]}
+
+Reaver
+
+/summon minecraft:husk ~ ~ ~ {CustomName:"Reaver",Health:40,ActiveEffects:[{Id:12,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:5,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_axe,Count:1},{id:iron_axe,Count:1}],HandDropChances:[0.02f,0.02f],ArmorItems:[{id:iron_boots,Count:1},{id:chainmail_leggings,Count:1},{id:iron_chestplate,Count:1},{id:"minecraft:skull",Damage:4,Count:1}],ArmorDropChances:[0.02f,0.02f,0.02f,0.02f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:6f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.knockbackResistance",Base:0.8f},{Name:"generic.attackSpeed",Base:10f},{Name:"generic.maxHealth",Base:40f}]}
+
+/summon minecraft:husk ~ ~ ~ {CustomName:"Reaver",Health:40,ActiveEffects:[{Id:12,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:8,Duration:10000,Amplifier:1,ShowParticles:0b},{Id:5,Duration:10000,Amplifier:2,ShowParticles:0b},{Id:10,Duration:10000,Amplifier:1,ShowParticles:0b}],HandItems:[{id:iron_axe,Count:1},{id:iron_axe,Count:1}],HandDropChances:[0.02f,0.02f],ArmorItems:[{id:iron_boots,Count:1},{id:chainmail_leggings,Count:1},{id:iron_chestplate,Count:1},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"c032a303-d07d-406f-8e84-3963a4378f48",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAwZmNkYzYwYjczMzJjNjE3MjBmOGI3YWRmNDA5ZmQ0Yzc0ZGUwMTdhZjJkY2MwMDliYzYwY2JiZDcxNjQxMyJ9fX0="}]}}}}],ArmorDropChances:[0.02f,0.02f,0.02f,0.02f],Attributes:[{Name:"generic.armor",Base:4f},{Name:"generic.armorToughness",Base:1f},{Name:"generic.attackDamage",Base:3f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.knockbackResistance",Base:0.8f},{Name:"generic.attackSpeed",Base:10f},{Name:"generic.maxHealth",Base:40f}]}
+
+
+Hel Walker
+
+
+Stalker
+
+
+
+Draugr
+
+
+
+Fallen
+
+
+
+Revived
+
+
+
+Berserker
+
+
+
+Cleaver
+
+
+
+Executor
+
+
+
+Cursed
+
+
+
+Wraith
+
+
+Pursuer

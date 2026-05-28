@@ -1,0 +1,1 @@
+{PersistenceRequired:1b,CustomName:"Frozen Pest",CustomNameVisible:0,Attributes:[{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.attackDamage",Base:1}]}

@@ -1,0 +1,469 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 4
+
+BiomeRarity: 100
+
+BiomeColor: #e3b330
+
+ReplaceToBiomeName: Rotten Fungal Plains
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: Ocean
+
+NotBorderNear: Ancient River, Swampland, Extreme Hills, Ice Plains Spikes, Ice Plains, Cold Taiga, Cold Taiga Hills, Cold Taiga M, Ice Mountains, MushroomIsland, Deep Ocean, Cold Beach, Stone Beach, Mesa
+
+BiomeSizeWhenBorder: 8
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: -1.3
+
+
+BiomeVolatility: 0.01
+
+SmoothRadius: 20
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -1.0
+
+Volatility2: -1.0
+
+VolatilityWeight1: 0.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: Ancient River
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE:0
+
+SurfaceBlock: GRASS
+
+GroundBlock: SAND:0
+
+SurfaceAndGroundControl: STONE:0, STONE:0, -0.7, STONE:3, STONE:0, -0.35, OBSIDIAN, OBSIDIAN, -0.1, OBSIDIAN, OBSIDIAN, 0.1, STONE:3, STONE:0, 0.35, STONE:3, STONE:0, 0.7, STONE:0, STONE:0, 1.5 
+
+ReplacedBlocks: (GRAVEL,SAND,39,39),(STONE:1,SAND,39,39),(STONE:0,SAND,39,39),(SANDSTONE:0,STONE:0,150,200),(SAND:0,SANDSTONE:0,100,150),(OBSIDIAN,MAGMA,38,39),(GRASS,DIRT:2,154,156), (SAND:0,STONE:0,160,200)
+
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 0.8
+
+BiomeWetness: 0.4
+
+SkyColor: #6aad6a
+
+WaterColor: #3b3115
+
+GrassColor: #91BD59
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #77AB2F 
+
+FoliageColor2: #FFFFFF
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+#OLD FogColor: #b4a5da
+
+# How dense the fog is this biome is, Float value from 0.0 to 1.0.
+# A value of 0 produces almost no fog while a value of 1 will cover the entire screen with fog.
+FogDensity: 0.0
+#OLD FogDensity: 0.1
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+# How much thunderstorms should affect the fog color, Float value from 0.0 to 1.0.
+# A value of 0.0 means the fog will stay the same color during thunderstorms.
+# A value of 1.0 will mak
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      DynamicTree Resources                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#dynamictreesinputhere
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                     BiomesOplenty Resources                     | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#Fromimage BOP Gems
+Ore(biomesoplenty:gem:5,9,2,100.0,0,31,STONE)
+
+
+Grass(biomesoplenty:flower_0:3,Grouped,1,100.0,GRASS,MYCELIUM)
+Grass(biomesoplenty:mushroom:0,Grouped,5,100.0,GRASS,MYCELIUM)
+Grass(biomesoplenty:mushroom:1,Grouped,5,100.0,GRASS,MYCELIUM)
+Grass(biomesoplenty:mushroom:2,Grouped,5,100.0,GRASS,MYCELIUM)
+
+Grass(biomesoplenty:flower_0:0,NotGrouped,50,100.0,DIRT,GRASS,MYCELIUM)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Rustic Resources                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#QuarkResourceUniqueLine
+Grass(quark:leaf_carpet:7,NotGrouped,100,100.0,GRASS,DIRT,STONE)
+Plant(quark:glowshroom,1,50.0,0,30,STONE)
+
+#RusticResourceUniqueLine
+Plant(rustic:mooncap_mushroom:3,1,5.0,0,30,GRASS,BIOMESOPLENTY:GRASS,STONE)
+Plant(rustic:core_root:3,1,25.0,0,30,STONE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+## Lead Ore
+Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#RecurrentComplex
+CustomStructure(P_TreeDungeon,0.0)
+
+#RuinsConversionQueue
+#Structure Canyon generic:
+#Structure bog:
+CustomStructure(Billboard,100.0)
+CustomStructure(Bomb,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building2,100.0)
+CustomStructure(Building3,100.0)
+CustomStructure(Building4,100.0)
+CustomStructure(Building5,100.0)
+CustomStructure(Building6,100.0)
+CustomStructure(Building7,100.0)
+CustomStructure(CaveSpiderBurrow,100.0)
+CustomStructure(GantryCrane,100.0)
+CustomStructure(PowerLineSmall,100.0)
+CustomStructure(SmallFactory,100.0)
+CustomStructure(SmallFactory2,100.0)
+CustomStructure(SmallFactory3,100.0)
+CustomStructure(SmallFactory4,100.0)
+CustomStructure(StoneHouse_Ruined,100.0)
+CustomStructure(StoneHouseMruined,100.0)
+CustomStructure(STP,100.0)#Structure generic:
+CustomStructure(PumpkinField,100.0)
+CustomStructure(RuinedSmallFountainDiagonal,100.0)
+CustomStructure(SkeletonHeadStatue,100.0)
+CustomStructure(SpearStatue,100.0)
+CustomStructure(StoneGrill,100.0)
+CustomStructure(StonePillar,100.0)
+CustomStructure(TallTower,100.0)
+CustomStructure(TinyFarmField,100.0)
+CustomStructure(Mausoleum,100.0)
+CustomStructure(Reservoir,100.0)
+CustomStructure(Reservoir1,100.0)
+CustomStructure(AdvancedAntenna,100.0)
+CustomStructure(AdvancedShelter,100.0)
+CustomStructure(SolarPanel,100.0)
+CustomStructure(Airship_Bomber,100.0)
+CustomStructure(Altar,100.0)
+CustomStructure(AncientFountain,100.0)
+CustomStructure(Antenna,100.0)
+CustomStructure(ArrowTrapTomb,100.0)
+CustomStructure(Barn-ruined,100.0)
+CustomStructure(Barn,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building2,100.0)
+CustomStructure(Building3,100.0)
+CustomStructure(Building4,100.0)
+CustomStructure(Building5,100.0)
+CustomStructure(Building6,100.0)
+CustomStructure(Building7,100.0)
+CustomStructure(Bunker,100.0)
+CustomStructure(BuriedChest,100.0)
+CustomStructure(CaveSpiderBurrow,100.0)
+CustomStructure(CellTower,100.0)
+CustomStructure(DwarfBase,100.0)
+CustomStructure(Floater,100.0)
+CustomStructure(Graveyard,100.0)
+CustomStructure(Hive,100.0)
+CustomStructure(Lab,100.0)
+CustomStructure(PhoneTower,100.0)
+CustomStructure(Piston-CreeperRoom-old,100.0)
+CustomStructure(Piston-CreeperRoom,100.0)
+CustomStructure(Piston-LavaTrap-New,100.0)
+CustomStructure(Piston-LavaTrap,100.0)
+CustomStructure(PowerLine,100.0)
+CustomStructure(SmallFactory,100.0)
+CustomStructure(SmallFactory2,100.0)
+CustomStructure(SmallFactory3,100.0)
+CustomStructure(SmallFactory4,100.0)
+CustomStructure(ThrownHouse,100.0)
+CustomStructure(ThrownHouse1,100.0)
+CustomStructure(ThrownHouse2,100.0)
+CustomStructure(ThrownHouse3,100.0)
+CustomStructure(AlchemistsDungeon,100.0)
+CustomStructure(UndergroundShelter,100.0)
+CustomStructure(VolcanicVent,100.0)
+CustomStructure(WaterTower,100.0)
+CustomStructure(ZombieHut,100.0)
+CustomStructure(Pump,100.0)
+
+
+
+#SpecialStructureQueue
+CustomStructure(cyclops_main,0.0,GorgonTemple,0.0)
+
+#TeleportQueue
+CustomStructure(TeleportReceiver_FG,0.0)
+CustomStructure(TeleportReceiver_TH,0.0)
+CustomStructure(TeleportReceiver_VS,0.0)
+CustomStructure(TeleportReceiver_SG,0.0)
+CustomStructure(TeleportReceiver_PF,0.0)
+CustomStructure(TeleportReceiver_SD,0.0)
+CustomStructure(TeleportReceiver_GD,0.0)
+CustomStructure(TeleportTower_FG,0.0)
+CustomStructure(TeleportTower_TH,0.0)
+CustomStructure(TeleportTower_VS,0.0)
+CustomStructure(TeleportTower_SG,0.0)
+CustomStructure(TeleportTower_PF,0.0)
+CustomStructure(TeleportTower_SD,0.0)
+CustomStructure(TeleportTower_GD,0.0)
+
+#GlobalStructureQueue
+CustomObject(Artifact_Mimic,Concrete_Mimic)
+CustomStructure(Herbalist,0.0)
+CustomStructure(v_bunker_hub_ent,0.0)
+CustomStructure(maintenance_shaft_bottom,0.0)
+CustomStructure(DungeonSpawner02,0.0)
+CustomStructure(CityGridOcean,0.0)
+
+
+#CustomStructure(ruin_small_random,0.0)
+CustomStructure(DeepTunnel_EntranceLowSpecial,0.0)
+CustomStructure(f_bunker_tunnel,0.0)
+
+CustomStructure(Mineshaft,0.0,W-Mineshaft,0.0)
+
+#FROMIMAGEStructureQueue
+CustomStructure(CastleRuins,0.0)
+CustomStructure(DaerocVillage,0.0)
+CustomStructure(PirateBay,0.0)
+CustomStructure(Harbor,0.0)
+
+#MonsterQueue
+#Everywhere Biome
+CustomObject(Assassin,Not_Kotlin,Mentalberian,Stalker,Sussyberian,Creeping_Death,Golden_Chick,Herobrine,Legged_Creep,Lone_Golem,Many_Eyes,Nemesis)
+#BogBiome
+CustomObject(The_Digger,Gluttony,Haunted_Glory,Posessed_Pickaxe,Haunted_TinySword,Legged_Guardian,Dismemberer)
+
+
+
+
+Ore(GRAVEL,33,8,100.0,0,255,STONE:0)
+Ore(STONE:1,33,10,100.0,0,79,STONE:0)
+Ore(STONE:3,33,10,100.0,0,79,STONE:0)
+Ore(STONE:5,33,10,100.0,0,79,STONE:0)
+
+#Default Ore Resources
+CustomObject(MagmaChasm,WaterChasm)
+Dungeon(8,100.0,0,128)
+Ore(DIRT,33,10,100.0,0,255,STONE)
+Ore(GRAVEL,33,8,100.0,0,255,STONE)
+Ore(STONE:1,33,10,100.0,0,79,STONE)
+Ore(STONE:3,33,10,100.0,0,79,STONE)
+Ore(STONE:5,33,10,100.0,0,79,STONE)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,60,STONE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+#ExtraOreResources
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+
+
+UnderWaterOre(SAND:0,7,3,100.0,DIRT:0,GRASS:0)
+UnderWaterOre(CLAY,4,1,100.0,DIRT:0,CLAY)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT:0,GRASS:0)
+Dungeon(8,100.0,0,128)
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS:0,DIRT:0)
+Plant(Dandelion,2,100.0,0,128,GRASS:0,DIRT:0)
+Plant(PUMPKIN:2,1,3.0,0,128,GRASS:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+MineshaftType: disabled
+
+MineshaftRarity: 0
+
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#SpawnMonsters: [{"mob": "minecraft:spider", "weight":100, "min":0, "max":4},{"mob": "minecraft:zombie", "weight":95, "min":0, "max":4},{"mob": "minecraft:zombie_villager", "weight":5, "min":0, "max":1},{"mob": "minecraft:skeleton", "weight":100, "min":0, "max":4},{"mob": "minecraft:creeper", "weight":100, "min":0, "max":4},{"mob": "minecraft:slime", "weight":100, "min":0, "max":4},{"mob": "minecraft:enderman", "weight":10, "min":0, "max":4},{"mob": "minecraft:witch", "weight":5, "min":0, "max":1}]
+#SpawnCreatures: []
+#SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight":10, "min":0, "max":4}]
+#SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight":10, "min":8, "max":8}]
+
+SpawnMonsters: []
+SpawnCreatures: []
+SpawnWaterCreatures: []
+SpawnAmbientCreatures: []
+
+
+
+BiomeDictId: BEACH, MAGICAL, MUSHROOM 
+
+
+InheritMobsBiomeName: minecraft:beaches
+

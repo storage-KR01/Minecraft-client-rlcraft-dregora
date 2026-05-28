@@ -1,0 +1,565 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 0
+
+BiomeRarity: 100
+
+BiomeColor: #196512
+
+ReplaceToBiomeName: Ancient Rainforest
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder:
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: -1.7
+
+BiomeVolatility: 0.8
+
+SmoothRadius: 20
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -1.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, -500.0, -500.0, -50.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: Ancient Rainforest River
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: GRASS
+
+GroundBlock: DIRT
+
+SurfaceAndGroundControl: stained_clay:14, DIRT, -0.1, DIRT:2, DIRT, -0.15
+
+ReplacedBlocks: (SAND,GRASS,79,256),(STATIONARY_WATER,AIR,13,45),(GRAVEL,GRASS,79,256),(DIRT,STONE,0,60),(DIRT,STONE,10,15),(STONE:0,GRASS,13,15)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.3
+
+BiomeWetness: 0.9
+
+SkyColor: #b1d2ae
+
+WaterColor: #007c47
+
+GrassColor: #3ea100
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #05ee00
+
+FoliageColor2: #2f4a12
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+#OLD FogColor: #b3c1b8
+
+FogDensity: 0.0
+#OLD FogDensity: 0.2
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      DynamicTree Resources                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree(1,DT_Jungle_Big_01,100,DT_Jungle_Big_02,100,DT_Jungle_Big_03,100,DT_Jungle_Big_04,100,DT_Jungle_Big_05,100,DT_Jungle_Big_06,100,DT_Jungle_Big_07,100,DT_Jungle_Big_08,100,DT_Jungle_Big_09,100,DT_Jungle_Big_10,100,DT_Jungle_Big_11,100,DT_Jungle_Big_12,100,DT_Jungle_Big_13,100,DT_Jungle_Big_14,100,DT_Jungle_Big_15,100,DT_Jungle_Big_16,100,DT_Jungle_Big_17,100,DT_Jungle_Big_18,100,DT_Jungle_Big_19,100,DT_Jungle_Big_20,100,DT_Jungle_Big_21,100,DT_Jungle_Big_22,100,DT_Jungle_Big_23,100,DT_Jungle_Big_24,100,DT_Jungle_Big_25,100,DT_Jungle_Big_26,100,DT_Jungle_Big_27,100,DT_Jungle_Big_28,100,DT_Jungle_Big_29,100,DT_Jungle_Big_30,100)
+Tree(1,DT_Jungle_Huge_01,100,DT_Jungle_Huge_02,100,DT_Jungle_Huge_03,100,DT_Jungle_Huge_04,100,DT_Jungle_Huge_05,100,DT_Jungle_Huge_06,100,DT_Jungle_Huge_07,100,DT_Jungle_Huge_08,100,DT_Jungle_Huge_09,100,DT_Jungle_Huge_10,100,DT_Jungle_Huge_11,100,DT_Jungle_Huge_12,100,DT_Jungle_Huge_13,100,DT_Jungle_Huge_14,100,DT_Jungle_Huge_15,100,DT_Jungle_Huge_16,100,DT_Jungle_Huge_17,100,DT_Jungle_Huge_18,100,DT_Jungle_Huge_19,100,DT_Jungle_Huge_20,100,DT_Jungle_Huge_21,100,DT_Jungle_Huge_22,100,DT_Jungle_Huge_23,100,DT_Jungle_Huge_24,100,DT_Jungle_Huge_25,100,DT_Jungle_Huge_26,100,DT_Jungle_Huge_27,100,DT_Jungle_Huge_28,100,DT_Jungle_Huge_29,100,DT_Jungle_Huge_30,100,DT_Jungle_Huge_31,100,DT_Jungle_Huge_32,100,DT_Jungle_Huge_33,100,DT_Jungle_Huge_34,100,DT_Jungle_Huge_35,100,DT_Jungle_Huge_36,100,DT_Jungle_Huge_37,100,DT_Jungle_Huge_38,100,DT_Jungle_Huge_39,100,DT_Jungle_Huge_40,100,DT_Jungle_Huge_41,100,DT_Jungle_Huge_42,100,DT_Jungle_Huge_43,100,DT_Jungle_Huge_44,100,DT_Jungle_Huge_45,100)
+Tree(1,DT_Jungle_Med_01,100,DT_Jungle_Med_02,100,DT_Jungle_Med_03,100,DT_Jungle_Med_04,100,DT_Jungle_Med_05,100,DT_Jungle_Med_06,100,DT_Jungle_Med_07,100,DT_Jungle_Med_08,100,DT_Jungle_Med_09,100,DT_Jungle_Med_10,100,DT_Jungle_Med_11,100,DT_Jungle_Med_12,100,DT_Jungle_Med_13,100,DT_Jungle_Med_14,100,DT_Jungle_Med_15,100,DT_Jungle_Med_16,100,DT_Jungle_Med_17,100,DT_Jungle_Med_18,100,DT_Jungle_Med_19,100,DT_Jungle_Med_20,100,DT_Jungle_Med_21,100,DT_Jungle_Med_22,100,DT_Jungle_Med_23,100,DT_Jungle_Med_24,100,DT_Jungle_Med_25,100,DT_Jungle_Med_26,100,DT_Jungle_Med_27,100,DT_Jungle_Med_28,100,DT_Jungle_Med_29,100,DT_Jungle_Med_30,100,DT_Jungle_Med_31,100,DT_Jungle_Med_32,100,DT_Jungle_Med_33,100,DT_Jungle_Med_34,100,DT_Jungle_Med_35,100)
+Tree(1,DT_Jungle_Small_01,100,DT_Jungle_Small_02,100,DT_Jungle_Small_03,100,DT_Jungle_Small_04,100,DT_Jungle_Small_05,100,DT_Jungle_Small_06,100,DT_Jungle_Small_07,100,DT_Jungle_Small_08,100,DT_Jungle_Small_09,100,DT_Jungle_Small_10,100,DT_Jungle_Small_11,100,DT_Jungle_Small_12,100,DT_Jungle_Small_13,100,DT_Jungle_Small_14,100,DT_Jungle_Small_15,100)
+Tree(1,DT_Jungle_Tall_01,100,DT_Jungle_Tall_02,100,DT_Jungle_Tall_03,100,DT_Jungle_Tall_04,100,DT_Jungle_Tall_05,100,DT_Jungle_Tall_06,100,DT_Jungle_Tall_07,100,DT_Jungle_Tall_08,100,DT_Jungle_Tall_09,100,DT_Jungle_Tall_10,100,DT_Jungle_Tall_11,100,DT_Jungle_Tall_12,100,DT_Jungle_Tall_13,100,DT_Jungle_Tall_14,100,DT_Jungle_Tall_15,100,DT_Jungle_Tall_16,100,DT_Jungle_Tall_17,100,DT_Jungle_Tall_18,100,DT_Jungle_Tall_19,100,DT_Jungle_Tall_20,100,DT_Jungle_Tall_21,100,DT_Jungle_Tall_22,100,DT_Jungle_Tall_23,100,DT_Jungle_Tall_24,100,DT_Jungle_Tall_25,100,DT_Jungle_Tall_26,100,DT_Jungle_Tall_27,100,DT_Jungle_Tall_28,100,DT_Jungle_Tall_29,100,DT_Jungle_Tall_30,100,DT_Jungle_Tall_31,100,DT_Jungle_Tall_32,100,DT_Jungle_Tall_33,100,DT_Jungle_Tall_34,100,DT_Jungle_Tall_35,100)
+Tree(1,DT_Jungle_THuge_01,100,DT_Jungle_THuge_02,100,DT_Jungle_THuge_03,100,DT_Jungle_THuge_04,100,DT_Jungle_THuge_05,100,DT_Jungle_THuge_06,100,DT_Jungle_THuge_07,100,DT_Jungle_THuge_08,100,DT_Jungle_THuge_09,100,DT_Jungle_THuge_10,100,DT_Jungle_THuge_11,100,DT_Jungle_THuge_12,100,DT_Jungle_THuge_13,100,DT_Jungle_THuge_14,100,DT_Jungle_THuge_15,100,DT_Jungle_THuge_16,100,DT_Jungle_THuge_17,100,DT_Jungle_THuge_18,100,DT_Jungle_THuge_19,100,DT_Jungle_THuge_20,100,DT_Jungle_THuge_21,100,DT_Jungle_THuge_22,100,DT_Jungle_THuge_23,100,DT_Jungle_THuge_24,100,DT_Jungle_THuge_25,100,DT_Jungle_THuge_26,100,DT_Jungle_THuge_27,100,DT_Jungle_THuge_28,100,DT_Jungle_THuge_29,100,DT_Jungle_THuge_30,100,DT_Jungle_THuge_31,100,DT_Jungle_THuge_32,100,DT_Jungle_THuge_33,100,DT_Jungle_THuge_34,100,DT_Jungle_THuge_35,100,DT_Jungle_THuge_36,100,DT_Jungle_THuge_37,100,DT_Jungle_THuge_38,100,DT_Jungle_THuge_39,100,DT_Jungle_THuge_40,100,DT_Jungle_THuge_41,100,DT_Jungle_THuge_42,100,DT_Jungle_THuge_43,100,DT_Jungle_THuge_44,100,DT_Jungle_THuge_45,100,DT_Jungle_THuge_46,100,DT_Jungle_THuge_47,100,DT_Jungle_THuge_48,100,DT_Jungle_THuge_49,100,DT_Jungle_THuge_50,100)
+
+Tree(10,DT_BPBamboo_Big_01,100,DT_BPBamboo_Big_02,100,DT_BPBamboo_Big_03,100,DT_BPBamboo_Big_04,100,DT_BPBamboo_Big_05,100,DT_BPBamboo_Big_06,100,DT_BPBamboo_Big_07,100,DT_BPBamboo_Big_08,100,DT_BPBamboo_Big_09,100,DT_BPBamboo_Big_10,100)
+Tree(10,DT_BPBamboo_Med_01,100,DT_BPBamboo_Med_02,100,DT_BPBamboo_Med_03,100,DT_BPBamboo_Med_04,100,DT_BPBamboo_Med_05,100,DT_BPBamboo_Med_06,100,DT_BPBamboo_Med_07,100,DT_BPBamboo_Med_08,100,DT_BPBamboo_Med_09,100,DT_BPBamboo_Med_10,100)
+Tree(10,DT_BPBamboo_Small_01,100,DT_BPBamboo_Small_02,100,DT_BPBamboo_Small_03,100,DT_BPBamboo_Small_04,100,DT_BPBamboo_Small_05,100)
+
+Grass(biomesoplenty:plant_0:0,NotGrouped,100,100.0,GRASS,DIRT)
+Grass(biomesoplenty:plant_0:1,NotGrouped,100,100.0,GRASS,DIRT)
+Grass(biomesoplenty:plant_0:10,NotGrouped,50,100.0,GRASS,DIRT)
+
+Plant(biomesoplenty:plant_0:11,50,100.0,0,180,GRASS,DIRT)
+Plant(biomesoplenty:plant_1:7,100,100.0,0,180,GRASS,DIRT)
+Plant(biomesoplenty:flower_0:14,10,100.0,0,180,GRASS,DIRT)
+
+AboveWaterRes(biomesoplenty:waterlily:3,1,100.0)
+AboveWaterRes(biomesoplenty:waterlily:2,15,100.0)
+AboveWaterRes(biomesoplenty:waterlily:1,10,100.0)
+AboveWaterRes(biomesoplenty:waterlily:0,5,100.0)
+
+Reed(biomesoplenty:plant_1:5,25,100.0,60,90,GRASS)
+ 
+Tree(30,BOP_Kelp01,100,BOP_Kelp02,100,BOP_Kelp03,100,BOP_Kelp04,100,BOP_Kelp05,100,BOP_Kelp06,100,BOP_Kelp07,100,BOP_Kelp08,100,BOP_Kelp09,100,BOP_Kelp10,100)
+Tree(100,BOP_Algea,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                     BiomesOplenty Resources                     | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#Fromimage BOP Gems
+Ore(biomesoplenty:gem:3,9,2,100.0,0,31,STONE)
+
+SmallLake(biomesoplenty:sand,1,60.0,65,80)
+
+Grass(biomesoplenty:plant_0:0,NotGrouped,5,100.0,GRASS)
+Grass(biomesoplenty:plant_0:1,NotGrouped,5,100.0,GRASS)
+Grass(biomesoplenty:plant_0:7,NotGrouped,5,100.0,GRASS)
+Grass(biomesoplenty:plant_0:8,NotGrouped,5,100.0,GRASS)
+
+Grass(biomesoplenty:plant_0:3,Grouped,1,70.0,GRASS)
+Grass(biomesoplenty:plant_0:11,NotGrouped,1,70.0,GRASS)
+Grass(biomesoplenty:plant_0:10,Grouped,1,70.0,GRASS)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Rustic Resources                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#RusticResourceUniqueLine
+Plant(rustic:mooncap_mushroom:3,1,5.0,0,30,GRASS,BIOMESOPLENTY:GRASS,STONE)
+Plant(rustic:mooncap_mushroom:3,1,40.0,0,80,GRASS,BIOMESOPLENTY:GRASS,STONE)
+Plant(rustic:marsh_mallow:3,1,40.0,0,120,GRASS,BIOMESOPLENTY:GRASS)
+Plant(rustic:horsetail:3,1,25.0,0,120,GRASS,BIOMESOPLENTY:GRASS)
+Plant(rustic:core_root:3,1,25.0,0,30,STONE)
+Plant(rustic:blood_orchid:3,5,100.0,0,120,GRASS)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Encounters                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#Jungle Encounters
+CustomStructure(Aerial_Templar,100.0,Crocodile_Skelly,100.0,Decaying_Veteran,100.0,Flying_Rags,100.0,Knightly_Dismounter,100.0)
+CustomStructure(Aimton,100.0,Al_Capone,100.0,Bufffaton_Bill,100.0,ChevaxiTon,100.0,GokuTon,100.0,JesterTon,100.0,OldMan,100.0,Tax_Collector,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+## Lead Ore
+Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#StupidRandomBiome
+CustomStructure(origin,0.0)
+
+
+
+#RecurrentComplex
+CustomStructure(P_TreeDungeon,0.0)
+
+#RuinsConversionQueue
+#Structure jungle:
+CustomStructure(PyramidStone,100.0)
+CustomStructure(Melonfield,100.0)
+Tree(1,BO3-JungleTreePlatform,1)
+
+#Structure generic:
+CustomStructure(PumpkinField,100.0)
+CustomStructure(RuinedSmallFountainDiagonal,100.0)
+CustomStructure(SkeletonHeadStatue,100.0)
+CustomStructure(SpearStatue,100.0)
+CustomStructure(StoneGrill,100.0)
+CustomStructure(StonePillar,100.0)
+CustomStructure(TallTower,100.0)
+CustomStructure(TinyFarmField,100.0)
+CustomStructure(Mausoleum,100.0)
+CustomStructure(Reservoir,100.0)
+CustomStructure(Reservoir1,100.0)
+CustomStructure(AdvancedAntenna,100.0)
+CustomStructure(AdvancedShelter,100.0)
+CustomStructure(SolarPanel,100.0)
+CustomStructure(Airship_Bomber,100.0)
+CustomStructure(Altar,100.0)
+CustomStructure(AncientFountain,100.0)
+CustomStructure(Antenna,100.0)
+CustomStructure(ArrowTrapTomb,100.0)
+CustomStructure(Barn-ruined,100.0)
+CustomStructure(Barn,100.0)
+CustomStructure(Building,100.0)
+CustomStructure(Building2,100.0)
+CustomStructure(Building3,100.0)
+CustomStructure(Building4,100.0)
+CustomStructure(Building5,100.0)
+CustomStructure(Building6,100.0)
+CustomStructure(Building7,100.0)
+CustomStructure(Bunker,100.0)
+CustomStructure(BuriedChest,100.0)
+CustomStructure(CaveSpiderBurrow,100.0)
+CustomStructure(CellTower,100.0)
+CustomStructure(DwarfBase,100.0)
+CustomStructure(Floater,100.0)
+CustomStructure(Graveyard,100.0)
+CustomStructure(Hive,100.0)
+CustomStructure(Lab,100.0)
+CustomStructure(PhoneTower,100.0)
+CustomStructure(Piston-CreeperRoom-old,100.0)
+CustomStructure(Piston-CreeperRoom,100.0)
+CustomStructure(Piston-LavaTrap-New,100.0)
+CustomStructure(Piston-LavaTrap,100.0)
+CustomStructure(PowerLine,100.0)
+CustomStructure(SmallFactory,100.0)
+CustomStructure(SmallFactory2,100.0)
+CustomStructure(SmallFactory3,100.0)
+CustomStructure(SmallFactory4,100.0)
+CustomStructure(ThrownHouse,100.0)
+CustomStructure(ThrownHouse1,100.0)
+CustomStructure(ThrownHouse2,100.0)
+CustomStructure(ThrownHouse3,100.0)
+CustomStructure(AlchemistsDungeon,100.0)
+CustomStructure(UndergroundShelter,100.0)
+CustomStructure(VolcanicVent,100.0)
+CustomStructure(WaterTower,100.0)
+CustomStructure(ZombieHut,100.0)
+CustomStructure(Pump,100.0)
+
+
+
+#SpecialStructureQueue
+CustomStructure(cyclops_main,0.0,GorgonTemple,0.0)
+
+#TeleportQueue
+CustomStructure(TeleportReceiver_FG,0.0)
+CustomStructure(TeleportReceiver_TH,0.0)
+CustomStructure(TeleportReceiver_VS,0.0)
+CustomStructure(TeleportReceiver_SG,0.0)
+CustomStructure(TeleportReceiver_PF,0.0)
+CustomStructure(TeleportReceiver_SD,0.0)
+CustomStructure(TeleportReceiver_GD,0.0)
+CustomStructure(TeleportTower_FG,0.0)
+CustomStructure(TeleportTower_TH,0.0)
+CustomStructure(TeleportTower_VS,0.0)
+CustomStructure(TeleportTower_SG,0.0)
+CustomStructure(TeleportTower_PF,0.0)
+CustomStructure(TeleportTower_SD,0.0)
+CustomStructure(TeleportTower_GD,0.0)
+
+#GlobalStructureQueue
+CustomStructure(f_bunker_any,100.0)
+CustomObject(Artifact_Mimic,Concrete_Mimic)
+CustomStructure(Herbalist,0.0)
+CustomStructure(v_bunker_hub_ent,0.0)
+CustomStructure(maintenance_shaft_bottom,0.0)
+CustomStructure(DungeonSpawner02,0.0)
+CustomStructure(CityGridOcean,0.0)
+
+
+CustomStructure(ruin_small_random,0.0)
+CustomStructure(DeepTunnel_EntranceLowSpecial,0.0)
+CustomStructure(f_bunker_tunnel,0.0)
+
+CustomStructure(Mineshaft,0.0,W-Mineshaft,0.0)
+
+#FromImageStructureQueue
+CustomStructure(CastleRuins,0.0)
+CustomStructure(DaerocVillage,0.0)
+#CustomStructure(WaterFallNorth,0.0,WaterFallSouth,0.0)
+CustomStructure(PirateBay,0.0)
+CustomStructure(Harbor,0.0)
+
+#MonsterQueue
+#Everywhere Biome
+CustomObject(Assassin,Not_Kotlin,Mentalberian,Stalker,Sussyberian,Creeping_Death,Golden_Chick,Herobrine,Legged_Creep,Lone_Golem,Many_Eyes,Nemesis)
+#RainforestBiome
+CustomObject(KoppenSneller,Twilight_Warrior,Kindled_Berserker,Kindled_GreatSoul,Kindled_Spirit,Kindled_Summoner,Pyromancer)
+
+CustomStructure(Dungeon03,0.0,Dungeon02,0.0,Dungeon01,0.0)
+CustomObject(RuinedTemple02,RuinedTemple01)
+
+
+Tree(30,Exotic_CaveAirCube_Oak,100)
+
+Ore(STONE:3,17,20,50.0,14,14,GRASS)
+
+UnderWaterOre(DIRT,8,20,100.0,STONE)
+UnderWaterOre(CLAY,8,10,100.0,STONE)
+UnderWaterOre(GRAVEL,7,10,100.0,STONE)
+
+Ore(STONE:5,16,8,100.0,3,60,STONE:0)
+Ore(STONE:3,16,8,100.0,3,60,STONE:0)
+Ore(STONE:1,16,8,100.0,3,60,STONE:0)
+
+#Default Ore Resources
+CustomObject(MagmaChasm,WaterChasm)
+Dungeon(8,100.0,0,128)
+Ore(DIRT,33,10,100.0,0,255,STONE)
+Ore(GRAVEL,33,8,100.0,0,255,STONE)
+Ore(STONE:1,33,10,100.0,0,79,STONE)
+Ore(STONE:3,33,10,100.0,0,79,STONE)
+Ore(STONE:5,33,10,100.0,0,79,STONE)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,60,STONE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+#ExtraOreResources
+
+
+CustomObject(tropicalboulder_leaves_01,tropicalboulder_leaves_02,tropicalboulder_leaves_03,tropicalboulder_leaves_04)
+CustomObject(tropicalboulder_large_01,tropicalboulder_med_01,tropicalboulder_small_01,tropicalboulder_skulls_01)
+CustomObject(SmallDungeon,RF_FLoatSpike,RF_FloatBoulder)
+
+Tree(10,SmallLavaPondUnderground01,10,SmallLavaPondUnderground02,10,SmallLavaPondUnderground03,10,SmallLavaPondUnderground04,10,SmallLavaPondUnderground05,10,SmallLavaPondUnderground06,10,SmallLavaPondUnderground07,10,SmallLavaPondUnderground08,10,SmallLavaPondUnderground09,10,SmallLavaPondUnderground10,10,SmallLavaPondUnderground11,10,SmallLavaPondUnderground12,10)
+
+Tree(40,RFGodTree05,25,RFGodTree04,25,RFGodTree03,25,RFGodTree02,25,RFGodTree01,25)
+Tree(5,tropicalroots_small_03,5,tropicalroots_small_02,5,tropicalroots_small_01,5,tropicalroots_large_01,5)
+Tree(20,tropicalleaves_tiny_01,30)
+Tree(15,tropicalbush_small_01,30,tropicalbush_med_01,30,tropicalbush_large_01,30)
+Tree(100,GroundBush,30)
+Tree(30,MushroomRedSmall,1,MushroomRedMedium,1,MushroomRedWide,1,MushroomRedWideTall,1,MushroomRedDiagonal,1,MushroomRedBrownSplit,1,MushroomBrownRedSingle,1)
+Tree(15,tropicalbush_reed_01,30)
+
+
+#Tree(2,tropicaltree_tiny_22,1,tropicaltree_tiny_19,1,tropicaltree_tiny_18,1)
+#Tree(100,RFMedTree03,100,RFMedTree02,100,RFMedTree01,100)
+#Tree(25,RFTree01,5,RFTree02,5,RFTree03,5,RFTree04,5,RFTree05,5,RFTree06,5,RFTree07,5,RFTree08,5,RFTree09,5,RFTree10,5,RFTree11,5,RFTree12,5,RFTree15,5,RFTree16,5,RFTree17,5,RFTree18,5,RFTree19,5,RFTree20,5,RFTree21,5,RFTree22,5,RFTree23,5,RFTree24,5,RFTree25,5,RFTree26,5,RFTree27,5,RFTree28,5,RFTree29,5,RFTree30,5,RFTree31,5,RFTree32,5,RFTree33,5,RFTree34,5,RFTree35,5,RFTree36,5)
+#Tree(10,tropicaltree_tiny_25,5,tropicaltree_tiny_21,5,tropicaltree_tiny_20,5,tropicaltree_tiny_17,5,tropicaltree_tiny_16,5,tropicaltree_tiny_15,5,tropicaltree_tiny_14,5,tropicaltree_tiny_13,5,tropicaltree_tiny_12,5,tropicaltree_tiny_11,5,tropicaltree_tiny_07,5,tropicaltree_tiny_06,5,tropicaltree_tiny_05,5,tropicaltree_tiny_04,5,tropicaltree_tiny_03,5)
+#Tree(50,JungleTree,35,CocoaTree,100)
+
+Tree(10,COR-JungleMed-01,10,COR-JungleMed-02,10,COR-JungleMed-03,10,COR-JungleTree-med-01,10,COR-JungleTree-med-02,10,COR-JungleTree-med-03,10,COR-JungleTree-med-04,10,COR-JungleTree-med-05,10,COR-JungleTree-tiny-01,5,COR-JungleTree-tiny-02,5,COR-JungleTree-tiny-03,5,COR-JungleTree-tiny-04,5,COR-JungleTree-tiny-05,5,COR-JungleTree-tiny-06,5,COR-JungleTree-tiny-07,5,COR-JungleTree-tiny-08,5,COR-JungleTree-tiny-09,5,COR-JungleTree-tiny-10,5,COR-JungleTree-tiny-11,5,COR-JungleTree-tiny-12,5,COR-JungleTree-tiny-13,5,COR-JungleTree-tiny-14,5,COR-JungleTree-tiny-15,5,COR-JungleTree-tiny-16,5,COR-JungleTree-tiny-17,5,COR-JungleTree-tiny-18,5,COR-JungleTree-tiny-19,5,COR-JungleTree-tiny-20,5,COR-JungleTree-tiny-21,5,COR-JungleTree-tiny-22,5,COR-JungleTree-tiny-23,5,COR-JungleTree-tiny-24,5,COR-JungleTree-tiny-25,5)
+
+
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
+Grass(MELON_BLOCK,Grouped,5,10.0,GRASS)
+Plant(Dandelion,2,100.0,0,150,GRASS,DIRT)
+Reed(SUGAR_CANE_BLOCK,100,100.0,0,150,SAND,GRASS,DIRT)
+Plant(Tallgrass,50,100,0,150,GRASS)
+Plant(DoubleTallgrass,10,80,0,150,GRASS)
+Plant(LargeFern,50,30,0,150,GRASS)
+Plant(Fern,50,15,0,150,GRASS)
+Plant(RedMushroom,30,10,0,150,GRASS)
+Plant(RedTulip,50,10,0,150,GRASS)
+UnderWaterOre(DIRT,8,30,100.0,DIRT,STONE)
+UnderWaterOre(CLAY,8,10,100.0,DIRT,STONE)
+UnderWaterOre(GRAVEL,7,10,100.0,DIRT,STONE)
+
+Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
+Grass(Tallgrass,NotGrouped,60,100.0,GRASS,DIRT)
+
+Tree(100,JungleHangingVine01,100,JungleHangingVine02,100,JungleHangingVine03,100,JungleHangingVine04,100,JungleHangingVine05,100)
+Tree(25,JungleReedFour01,100,JungleReedFour02,100,JungleReedFour03,100,JungleReedFour04,100,JungleReedFour05,100,JungleReedFour06,100,JungleReedFour07,100,JungleReedFour08,100)
+Tree(10,JungleReedThree01,100,JungleReedThree02,100,JungleReedThree03,100,JungleReedThree04,100,JungleReedTwo01,100,JungleReedTwo02,100,JungleReedTwo03,100,JungleReedTwo04,100,JungleReedOne01,100,JungleReedOne02,100,JungleReedOne03,100,JungleReedOne04,100)
+
+Tree(10,Jungle_Lizard_Skeleton,10,Jungle_Mammoth_Skeleton,10,Jungle_SmallDino_Skeleton,10,Jungle_BoneSmall,10)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Saplings                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+Sapling(Oak,Tree,20,TreeSwamp03,5,TreeSwamp04,5,TreeSwamp06,5,TreeSwamp07,5,TreeSwamp08,5,TreeSwamp10,5,80,5,81,5,82,5,83,5,84,5,85,5,BigTree,100)
+Sapling(Birch,TallBirch,20,SA2S,5,SA19S,5,SA11S,5,SA11L,5,NA7L,5,NA11S,5,EUR3S,5,Birch,100)
+Sapling(Redwood,Taiga1,20,pine04,5,pine05,5,pine06,5,pine07,5,pine08,5,pine09,5,pine10,5,ME1,5,ME2,5,ME3,5,ME4,5,52,5,53,5,Taiga2,100)
+Sapling(HugeRedwood,HugeTaiga1,20,SpookyTree1,5,SpookyTree3,5,SpookyTree4,5,ME5,5,51,5,HugeTaiga2,100)
+Sapling(SmallJungle,GroundBush,20,CocoaTree,20,tropicaltree_tiny_01,5,tropicaltree_tiny_02,5,tropicaltree_tiny_03,5,tropicaltree_tiny_04,5,tropicaltree_tiny_05,5,tropicaltree_tiny_06,5,tropicaltree_tiny_07,5,tropicaltree_tiny_08,5,tropicaltree_tiny_09,5,tropicaltree_tiny_10,5,CocoaTree,100)
+Sapling(BigJungle,JungleTree,50,RFGodTree01,1,RFGodTree02,1,RFMedTree01,2,RFMedTree02,2,RFMedTree03,2,RFTree01,4,RFTree05,4,RFTree10,4,RFTree15,4,RFTree20,4,RFTree25,4,RFTree30,4,RFTree35,4,JungleTree,100)
+Sapling(RedMushroom,MushroomRedWideTall,10,MushroomRedWide,10,MushroomRedSmall,10,MushroomRedMedium,10,MushroomRedDiagonal,10,HugeRedMushroom,100)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10,MushroomBrownRedSingle,10,HugeMushroom,20,HugeBrownMushroom,100)
+Sapling(Acacia,Acacia,50,AFR3L,5,AFR3S,5,AFR5S,5,AFR6L,5,AFR8L,5,AFR8S,5,AFR9L,5,AFR9S,5,AFR10L,5,AFR10S,5,AFR11S,5,AFR11L,5,AFR12L,5,Acacia,100)
+Sapling(DarkOak,DarkOak,50,Dense01,5,Dense02,5,Dense03,5,Dense04,5,Dense05,5,Dense06,5,Dense07,5,Dense08,5,Dense09,5,Dense10,5,DarkOak,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Vanilla structures                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+#10.000 Block Marker
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+VillageSize: 6
+
+MineshaftType: disabled
+
+MineshaftRarity: 0.0
+
+RareBuildingType: disabled
+
+BuriedTreasureEnabled: false
+
+BuriedTreasureProbability: 0.01
+
+ShipWreckEnabled: false
+
+ShipWreckBeachedEnabled: false
+
+PillagerOutpostEnabled: false
+
+PillagerOutpostSize: 7
+
+BastionRemnantEnabled: false
+
+BastionRemnantSize: 6
+
+NetherFossilEnabled: false
+
+EndCityEnabled: false
+
+RuinedPortalType: normal
+
+OceanRuinsType: disabled
+
+OceanRuinsLargeProbability: 0.3
+
+OceanRuinsClusterProbability: 0.9
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+SpawnMonsters: []
+SpawnCreatures: []
+SpawnWaterCreatures: []
+SpawnAmbientCreatures: []
+
+
+BiomeDictId: JUNGLE, WET, HOT, DENSE
+
+InheritMobsBiomeName: minecraft:jungle
+
