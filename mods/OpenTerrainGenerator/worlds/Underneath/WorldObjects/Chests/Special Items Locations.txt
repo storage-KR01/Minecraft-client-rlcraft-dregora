@@ -1,0 +1,16 @@
+Helm of Resentment:
+BoneChest_5
+Quarry Withers
+Mineshaft Withers
+
+Sleeper Sword:
+BoneChest_3
+
+Special Swords:
+GildedBone Chests
+
+protection enchantments:
+Loot_ModernCityEpic
+Loot_ModernCityGood
+Epic Chests
+
