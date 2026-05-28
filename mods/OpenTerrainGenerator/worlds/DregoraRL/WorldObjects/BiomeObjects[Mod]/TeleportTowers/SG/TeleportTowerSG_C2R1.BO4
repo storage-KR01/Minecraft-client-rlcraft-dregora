@@ -1,0 +1,455 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,4,-5,contenttweaker:reinforced_concrete)
+Block(-8,4,-4,contenttweaker:reinforced_concrete)
+Block(-8,5,-5,contenttweaker:reinforced_concrete)
+Block(-8,5,-4,contenttweaker:reinforced_concrete)
+Block(-8,6,-5,contenttweaker:reinforced_concrete)
+Block(-8,6,-4,contenttweaker:reinforced_concrete)
+Block(-8,7,-5,contenttweaker:reinforced_concrete)
+Block(-8,7,-4,contenttweaker:reinforced_concrete)
+Block(-8,8,-5,contenttweaker:reinforced_concrete)
+Block(-8,8,-4,contenttweaker:reinforced_concrete)
+Block(-8,9,-5,contenttweaker:reinforced_concrete)
+Block(-8,9,-4,contenttweaker:reinforced_concrete)
+Block(-8,10,-5,contenttweaker:reinforced_concrete)
+Block(-8,10,-4,contenttweaker:reinforced_concrete)
+Block(-8,11,-5,contenttweaker:reinforced_concrete)
+Block(-8,11,-4,contenttweaker:reinforced_concrete)
+Block(-8,12,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,12,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,13,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,13,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,14,-5,contenttweaker:reinforced_concrete)
+Block(-8,14,-4,contenttweaker:reinforced_concrete)
+Block(-8,15,-5,contenttweaker:reinforced_concrete)
+Block(-8,15,-4,contenttweaker:reinforced_concrete)
+Block(-8,16,-5,contenttweaker:reinforced_concrete)
+Block(-8,16,-4,contenttweaker:reinforced_concrete)
+Block(-8,17,-5,contenttweaker:reinforced_concrete)
+Block(-8,17,-4,contenttweaker:reinforced_concrete)
+Block(-8,18,-5,contenttweaker:reinforced_concrete)
+Block(-8,18,-4,contenttweaker:reinforced_concrete)
+Block(-8,19,-5,contenttweaker:reinforced_concrete)
+Block(-8,19,-4,contenttweaker:reinforced_concrete)
+Block(-8,20,-5,contenttweaker:reinforced_concrete)
+Block(-8,20,-4,contenttweaker:reinforced_concrete)
+Block(-8,21,-5,contenttweaker:reinforced_concrete)
+Block(-8,21,-4,contenttweaker:reinforced_concrete)
+Block(-8,22,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,22,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,23,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,23,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,24,-5,contenttweaker:reinforced_concrete)
+Block(-8,24,-4,contenttweaker:reinforced_concrete)
+Block(-8,25,-5,contenttweaker:reinforced_concrete)
+Block(-8,25,-4,contenttweaker:reinforced_concrete)
+Block(-8,26,-5,contenttweaker:reinforced_concrete)
+Block(-8,26,-4,contenttweaker:reinforced_concrete)
+Block(-8,27,-5,contenttweaker:reinforced_concrete)
+Block(-8,27,-4,contenttweaker:reinforced_concrete)
+Block(-8,28,-5,contenttweaker:reinforced_concrete)
+Block(-8,28,-4,contenttweaker:reinforced_concrete)
+Block(-8,29,-5,contenttweaker:reinforced_concrete)
+Block(-8,29,-4,contenttweaker:reinforced_concrete)
+Block(-8,30,-5,contenttweaker:reinforced_concrete)
+Block(-8,30,-4,contenttweaker:reinforced_concrete)
+Block(-8,31,-5,contenttweaker:reinforced_concrete)
+Block(-8,31,-4,contenttweaker:reinforced_concrete)
+Block(-8,32,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,32,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,33,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,33,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,34,-5,contenttweaker:reinforced_concrete)
+Block(-8,34,-4,contenttweaker:reinforced_concrete)
+Block(-8,35,-5,contenttweaker:reinforced_concrete)
+Block(-8,35,-4,contenttweaker:reinforced_concrete)
+Block(-8,36,-5,contenttweaker:reinforced_concrete)
+Block(-8,36,-4,contenttweaker:reinforced_concrete)
+Block(-8,37,-5,contenttweaker:reinforced_concrete)
+Block(-8,37,-4,contenttweaker:reinforced_concrete)
+Block(-8,38,-5,contenttweaker:reinforced_concrete)
+Block(-8,38,-4,contenttweaker:reinforced_concrete)
+Block(-8,39,-5,contenttweaker:reinforced_concrete)
+Block(-8,39,-4,contenttweaker:reinforced_concrete)
+Block(-8,40,-5,contenttweaker:reinforced_concrete)
+Block(-8,40,-4,contenttweaker:reinforced_concrete)
+Block(-8,41,-5,contenttweaker:reinforced_concrete)
+Block(-8,41,-4,contenttweaker:reinforced_concrete)
+Block(-8,42,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,42,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,43,-5,contenttweaker:reinforced_concrete_danger)
+Block(-8,43,-4,contenttweaker:reinforced_concrete_danger)
+Block(-8,44,-5,contenttweaker:reinforced_concrete)
+Block(-8,44,-4,contenttweaker:reinforced_concrete)
+Block(-8,45,-5,contenttweaker:reinforced_concrete)
+Block(-8,45,-4,contenttweaker:reinforced_concrete)
+Block(-8,46,-5,contenttweaker:reinforced_concrete)
+Block(-8,46,-4,contenttweaker:reinforced_concrete)
+Block(-8,47,-5,contenttweaker:reinforced_concrete)
+Block(-8,47,-4,contenttweaker:reinforced_concrete)
+Block(-8,48,-5,contenttweaker:reinforced_concrete)
+Block(-8,48,-4,contenttweaker:reinforced_concrete)
+Block(-8,49,-5,contenttweaker:reinforced_concrete)
+Block(-8,49,-4,contenttweaker:reinforced_concrete)
+Block(-8,50,-5,contenttweaker:reinforced_concrete)
+Block(-8,50,-4,contenttweaker:reinforced_concrete)
+Block(-8,51,-5,contenttweaker:reinforced_concrete)
+Block(-8,51,-4,contenttweaker:reinforced_concrete)
+Block(-8,52,-5,contenttweaker:reinforced_concrete)
+Block(-8,52,-4,contenttweaker:reinforced_concrete)
+Block(-8,53,-5,contenttweaker:reinforced_concrete)
+Block(-8,53,-4,contenttweaker:reinforced_concrete)
+Block(-8,54,-5,contenttweaker:reinforced_concrete)
+Block(-8,54,-4,contenttweaker:reinforced_concrete)
+Block(-8,55,-5,contenttweaker:reinforced_concrete)
+Block(-8,55,-4,contenttweaker:reinforced_concrete)
+Block(-8,56,-5,contenttweaker:reinforced_concrete)
+Block(-8,56,-4,contenttweaker:reinforced_concrete)
+Block(-8,57,-5,contenttweaker:reinforced_concrete)
+Block(-8,57,-4,contenttweaker:reinforced_concrete)
+Block(-8,58,-5,contenttweaker:reinforced_concrete)
+Block(-8,58,-4,contenttweaker:reinforced_concrete)
+Block(-8,59,-5,contenttweaker:reinforced_concrete)
+Block(-8,59,-4,contenttweaker:reinforced_concrete)
+Block(-8,60,-5,contenttweaker:reinforced_concrete)
+Block(-8,60,-4,contenttweaker:reinforced_concrete)
+Block(-8,61,-5,contenttweaker:reinforced_concrete)
+Block(-8,61,-4,contenttweaker:reinforced_concrete)
+Block(-8,62,-7,contenttweaker:reinforced_concrete)
+Block(-8,62,-6,contenttweaker:reinforced_concrete)
+Block(-8,62,-5,contenttweaker:reinforced_concrete)
+Block(-8,62,-4,contenttweaker:reinforced_concrete)
+Block(-8,62,-3,contenttweaker:reinforced_concrete)
+Block(-8,63,-7,contenttweaker:reinforced_concrete)
+Block(-8,63,-6,contenttweaker:reinforced_concrete)
+Block(-8,63,-5,contenttweaker:reinforced_concrete)
+Block(-8,63,-4,contenttweaker:reinforced_concrete)
+Block(-8,63,-3,contenttweaker:reinforced_concrete)
+Block(-8,64,-7,contenttweaker:reinforced_concrete)
+Block(-8,64,-6,contenttweaker:reinforced_concrete)
+Block(-8,64,-5,contenttweaker:reinforced_concrete)
+Block(-8,64,-4,contenttweaker:reinforced_concrete)
+Block(-8,64,-3,contenttweaker:reinforced_concrete)
+Block(-8,65,-7,contenttweaker:reinforced_concrete)
+Block(-8,65,-6,contenttweaker:reinforced_concrete)
+Block(-8,65,-5,contenttweaker:reinforced_concrete)
+Block(-8,65,-4,contenttweaker:reinforced_concrete)
+Block(-8,65,-3,contenttweaker:reinforced_concrete)
+Block(-8,66,-7,contenttweaker:reinforced_concrete)
+Block(-8,66,-6,contenttweaker:reinforced_concrete)
+Block(-8,66,-5,contenttweaker:reinforced_concrete)
+Block(-8,66,-4,contenttweaker:reinforced_concrete)
+Block(-8,66,-3,contenttweaker:reinforced_concrete)
+Block(-8,67,-7,contenttweaker:reinforced_concrete)
+Block(-8,67,-6,contenttweaker:reinforced_concrete)
+Block(-8,67,-5,contenttweaker:reinforced_concrete)
+Block(-8,67,-4,contenttweaker:reinforced_concrete)
+Block(-8,67,-3,contenttweaker:reinforced_concrete)
+Block(-8,68,-3,rustic:iron_lattice:0)
+Block(-7,62,-7,contenttweaker:reinforced_concrete)
+Block(-7,62,-6,contenttweaker:reinforced_concrete)
+Block(-7,62,-5,contenttweaker:reinforced_concrete)
+Block(-7,62,-4,contenttweaker:reinforced_concrete)
+Block(-7,62,-3,contenttweaker:reinforced_concrete)
+Block(-7,63,-7,contenttweaker:reinforced_concrete_danger)
+Block(-7,63,-6,contenttweaker:reinforced_concrete_danger)
+Block(-7,63,-5,contenttweaker:reinforced_concrete_danger)
+Block(-7,63,-4,contenttweaker:reinforced_concrete_danger)
+Block(-7,63,-3,contenttweaker:reinforced_concrete)
+Block(-7,64,-7,contenttweaker:reinforced_concrete_danger)
+Block(-7,64,-6,contenttweaker:iron_plate_reinforced)
+Block(-7,64,-5,contenttweaker:iron_plate_reinforced)
+Block(-7,64,-4,contenttweaker:reinforced_concrete_danger)
+Block(-7,64,-3,contenttweaker:reinforced_concrete)
+Block(-7,65,-7,contenttweaker:reinforced_concrete_danger)
+Block(-7,65,-6,contenttweaker:iron_plate_reinforced)
+Block(-7,65,-5,contenttweaker:iron_plate_reinforced)
+Block(-7,65,-4,contenttweaker:reinforced_concrete_danger)
+Block(-7,65,-3,contenttweaker:reinforced_concrete)
+Block(-7,66,-7,contenttweaker:reinforced_concrete_danger)
+Block(-7,66,-6,contenttweaker:reinforced_concrete_danger)
+Block(-7,66,-5,contenttweaker:reinforced_concrete_danger)
+Block(-7,66,-4,contenttweaker:reinforced_concrete_danger)
+Block(-7,66,-3,contenttweaker:reinforced_concrete)
+Block(-7,67,-7,contenttweaker:reinforced_concrete)
+Block(-7,67,-6,contenttweaker:reinforced_concrete)
+Block(-7,67,-5,contenttweaker:reinforced_concrete)
+Block(-7,67,-4,contenttweaker:reinforced_concrete)
+Block(-7,67,-3,contenttweaker:reinforced_concrete)
+Block(-7,68,-7,rustic:iron_lattice:0)
+Block(-7,68,-6,rustic:iron_lattice:0)
+Block(-7,68,-5,rustic:iron_lattice:0)
+Block(-7,68,-4,rustic:iron_lattice:0)
+Block(-7,68,-3,rustic:iron_lattice:0)
+Block(-6,64,-6,contenttweaker:iron_plate_reinforced)
+Block(-6,64,-5,contenttweaker:iron_plate_reinforced)
+Block(-6,65,-6,contenttweaker:iron_plate_reinforced)
+Block(-6,65,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,4,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,4,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,5,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,5,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,6,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,6,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,7,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,7,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,8,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,8,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,9,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,9,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,10,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,10,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,11,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,11,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,12,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,12,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,13,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,13,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,14,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,14,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,15,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,15,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,16,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,16,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,17,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,17,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,18,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,18,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,19,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,19,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,20,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,20,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,21,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,21,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,22,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,22,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,23,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,23,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,24,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,24,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,25,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,25,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,26,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,26,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,27,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,27,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,28,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,28,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,29,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,29,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,30,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,30,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,31,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,31,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,32,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,32,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,33,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,33,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,34,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,34,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,35,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,35,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,36,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,36,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,37,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,37,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,38,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,38,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,39,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,39,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,40,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,40,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,41,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,41,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,42,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,42,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,43,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,43,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,44,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,44,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,45,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,45,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,46,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,46,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,47,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,47,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,48,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,48,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,49,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,49,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,50,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,50,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,51,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,51,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,52,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,52,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,53,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,53,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,54,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,54,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,55,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,55,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,56,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,56,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,57,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,57,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,58,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,58,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,59,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,59,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,60,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,60,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,61,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,61,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,62,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,62,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,63,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,63,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,64,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,64,-5,contenttweaker:iron_plate_reinforced)
+Block(-5,65,-6,contenttweaker:iron_plate_reinforced)
+Block(-5,65,-5,contenttweaker:iron_plate_reinforced)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,true,TeleportTowerSG_C2R2,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
