@@ -1,0 +1,21 @@
+{
+   "CustomName":"Gem Trader",
+   "CustomNameVisible":0,
+   "Profession":5,
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "buy":{
+               "id":"iceandfire:sapphire_gem",
+               "Count":3
+            },
+            "sell":{
+               "id":"quark:rune",
+               "Damage":12,
+               "Count":1
+            }
+         }
+      ]
+   }
+}

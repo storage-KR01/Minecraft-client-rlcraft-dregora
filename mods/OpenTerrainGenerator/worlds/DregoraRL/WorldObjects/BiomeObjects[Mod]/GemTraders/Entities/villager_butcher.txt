@@ -1,0 +1,51 @@
+{
+    "CustomName":"Elder Blacksmith",
+    "Profession":4,
+    "PersistenceRequired":1,
+    "Offers":{
+        "Recipes":[
+            {
+                "buy":{
+                    "id":"variedcommodities:hammer",
+                    "Count":1
+                },
+                "buyB":{
+                    "id":"variedcommodities:coin_gold",
+                    "Count":15
+                },
+                "sell":{
+                    "id":"variedcommodities:coin_gold",
+                    "Count":10
+                }
+            }
+        ]
+    }
+}
+
+
+
+rlmixins:steel_helmet
+rlmixins:steel_chestplate
+rlmixins:steel_leggings
+rlmixins:steel_boots
+mod_lavacow:undertaker_shovel
+forgottenitems:obsidian_harvester
+forgottenitems:bound_pickaxe
+forgottenitems:bound_axe
+forgottenitems:bound_shovel
+forgottenitems:hasty_pickaxe
+mod_lavacow:chitin
+mujmajnkraftsbettersurvival:itemjunglechitinhammer
+mujmajnkraftsbettersurvival:itemjunglestingerhammer
+artifacts:sacrificial_amulet
+lycanitesmobs:bloodsummoningstaff
+iceandfire:dread_knight_sword
+spartanfire:halberd_fire_dragonbone
+iceandfire:troll_leather_forest
+spartanshields:shield_tower_copper
+spartanshields:shield_tower_obsidian
+bountifulbaubles:trinketbezoar
+iceandfire:troll_weapon.hammer
+potionfingers:ring
+spartanfire:longbow_jungle_venom
+minecraft:nether_star

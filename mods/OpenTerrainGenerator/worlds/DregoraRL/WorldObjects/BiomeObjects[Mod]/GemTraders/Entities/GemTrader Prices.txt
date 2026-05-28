@@ -1,0 +1,440 @@
+General Entities:
+
+concrete_powder:0) = villager,1,../Entities/villager_librarian.txt)
+concrete_powder:1) = villager,1,../Entities/villager_butcher.txt)
+concrete_powder:2) = villager,1,../Entities/villager_priest.txt)
+concrete_powder:3) = villager,1,../Entities/villager_fisherman.txt)
+concrete_powder:11) = villager,1,../Entities/villager_nitwit.txt)
+concrete_powder:12) = villager,1,../Entities/villager_farmer.txt)
+concrete_powder:6) = villager,1)
+concrete_powder:7) = vindication_illager,1)
+concrete_powder:8) = evocation_illager,1)
+concrete_powder:9) = iron_golem,1)
+concrete_powder:13) = zombie,1)
+
+concrete_powder:4 = WeightedBranch(0,0,0,true,Trader_SiloC0R0,NORTH,100.0,0)  (0 tm 43)
+
+
+concrete_powder:14 = Alchemist
+
+
+biomesoplenty:gem:0 AMETHYST
+biomesoplenty:gem:1 ruby
+biomesoplenty:gem:2 peridot
+biomesoplenty:gem:3 topaz
+biomesoplenty:gem:4 tanzanite
+biomesoplenty:gem:5 malachite
+iceandfire:sapphire_gem
+biomesoplenty:gem:7 amber
+iceandfire:silver_ore
+
+Amber is found in Forest Biomes.
+Malachite is found in Swamp Biomes or in Colder Biomes like Gray Mountains.
+Peridot is found in Plains Biomes.
+Ruby is found in Arid Biomes. (Desert-like biomes)
+Tanzanite is found in Cold Biomes.
+Topaz is found in Lush Biomes. (Jungle-like biomes) 
+
+Ore(iceandfire:silver_ore,8,1,20.0,0,15,STONE)
+
+
+
+Ore(biomesoplenty:gem:0,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:1,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:2,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:3,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:4,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:5,9,2,100.0,0,31,STONE)
+Ore(biomesoplenty:gem:7,9,2,100.0,0,31,STONE)
+
+Ore(iceandfire:sapphire_gem:0,9,2,100.0,0,31,STONE)
+Ore(iceandfire:silver_ore:0,9,2,100.0,0,31,STONE)
+
+
+Branches:  (43 possible trade villagers)
+
+
+SwampC1R1[-5,30,2]
+SwampC1R1[-4,30,-6]
+SwampC1R1[1,30,2]
+
+SiloC1R0[-8,20,1]
+SiloC1R0[-3,12,6]
+
+SiloC0R0[6,9,6]
+
+ClubC1R1[-2,1,-5]
+ClubC1R1[2,1,-2]
+
+ClubC1R0[-6,1,4]
+ClubC1R0[-5,1,-2]
+ClubC1R0[1,1,8]
+
+ClubC0R1[-3,1,-6]
+ClubC0R1[-3,1,-4]
+
+ClubC0R0[-2,1,4]
+ClubC0R0[-1,5,0]
+ClubC0R0[1,1,1]
+
+CastleC1R1[-8,12,-4]
+
+CastleC1R0[-8,12,2]
+
+CastleC0R1[0,12,-4]
+
+
+
+WBR(0,0,0,true,[T1-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T1-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T1-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T1-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T1-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T2-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T2-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T2-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T2-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T2-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T3-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T3-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T3-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T3-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T3-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T4-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T4-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T4-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T4-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T4-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G06]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G07]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G08]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G09]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G10]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G11]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G12]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G13]CastleC0R1[0,12,-4],NORTH,10,10,[T5-G14]CastleC0R1[0,12,-4],NORTH,10,10,[T6-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T6-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T6-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T6-G04]CastleC0R1[0,12,-4],NORTH,10,10,[T6-G05]CastleC0R1[0,12,-4],NORTH,10,10,[T7-G01]CastleC0R1[0,12,-4],NORTH,10,10,[T7-G02]CastleC0R1[0,12,-4],NORTH,10,10,[T7-G03]CastleC0R1[0,12,-4],NORTH,10,10,[T7-G04]CastleC0R1[0,12,-4],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T1-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T1-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T1-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T1-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T2-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T2-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T2-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T2-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T2-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T3-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T3-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T3-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T3-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T3-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T4-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T4-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T4-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T4-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T4-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G06]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G07]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G08]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G09]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G10]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G11]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G12]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G13]CastleC1R0[-8,12,2],NORTH,10,10,[T5-G14]CastleC1R0[-8,12,2],NORTH,10,10,[T6-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T6-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T6-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T6-G04]CastleC1R0[-8,12,2],NORTH,10,10,[T6-G05]CastleC1R0[-8,12,2],NORTH,10,10,[T7-G01]CastleC1R0[-8,12,2],NORTH,10,10,[T7-G02]CastleC1R0[-8,12,2],NORTH,10,10,[T7-G03]CastleC1R0[-8,12,2],NORTH,10,10,[T7-G04]CastleC1R0[-8,12,2],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T1-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T1-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T1-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T1-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T2-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T2-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T2-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T2-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T2-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T3-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T3-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T3-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T3-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T3-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T4-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T4-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T4-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T4-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T4-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G06]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G07]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G08]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G09]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G10]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G11]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G12]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G13]CastleC1R1[-8,12,-4],NORTH,10,10,[T5-G14]CastleC1R1[-8,12,-4],NORTH,10,10,[T6-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T6-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T6-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T6-G04]CastleC1R1[-8,12,-4],NORTH,10,10,[T6-G05]CastleC1R1[-8,12,-4],NORTH,10,10,[T7-G01]CastleC1R1[-8,12,-4],NORTH,10,10,[T7-G02]CastleC1R1[-8,12,-4],NORTH,10,10,[T7-G03]CastleC1R1[-8,12,-4],NORTH,10,10,[T7-G04]CastleC1R1[-8,12,-4],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC0R0[1,1,1],NORTH,10,10,[T1-G02]ClubC0R0[1,1,1],NORTH,10,10,[T1-G03]ClubC0R0[1,1,1],NORTH,10,10,[T1-G04]ClubC0R0[1,1,1],NORTH,10,10,[T1-G05]ClubC0R0[1,1,1],NORTH,10,10,[T2-G01]ClubC0R0[1,1,1],NORTH,10,10,[T2-G02]ClubC0R0[1,1,1],NORTH,10,10,[T2-G03]ClubC0R0[1,1,1],NORTH,10,10,[T2-G04]ClubC0R0[1,1,1],NORTH,10,10,[T2-G05]ClubC0R0[1,1,1],NORTH,10,10,[T3-G01]ClubC0R0[1,1,1],NORTH,10,10,[T3-G02]ClubC0R0[1,1,1],NORTH,10,10,[T3-G03]ClubC0R0[1,1,1],NORTH,10,10,[T3-G04]ClubC0R0[1,1,1],NORTH,10,10,[T3-G05]ClubC0R0[1,1,1],NORTH,10,10,[T4-G01]ClubC0R0[1,1,1],NORTH,10,10,[T4-G02]ClubC0R0[1,1,1],NORTH,10,10,[T4-G03]ClubC0R0[1,1,1],NORTH,10,10,[T4-G04]ClubC0R0[1,1,1],NORTH,10,10,[T4-G05]ClubC0R0[1,1,1],NORTH,10,10,[T5-G01]ClubC0R0[1,1,1],NORTH,10,10,[T5-G02]ClubC0R0[1,1,1],NORTH,10,10,[T5-G03]ClubC0R0[1,1,1],NORTH,10,10,[T5-G04]ClubC0R0[1,1,1],NORTH,10,10,[T5-G05]ClubC0R0[1,1,1],NORTH,10,10,[T5-G06]ClubC0R0[1,1,1],NORTH,10,10,[T5-G07]ClubC0R0[1,1,1],NORTH,10,10,[T5-G08]ClubC0R0[1,1,1],NORTH,10,10,[T5-G09]ClubC0R0[1,1,1],NORTH,10,10,[T5-G10]ClubC0R0[1,1,1],NORTH,10,10,[T5-G11]ClubC0R0[1,1,1],NORTH,10,10,[T5-G12]ClubC0R0[1,1,1],NORTH,10,10,[T5-G13]ClubC0R0[1,1,1],NORTH,10,10,[T5-G14]ClubC0R0[1,1,1],NORTH,10,10,[T6-G01]ClubC0R0[1,1,1],NORTH,10,10,[T6-G02]ClubC0R0[1,1,1],NORTH,10,10,[T6-G03]ClubC0R0[1,1,1],NORTH,10,10,[T6-G04]ClubC0R0[1,1,1],NORTH,10,10,[T6-G05]ClubC0R0[1,1,1],NORTH,10,10,[T7-G01]ClubC0R0[1,1,1],NORTH,10,10,[T7-G02]ClubC0R0[1,1,1],NORTH,10,10,[T7-G03]ClubC0R0[1,1,1],NORTH,10,10,[T7-G04]ClubC0R0[1,1,1],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T1-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T1-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T1-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T1-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T2-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T2-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T2-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T2-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T2-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T3-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T3-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T3-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T3-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T3-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T4-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T4-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T4-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T4-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T4-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G06]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G07]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G08]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G09]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G10]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G11]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G12]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G13]ClubC0R0[-1,5,0],NORTH,10,10,[T5-G14]ClubC0R0[-1,5,0],NORTH,10,10,[T6-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T6-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T6-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T6-G04]ClubC0R0[-1,5,0],NORTH,10,10,[T6-G05]ClubC0R0[-1,5,0],NORTH,10,10,[T7-G01]ClubC0R0[-1,5,0],NORTH,10,10,[T7-G02]ClubC0R0[-1,5,0],NORTH,10,10,[T7-G03]ClubC0R0[-1,5,0],NORTH,10,10,[T7-G04]ClubC0R0[-1,5,0],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T1-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T1-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T1-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T1-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T2-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T2-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T2-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T2-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T2-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T3-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T3-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T3-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T3-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T3-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T4-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T4-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T4-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T4-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T4-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G06]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G07]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G08]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G09]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G10]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G11]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G12]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G13]ClubC0R0[-2,1,4],NORTH,10,10,[T5-G14]ClubC0R0[-2,1,4],NORTH,10,10,[T6-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T6-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T6-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T6-G04]ClubC0R0[-2,1,4],NORTH,10,10,[T6-G05]ClubC0R0[-2,1,4],NORTH,10,10,[T7-G01]ClubC0R0[-2,1,4],NORTH,10,10,[T7-G02]ClubC0R0[-2,1,4],NORTH,10,10,[T7-G03]ClubC0R0[-2,1,4],NORTH,10,10,[T7-G04]ClubC0R0[-2,1,4],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T1-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T1-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T1-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T1-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T2-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T2-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T2-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T2-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T2-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T3-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T3-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T3-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T3-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T3-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T4-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T4-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T4-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T4-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T4-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G06]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G07]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G08]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G09]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G10]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G11]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G12]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G13]ClubC0R1[-3,1,-4],NORTH,10,10,[T5-G14]ClubC0R1[-3,1,-4],NORTH,10,10,[T6-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T6-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T6-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T6-G04]ClubC0R1[-3,1,-4],NORTH,10,10,[T6-G05]ClubC0R1[-3,1,-4],NORTH,10,10,[T7-G01]ClubC0R1[-3,1,-4],NORTH,10,10,[T7-G02]ClubC0R1[-3,1,-4],NORTH,10,10,[T7-G03]ClubC0R1[-3,1,-4],NORTH,10,10,[T7-G04]ClubC0R1[-3,1,-4],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T1-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T1-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T1-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T1-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T2-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T2-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T2-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T2-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T2-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T3-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T3-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T3-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T3-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T3-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T4-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T4-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T4-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T4-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T4-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G06]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G07]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G08]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G09]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G10]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G11]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G12]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G13]ClubC0R1[-3,1,-6],NORTH,10,10,[T5-G14]ClubC0R1[-3,1,-6],NORTH,10,10,[T6-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T6-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T6-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T6-G04]ClubC0R1[-3,1,-6],NORTH,10,10,[T6-G05]ClubC0R1[-3,1,-6],NORTH,10,10,[T7-G01]ClubC0R1[-3,1,-6],NORTH,10,10,[T7-G02]ClubC0R1[-3,1,-6],NORTH,10,10,[T7-G03]ClubC0R1[-3,1,-6],NORTH,10,10,[T7-G04]ClubC0R1[-3,1,-6],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC1R0[1,1,8],NORTH,10,10,[T1-G02]ClubC1R0[1,1,8],NORTH,10,10,[T1-G03]ClubC1R0[1,1,8],NORTH,10,10,[T1-G04]ClubC1R0[1,1,8],NORTH,10,10,[T1-G05]ClubC1R0[1,1,8],NORTH,10,10,[T2-G01]ClubC1R0[1,1,8],NORTH,10,10,[T2-G02]ClubC1R0[1,1,8],NORTH,10,10,[T2-G03]ClubC1R0[1,1,8],NORTH,10,10,[T2-G04]ClubC1R0[1,1,8],NORTH,10,10,[T2-G05]ClubC1R0[1,1,8],NORTH,10,10,[T3-G01]ClubC1R0[1,1,8],NORTH,10,10,[T3-G02]ClubC1R0[1,1,8],NORTH,10,10,[T3-G03]ClubC1R0[1,1,8],NORTH,10,10,[T3-G04]ClubC1R0[1,1,8],NORTH,10,10,[T3-G05]ClubC1R0[1,1,8],NORTH,10,10,[T4-G01]ClubC1R0[1,1,8],NORTH,10,10,[T4-G02]ClubC1R0[1,1,8],NORTH,10,10,[T4-G03]ClubC1R0[1,1,8],NORTH,10,10,[T4-G04]ClubC1R0[1,1,8],NORTH,10,10,[T4-G05]ClubC1R0[1,1,8],NORTH,10,10,[T5-G01]ClubC1R0[1,1,8],NORTH,10,10,[T5-G02]ClubC1R0[1,1,8],NORTH,10,10,[T5-G03]ClubC1R0[1,1,8],NORTH,10,10,[T5-G04]ClubC1R0[1,1,8],NORTH,10,10,[T5-G05]ClubC1R0[1,1,8],NORTH,10,10,[T5-G06]ClubC1R0[1,1,8],NORTH,10,10,[T5-G07]ClubC1R0[1,1,8],NORTH,10,10,[T5-G08]ClubC1R0[1,1,8],NORTH,10,10,[T5-G09]ClubC1R0[1,1,8],NORTH,10,10,[T5-G10]ClubC1R0[1,1,8],NORTH,10,10,[T5-G11]ClubC1R0[1,1,8],NORTH,10,10,[T5-G12]ClubC1R0[1,1,8],NORTH,10,10,[T5-G13]ClubC1R0[1,1,8],NORTH,10,10,[T5-G14]ClubC1R0[1,1,8],NORTH,10,10,[T6-G01]ClubC1R0[1,1,8],NORTH,10,10,[T6-G02]ClubC1R0[1,1,8],NORTH,10,10,[T6-G03]ClubC1R0[1,1,8],NORTH,10,10,[T6-G04]ClubC1R0[1,1,8],NORTH,10,10,[T6-G05]ClubC1R0[1,1,8],NORTH,10,10,[T7-G01]ClubC1R0[1,1,8],NORTH,10,10,[T7-G02]ClubC1R0[1,1,8],NORTH,10,10,[T7-G03]ClubC1R0[1,1,8],NORTH,10,10,[T7-G04]ClubC1R0[1,1,8],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T1-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T1-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T1-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T1-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T2-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T2-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T2-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T2-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T2-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T3-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T3-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T3-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T3-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T3-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T4-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T4-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T4-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T4-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T4-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G06]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G07]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G08]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G09]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G10]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G11]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G12]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G13]ClubC1R0[-5,1,-2],NORTH,10,10,[T5-G14]ClubC1R0[-5,1,-2],NORTH,10,10,[T6-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T6-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T6-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T6-G04]ClubC1R0[-5,1,-2],NORTH,10,10,[T6-G05]ClubC1R0[-5,1,-2],NORTH,10,10,[T7-G01]ClubC1R0[-5,1,-2],NORTH,10,10,[T7-G02]ClubC1R0[-5,1,-2],NORTH,10,10,[T7-G03]ClubC1R0[-5,1,-2],NORTH,10,10,[T7-G04]ClubC1R0[-5,1,-2],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T1-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T1-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T1-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T1-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T2-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T2-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T2-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T2-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T2-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T3-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T3-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T3-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T3-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T3-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T4-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T4-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T4-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T4-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T4-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G06]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G07]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G08]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G09]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G10]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G11]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G12]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G13]ClubC1R0[-6,1,4],NORTH,10,10,[T5-G14]ClubC1R0[-6,1,4],NORTH,10,10,[T6-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T6-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T6-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T6-G04]ClubC1R0[-6,1,4],NORTH,10,10,[T6-G05]ClubC1R0[-6,1,4],NORTH,10,10,[T7-G01]ClubC1R0[-6,1,4],NORTH,10,10,[T7-G02]ClubC1R0[-6,1,4],NORTH,10,10,[T7-G03]ClubC1R0[-6,1,4],NORTH,10,10,[T7-G04]ClubC1R0[-6,1,4],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T1-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T1-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T1-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T1-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T2-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T2-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T2-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T2-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T2-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T3-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T3-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T3-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T3-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T3-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T4-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T4-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T4-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T4-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T4-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G06]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G07]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G08]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G09]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G10]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G11]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G12]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G13]ClubC1R1[2,1,-2],NORTH,10,10,[T5-G14]ClubC1R1[2,1,-2],NORTH,10,10,[T6-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T6-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T6-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T6-G04]ClubC1R1[2,1,-2],NORTH,10,10,[T6-G05]ClubC1R1[2,1,-2],NORTH,10,10,[T7-G01]ClubC1R1[2,1,-2],NORTH,10,10,[T7-G02]ClubC1R1[2,1,-2],NORTH,10,10,[T7-G03]ClubC1R1[2,1,-2],NORTH,10,10,[T7-G04]ClubC1R1[2,1,-2],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T1-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T1-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T1-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T1-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T2-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T2-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T2-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T2-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T2-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T3-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T3-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T3-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T3-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T3-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T4-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T4-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T4-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T4-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T4-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G06]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G07]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G08]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G09]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G10]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G11]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G12]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G13]ClubC1R1[-2,1,-5],NORTH,10,10,[T5-G14]ClubC1R1[-2,1,-5],NORTH,10,10,[T6-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T6-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T6-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T6-G04]ClubC1R1[-2,1,-5],NORTH,10,10,[T6-G05]ClubC1R1[-2,1,-5],NORTH,10,10,[T7-G01]ClubC1R1[-2,1,-5],NORTH,10,10,[T7-G02]ClubC1R1[-2,1,-5],NORTH,10,10,[T7-G03]ClubC1R1[-2,1,-5],NORTH,10,10,[T7-G04]ClubC1R1[-2,1,-5],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SiloC0R0[6,9,6],NORTH,10,10,[T1-G02]SiloC0R0[6,9,6],NORTH,10,10,[T1-G03]SiloC0R0[6,9,6],NORTH,10,10,[T1-G04]SiloC0R0[6,9,6],NORTH,10,10,[T1-G05]SiloC0R0[6,9,6],NORTH,10,10,[T2-G01]SiloC0R0[6,9,6],NORTH,10,10,[T2-G02]SiloC0R0[6,9,6],NORTH,10,10,[T2-G03]SiloC0R0[6,9,6],NORTH,10,10,[T2-G04]SiloC0R0[6,9,6],NORTH,10,10,[T2-G05]SiloC0R0[6,9,6],NORTH,10,10,[T3-G01]SiloC0R0[6,9,6],NORTH,10,10,[T3-G02]SiloC0R0[6,9,6],NORTH,10,10,[T3-G03]SiloC0R0[6,9,6],NORTH,10,10,[T3-G04]SiloC0R0[6,9,6],NORTH,10,10,[T3-G05]SiloC0R0[6,9,6],NORTH,10,10,[T4-G01]SiloC0R0[6,9,6],NORTH,10,10,[T4-G02]SiloC0R0[6,9,6],NORTH,10,10,[T4-G03]SiloC0R0[6,9,6],NORTH,10,10,[T4-G04]SiloC0R0[6,9,6],NORTH,10,10,[T4-G05]SiloC0R0[6,9,6],NORTH,10,10,[T5-G01]SiloC0R0[6,9,6],NORTH,10,10,[T5-G02]SiloC0R0[6,9,6],NORTH,10,10,[T5-G03]SiloC0R0[6,9,6],NORTH,10,10,[T5-G04]SiloC0R0[6,9,6],NORTH,10,10,[T5-G05]SiloC0R0[6,9,6],NORTH,10,10,[T5-G06]SiloC0R0[6,9,6],NORTH,10,10,[T5-G07]SiloC0R0[6,9,6],NORTH,10,10,[T5-G08]SiloC0R0[6,9,6],NORTH,10,10,[T5-G09]SiloC0R0[6,9,6],NORTH,10,10,[T5-G10]SiloC0R0[6,9,6],NORTH,10,10,[T5-G11]SiloC0R0[6,9,6],NORTH,10,10,[T5-G12]SiloC0R0[6,9,6],NORTH,10,10,[T5-G13]SiloC0R0[6,9,6],NORTH,10,10,[T5-G14]SiloC0R0[6,9,6],NORTH,10,10,[T6-G01]SiloC0R0[6,9,6],NORTH,10,10,[T6-G02]SiloC0R0[6,9,6],NORTH,10,10,[T6-G03]SiloC0R0[6,9,6],NORTH,10,10,[T6-G04]SiloC0R0[6,9,6],NORTH,10,10,[T6-G05]SiloC0R0[6,9,6],NORTH,10,10,[T7-G01]SiloC0R0[6,9,6],NORTH,10,10,[T7-G02]SiloC0R0[6,9,6],NORTH,10,10,[T7-G03]SiloC0R0[6,9,6],NORTH,10,10,[T7-G04]SiloC0R0[6,9,6],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T1-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T1-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T1-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T1-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T2-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T2-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T2-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T2-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T2-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T3-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T3-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T3-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T3-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T3-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T4-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T4-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T4-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T4-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T4-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G06]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G07]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G08]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G09]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G10]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G11]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G12]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G13]SiloC1R0[-3,12,6],NORTH,10,10,[T5-G14]SiloC1R0[-3,12,6],NORTH,10,10,[T6-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T6-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T6-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T6-G04]SiloC1R0[-3,12,6],NORTH,10,10,[T6-G05]SiloC1R0[-3,12,6],NORTH,10,10,[T7-G01]SiloC1R0[-3,12,6],NORTH,10,10,[T7-G02]SiloC1R0[-3,12,6],NORTH,10,10,[T7-G03]SiloC1R0[-3,12,6],NORTH,10,10,[T7-G04]SiloC1R0[-3,12,6],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T1-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T1-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T1-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T1-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T2-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T2-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T2-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T2-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T2-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T3-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T3-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T3-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T3-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T3-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T4-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T4-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T4-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T4-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T4-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G06]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G07]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G08]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G09]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G10]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G11]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G12]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G13]SiloC1R0[-8,20,1],NORTH,10,10,[T5-G14]SiloC1R0[-8,20,1],NORTH,10,10,[T6-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T6-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T6-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T6-G04]SiloC1R0[-8,20,1],NORTH,10,10,[T6-G05]SiloC1R0[-8,20,1],NORTH,10,10,[T7-G01]SiloC1R0[-8,20,1],NORTH,10,10,[T7-G02]SiloC1R0[-8,20,1],NORTH,10,10,[T7-G03]SiloC1R0[-8,20,1],NORTH,10,10,[T7-G04]SiloC1R0[-8,20,1],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SwampC1R1[1,30,2],NORTH,10,10,[T1-G02]SwampC1R1[1,30,2],NORTH,10,10,[T1-G03]SwampC1R1[1,30,2],NORTH,10,10,[T1-G04]SwampC1R1[1,30,2],NORTH,10,10,[T1-G05]SwampC1R1[1,30,2],NORTH,10,10,[T2-G01]SwampC1R1[1,30,2],NORTH,10,10,[T2-G02]SwampC1R1[1,30,2],NORTH,10,10,[T2-G03]SwampC1R1[1,30,2],NORTH,10,10,[T2-G04]SwampC1R1[1,30,2],NORTH,10,10,[T2-G05]SwampC1R1[1,30,2],NORTH,10,10,[T3-G01]SwampC1R1[1,30,2],NORTH,10,10,[T3-G02]SwampC1R1[1,30,2],NORTH,10,10,[T3-G03]SwampC1R1[1,30,2],NORTH,10,10,[T3-G04]SwampC1R1[1,30,2],NORTH,10,10,[T3-G05]SwampC1R1[1,30,2],NORTH,10,10,[T4-G01]SwampC1R1[1,30,2],NORTH,10,10,[T4-G02]SwampC1R1[1,30,2],NORTH,10,10,[T4-G03]SwampC1R1[1,30,2],NORTH,10,10,[T4-G04]SwampC1R1[1,30,2],NORTH,10,10,[T4-G05]SwampC1R1[1,30,2],NORTH,10,10,[T5-G01]SwampC1R1[1,30,2],NORTH,10,10,[T5-G02]SwampC1R1[1,30,2],NORTH,10,10,[T5-G03]SwampC1R1[1,30,2],NORTH,10,10,[T5-G04]SwampC1R1[1,30,2],NORTH,10,10,[T5-G05]SwampC1R1[1,30,2],NORTH,10,10,[T5-G06]SwampC1R1[1,30,2],NORTH,10,10,[T5-G07]SwampC1R1[1,30,2],NORTH,10,10,[T5-G08]SwampC1R1[1,30,2],NORTH,10,10,[T5-G09]SwampC1R1[1,30,2],NORTH,10,10,[T5-G10]SwampC1R1[1,30,2],NORTH,10,10,[T5-G11]SwampC1R1[1,30,2],NORTH,10,10,[T5-G12]SwampC1R1[1,30,2],NORTH,10,10,[T5-G13]SwampC1R1[1,30,2],NORTH,10,10,[T5-G14]SwampC1R1[1,30,2],NORTH,10,10,[T6-G01]SwampC1R1[1,30,2],NORTH,10,10,[T6-G02]SwampC1R1[1,30,2],NORTH,10,10,[T6-G03]SwampC1R1[1,30,2],NORTH,10,10,[T6-G04]SwampC1R1[1,30,2],NORTH,10,10,[T6-G05]SwampC1R1[1,30,2],NORTH,10,10,[T7-G01]SwampC1R1[1,30,2],NORTH,10,10,[T7-G02]SwampC1R1[1,30,2],NORTH,10,10,[T7-G03]SwampC1R1[1,30,2],NORTH,10,10,[T7-G04]SwampC1R1[1,30,2],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T1-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T1-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T1-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T1-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T2-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T2-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T2-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T2-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T2-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T3-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T3-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T3-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T3-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T3-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T4-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T4-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T4-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T4-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T4-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G06]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G07]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G08]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G09]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G10]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G11]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G12]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G13]SwampC1R1[-4,30,-6],NORTH,10,10,[T5-G14]SwampC1R1[-4,30,-6],NORTH,10,10,[T6-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T6-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T6-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T6-G04]SwampC1R1[-4,30,-6],NORTH,10,10,[T6-G05]SwampC1R1[-4,30,-6],NORTH,10,10,[T7-G01]SwampC1R1[-4,30,-6],NORTH,10,10,[T7-G02]SwampC1R1[-4,30,-6],NORTH,10,10,[T7-G03]SwampC1R1[-4,30,-6],NORTH,10,10,[T7-G04]SwampC1R1[-4,30,-6],NORTH,10,10,430)
+
+WBR(0,0,0,true,[T1-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T1-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T1-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T1-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T1-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T2-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T2-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T2-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T2-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T2-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T3-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T3-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T3-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T3-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T3-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T4-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T4-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T4-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T4-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T4-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G06]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G07]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G08]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G09]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G10]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G11]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G12]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G13]SwampC1R1[-5,30,2],NORTH,10,10,[T5-G14]SwampC1R1[-5,30,2],NORTH,10,10,[T6-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T6-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T6-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T6-G04]SwampC1R1[-5,30,2],NORTH,10,10,[T6-G05]SwampC1R1[-5,30,2],NORTH,10,10,[T7-G01]SwampC1R1[-5,30,2],NORTH,10,10,[T7-G02]SwampC1R1[-5,30,2],NORTH,10,10,[T7-G03]SwampC1R1[-5,30,2],NORTH,10,10,[T7-G04]SwampC1R1[-5,30,2],NORTH,10,10,430)
+
+
+
+
+
+
+
+Tier 7:
+
+Gemtrader 01:
+buy minecraft:diamond = 25 minecraft:emerald
+I sell 5x Amber biomesoplenty:gem:7 = 1 minecraft:emerald
+Special Trade = 5x ruby biomesoplenty:gem:1 5x peridot biomesoplenty:gem:2 = quark:rune:6
+Special Trade = 5x ruby biomesoplenty:gem:1 5x topaz biomesoplenty:gem:3 = quark:rune:7
+Special Trade = 5x topaz biomesoplenty:gem:3 5x malachite biomesoplenty:gem:5 = quark:rune:14
+Very Special Trade = 5x gold_nugget + ruby biomesoplenty:gem:1 = 1x silver nugget
+/summon minecraft:villager ~ ~ ~ {Profession:2,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:25},sell:{id:"minecraft:diamond",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},buyB:{id:"biomesoplenty:gem",Damage:2,Count:5},sell:{id:"quark:rune",Damage:6,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},buyB:{id:"biomesoplenty:gem",Damage:3,Count:5},sell:{id:"quark:rune",Damage:7,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:3,Count:5},buyB:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"quark:rune",Damage:14,Count:1}},{buy:{id:gold_nugget,Count:5},buyB:{id:"biomesoplenty:gem",Damage:1,Count:1},sell:{id:"iceandfire:silver_nugget",Count:1}}]}}
+
+Gemtrader 02:
+I sell 5x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+Buy Amber biomesoplenty:gem:7 = 2x minecraft:emerald
+Special Trade = 5x ruby biomesoplenty:gem:1 5x tanzanite biomesoplenty:gem:4 = quark:rune:8
+Special Trade = 5x ruby biomesoplenty:gem:1 5x malachite biomesoplenty:gem:5 = quark:rune:9
+Special Trade = 5x topaz biomesoplenty:gem:3 5x Amber biomesoplenty:gem:7 = quark:rune:16
+Very Special Trade = 5x gold_nugget = 1x defiledlands:umbrium_nugget
+/summon minecraft:villager ~ ~ ~ {Profession:1,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:7,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},buyB:{id:"biomesoplenty:gem",Damage:4,Count:5},sell:{id:"quark:rune",Damage:8,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},buyB:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"quark:rune",Damage:9,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:3,Count:5},buyB:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"quark:rune",Damage:16,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:1},buyB:{id:"gold_nugget",Count:5},sell:{id:"defiledlands:umbrium_nugget",Count:1}}]}}
+
+Gemtrader 03:
+buy defiledlands:hephaestite = 10x minecraft:emerald
+buy defiledlands:scarlite = 15x minecraft:emerald
+Special Trade = 5x ruby biomesoplenty:gem:1 5x Amber biomesoplenty:gem:7 = quark:rune:10
+Special Trade = 5x peridot biomesoplenty:gem:2 5x topaz biomesoplenty:gem:3 = quark:rune:11
+Special Trade = 5x peridot biomesoplenty:gem:2 5x malachite biomesoplenty:gem:5 = quark:rune:15
+Very Special Trade = 1x gold_nugget = 1x iron_nugget
+/summon minecraft:villager ~ ~ ~ {Profession:2,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:10},sell:{id:"defiledlands:hephaestite",Count:1}},{buy:{id:"minecraft:emerald",Count:15},sell:{id:"defiledlands:scarlite",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},buyB:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"quark:rune",Damage:10,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:5},buyB:{id:"biomesoplenty:gem",Damage:3,Count:5},sell:{id:"quark:rune",Damage:11,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:5},buyB:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"quark:rune",Damage:15,Count:1}},{buy:{id:gold_nugget,Count:5},sell:{id:"iron_nugget",Count:5}}]}}
+
+Gemtrader 04:
+I sell 5x topaz biomesoplenty:gem:3 = 1 minecraft:emerald
+Buy peridot biomesoplenty:gem:2 = 2x minecraft:emerald
+Special Trade = 5x tanzanite biomesoplenty:gem:4 5x malachite biomesoplenty:gem:5 = quark:rune:12
+Special Trade = 5x Amber biomesoplenty:gem:7 5x peridot biomesoplenty:gem:2 = quark:rune:13
+Very Special Trade = 10x silver nugget = 1x neptunium_nugget
+/summon minecraft:villager ~ ~ ~ {Profession:2,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:3,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:2,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:5},buyB:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"quark:rune",Damage:12,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:7,Count:5},buyB:{id:"biomesoplenty:gem",Damage:1,Count:5},sell:{id:"quark:rune",Damage:13,Count:1}},{buy:{id:"iceandfire:silver_nugget",Count:10},buyB:{id:"minecraft:quartz",Count:5},sell:{id:"contenttweaker:neptunium_nugget",Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 6:
+Gemtrader 01:
+Special Trade = 10x Amber biomesoplenty:gem:7 = quark:rune:5
+I sell 5x Amber biomesoplenty:gem:7 = 1 minecraft:emerald
+Buy tanzanite biomesoplenty:gem:4 = 2x minecraft:emerald
+I sell 5x peridot biomesoplenty:gem:2 = 1 minecraft:emerald
+Special Trade = 10x ruby biomesoplenty:gem:1 = quark:rune:0
+/summon minecraft:villager ~ ~ ~ {Profession:1,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:7,Count:10},sell:{id:"quark:rune",Damage:5,Count:1}},{buy:{id:"minecraft:emerald",Count:16},sell:{id:"aquaculture:loot",Damage:6,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:10},sell:{id:"quark:rune",Damage:0,Count:1}}]}}
+
+
+Gemtrader 02:
+buy minecraft:diamond = 25 minecraft:emerald
+I sell 5x tanzanite biomesoplenty:gem:4 = 1 minecraft:emerald
+Buy AMETHYST biomesoplenty:gem:0 = 10x minecraft:emerald
+Special Trade = 10x peridot biomesoplenty:gem:2 = quark:rune:1
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:25},sell:{id:"minecraft:diamond",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:10},buyB:{id:"biomesoplenty:crystal_shard",Count:1},sell:{id:"biomesoplenty:gem",Damage:0,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:10},sell:{id:"quark:rune",Damage:1,Count:1}}]}}
+
+Gemtrader 03:
+buy minecraft:quartz = 10 minecraft:emerald
+I sell 5x AMETHYST biomesoplenty:gem:0 +  = 2 minecraft:emerald
+Buy SAPPHIRE = 15x minecraft:emerald
+Special Trade = 10x topaz biomesoplenty:gem:3 = quark:rune:2
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:10},sell:{id:"minecraft:quartz",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:5},sell:{id:"minecraft:emerald",Count:2}},{buy:{id:"minecraft:emerald",Count:15},sell:{id:"iceandfire:sapphire_gem",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:3,Count:10},sell:{id:"quark:rune",Damage:1,Count:1}}]}}
+
+Gemtrader 04:
+I sell 5x Sapphire = 10 minecraft:emerald
+I sell 4x AMETHYST biomesoplenty:gem:0 = 2 minecraft:emerald
+I sell 5x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+Special Trade = 10x tanzanite biomesoplenty:gem:4 = quark:rune:3
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"iceandfire:sapphire_gem",Count:4},sell:{id:"minecraft:emerald",Count:8}},{buy:{id:"minecraft:emerald",Count:12},sell:{id:"aquaculture:loot",Damage:5,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:4},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:10},sell:{id:"quark:rune",Damage:3,Count:1}}]}}
+
+Gemtrader 05:
+buy 2x minecraft:prismarine_shard = 5 minecraft:emerald
+Buy malachite biomesoplenty:gem:5 = 2x minecraft:emerald
+Buy ruby biomesoplenty:gem:1 = 2x minecraft:emerald
+Special Trade = 10x malachite biomesoplenty:gem:5 = quark:rune:4
+/summon minecraft:villager ~ ~ ~ {Profession:1,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:5},sell:{id:"minecraft:prismarine_shard",Count:2}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:5,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:1,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:10},sell:{id:"quark:rune",Damage:4,Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 5:
+
+Gemtrader 01:
+Buy SAPPHIRE = 15x minecraft:emerald
+I sell 5x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+I sell 5x peridot biomesoplenty:gem:2 = 1 minecraft:emerald
+Buy AMETHYST biomesoplenty:gem:0 + ,buyB:{id:"biomesoplenty:crystal_shard",Count:1} = 15x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:15},sell:{id:"iceandfire:sapphire_gem",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:15},buyB:{id:"biomesoplenty:crystal_shard",Count:1},sell:{id:"biomesoplenty:gem",Damage:0,Count:1}}]}}
+
+Gemtrader 02:
+Buy ruby biomesoplenty:gem:1 = 2x minecraft:emerald
+Buy topaz biomesoplenty:gem:3 = 2x minecraft:emerald
+Buy Amber biomesoplenty:gem:7 = 2x minecraft:emerald
+I sell 5x tanzanite biomesoplenty:gem:4 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:1,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:3,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:7,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 03:
+Buy peridot biomesoplenty:gem:2 = 2x minecraft:emerald
+Buy tanzanite biomesoplenty:gem:4 = 2x minecraft:emerald
+Buy malachite biomesoplenty:gem:5 = 2x minecraft:emerald
+I sell 8x AMETHYST biomesoplenty:gem:0 = 2 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:2,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:5,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:8},sell:{id:"minecraft:emerald",Count:2}}]}}
+
+Gemtrader 04:
+buy defiledlands:scarlite = 15x minecraft:emerald
+buy defiledlands:hephaestite = 10x minecraft:emerald
+I sell 4x topaz biomesoplenty:gem:3 = 1 minecraft:emerald
+I sell 5x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:15},sell:{id:"defiledlands:scarlite",Count:1}},{buy:{id:"minecraft:emerald",Count:10},sell:{id:"defiledlands:hephaestite",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:3,Count:4},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 05:
+buy 2x minecraft:prismarine_shard = 8 minecraft:emerald
+I sell 5x Sapphire = 10 minecraft:emerald
+buy minecraft:quartz = 10 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:8},sell:{id:"minecraft:prismarine_shard",Count:2}},{buy:{id:"iceandfire:sapphire_gem",Count:5},sell:{id:"minecraft:emerald",Count:10}},{buy:{id:"minecraft:emerald",Count:9},sell:{id:"minecraft:quartz",Count:1}}]}}
+
+Gemtrader 06:
+I sell 5x Amber biomesoplenty:gem:7 = 1 minecraft:emerald
+Buy tanzanite biomesoplenty:gem:4 = 2x minecraft:emerald
+I sell 5x peridot biomesoplenty:gem:2 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:15},sell:{id:"aquaculture:loot",Damage:5,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:2,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 07:
+buy minecraft:diamond = 30 minecraft:emerald
+I sell 5x tanzanite biomesoplenty:gem:4 = 1 minecraft:emerald
+Buy AMETHYST biomesoplenty:gem:0 = 20x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:28},buyB:{id:"minecraft:prismarine_shard",Count:6},sell:{id:"minecraft:diamond",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:18},buyB:{id:"biomesoplenty:crystal_shard",Count:2},sell:{id:"biomesoplenty:gem",Damage:0,Count:1}}]}}
+
+Gemtrader 08:
+buy minecraft:quartz = 10 minecraft:emerald
+I sell 9x AMETHYST biomesoplenty:gem:0 = 2 minecraft:emerald
+Buy SAPPHIRE = 15x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:11},sell:{id:"minecraft:quartz",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:9},sell:{id:"minecraft:emerald",Count:2}},{buy:{id:"iceandfire:sapphire_gem",Count:5},sell:{id:"minecraft:emerald",Count:10}}]}}
+
+
+Gemtrader 09:
+I sell 4x Sapphire = 9 minecraft:emerald
+I sell 12x AMETHYST biomesoplenty:gem:0 = 3 minecraft:emerald
+I sell 5x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"iceandfire:sapphire_gem",Count:4},sell:{id:"minecraft:emerald",Count:3}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:12},sell:{id:"minecraft:emerald",Count:3}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 10:
+buy minecraft:prismarine_shard = 5 minecraft:emerald
+Buy malachite biomesoplenty:gem:5 = 2x minecraft:emerald
+Buy ruby biomesoplenty:gem:1 = 2x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:5},sell:{id:"minecraft:prismarine_shard",Count:5}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:5,Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:1,Count:1}}]}}
+
+Gemtrader 11:
+buy minecraft:diamond = 12 minecraft:emerald + 3x sapphire
+I sell 5x Amber biomesoplenty:gem:7 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:12},buyB:{id:"iceandfire:sapphire_gem",Count:3},sell:{id:"minecraft:diamond",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:7,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+
+Gemtrader 12:
+I sell 5x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+Buy Amber biomesoplenty:gem:7 = 2x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:3},sell:{id:"aquaculture:loot",Damage:4,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:7,Count:1}}]}}
+
+Gemtrader 13:
+buy defiledlands:hephaestite = 10x minecraft:emerald
+buy defiledlands:scarlite = 15x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:10},sell:{id:"defiledlands:hephaestite",Count:1}},{buy:{id:"minecraft:emerald",Count:16},sell:{id:"aquaculture:loot",Damage:5,Count:1}},{buy:{id:"minecraft:emerald",Count:15},sell:{id:"defiledlands:scarlite",Count:1}}]}}
+
+Gemtrader 14:
+I sell 5x topaz biomesoplenty:gem:3 = 1 minecraft:emerald
+Buy peridot biomesoplenty:gem:2 = 2x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:3,Count:5},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:emerald",Count:2},sell:{id:"biomesoplenty:gem",Damage:2,Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 4:
+
+Gemtrader 01:
+Buy SAPPHIRE = 20x minecraft:emerald
+I sell 7x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:20},sell:{id:"iceandfire:sapphire_gem",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:5},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 02:
+Buy ruby biomesoplenty:gem:1 = 9x minecraft:emerald
+Buy topaz biomesoplenty:gem:3 = 5x minecraft:emerald
+I sell 7x tanzanite biomesoplenty:gem:4 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:9},sell:{id:"biomesoplenty:gem",Damage:1,Count:1}},{buy:{id:"minecraft:emerald",Count:5},sell:{id:"biomesoplenty:gem",Damage:3,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:7},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 03:
+Buy peridot biomesoplenty:gem:2 = 7x minecraft:emerald
+Buy tanzanite biomesoplenty:gem:4 = 5x minecraft:emerald
+I sell 13x AMETHYST biomesoplenty:gem:0 = 2 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:7},sell:{id:"biomesoplenty:gem",Damage:2,Count:1}},{buy:{id:"minecraft:emerald",Count:5},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:13},sell:{id:"minecraft:emerald",Count:2}}]}}
+
+Gemtrader 04:
+buy defiledlands:scarlite = 25x minecraft:emerald
+I sell 7x topaz biomesoplenty:gem:3 = 1 minecraft:emerald
+I sell 7x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:23},sell:{id:"defiledlands:scarlite",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:3,Count:7},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:7},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 05:
+buy minecraft:prismarine_shard = 7 minecraft:emerald
+I sell 5x Sapphire = 6 minecraft:emerald
+buy minecraft:quartz = 8 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:7},sell:{id:"minecraft:prismarine_shard",Count:2}},{buy:{id:"iceandfire:sapphire_gem",Count:5},sell:{id:"minecraft:emerald",Count:6}},{buy:{id:"minecraft:emerald",Count:8},sell:{id:"minecraft:quartz",Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 3:
+
+Gemtrader 01:
+I sell 6x peridot biomesoplenty:gem:2 = 1 minecraft:emerald
+Buy 2x AMETHYST biomesoplenty:gem:0 = 43x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:1,Count:6},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:crystal_shard",Count:1},buyB:{id:"minecraft:emerald",Count:43},sell:{id:"biomesoplenty:gem",Damage:0,Count:2}}]}}
+
+Gemtrader 02:
+Buy Amber biomesoplenty:gem:7 = 4x minecraft:emerald
+I sell 6x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:4},sell:{id:"biomesoplenty:gem",Damage:7,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:6},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 03:
+Buy malachite biomesoplenty:gem:5 = 5x minecraft:emerald
+I sell 11x AMETHYST biomesoplenty:gem:0 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:5},sell:{id:"biomesoplenty:gem",Damage:5,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:11},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 04:
+buy minecraft:diamond = 34 minecraft:emerald
+I sell 7x Amber biomesoplenty:gem:7 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:7,Count:7},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"biomesoplenty:crystal_shard",Count:2},buyB:{id:"minecraft:emerald",Count:22},sell:{id:"minecraft:diamond",Count:2}}]}}
+
+Gemtrader 05:
+buy 8 defiledlands:hephaestite = 19x minecraft:emerald 6x ruby
+I sell 8x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:1,Count:6},buyB:{id:"minecraft:emerald",Count:19},sell:{id:"defiledlands:hephaestite",Count:8}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:8},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 2:
+
+Gemtrader 01:
+Buy SAPPHIRE = 11x minecraft:emerald, 1x diamond
+I sell 6x Amber biomesoplenty:gem:7 = 12 minecraft:dye:4 
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:7,Count:6},sell:{id:"minecraft:dye",Damage:4,Count:12}},{buy:{id:"minecraft:emerald",Count:11},buyB:{id:"minecraft:diamond",Count:1},sell:{id:"iceandfire:sapphire_gem",Count:1}}]}}
+
+Gemtrader 02:
+I sell 7x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+buy defiledlands:scarlite = 1x diamond
+Buy ruby biomesoplenty:gem:1 = 18x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:1,Count:7},sell:{id:"minecraft:emerald",Count:1}},{buy:{id:"minecraft:diamond",Count:1},sell:{id:"defiledlands:scarlite",Count:1}},{buy:{id:"minecraft:emerald",Count:13},sell:{id:"biomesoplenty:gem",Damage:1,Count:3}}]}}
+
+Gemtrader 03:
+Buy peridot biomesoplenty:gem:2 = 21x minecraft:emerald
+I sell 5x tanzanite biomesoplenty:gem:4 = 14 minecraft:dye:4
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:dye",Damage:4,Count:21},sell:{id:"biomesoplenty:gem",Damage:2,Count:2}},{buy:{id:"biomesoplenty:gem",Damage:4,Count:5},sell:{id:"minecraft:dye",Damage:4,Count:14}}]}}
+
+Gemtrader 04:
+Buy tanzanite biomesoplenty:gem:4 = 13x minecraft:emerald
+I sell 17 AMETHYST biomesoplenty:gem:0 = 3 minecraft:emerald
+I sell 8x malachite biomesoplenty:gem:5 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:13},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:17},sell:{id:"minecraft:emerald",Count:4}},{buy:{id:"biomesoplenty:gem",Damage:5,Count:8},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 05:
+I sell 8 topaz for 23 prismarine shards 
+buy minecraft:prismarine_shard = 18 minecraft:emerald
+I sell 3x Sapphire = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:3,Count:8},sell:{id:"minecraft:prismarine_shard",Count:23}},{buy:{id:"iceandfire:sapphire_gem",Count:3},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+-----------------------------------------------------------------------------------------------------------------------------
+Tier 1:
+
+Gemtrader 01:
+Buy SAPPHIRE = 3x minecraft:emerald + biomesoplenty:gem:0 x 8
+I sell 6x Amber biomesoplenty:gem:7 = 12 minecraft:dye:4 
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"biomesoplenty:gem",Damage:7,Count:6},sell:{id:"minecraft:dye",Damage:4,Count:12}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:8},buyB:{id:"minecraft:emerald",Count:3},sell:{id:"iceandfire:sapphire_gem",Count:1}}]}}
+
+Gemtrader 02:
+I sell 7x ruby biomesoplenty:gem:1 = 1 minecraft:emerald
+buy defiledlands:scarlite = 1x diamond
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:diamond",Count:1},sell:{id:"defiledlands:scarlite",Count:1}},{buy:{id:"biomesoplenty:gem",Damage:1,Count:7},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+Gemtrader 03:
+Buy peridot biomesoplenty:gem:2 = 21x minecraft:emerald
+I sell 11x AMETHYST biomesoplenty:gem:0 = 1 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:21},sell:{id:"biomesoplenty:gem",Damage:2,Count:3}},{buy:{id:"biomesoplenty:gem",Damage:0,Count:11},sell:{id:"minecraft:emerald",Count:1}}]}}
+
+
+Gemtrader 04:
+Buy tanzanite biomesoplenty:gem:4 = 13x minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:13},sell:{id:"biomesoplenty:gem",Damage:4,Count:1}}]}}
+
+Gemtrader 05:
+I sell 3x Sapphire = 3 minecraft:emerald
+/summon minecraft:villager ~ ~ ~ {Profession:5,VillagerData:{type:plains,profession:cleric,level:3},Offers:{Recipes:[{buy:{id:"iceandfire:sapphire_gem",Count:3},sell:{id:"quark:rune",Damage:12,Count:1}}]}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

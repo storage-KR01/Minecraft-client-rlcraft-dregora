@@ -1,0 +1,41 @@
+{
+   "CustomName":"Gem Trader",
+   "CustomNameVisible":0,
+   "Profession":5,
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "buy":{
+               "id":"minecraft:emerald",
+               "Count":10
+            },
+            "sell":{
+               "id":"defiledlands:hephaestite",
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"minecraft:emerald",
+               "Count":16
+            },
+            "sell":{
+               "id":"aquaculture:loot",
+               "Damage":5,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"minecraft:emerald",
+               "Count":15
+            },
+            "sell":{
+               "id":"defiledlands:scarlite",
+               "Count":1
+            }
+         }
+      ]
+   }
+}

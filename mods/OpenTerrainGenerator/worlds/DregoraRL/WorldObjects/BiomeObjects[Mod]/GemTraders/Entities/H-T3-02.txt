@@ -1,0 +1,91 @@
+{
+   "CustomName":"Topographer",
+   "CustomNameVisible":0,
+   "Profession":1,
+   "ProfessionName":"minecraft:librarian",
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "rewardExp": 0,
+            "buy":{
+               "id":"gold_nugget",
+               "Count":6
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nArtifact Repair -->\"}",
+                     "{\"text\":\"The Topographer left a note stating artifacts are to be restored to full durability using iron ingots may you want to sell these back to him.\\n\\nTowers & Tunnels -->\"}",
+                     "{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}",
+                     "{\"text\":\"Maintenance Tunnels, deep sub-ground structures, not to be mistaken for shelters and infested by ancient blights.\\n\\nThese tunnels are often situated in areas that have a subterrainian level.\"}"
+                  ],
+                  "title":"Book of Artifacts",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains where to find the artifacts used in trading with Topographers."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":7
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":9
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"This journey will take you across many lands towards the south western parts of Dregora in which you will find a frozen wasteland with fiery ravines leading to a pit of lava inhabited by huge, white floating creatures\\n\\nX: 15097 Z: 5195\"}"
+                  ],
+                  "title":"Massive Meteor Crater",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book contains locational information on the massive meteor crater."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":14
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":12
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Lush hills, mountains and often chosen to settle for it's temperate climate and rich mineral deposits.\\n\\n\\nX: 15371 Z: 16357\\n\\n\\nExplanation Remnants -->\"}",
+                     "{\"text\":\"A long, long time ago as civilization prosphered and new innovations where made there was one too many resulting in a catastrophic event, the Blight.\\n\\nThe fallout of this event decimated all but the areas now known as the Remnants of the Blight.\\n \"}",
+                     "{\"text\":\"And while the flora and fauna drastically changed from what was famillair these remnants bear the best resamblance to how it once was.\\n\\n\\n \"}"
+                  ],
+                  "title":"Remnants - Highlands",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains the remnants and shows coordinates on one of it's locations."
+                     ]
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

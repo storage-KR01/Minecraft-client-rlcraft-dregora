@@ -1,0 +1,76 @@
+variedcommodities:crystal, variedcommodities:katana, variedcommodities:coin_gold
+
+
+/summon minecraft:villager ~ ~1 ~ 
+
+
+
+70 emeralds: -17075 5122 City of Origin -----------
+{CustomName:"Topographer",CustomNameVisible:0,Profession:1,ProfessionName:"minecraft:librarian",PersistenceRequired:1,Offers:{Recipes:[
+
+{buy:{id:"gold_nugget",Count:5},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nTowers & Tunnels -->\"}","{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}","{\"text\":\"Deep tunnels, littered with coin and artifact but as trecherous as tempting due to the blights of old whom guard these treasures.\\n\\nThe entrance to these tunnels are accessed from a small stone like building with two black formations sticking out and in the ground.\"}"],title:"Book of Artifacts",author:Topographer,display:{Lore:["This book explains where to find the artifacts used in trading with Topographers."]}}}},
+
+{buy:{id:"emerald",Count:70},buyB:{id:"variedcommodities:coin_gold",Count:10},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"Among the many pages of this book illustrating a mighty city situated among trecherous cliffs is written a passage containing the following coordinates:\\n\\nX: -17075 Z: 5122\"}"],title:"City of Origin",author:Topographer,display:{Lore:["This book contains directions on where to find the City of Origin"]}}}}
+
+]}}
+
+
+
+70 emeralds: -14902 -3784 Kingdom of Dearoc -----------
+{CustomName:"Topographer",CustomNameVisible:0,Profession:1,ProfessionName:"minecraft:librarian",PersistenceRequired:1,Offers:{Recipes:[
+
+{buy:{id:"gold_nugget",Count:5},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nTowers & Tunnels -->\"}","{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}","{\"text\":\"Deep tunnels, littered with coin and artifact but as trecherous as tempting due to the blights of old whom guard these treasures.\\n\\nThe entrance to these tunnels are accessed from a small stone like building with two black formations sticking out and in the ground.\"}"],title:"Book of Artifacts",author:Topographer,display:{Lore:["This book explains where to find the artifacts used in trading with Topographers."]}}}},
+
+{buy:{id:"emerald",Count:70},buyB:{id:"variedcommodities:coin_gold",Count:10},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"The pages within this book illustrate vast fields of wheat on either side a pathway leading to a fortified town situated on a hill.\\n\\nX: -14902 Z: -3784\\n \"}"],title:"Kingdom of Dearoc",author:Topographer,display:{Lore:["This book contains directions on where to find the capital town of Dearoc."]}}}}
+
+]}}
+
+
+
+40 emeralds: X: -2060 Z: 16835 | X: -2680 Z: 17153 | X: -2846 Z: 16552 | X: -2968 Z: 15668 | X: -1767 Z: 15468 | X: -2299 Z: 15112 | X: -1064 Z: 14418 | X: -322 Z: 15659 Rainforest Villages -----------
+{CustomName:"Topographer",CustomNameVisible:0,Profession:1,ProfessionName:"minecraft:librarian",PersistenceRequired:1,Offers:{Recipes:[
+
+{buy:{id:"gold_nugget",Count:5},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nTowers & Tunnels -->\"}","{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}","{\"text\":\"Deep tunnels, littered with coin and artifact but as trecherous as tempting due to the blights of old whom guard these treasures.\\n\\nThe entrance to these tunnels are accessed from a small stone like building with two black formations sticking out and in the ground.\"}"],title:"Book of Artifacts",author:Topographer,display:{Lore:["This book explains where to find the artifacts used in trading with Topographers."]}}}},
+
+{buy:{id:"emerald",Count:40},buyB:{id:"variedcommodities:coin_gold",Count:10},sell:{id:"written_book",Count:1,tag:{pages:["{\"text\":\"Among the dense foilage of the southern rain forests thrive many tribes and these are their locations\\n\\nX: -2060 Z: 16835\\nX: -2680 Z: 17153\\nX: -2846 Z: 16552\\nX: -2968 Z: 15668\\n\\nNext Page --->\"}","{\"text\":\"\\n\\nX: -1767 Z: 15468\\nX: -2299 Z: 15112\\nX: -1064 Z: 14418\\nX: -322 Z: 15659\"}"],title:"Rainforest Villages",author:Topographer,display:{Lore:["This book contains directions on where to find the southern rain forest villages."]}}}}
+
+]}}
+
+
+
+
+30 emeralds: -7959 -16298 | -8886 -16831 | -8881 -18862 | -6694 -18710 | -4570 -17939 | -3725 -17153 Northern Desolate Rainforest Villages
+30 emeralds: NW: -805 14707 | NE: 507 14648 | SE: 493 16069 | SW: -703 16137 Pirate Territory
+60 emeralds: -3613 14814 | -3471 14585 | -3335 14848 | -2998 14423 | -2636 14252 | -1543 14184 | -1704 14370 | -1528 17041 | -727 17216 | -1821 16220 | | -1704 16386 | -1601 16845 Dungeon Chapter 1
+60 emeralds: -1748 15102 | -2319 15253 | -2431 15322 | -3051 16123 | -3378 16318 | -3403 16850 | -1796 13857 | -439 16811 | -92 15293 | -53 14511 Dungeons Chapter 2
+50 emeralds:  -5380 -16474 | -6181 -16704 | -7060 -16723 | -8725 -15805 | -9843 -17519 | -8071 -17231 | -8085 -17226 | -6142 -17558 | -4399 -17495 | -8476 -18930 | -8842 -18310 | -7558 -17954 | -5302 -18510 | -1547 -18808 Northern Desolate Dungeons
+60 emeralds: 3808 17451 | 3300 17412 | -5800 12910 | 11953 1914 | 12026 -11279 | -3979 -11005 | -11694 -546 Mushroom Islands
+30 diamonds: -14775 -8344 Resource Mountains
+20 emeralds: -15849 -4848 Mining Outpost
+
+5 emeralds: -17016 2714 Church of the Cult
+5 emeralds: 15097 5195 Massive Meteor Crater
+5 emeralds: 5122 13696 Glacier Entrance
+5 emeralds: -14189 -5966 Small Highland Ruins
+15 emeralds: -1230 16259 (Rainforest) | -922 16582 (Rainforest) | -11264 13022 (Desert Waterfall Valley East) | -14433 10576 (Desert Waterfall Valley West) | -16250 1845 (Highlands) | -14697 -7231 (Highlands) Waterfalls
+
+10 emeralds: 7734 13281 Remnants of Blight - Icelands
+10 emeralds: 15371 16357 Remnants of Blight - Highlands
+10 emeralds: -2358 15878 Remnants of Blight - Rainforest
+10 emeralds: 13496 -8569 Remnants of Blight - Bog
+10 emeralds: 7099 -15322 Remnants of Blight - Lush Desert
+10 emeralds: -13056 12148 Remnants of Blight - Dead Desert
+10 emeralds: -11709 6523 Remnants of Blight - Desert Ruins
+10 emeralds: -14384 -6884 Remnants of Blight - Highlands of Dearoc
+10 emeralds: -16503 2490 Remnants of Blight - Highlands of Origin
+10 emeralds: -17358 -11743 Remnants of Blight - Marshlands
+10 emeralds: -7016 -17788 Remnants of Blight - Desolate Rainforest
+10 emeralds: -8256 -12675 Remnants of Blight - Cold Highlands
+10 emeralds: 17421 -17226 Remnants of Blight - Nuclear City
+
+
+15 emeralds: Secrets of the Rainforest (Cave complex, Huge Waterfalls, Pirate Outposts, Villages, Dungeons, Ancient Temple, CliffDwellers, Gold Resource, Beach Huts)
+15 emeralds: Secrets of the Highlands (Spooky Forests Blood Caverns, Resource Rich Mountain Shafts, Mining Outposts with hidden villages, City of Origins, Waterfalls, Farmlands, Kingdom of Dearoc)
+15 emeralds: Secrets of the Oceans (Deep Ocean surrounding highlands, rainforest containing small water temples, shipwrecks of different sizes and harbors along the coast)
+10 emeralds: Secrets of the Icelands (Cold, Desolate, Ghasts, Glaciers, Volcano's Shipwrecks, Ice Temples)
+5 emeralds: Secrets of the Deserts (Water Caverns, Lush areas in canyons, city areas)

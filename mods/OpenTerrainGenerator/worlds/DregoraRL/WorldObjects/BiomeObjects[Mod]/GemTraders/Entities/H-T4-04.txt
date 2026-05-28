@@ -1,0 +1,92 @@
+{
+   "CustomName":"Topographer",
+   "CustomNameVisible":0,
+   "Profession":1,
+   "ProfessionName":"minecraft:librarian",
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "rewardExp": 0,
+            "buy":{
+               "id":"gold_nugget",
+               "Count":5
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nArtifact Repair -->\"}",
+                     "{\"text\":\"The Topographer left a note stating artifacts are to be restored to full durability using iron ingots may you want to sell these back to him.\\n\\nTowers & Tunnels -->\"}",
+                     "{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}",
+                     "{\"text\":\"Maintenance Tunnels, deep sub-ground structures, not to be mistaken for shelters and infested by ancient blights.\\n\\nThese tunnels are often situated in areas that have a subterrainian level.\"}"
+                  ],
+                  "title":"Book of Artifacts",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains where to find the artifacts used in trading with Topographers."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":63
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":10
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "[\"\",{\"text\":\"Not for the weary\\nnor the weak as it\\n      is your\\n blood they seek.\\n\\n       \\u258b\\u258c\\u258b\\u258c\\u258b\\u258c\\u258b\\n     \\u258b \\u2582\\u2582.\\u2582\\u2582 \\u258b\\n     \\u258b \\u258c\"},{\"text\":\"IIOOII\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\u258c \\u258b\\n     \\u258b \\u258c\",\"color\":\"reset\"},{\"text\":\"IIOOII\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\u258c \\u258b\\n     \\u258b \\u258c\",\"color\":\"reset\"},{\"text\":\"IIOOII\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\u258c \\u258b\\n     \\u258b \\u258c\",\"color\":\"reset\"},{\"text\":\"IIOOII\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\u258c \\u258b\\n\\n\\n \",\"color\":\"reset\"}]",
+                     "{\"text\":\"X: -3613 Z: 14814\\nX: -3471 Z: 14585\\nX: -3335 Z: 14848\\nX: -2998 Z: 14423\\nX: -2636 Z: 14252\\nX: -1543 Z: 14184\\nX: -1704 Z: 14370\\nX: -1528 Z: 17041\\nX: -727 \\u0020Z: 17216\\nX: -1821 Z: 16220\\nX: -1704 Z: 16386\\nX: -1601 Z: 16845\"}"
+                  ],
+                  "title":"The Depths - Part 1",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "A ominous old looking book inscribed with ancient letters portraying a dark entrance."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":16
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":4
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Named after the city of Origin hidden within the confines of the Highlands of Origin. These are rich lands in which the climate is mild and forgiving.\\n\\nX: -16503 Z: 2490\\n\\nExplanation Remnants -->\"}",
+                     "{\"text\":\"A long, long time ago as civilization prosphered and new innovations where made there was one too many resulting in a catastrophic event, the Blight.\\n\\nThe fallout of this event decimated all but the areas now known as the Remnants of the Blight.\\n \"}",
+                     "{\"text\":\"And while the flora and fauna drastically changed from what was famillair these remnants bear the best resamblance to how it once was.\\n\\n\\n \"}"
+                  ],
+                  "title":"Remnants - Highlands",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains the remnants and shows coordinates on one of it's locations."
+                     ]
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

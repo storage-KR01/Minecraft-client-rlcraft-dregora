@@ -1,0 +1,36 @@
+{
+   "CustomName":"Gem Trader",
+   "CustomNameVisible":0,
+   "Profession":5,
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "buy":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":6
+            },
+            "sell":{
+               "id":"minecraft:emerald",
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"biomesoplenty:crystal_shard",
+               "Count":1
+            },
+            "buyB":{
+               "id":"minecraft:emerald",
+               "Count":43
+            },
+            "sell":{
+               "id":"iceandfire:amethyst_gem",
+               "Damage":0,
+               "Count":2
+            }
+         }
+      ]
+   }
+}

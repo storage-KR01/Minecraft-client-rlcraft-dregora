@@ -1,0 +1,101 @@
+{
+   "CustomName":"Topographer",
+   "CustomNameVisible":0,
+   "Profession":1,
+   "ProfessionName":"minecraft:librarian",
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "rewardExp": 0,
+            "buy":{
+               "id":"gold_nugget",
+               "Count":5
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nArtifact Repair -->\"}",
+                     "{\"text\":\"The Topographer left a note stating artifacts are to be restored to full durability using iron ingots may you want to sell these back to him.\\n\\nTowers & Tunnels -->\"}",
+                     "{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}",
+                     "{\"text\":\"Maintenance Tunnels, deep sub-ground structures, not to be mistaken for shelters and infested by ancient blights.\\n\\nThese tunnels are often situated in areas that have a subterrainian level.\"}"
+                  ],
+                  "title":"Book of Artifacts",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains where to find the artifacts used in trading with Topographers."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":7
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":5
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"At the foot of the highland mountains lay a castle ruin of old days, at the foundation of the towers precious artifacts may remain untouched.\\n\\nX: -14189 Z: -5966\"}"
+                  ],
+                  "title":"Highland Ruins",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book contains locational information on ruins located somewhere in the highlands."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":8
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":7
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Situated in the Rainforest you'll be able to find waterfalls at the following locations:\\n\\nX: -1230 Z: 16259\\nX: -922 \\u0020Z: 16582 \\n\\n\\n \"}",
+                     "{\"text\":\"Situated in a Desert valley you'll be able to find waterfalls at the following locations:\\n\\nWaterfall Valley East:\\nX: -11264 Z: 13022 \\n\\nWaterfall Valley West\\nX: -14433 Z: 10576\"}",
+                     "{\"text\":\"Situated in the Highlands you'll be able to find waterfalls at the following locations:\\n\\nX: -16250 Z: 1845\\nX: -14697 Z: -7231\"}"
+                  ],
+                  "title":"Book of Falls",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book contains locational information on various waterfalls."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":11
+            },
+            "sell":{
+               "id":"contenttweaker:rlmusic_bliss",
+               "Count":1
+            }
+         }
+      ]
+   }
+}

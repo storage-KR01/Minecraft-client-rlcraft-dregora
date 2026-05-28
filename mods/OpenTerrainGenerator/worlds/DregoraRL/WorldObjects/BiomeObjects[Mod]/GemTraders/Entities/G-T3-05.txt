@@ -1,0 +1,36 @@
+{
+   "CustomName":"Gem Trader",
+   "CustomNameVisible":0,
+   "Profession":5,
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "buy":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":6
+            },
+            "buyB":{
+               "id":"minecraft:emerald",
+               "Count":19
+            },
+            "sell":{
+               "id":"defiledlands:hephaestite",
+               "Count":8
+            }
+         },
+         {
+            "buy":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":8
+            },
+            "sell":{
+               "id":"minecraft:emerald",
+               "Count":1
+            }
+         }
+      ]
+   }
+}

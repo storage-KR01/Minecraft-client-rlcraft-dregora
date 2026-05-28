@@ -1,0 +1,176 @@
+{
+   "CustomName":"Topographer",
+   "CustomNameVisible":0,
+   "Profession":1,
+   "ProfessionName":"minecraft:librarian",
+   "PersistenceRequired":1,
+   "Offers":{
+      "Recipes":[
+         {
+            "rewardExp": 0,
+            "buy":{
+               "id":"gold_nugget",
+               "Count":5
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Towers high as they are old and tunnels deep as they are dark in which you shall find what I seek, ancient coin and eldest antique.\\n\\nBring these to me and I shall reward you with my knowledge of the world.\\n\\nArtifact Repair -->\"}",
+                     "{\"text\":\"The Topographer left a note stating artifacts are to be restored to full durability using iron ingots may you want to sell these back to him.\\n\\nTowers & Tunnels -->\"}",
+                     "{\"text\":\"This page both illustrates as describes a collection of densely packed tall buildings situated next to ancient pathways, tunnels and waterways underneath.\\n\\nThese vertical mazes are only for the bravest to explore.\\n \"}",
+                     "{\"text\":\"Maintenance Tunnels, deep sub-ground structures, not to be mistaken for shelters and infested by ancient blights.\\n\\nThese tunnels are often situated in areas that have a subterrainian level.\"}"
+                  ],
+                  "title":"Book of Artifacts",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains where to find the artifacts used in trading with Topographers."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":8
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":6
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"At the foot of the highland mountains lay a castle ruin of old days, at the foundation of the towers precious artifacts may remain untouched.\\n\\nX: -14189 Z: -5966\"}"
+                  ],
+                  "title":"Highland Ruins",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book contains locational information on ruins located somewhere in the highlands."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":17
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":9
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"A Mutated Desert painted by clay deposits, oasises and mighty yet crumbling towers, a desolate place once upon a time populated with faces forgotten to time.\\n\\nX: -11709 Z: 6523\\n\\nExplanation Remnants -->\"}",
+                     "{\"text\":\"A long, long time ago as civilization prosphered and new innovations where made there was one too many resulting in a catastrophic event, the Blight.\\n\\nThe fallout of this event decimated all but the areas now known as the Remnants of the Blight.\\n \"}",
+                     "{\"text\":\"And while the flora and fauna drastically changed from what was famillair these remnants bear the best resamblance to how it once was.\\n\\n\\n \"}"
+                  ],
+                  "title":"Remnants - Dead Desert",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains the remnants and shows coordinates on one of it's locations."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":23
+            },
+            "buyB":{
+               "id":"variedcommodities:coin_gold",
+               "Count":11
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Surrounded by frozen islands is a temperate continent with purple vegetation, tall mountains, frozen lakes, swamps, and plains below which impressive cave systems stretch.\\n\\nX: -7016 Z: -17788\\n\\nExplanation Remnants -->\"}",
+                     "{\"text\":\"A long, long time ago as civilization prosphered and new innovations where made there was one too many resulting in a catastrophic event, the Blight.\\n\\nThe fallout of this event decimated all but the areas now known as the Remnants of the Blight.\\n \"}",
+                     "{\"text\":\"And while the flora and fauna drastically changed from what was famillair these remnants bear the best resamblance to how it once was.\\n\\n\\n \"}"
+                  ],
+                  "title":"Remnants - Cold Highlands",
+                  "author":"Topographer",
+                  "display":{
+                     "Lore":[
+                        "This book explains the remnants and shows coordinates on one of it's locations."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"emerald",
+               "Count":21
+            },
+            "buyB":{
+               "id":"variedcommodities:hammer",
+               "Count":1
+            },
+            "sell":{
+               "id":"written_book",
+               "Count":1,
+               "tag":{
+                  "pages":[
+                     "{\"text\":\"Oceans, not within the wastelands but far, far away surrounded by grand trenches of lava and fire. These oceans where many ships boat afloat as sunken are found.\\n\\nOceans themselves surrounding massive continents of Rainforest or Highlands.\"}",
+                     "{\"text\":\"These are parent to harbors, cities, coral reefs and temples found deep under water and definitely worth keeping an eye out for.\"}"
+                  ],
+                  "title":"Secrets of the Oceans",
+                  "author":"Explorer",
+                  "display":{
+                     "Lore":[
+                        "This book explains part of what the Oceans have to offer."
+                     ]
+                  }
+               }
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:lead_pipe",
+               "Count":1
+            },
+            "sell":{
+               "id":"variedcommodities:coin_gold",
+               "Count":8
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:sledge_hammer",
+               "Count":1
+            },
+            "sell":{
+               "id":"variedcommodities:coin_gold",
+               "Count":5
+            }
+         }m
+         {
+            "buy":{
+               "id":"variedcommodities:cleaver",
+               "Count":1
+            },
+            "sell":{
+               "id":"variedcommodities:coin_gold",
+               "Count":4
+            }
+         }
+      ]
+   }
+}
