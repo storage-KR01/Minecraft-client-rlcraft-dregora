@@ -1,0 +1,92 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 80
+
+MaxHeight: 150
+
+######################
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: false
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+LightCheck(0,2,0,0,10)
+RandomBlock(0,2,0,CHARM:CRATE_SEALED:5,../../../../../Chests/RLCraft/Charm/treasure/uncommon.nbt,2,CHARM:CRATE_SEALED:5,../../../../../Chests/RLCraft/Charm/treasure/rare.nbt,2,CHARM:CRATE_SEALED:5,../../../../../Chests/RLCraft/Charm/treasure/valuable.nbt,2,CHARM:CRATE_SEALED:2,../../../../../Chests/RLCraft/Charm/village/smith.nbt,2,CHARM:CRATE_SEALED:2,../../../../../Chests/RLCraft/Charm/village/librarian.nbt,2,CHEST:2,../../../../../Chests/Loot/junk_loot.nbt,2,CHEST:2,../../../../../Chests/Loot/simple_dungeon.nbt,15,CHEST:2,../../../../../Chests/Loot/cursed_loot.nbt,5,CHEST:2,../../../../../Chests/Loot/moderncity_rare_loot.nbt,10,CHEST:2,../../../../../Chests/Loot/moderncity_common_loot.nbt,15,CHEST:2,../../../../../Chests/Loot/moderncity_epic_loot.nbt,10,CHEST:2,../../../../../Chests/Loot/moderncity_useful_loot.nbt,30,CHEST:2,../../../../../Chests/Loot/end_city_treasure.nbt,10,CHEST:2,../../../../../Chests/Loot/stronghold_library,10,CHEST:2,../../../../../Chests/Loot/moderncity_epic_loot.nbt,50,CHEST:2,../../../../../Chests/Loot/moderncity_common_loot.nbt,100)
+
+RandomBlock(0,1,0,QUARK:MONSTER_BOX,5,MOB_SPAWNER:0,zombie_multi.nbt,10,MOB_SPAWNER:0,rupter.nbt,10,MOB_SPAWNER:0,abberation.nbt,10,MOB_SPAWNER:0,srp_maintenance_heath.nbt,30,MOB_SPAWNER:0,P_Heath.nbt,100)
+BlockCheck(0,0,0,CONCRETE,STEP:8,STEP:15)
+
+#Removed blockchecks for performance:  96:8,96:9,96:10,96:11,167:8,167:9,167:10,167:11
+
+
+
+
+
