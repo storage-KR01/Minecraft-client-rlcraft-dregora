@@ -1,0 +1,104 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+
+Frequency: 0
+
+
+SpawnHeight: randomY
+
+
+
+
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 256
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CanOverride: true
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+B(15,0,1,betternether:quartz_stained_glass:15)
+B(15,0,2,betternether:quartz_stained_glass:15)
+B(15,1,0,betternether:quartz_stained_glass:15)
+B(14,1,1,betternether:quartz_stained_glass:15)
+B(15,1,1,betternether:quartz_stained_glass:15)
+B(15,1,2,betternether:quartz_stained_glass:15)
+B(14,2,0,betternether:quartz_stained_glass:15)
+B(15,2,0,betternether:quartz_stained_glass:15)
+B(14,2,1,betternether:quartz_stained_glass:15)
+B(15,2,1,betternether:quartz_stained_glass:15)
+B(15,2,2,betternether:quartz_stained_glass:15)
+B(13,3,0,betternether:quartz_stained_glass:15)
+B(14,3,0,betternether:quartz_stained_glass:15)
+RB(15,3,0,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(14,3,1,betternether:quartz_stained_glass:15)
+B(15,3,1,betternether:quartz_stained_glass:15)
+B(15,3,2,betternether:quartz_stained_glass:15)
+B(13,4,0,betternether:quartz_stained_glass:15)
+B(14,4,0,betternether:quartz_stained_glass:15)
+RB(15,4,0,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(14,4,1,betternether:quartz_stained_glass:15)
+B(15,4,1,betternether:quartz_stained_glass:15)
+B(15,4,2,betternether:quartz_stained_glass:15)
+B(13,5,0,betternether:quartz_stained_glass:15)
+B(14,5,0,betternether:quartz_stained_glass:15)
+RB(15,5,0,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(14,5,1,betternether:quartz_stained_glass:15)
+B(15,5,1,betternether:quartz_stained_glass:15)
+B(15,5,2,betternether:quartz_stained_glass:15)
+B(13,6,0,betternether:quartz_stained_glass:15)
+B(14,6,0,betternether:quartz_stained_glass:15)
+B(15,6,0,betternether:quartz_stained_glass:15)
+B(14,6,1,betternether:quartz_stained_glass:15)
+B(15,6,1,betternether:quartz_stained_glass:15)
+B(13,7,0,betternether:quartz_stained_glass:15)
+B(14,7,0,betternether:quartz_stained_glass:15)
+B(15,7,0,betternether:quartz_stained_glass:15)
+B(14,7,1,betternether:quartz_stained_glass:15)
+B(13,8,0,betternether:quartz_stained_glass:15)
+B(14,8,0,betternether:quartz_stained_glass:15)
+B(13,9,0,betternether:quartz_stained_glass:15)
+

@@ -1,0 +1,154 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: false
+Frequency: 1
+Rarity: 100.0
+RotateRandomly: false
+SpawnHeight: randomY
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+MaxHeight: 255
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CanOverride: true
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BO3Group: CeilingCrystals:0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+B(0,-43,15,betternether:quartz_stained_glass:15)
+B(1,-43,15,betternether:quartz_stained_glass:15)
+B(2,-43,15,betternether:quartz_stained_glass:15)
+B(0,-42,14,betternether:quartz_stained_glass:15)
+B(1,-42,14,betternether:quartz_stained_glass:15)
+B(0,-42,15,betternether:quartz_stained_glass:15)
+B(1,-42,15,betternether:quartz_stained_glass:15)
+B(2,-42,15,betternether:quartz_stained_glass:15)
+B(0,-41,13,betternether:quartz_stained_glass:15)
+B(1,-41,13,betternether:quartz_stained_glass:15)
+B(0,-41,14,betternether:quartz_stained_glass:15)
+B(1,-41,14,betternether:quartz_stained_glass:15)
+B(2,-41,14,betternether:quartz_stained_glass:15)
+RB(0,-41,15,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(2,-41,15,betternether:quartz_stained_glass:15)
+B(0,-40,12,betternether:quartz_stained_glass:15)
+B(0,-40,13,betternether:quartz_stained_glass:15)
+B(1,-40,13,betternether:quartz_stained_glass:15)
+RB(0,-40,14,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(1,-40,14,betternether:quartz_stained_glass:15)
+RB(0,-40,15,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(2,-40,15,betternether:quartz_stained_glass:15)
+B(0,-39,12,betternether:quartz_stained_glass:15)
+B(0,-39,13,betternether:quartz_stained_glass:15)
+B(1,-39,13,betternether:quartz_stained_glass:15)
+RB(0,-39,14,srparasites:parasitestain:1,80,quark:crystal:1,30,srparasites:parasiterubbledense:1,100)
+B(1,-39,14,betternether:quartz_stained_glass:15)
+B(2,-39,14,betternether:quartz_stained_glass:15)
+B(0,-39,15,betternether:quartz_stained_glass:15)
+B(1,-39,15,betternether:quartz_stained_glass:15)
+B(2,-39,15,betternether:quartz_stained_glass:15)
+B(3,-39,15,betternether:quartz_stained_glass:15)
+B(0,-38,12,betternether:quartz_stained_glass:15)
+B(0,-38,13,betternether:quartz_stained_glass:15)
+B(1,-38,13,betternether:quartz_stained_glass:15)
+B(0,-38,14,betternether:quartz_stained_glass:15)
+B(1,-38,14,betternether:quartz_stained_glass:15)
+B(2,-38,14,betternether:quartz_stained_glass:15)
+B(0,-38,15,betternether:quartz_stained_glass:15)
+B(1,-38,15,betternether:quartz_stained_glass:15)
+B(2,-38,15,betternether:quartz_stained_glass:15)
+B(3,-38,15,betternether:quartz_stained_glass:15)
+B(0,-37,12,betternether:quartz_stained_glass:15)
+B(0,-37,13,betternether:quartz_stained_glass:15)
+B(1,-37,13,betternether:quartz_stained_glass:15)
+B(0,-37,14,betternether:quartz_stained_glass:15)
+B(1,-37,14,betternether:quartz_stained_glass:15)
+B(2,-37,14,betternether:quartz_stained_glass:15)
+B(0,-37,15,betternether:quartz_stained_glass:15)
+B(1,-37,15,betternether:quartz_stained_glass:15)
+B(2,-37,15,betternether:quartz_stained_glass:15)
+B(0,-36,12,betternether:quartz_stained_glass:15)
+B(0,-36,13,betternether:quartz_stained_glass:15)
+B(1,-36,13,betternether:quartz_stained_glass:15)
+B(0,-36,14,betternether:quartz_stained_glass:15)
+B(1,-36,14,betternether:quartz_stained_glass:15)
+B(2,-36,14,betternether:quartz_stained_glass:15)
+B(0,-36,15,betternether:quartz_stained_glass:15)
+B(1,-36,15,betternether:quartz_stained_glass:15)
+B(2,-36,15,betternether:quartz_stained_glass:15)
+B(0,-35,12,betternether:quartz_stained_glass:15)
+B(0,-35,13,betternether:quartz_stained_glass:15)
+B(1,-35,13,betternether:quartz_stained_glass:15)
+B(0,-35,14,betternether:quartz_stained_glass:15)
+B(1,-35,14,betternether:quartz_stained_glass:15)
+B(2,-35,14,betternether:quartz_stained_glass:15)
+B(0,-35,15,betternether:quartz_stained_glass:15)
+B(1,-35,15,betternether:quartz_stained_glass:15)
+B(0,-34,12,betternether:quartz_stained_glass:15)
+B(0,-34,13,betternether:quartz_stained_glass:15)
+B(1,-34,13,betternether:quartz_stained_glass:15)
+B(0,-34,14,betternether:quartz_stained_glass:15)
+B(1,-34,14,betternether:quartz_stained_glass:15)
+B(0,-34,15,betternether:quartz_stained_glass:15)
+B(1,-34,15,betternether:quartz_stained_glass:15)
+B(0,-33,12,betternether:quartz_stained_glass:15)
+B(0,-33,13,betternether:quartz_stained_glass:15)
+B(1,-33,13,betternether:quartz_stained_glass:15)
+B(0,-33,14,betternether:quartz_stained_glass:15)
+B(1,-33,14,betternether:quartz_stained_glass:15)
+B(0,-33,15,betternether:quartz_stained_glass:15)
+B(0,-32,12,betternether:quartz_stained_glass:15)
+B(0,-32,13,betternether:quartz_stained_glass:15)
+B(1,-32,13,betternether:quartz_stained_glass:15)
+B(0,-32,14,betternether:quartz_stained_glass:15)
+B(0,-31,12,betternether:quartz_stained_glass:15)
+B(0,-31,13,betternether:quartz_stained_glass:15)
+B(0,-31,14,betternether:quartz_stained_glass:15)
+B(0,-30,12,betternether:quartz_stained_glass:15)
+B(0,-30,13,betternether:quartz_stained_glass:15)
+B(0,-29,12,betternether:quartz_stained_glass:15)
+
