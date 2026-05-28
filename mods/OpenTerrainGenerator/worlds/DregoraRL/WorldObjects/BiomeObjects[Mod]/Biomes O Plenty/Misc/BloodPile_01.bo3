@@ -1,0 +1,241 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 50.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 9
+
+MaxHeight: 9
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: biomesoplenty:blood,AIR
+
+MaxPercentageOutsideSourceBlock: 100
+
+OutsideSourceBlock: dontPlace
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-4,0,-1,biomesoplenty:flesh)
+Block(-4,0,0,biomesoplenty:flesh)
+Block(-4,0,1,biomesoplenty:flesh)
+Block(-4,0,2,biomesoplenty:flesh)
+Block(-4,0,3,biomesoplenty:flesh)
+Block(-3,0,-2,biomesoplenty:flesh)
+Block(-3,0,-1,biomesoplenty:flesh)
+Block(-3,0,0,biomesoplenty:blood)
+Block(-3,0,1,biomesoplenty:blood)
+Block(-3,0,2,biomesoplenty:blood)
+Block(-3,0,3,biomesoplenty:flesh)
+Block(-2,0,-3,biomesoplenty:flesh)
+Block(-2,0,-2,biomesoplenty:flesh)
+Block(-2,0,-1,biomesoplenty:blood)
+Block(-2,0,0,biomesoplenty:flesh)
+Block(-2,0,1,biomesoplenty:flesh)
+Block(-2,0,2,biomesoplenty:flesh)
+Block(-2,0,3,biomesoplenty:flesh)
+Block(-2,0,4,biomesoplenty:flesh)
+Block(-2,0,5,biomesoplenty:flesh)
+Block(-2,1,0,biomesoplenty:flesh)
+Block(-2,1,1,biomesoplenty:flesh)
+Block(-1,0,-4,biomesoplenty:flesh)
+Block(-1,0,-3,BONE_BLOCK:0)
+Block(-1,0,-2,biomesoplenty:flesh)
+Block(-1,0,-1,biomesoplenty:flesh)
+Block(-1,0,0,biomesoplenty:flesh)
+Block(-1,0,1,BONE_BLOCK:0)
+Block(-1,0,2,biomesoplenty:flesh)
+Block(-1,0,3,biomesoplenty:flesh)
+Block(-1,0,4,biomesoplenty:blood)
+Block(-1,0,5,biomesoplenty:flesh)
+Block(-1,1,-2,biomesoplenty:flesh)
+Block(-1,1,-1,biomesoplenty:flesh)
+Block(-1,1,0,biomesoplenty:blood)
+Block(-1,1,1,biomesoplenty:blood)
+Block(-1,1,2,biomesoplenty:flesh)
+Block(0,0,-4,biomesoplenty:flesh)
+Block(0,0,-3,biomesoplenty:blood)
+Block(0,0,-2,biomesoplenty:flesh)
+Block(0,0,-1,biomesoplenty:flesh)
+Block(0,0,0,biomesoplenty:flesh)
+Block(0,0,1,biomesoplenty:flesh)
+Block(0,0,2,biomesoplenty:flesh)
+Block(0,0,3,biomesoplenty:blood)
+Block(0,0,4,biomesoplenty:flesh)
+Block(0,1,-2,biomesoplenty:flesh)
+Block(0,1,-1,biomesoplenty:blood)
+Block(0,1,0,biomesoplenty:flesh)
+Block(0,1,1,biomesoplenty:flesh)
+Block(0,1,2,biomesoplenty:flesh)
+Block(0,2,0,biomesoplenty:flesh)
+Block(0,2,1,biomesoplenty:flesh)
+Block(0,3,0,biomesoplenty:flesh)
+Block(1,0,-4,biomesoplenty:flesh)
+Block(1,0,-3,biomesoplenty:flesh)
+Block(1,0,-2,biomesoplenty:flesh)
+Block(1,0,-1,biomesoplenty:flesh)
+Block(1,0,0,biomesoplenty:flesh)
+Block(1,0,1,biomesoplenty:flesh)
+Block(1,0,2,biomesoplenty:flesh)
+Block(1,0,3,BONE_BLOCK:0)
+Block(1,0,4,biomesoplenty:flesh)
+Block(1,0,5,biomesoplenty:flesh)
+Block(1,1,-2,biomesoplenty:flesh)
+Block(1,1,-1,biomesoplenty:blood:1)
+Block(1,1,0,biomesoplenty:flesh)
+Block(1,1,1,biomesoplenty:blood)
+Block(1,1,2,biomesoplenty:flesh)
+Block(2,0,-3,biomesoplenty:flesh)
+Block(2,0,-2,biomesoplenty:blood)
+Block(2,0,-1,biomesoplenty:blood)
+Block(2,0,0,biomesoplenty:flesh)
+Block(2,0,1,biomesoplenty:flesh)
+Block(2,0,2,biomesoplenty:flesh)
+Block(2,0,3,biomesoplenty:blood)
+Block(2,0,4,biomesoplenty:flesh)
+Block(2,1,-1,biomesoplenty:blood:2)
+Block(2,1,0,biomesoplenty:flesh)
+Block(2,1,1,biomesoplenty:blood)
+Block(2,1,2,biomesoplenty:flesh)
+Block(3,0,-2,biomesoplenty:flesh)
+Block(3,0,-1,BONE_BLOCK:0)
+Block(3,0,0,biomesoplenty:flesh)
+Block(3,0,1,biomesoplenty:flesh)
+Block(3,0,2,biomesoplenty:flesh)
+Block(3,0,3,biomesoplenty:flesh)
+Block(3,0,4,biomesoplenty:flesh)
+Block(3,1,1,biomesoplenty:flesh)
+Block(4,0,-1,biomesoplenty:flesh)
+Block(4,0,0,biomesoplenty:blood)
+Block(4,0,1,biomesoplenty:blood)
+Block(4,0,2,biomesoplenty:flesh)
+Block(4,0,3,biomesoplenty:flesh)
+Block(5,0,-1,biomesoplenty:flesh)
+Block(5,0,0,biomesoplenty:flesh)
+Block(5,0,1,biomesoplenty:flesh)
+RandomBlock(-4,1,3,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(-3,1,-1,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(-2,1,2,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(0,2,-2,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(0,2,2,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(1,1,-3,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(1,1,4,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(1,2,0,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(3,1,0,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(3,1,2,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(4,1,-1,contenttweaker:bone_pile,60,AIR,100)
+RandomBlock(-4,1,1,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(-2,1,-2,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(-2,2,1,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(-1,1,-4,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(-1,1,3,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(0,3,1,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(1,1,5,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(3,1,-2,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(3,1,3,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(3,2,1,quark:leaf_carpet:7,60,AIR,100)
+RandomBlock(5,1,0,quark:leaf_carpet:7,60,AIR,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

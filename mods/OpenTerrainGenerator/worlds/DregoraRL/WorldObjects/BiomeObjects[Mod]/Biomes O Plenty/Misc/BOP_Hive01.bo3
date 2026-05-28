@@ -1,0 +1,554 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: false
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 125
+
+MaxHeight: 200
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: Solid
+
+MaxPercentageOutsideSourceBlock: 55
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-10,12,-2,biomesoplenty:hive)
+Block(-10,12,-1,biomesoplenty:hive)
+Block(-10,12,0,biomesoplenty:hive)
+Block(-10,12,1,biomesoplenty:hive)
+Block(-10,13,-1,biomesoplenty:hive)
+Block(-10,13,0,biomesoplenty:hive)
+Block(-9,11,-1,biomesoplenty:hive)
+Block(-9,11,0,biomesoplenty:hive)
+Block(-9,12,-3,biomesoplenty:hive)
+Block(-9,12,-2,biomesoplenty:hive)
+Block(-9,12,-1,biomesoplenty:hive)
+Block(-9,12,0,biomesoplenty:hive)
+Block(-9,12,1,biomesoplenty:hive)
+Block(-9,12,2,biomesoplenty:hive)
+Block(-9,13,-2,biomesoplenty:hive)
+Block(-9,13,-1,biomesoplenty:hive)
+Block(-9,13,0,biomesoplenty:hive)
+Block(-9,13,1,biomesoplenty:hive)
+Block(-8,10,-1,biomesoplenty:hive)
+Block(-8,10,0,biomesoplenty:hive)
+Block(-8,11,-2,biomesoplenty:hive)
+Block(-8,11,-1,biomesoplenty:hive)
+Block(-8,11,0,biomesoplenty:hive)
+Block(-8,11,1,biomesoplenty:hive)
+Block(-8,12,-4,biomesoplenty:hive)
+Block(-8,12,-3,biomesoplenty:hive)
+Block(-8,12,-2,biomesoplenty:hive:2)
+Block(-8,12,-1,biomesoplenty:hive:2)
+Block(-8,12,0,biomesoplenty:hive:2)
+Block(-8,12,1,biomesoplenty:hive:2)
+Block(-8,12,2,biomesoplenty:hive)
+Block(-8,12,3,biomesoplenty:hive)
+Block(-8,13,-3,biomesoplenty:hive)
+Block(-8,13,-2,biomesoplenty:hive)
+Block(-8,13,-1,biomesoplenty:hive)
+Block(-8,13,0,biomesoplenty:hive)
+Block(-8,13,1,biomesoplenty:hive)
+Block(-8,13,2,biomesoplenty:hive)
+Block(-8,14,-1,biomesoplenty:hive)
+Block(-8,14,0,biomesoplenty:hive)
+Block(-7,10,-1,biomesoplenty:hive)
+Block(-7,10,0,biomesoplenty:hive)
+Block(-7,10,1,biomesoplenty:hive)
+Block(-7,11,-3,biomesoplenty:hive)
+Block(-7,11,-2,biomesoplenty:hive)
+Block(-7,11,-1,biomesoplenty:hive)
+Block(-7,11,0,biomesoplenty:hive)
+Block(-7,11,1,biomesoplenty:hive)
+Block(-7,11,2,biomesoplenty:hive)
+Block(-7,11,3,biomesoplenty:hive)
+Block(-7,12,-5,biomesoplenty:hive)
+Block(-7,12,-4,biomesoplenty:hive)
+Block(-7,12,-3,biomesoplenty:hive:2)
+Block(-7,12,-2,biomesoplenty:hive:2)
+Block(-7,12,-1,biomesoplenty:hive:2)
+Block(-7,12,0,biomesoplenty:hive:2)
+Block(-7,12,1,biomesoplenty:hive:2)
+Block(-7,12,2,biomesoplenty:hive:2)
+Block(-7,12,3,biomesoplenty:hive)
+Block(-7,12,4,biomesoplenty:hive)
+Block(-7,13,-4,biomesoplenty:hive)
+Block(-7,13,-3,biomesoplenty:hive)
+Block(-7,13,-2,biomesoplenty:hive:2)
+Block(-7,13,-1,biomesoplenty:hive:2)
+Block(-7,13,0,biomesoplenty:hive:2)
+Block(-7,13,1,biomesoplenty:hive:2)
+Block(-7,13,2,biomesoplenty:hive)
+Block(-7,13,3,biomesoplenty:hive)
+Block(-7,14,-3,biomesoplenty:hive)
+Block(-7,14,-2,biomesoplenty:hive)
+Block(-7,14,-1,biomesoplenty:hive)
+Block(-7,14,0,biomesoplenty:hive)
+Block(-7,14,1,biomesoplenty:hive)
+Block(-7,14,2,biomesoplenty:hive)
+Block(-6,9,-1,biomesoplenty:hive)
+Block(-6,9,0,biomesoplenty:hive)
+Block(-6,10,-2,biomesoplenty:hive)
+Block(-6,10,-1,biomesoplenty:hive)
+Block(-6,10,0,biomesoplenty:hive)
+Block(-6,10,2,biomesoplenty:hive)
+Block(-6,11,-3,biomesoplenty:hive)
+Block(-6,11,-2,biomesoplenty:hive)
+Block(-6,11,-1,biomesoplenty:hive:2)
+Block(-6,11,0,biomesoplenty:hive:2)
+Block(-6,11,2,biomesoplenty:hive)
+Block(-6,11,3,biomesoplenty:hive)
+Block(-6,11,4,biomesoplenty:hive)
+Block(-6,12,-5,biomesoplenty:hive)
+Block(-6,12,-4,biomesoplenty:hive)
+Block(-6,12,-3,biomesoplenty:hive:2)
+Block(-6,12,-2,biomesoplenty:hive:2)
+Block(-6,12,-1,biomesoplenty:hive:2)
+Block(-6,12,0,biomesoplenty:hive:2)
+Block(-6,12,2,biomesoplenty:hive:2)
+Block(-6,12,3,biomesoplenty:hive)
+Block(-6,12,4,biomesoplenty:hive)
+Block(-6,13,-4,biomesoplenty:hive)
+Block(-6,13,-3,biomesoplenty:hive)
+Block(-6,13,-2,biomesoplenty:hive:3)
+Block(-6,13,2,biomesoplenty:hive)
+Block(-6,13,3,biomesoplenty:hive)
+Block(-6,14,-3,biomesoplenty:hive)
+Block(-6,14,-2,biomesoplenty:hive:2)
+Block(-6,14,-1,biomesoplenty:hive:3)
+Block(-6,14,0,biomesoplenty:hive:3)
+Block(-6,14,1,biomesoplenty:hive:2)
+Block(-6,14,2,biomesoplenty:hive)
+Block(-6,15,-2,biomesoplenty:hive)
+Block(-6,15,-1,biomesoplenty:hive)
+Block(-6,15,0,biomesoplenty:hive)
+Block(-6,15,1,biomesoplenty:hive)
+Block(-5,8,-1,biomesoplenty:hive)
+Block(-5,8,0,biomesoplenty:hive)
+Block(-5,9,-2,biomesoplenty:hive)
+Block(-5,9,-1,biomesoplenty:hive)
+Block(-5,9,0,biomesoplenty:hive)
+Block(-5,9,1,biomesoplenty:hive)
+Block(-5,10,-3,biomesoplenty:hive)
+Block(-5,10,-2,biomesoplenty:hive)
+Block(-5,10,-1,biomesoplenty:hive:3)
+Block(-5,10,0,biomesoplenty:hive:3)
+Block(-5,10,1,biomesoplenty:hive)
+Block(-5,10,2,biomesoplenty:hive)
+Block(-5,11,-4,biomesoplenty:hive)
+Block(-5,11,-3,biomesoplenty:hive)
+Block(-5,11,-2,biomesoplenty:hive:3)
+Block(-5,11,-1,biomesoplenty:hive:3)
+Block(-5,11,0,biomesoplenty:hive:3)
+Block(-5,11,1,biomesoplenty:hive:3)
+Block(-5,11,2,biomesoplenty:hive)
+Block(-5,11,3,biomesoplenty:hive)
+Block(-5,11,4,biomesoplenty:hive)
+Block(-5,12,-6,biomesoplenty:hive)
+Block(-5,12,-5,biomesoplenty:hive)
+Block(-5,12,-4,biomesoplenty:hive:2)
+Block(-5,12,-3,biomesoplenty:hive:2)
+Block(-5,12,2,biomesoplenty:hive:2)
+Block(-5,12,3,biomesoplenty:hive:2)
+Block(-5,12,4,biomesoplenty:hive)
+Block(-5,12,5,biomesoplenty:hive)
+Block(-5,13,-5,biomesoplenty:hive)
+Block(-5,13,-4,biomesoplenty:hive)
+Block(-5,13,-3,biomesoplenty:hive:3)
+Block(-5,13,2,biomesoplenty:hive:3)
+Block(-5,13,3,biomesoplenty:hive)
+Block(-5,13,4,biomesoplenty:hive)
+Block(-5,14,-4,biomesoplenty:hive)
+Block(-5,14,-3,biomesoplenty:hive:2)
+Block(-5,14,-2,biomesoplenty:hive:3)
+Block(-5,14,-1,biomesoplenty:hive:2)
+Block(-5,14,0,biomesoplenty:hive:2)
+Block(-5,14,1,biomesoplenty:hive:3)
+Block(-5,14,2,biomesoplenty:hive:2)
+Block(-5,14,3,biomesoplenty:hive)
+Block(-5,15,-3,biomesoplenty:hive)
+Block(-5,15,-2,biomesoplenty:hive)
+Block(-5,15,-1,biomesoplenty:hive)
+Block(-5,15,0,biomesoplenty:hive)
+Block(-5,15,1,biomesoplenty:hive)
+Block(-5,15,2,biomesoplenty:hive)
+Block(-5,16,0,biomesoplenty:hive)
+Block(-4,8,-1,biomesoplenty:hive)
+Block(-4,8,0,biomesoplenty:hive)
+Block(-4,9,-1,biomesoplenty:hive)
+Block(-4,9,0,biomesoplenty:hive)
+Block(-4,10,-3,biomesoplenty:hive)
+Block(-4,10,-2,biomesoplenty:hive)
+Block(-4,10,-1,biomesoplenty:hive:3)
+Block(-4,10,0,biomesoplenty:hive:3)
+Block(-4,10,1,biomesoplenty:hive)
+Block(-4,10,2,biomesoplenty:hive)
+Block(-4,11,-4,biomesoplenty:hive)
+Block(-4,11,-3,biomesoplenty:hive)
+Block(-4,11,-2,biomesoplenty:hive:3)
+Block(-4,11,-1,biomesoplenty:hive:2)
+Block(-4,11,0,biomesoplenty:hive:2)
+Block(-4,11,1,biomesoplenty:hive:3)
+Block(-4,11,2,biomesoplenty:hive)
+Block(-4,11,3,biomesoplenty:hive)
+Block(-4,12,-6,biomesoplenty:hive)
+Block(-4,12,-5,biomesoplenty:hive)
+Block(-4,12,-4,biomesoplenty:hive:2)
+Block(-4,12,-3,biomesoplenty:hive:3)
+Block(-4,12,-1,biomesoplenty:hive:2)
+Block(-4,12,2,biomesoplenty:hive:3)
+Block(-4,12,3,biomesoplenty:hive:2)
+Block(-4,12,4,biomesoplenty:hive)
+Block(-4,12,5,biomesoplenty:hive)
+Block(-4,13,-6,biomesoplenty:hive)
+Block(-4,13,-5,biomesoplenty:hive)
+Block(-4,13,-4,biomesoplenty:hive:2)
+Block(-4,13,-3,biomesoplenty:hive:3)
+
+Block(-4,13,2,biomesoplenty:hive:3)
+Block(-4,13,3,biomesoplenty:hive:2)
+Block(-4,13,4,biomesoplenty:hive)
+Block(-4,13,5,biomesoplenty:hive)
+Block(-4,14,-4,biomesoplenty:hive)
+Block(-4,14,-3,biomesoplenty:hive:3)
+Block(-4,14,-1,biomesoplenty:hive:2)
+Block(-4,14,0,biomesoplenty:hive:2)
+Block(-4,14,2,biomesoplenty:hive:3)
+Block(-4,14,3,biomesoplenty:hive)
+Block(-4,15,-3,biomesoplenty:hive)
+Block(-4,15,-2,biomesoplenty:hive)
+Block(-4,15,-1,biomesoplenty:hive)
+Block(-4,15,0,biomesoplenty:hive)
+Block(-4,15,1,biomesoplenty:hive)
+Block(-4,15,2,biomesoplenty:hive)
+Block(-4,16,-1,biomesoplenty:hive)
+Block(-4,16,0,biomesoplenty:hive)
+Block(-3,9,-1,biomesoplenty:hive)
+Block(-3,9,0,biomesoplenty:hive)
+Block(-3,10,-3,biomesoplenty:hive)
+Block(-3,10,-2,biomesoplenty:hive)
+Block(-3,10,-1,biomesoplenty:hive)
+Block(-3,10,0,biomesoplenty:hive)
+Block(-3,10,1,biomesoplenty:hive)
+Block(-3,10,2,biomesoplenty:hive)
+Block(-3,11,-4,biomesoplenty:hive)
+Block(-3,11,-3,biomesoplenty:hive)
+Block(-3,11,-2,biomesoplenty:hive:2)
+Block(-3,11,-1,biomesoplenty:hive:2)
+Block(-3,11,0,biomesoplenty:hive:2)
+Block(-3,11,1,biomesoplenty:hive:2)
+Block(-3,11,2,biomesoplenty:hive)
+Block(-3,11,3,biomesoplenty:hive)
+Block(-3,12,-5,biomesoplenty:hive)
+Block(-3,12,-4,biomesoplenty:hive)
+Block(-3,12,-3,biomesoplenty:hive:2)
+Block(-3,12,-2,biomesoplenty:hive:3)
+Block(-3,12,0,biomesoplenty:hive:2)
+Block(-3,12,2,biomesoplenty:hive:2)
+Block(-3,12,3,biomesoplenty:hive)
+Block(-3,12,4,biomesoplenty:hive)
+Block(-3,13,-5,biomesoplenty:hive)
+Block(-3,13,-4,biomesoplenty:hive)
+Block(-3,13,-3,biomesoplenty:hive:2)
+Block(-3,13,2,biomesoplenty:hive:2)
+Block(-3,13,3,biomesoplenty:hive)
+Block(-3,13,4,biomesoplenty:hive)
+Block(-3,14,-4,biomesoplenty:hive)
+Block(-3,14,-3,biomesoplenty:hive:2)
+Block(-3,14,-1,biomesoplenty:hive:2)
+Block(-3,14,0,biomesoplenty:hive:2)
+Block(-3,14,2,biomesoplenty:hive:2)
+Block(-3,14,3,biomesoplenty:hive)
+Block(-3,15,-3,biomesoplenty:hive)
+Block(-3,15,-2,biomesoplenty:hive)
+Block(-3,15,-1,biomesoplenty:hive)
+Block(-3,15,0,biomesoplenty:hive)
+Block(-3,15,1,biomesoplenty:hive)
+Block(-3,15,2,biomesoplenty:hive)
+Block(-3,16,-2,biomesoplenty:hive)
+Block(-3,16,-1,biomesoplenty:hive)
+Block(-3,16,0,biomesoplenty:hive)
+Block(-3,16,1,biomesoplenty:hive)
+Block(-2,10,-2,biomesoplenty:hive)
+Block(-2,10,-1,biomesoplenty:hive)
+Block(-2,10,0,biomesoplenty:hive)
+Block(-2,10,1,biomesoplenty:hive)
+Block(-2,11,-4,biomesoplenty:hive)
+Block(-2,11,-3,biomesoplenty:hive)
+Block(-2,11,-2,biomesoplenty:hive)
+Block(-2,11,-1,biomesoplenty:hive)
+Block(-2,11,0,biomesoplenty:hive)
+Block(-2,11,1,biomesoplenty:hive)
+Block(-2,11,3,biomesoplenty:hive)
+Block(-2,12,-5,biomesoplenty:hive)
+Block(-2,12,-4,biomesoplenty:hive)
+Block(-2,12,-3,biomesoplenty:hive:2)
+Block(-2,12,-2,biomesoplenty:hive:2)
+Block(-2,12,-1,biomesoplenty:hive:2)
+Block(-2,12,0,biomesoplenty:hive:2)
+Block(-2,12,3,biomesoplenty:hive)
+Block(-2,12,4,biomesoplenty:hive)
+Block(-2,13,-5,biomesoplenty:hive)
+Block(-2,13,-4,biomesoplenty:hive)
+Block(-2,13,-3,biomesoplenty:hive:2)
+Block(-2,13,-2,biomesoplenty:hive:3)
+Block(-2,13,-1,biomesoplenty:hive:3)
+Block(-2,13,0,biomesoplenty:hive:2)
+Block(-2,13,3,biomesoplenty:hive)
+Block(-2,13,4,biomesoplenty:hive)
+Block(-2,14,-4,biomesoplenty:hive)
+Block(-2,14,-3,biomesoplenty:hive:2)
+Block(-2,14,-2,biomesoplenty:hive:3)
+Block(-2,14,1,biomesoplenty:hive:3)
+Block(-2,14,2,biomesoplenty:hive:2)
+Block(-2,14,3,biomesoplenty:hive)
+Block(-2,15,-3,biomesoplenty:hive)
+Block(-2,15,-2,biomesoplenty:hive)
+Block(-2,15,-1,biomesoplenty:hive)
+Block(-2,15,0,biomesoplenty:hive)
+Block(-2,15,1,biomesoplenty:hive)
+Block(-2,15,2,biomesoplenty:hive)
+Block(-1,10,-1,biomesoplenty:hive)
+Block(-1,10,0,biomesoplenty:hive)
+Block(-1,11,-3,biomesoplenty:hive)
+Block(-1,11,-2,biomesoplenty:hive)
+Block(-1,11,-1,biomesoplenty:hive)
+Block(-1,11,0,biomesoplenty:hive)
+Block(-1,11,1,biomesoplenty:hive)
+Block(-1,11,2,biomesoplenty:hive)
+Block(-1,12,-4,biomesoplenty:hive)
+Block(-1,12,-3,biomesoplenty:hive)
+Block(-1,12,-2,biomesoplenty:hive:2)
+Block(-1,12,-1,biomesoplenty:hive:2)
+Block(-1,12,0,biomesoplenty:hive:2)
+Block(-1,12,1,biomesoplenty:hive:2)
+Block(-1,12,2,biomesoplenty:hive)
+Block(-1,12,3,biomesoplenty:hive)
+Block(-1,13,-4,biomesoplenty:hive)
+Block(-1,13,-3,biomesoplenty:hive)
+Block(-1,13,-2,biomesoplenty:hive:2)
+Block(-1,13,-1,biomesoplenty:hive:2)
+Block(-1,13,0,biomesoplenty:hive:2)
+Block(-1,13,1,biomesoplenty:hive:2)
+Block(-1,13,2,biomesoplenty:hive)
+Block(-1,13,3,biomesoplenty:hive)
+Block(-1,14,-3,biomesoplenty:hive)
+Block(-1,14,-2,biomesoplenty:hive:2)
+Block(-1,14,-1,biomesoplenty:hive:2)
+Block(-1,14,0,biomesoplenty:hive:2)
+Block(-1,14,1,biomesoplenty:hive:2)
+Block(-1,14,2,biomesoplenty:hive)
+Block(-1,15,-2,biomesoplenty:hive)
+Block(-1,15,-1,biomesoplenty:hive)
+Block(-1,15,0,biomesoplenty:hive)
+Block(-1,15,1,biomesoplenty:hive)
+Block(0,11,-2,biomesoplenty:hive)
+Block(0,11,-1,biomesoplenty:hive)
+Block(0,11,0,biomesoplenty:hive)
+Block(0,11,1,biomesoplenty:hive)
+
+Block(0,12,-3,biomesoplenty:hive)
+Block(0,12,-2,biomesoplenty:hive)
+Block(0,12,-1,biomesoplenty:hive:2)
+Block(0,12,0,biomesoplenty:hive:2)
+Block(0,12,1,biomesoplenty:hive)
+Block(0,12,2,biomesoplenty:hive)
+Block(0,13,-3,biomesoplenty:hive)
+Block(0,13,-2,biomesoplenty:hive)
+Block(0,13,-1,biomesoplenty:hive:3)
+Block(0,13,0,biomesoplenty:hive:3)
+Block(0,13,1,biomesoplenty:hive)
+Block(0,13,2,biomesoplenty:hive)
+Block(0,14,-3,biomesoplenty:hive)
+Block(0,14,-2,biomesoplenty:hive)
+Block(0,14,-1,biomesoplenty:hive:2)
+Block(0,14,0,biomesoplenty:hive:2)
+Block(0,14,1,biomesoplenty:hive)
+Block(0,14,2,biomesoplenty:hive)
+Block(0,15,-1,biomesoplenty:hive)
+Block(0,15,0,biomesoplenty:hive)
+Block(1,11,-1,biomesoplenty:hive)
+Block(1,11,0,biomesoplenty:hive)
+Block(1,12,-3,biomesoplenty:hive)
+Block(1,12,-2,biomesoplenty:hive)
+Block(1,12,-1,biomesoplenty:hive)
+Block(1,12,0,biomesoplenty:hive)
+Block(1,12,1,biomesoplenty:hive)
+Block(1,12,2,biomesoplenty:hive)
+Block(1,13,-2,biomesoplenty:hive)
+Block(1,13,-1,biomesoplenty:hive)
+Block(1,13,0,biomesoplenty:hive)
+Block(1,13,1,biomesoplenty:hive)
+Block(1,14,-2,biomesoplenty:hive)
+Block(1,14,-1,biomesoplenty:hive)
+Block(1,14,0,biomesoplenty:hive)
+Block(1,14,1,biomesoplenty:hive)
+Block(2,12,-2,biomesoplenty:hive)
+Block(2,12,-1,biomesoplenty:hive)
+Block(2,12,0,biomesoplenty:hive)
+Block(2,12,1,biomesoplenty:hive)
+Block(3,12,-1,biomesoplenty:hive)
+Block(3,12,0,biomesoplenty:hive)
+
+
+Block(-6,10,1,AIR)
+Block(-6,11,1,AIR)
+Block(-6,12,1,AIR)
+Block(-6,13,-1,AIR)
+Block(-6,13,0,AIR)
+Block(-6,13,1,AIR)
+Block(-5,12,-2,AIR)
+Block(-5,12,-1,AIR)
+Block(-5,12,0,AIR)
+Block(-5,12,1,AIR)
+Block(-5,13,-2,AIR)
+Block(-5,13,-1,AIR)
+Block(-5,13,0,AIR)
+Block(-5,13,1,AIR)
+Block(-4,12,-2,AIR)
+Block(-4,12,0,AIR)
+Block(-4,12,1,AIR)
+Block(-4,13,-2,AIR)
+Block(-4,13,-1,AIR)
+Block(-4,13,1,AIR)
+Block(-4,14,-2,AIR)
+Block(-4,14,1,AIR)
+Block(-3,12,-1,AIR)
+Block(-3,12,1,AIR)
+Block(-3,13,-2,AIR)
+Block(-3,13,-1,AIR)
+Block(-3,13,0,AIR)
+Block(-3,13,1,AIR)
+Block(-3,14,-2,AIR)
+Block(-3,14,1,AIR)
+Block(-2,11,2,AIR)
+Block(-2,12,1,AIR)
+Block(-2,12,2,AIR)
+Block(-2,13,1,AIR)
+Block(-2,13,2,AIR)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(-8,14,2,AIR)
+BlockCheck(-7,10,2,AIR)
+BlockCheck(-7,13,4,AIR)
+BlockCheck(-4,10,3,AIR)
+BlockCheck(-4,13,6,AIR)
+BlockCheck(-4,15,3,AIR)
+#BlockCheck(-1,11,3,AIR)
+#BlockCheck(0,13,3,AIR)
+#BlockCheck(0,15,2,AIR)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-4,13,0,AIR)
+Block(0,11,6,AIR)
+Block(-7,15,5,AIR)
+
+Entity(0,11,6,biomesoplenty:wasp,1)
+Entity(-7,15,5,biomesoplenty:wasp,1)
+Entity(-4,13,0,biomesoplenty:wasp,6)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

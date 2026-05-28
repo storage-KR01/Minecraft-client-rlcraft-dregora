@@ -1,0 +1,176 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#Entity(-4,153,-4,WOOL:11) = armorstand_04
+#Entity(-4,153,-1,WOOL:10) = armorstand_05
+#Entity(-4,153,2,WOOL:9)   = armorstand_06
+#Entity(-4,153,5,WOOL:8)   = armorstand_07
+#Entity(-4,153,8,WOOL:7)   = armorstand_08
+#Entity(4,153,-4,WOOL:0)   = armorstand_14
+#Entity(4,153,-1,WOOL:1)   = armorstand_13
+#Entity(4,153,2,WOOL:2)    = armorstand_12
+#Entity(4,153,5,WOOL:3)    = armorstand_11
+#Entity(4,153,8,WOOL:4)    = armorstand_10
+
+Entity(-4,153,-4,armor_stand,1,../tier_1/armorstand_04.nbt)
+Entity(-4,153,-1,armor_stand,1,../tier_30/armorstand_05.nbt)
+Entity(-4,153,2,armor_stand,1,../tier_30/armorstand_06.nbt)
+Entity(-4,153,5,armor_stand,1,../tier_1/armorstand_07.nbt)
+Entity(-4,153,8,armor_stand,1,../tier_30/armorstand_08.nbt)
+Entity(4,153,-4,armor_stand,1,../tier_30/armorstand_14.nbt)
+Entity(4,153,-1,armor_stand,1,../tier_1/armorstand_13.nbt)
+Entity(4,153,2,armor_stand,1,../tier_30/armorstand_12.nbt)
+Entity(4,153,5,armor_stand,1,../tier_30/armorstand_11.nbt)
+Entity(4,153,8,armor_stand,1,../tier_1/armorstand_10.nbt)
+
+Block(-4,153,-4,AIR:0)
+Block(-4,153,-1,AIR:0)
+Block(-4,153,2,AIR:0)
+Block(-4,153,5,AIR:0)
+Block(-4,153,8,AIR:0)
+Block(4,153,-4,AIR:0)
+Block(4,153,-1,AIR:0)
+Block(4,153,2,AIR:0)
+Block(4,153,5,AIR:0)
+Block(4,153,8,AIR:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
