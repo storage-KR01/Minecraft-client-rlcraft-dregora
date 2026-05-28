@@ -1,0 +1,225 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,4,-7,quark:slate:1)
+Block(-8,5,-7,quark:slate:1)
+Block(-8,5,-6,quark:slate:1)
+Block(-8,6,-7,quark:slate:1)
+Block(-8,6,-6,quark:slate:1)
+Block(-8,6,-5,quark:slate:1)
+Block(-8,7,-7,quark:slate:1)
+Block(-8,7,-6,quark:slate:1)
+Block(-8,7,-5,quark:slate:1)
+Block(-8,7,-4,quark:slate:1)
+Block(-8,8,-7,quark:slate:1)
+Block(-8,8,-6,quark:slate:1)
+Block(-8,8,-5,quark:slate:1)
+Block(-8,8,-4,quark:slate:1)
+Block(-8,9,-7,quark:slate:1)
+Block(-8,9,-6,quark:slate:1)
+Block(-8,9,-5,quark:slate:1)
+Block(-8,10,-7,quark:slate:1)
+Block(-8,10,-6,quark:slate:1)
+Block(-8,11,-7,quark:slate:1)
+Block(-7,4,-7,quark:slate:1)
+Block(-7,5,-7,quark:slate:1)
+Block(-7,5,-6,quark:slate:1)
+Block(-7,6,-7,quark:slate:1)
+Block(-7,6,-6,quark:slate:1)
+Block(-7,6,-5,quark:slate:1)
+Block(-7,7,-7,quark:slate:1)
+Block(-7,7,-6,quark:slate:1)
+Block(-7,7,-5,quark:slate:1)
+Block(-7,7,-4,quark:slate:1)
+Block(-7,8,-7,quark:slate:1)
+Block(-7,8,-6,quark:slate:1)
+Block(-7,8,-5,quark:slate:1)
+Block(-7,8,-4,quark:slate:1)
+Block(-7,9,-7,quark:slate:1)
+Block(-7,9,-6,quark:slate:1)
+Block(-7,9,-5,quark:slate:1)
+Block(-7,10,-7,quark:slate:1)
+Block(-7,10,-6,quark:slate:1)
+Block(-7,11,-7,quark:slate:1)
+Block(-6,5,-7,quark:slate:1)
+Block(-6,5,-6,quark:slate:1)
+Block(-6,6,-7,quark:slate:1)
+Block(-6,6,-6,quark:slate:1)
+Block(-6,6,-5,quark:slate:1)
+Block(-6,7,-7,quark:slate:1)
+Block(-6,7,-6,quark:slate:1)
+Block(-6,7,-5,quark:slate:1)
+Block(-6,7,-4,quark:slate:1)
+Block(-6,8,-7,quark:slate:1)
+Block(-6,8,-6,quark:slate:1)
+Block(-6,8,-5,quark:slate:1)
+Block(-6,8,-4,quark:slate:1)
+Block(-6,9,-7,quark:slate:1)
+Block(-6,9,-6,quark:slate:1)
+Block(-6,9,-5,quark:slate:1)
+Block(-6,10,-7,quark:slate:1)
+Block(-6,10,-6,quark:slate:1)
+Block(-5,6,-7,quark:slate:1)
+Block(-5,6,-6,quark:slate:1)
+Block(-5,6,-5,quark:slate:1)
+Block(-5,7,-7,quark:slate:1)
+Block(-5,7,-6,quark:slate:1)
+Block(-5,7,-5,quark:slate:1)
+Block(-5,7,-4,quark:slate:1)
+Block(-5,8,-7,quark:slate:1)
+Block(-5,8,-6,quark:slate:1)
+Block(-5,8,-5,quark:slate:1)
+Block(-5,8,-4,quark:slate:1)
+Block(-5,9,-7,quark:slate:1)
+Block(-5,9,-6,quark:slate:1)
+Block(-5,9,-5,quark:slate:1)
+Block(-4,7,-7,quark:slate:1)
+Block(-4,7,-6,quark:slate:1)
+Block(-4,7,-5,quark:slate:1)
+Block(-4,7,-4,quark:slate:1)
+Block(-4,8,-7,quark:slate:1)
+Block(-4,8,-6,quark:slate:1)
+Block(-4,8,-5,quark:slate:1)
+Block(-4,8,-4,quark:slate:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,UnderwaterBaseC2R3,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

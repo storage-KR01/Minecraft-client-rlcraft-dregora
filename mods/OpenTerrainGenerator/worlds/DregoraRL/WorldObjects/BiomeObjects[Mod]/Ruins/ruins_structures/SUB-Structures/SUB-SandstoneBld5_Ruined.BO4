@@ -1,0 +1,368 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestSolidBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: false
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: SANDSTONE
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-5,0,-3,SANDSTONE:0)
+Block(-5,0,-2,SANDSTONE:0)
+Block(-5,0,-1,SANDSTONE:0)
+Block(-5,0,0,SANDSTONE:0)
+Block(-5,0,1,SANDSTONE:0)
+Block(-5,0,2,SANDSTONE:0)
+Block(-5,0,3,SANDSTONE:0)
+Block(-5,1,-3,SANDSTONE:0)
+Block(-5,1,-2,STEP:1)
+Block(-5,1,-1,STEP:1)
+Block(-5,1,0,STEP:1)
+Block(-5,1,1,STEP:1)
+Block(-5,1,2,STEP:1)
+Block(-5,1,3,SANDSTONE:0)
+Block(-4,0,-3,SANDSTONE:0)
+Block(-4,0,-2,SANDSTONE:0)
+Block(-4,0,-1,SANDSTONE:0)
+Block(-4,0,0,SANDSTONE:0)
+Block(-4,0,1,SANDSTONE:0)
+Block(-4,0,2,SANDSTONE:0)
+Block(-4,0,3,SANDSTONE:0)
+Block(-4,1,-3,SANDSTONE:0)
+Block(-4,1,-2,SANDSTONE:0)
+Block(-4,1,-1,SANDSTONE:0)
+Block(-4,1,0,SANDSTONE:0)
+Block(-4,1,1,SANDSTONE:0)
+Block(-4,1,2,SANDSTONE:0)
+Block(-4,1,3,SANDSTONE:0)
+Block(-4,2,-3,STEP:1)
+Block(-4,2,3,STEP:1)
+Block(-3,0,-3,SANDSTONE:0)
+Block(-3,0,-2,SANDSTONE:0)
+Block(-3,0,-1,SANDSTONE:0)
+Block(-3,0,0,SANDSTONE:0)
+Block(-3,0,1,SANDSTONE:0)
+Block(-3,0,2,SANDSTONE:0)
+Block(-3,0,3,SANDSTONE:0)
+Block(-3,1,-3,SANDSTONE:0)
+Block(-3,1,-2,SANDSTONE:0)
+Block(-3,1,-1,SANDSTONE:0)
+Block(-3,1,0,SANDSTONE:0)
+Block(-3,1,1,SANDSTONE:0)
+Block(-3,1,2,SANDSTONE:0)
+Block(-3,1,3,SANDSTONE:0)
+Block(-3,2,-3,STEP:1)
+Block(-3,2,3,STEP:1)
+Block(-2,0,-3,SANDSTONE:0)
+Block(-2,0,-2,SANDSTONE:0)
+Block(-2,0,-1,SANDSTONE:0)
+Block(-2,0,0,SANDSTONE:0)
+Block(-2,0,1,SANDSTONE:0)
+Block(-2,0,2,SANDSTONE:0)
+Block(-2,0,3,SANDSTONE:0)
+Block(-2,1,-3,SANDSTONE:0)
+Block(-2,1,-2,SANDSTONE:0)
+Block(-2,1,-1,SANDSTONE:0)
+Block(-2,1,0,SANDSTONE:0)
+Block(-2,1,1,SANDSTONE:0)
+Block(-2,1,2,SANDSTONE:0)
+Block(-2,1,3,SANDSTONE:0)
+Block(-2,2,-3,STEP:1)
+Block(-2,2,3,STEP:1)
+Block(-1,0,-3,SANDSTONE:0)
+Block(-1,0,-2,SANDSTONE:0)
+Block(-1,0,-1,SANDSTONE:0)
+Block(-1,0,0,SANDSTONE:0)
+Block(-1,0,1,SANDSTONE:0)
+Block(-1,0,2,SANDSTONE:0)
+Block(-1,0,3,SANDSTONE:0)
+Block(-1,1,-3,SANDSTONE:0)
+Block(-1,1,-2,SANDSTONE:0)
+Block(-1,1,-1,SANDSTONE:0)
+Block(-1,1,0,SANDSTONE:0)
+Block(-1,1,1,SANDSTONE:0)
+Block(-1,1,2,SANDSTONE:0)
+Block(-1,1,3,SANDSTONE:0)
+Block(-1,2,-3,SANDSTONE:0)
+Block(-1,2,-2,SANDSTONE:0)
+Block(-1,2,-1,SANDSTONE:0)
+Block(-1,2,1,SANDSTONE:0)
+Block(-1,2,2,SANDSTONE:0)
+Block(-1,2,3,SANDSTONE:0)
+Block(-1,3,1,SANDSTONE:0)
+Block(-1,3,3,SANDSTONE:0)
+Block(-1,4,2,SANDSTONE:0)
+Block(-1,4,3,SANDSTONE:0)
+Block(-1,5,2,STEP:1)
+Block(-1,5,3,STEP:1)
+Block(0,0,-3,SANDSTONE:0)
+Block(0,0,-2,SANDSTONE:0)
+Block(0,0,-1,SANDSTONE:0)
+Block(0,0,0,SANDSTONE:0)
+Block(0,0,1,SANDSTONE:0)
+Block(0,0,2,SANDSTONE:0)
+Block(0,0,3,SANDSTONE:0)
+Block(0,1,-3,SANDSTONE:0)
+Block(0,1,-2,SANDSTONE:0)
+Block(0,1,-1,SANDSTONE:0)
+Block(0,1,0,SANDSTONE:0)
+Block(0,1,1,SANDSTONE:0)
+Block(0,1,2,SANDSTONE:0)
+Block(0,1,3,SANDSTONE:0)
+Block(0,2,-3,SANDSTONE:0)
+Block(0,2,3,SANDSTONE:0)
+Block(0,3,3,SANDSTONE:0)
+Block(0,4,2,STEP:9)
+Block(0,4,3,SANDSTONE:0)
+Block(0,5,3,STEP:1)
+Block(1,0,-3,SANDSTONE:0)
+Block(1,0,-2,SANDSTONE:0)
+Block(1,0,-1,SANDSTONE:0)
+Block(1,0,0,SANDSTONE:0)
+Block(1,0,1,SANDSTONE:0)
+Block(1,0,2,SANDSTONE:0)
+Block(1,0,3,SANDSTONE:0)
+Block(1,1,-3,SANDSTONE:0)
+Block(1,1,-2,SANDSTONE:0)
+Block(1,1,-1,SANDSTONE:0)
+Block(1,1,0,SANDSTONE:0)
+Block(1,1,1,SANDSTONE:0)
+Block(1,1,2,SANDSTONE:0)
+Block(1,1,3,SANDSTONE:0)
+Block(1,2,-3,SANDSTONE:0)
+Block(1,2,3,SANDSTONE:0)
+Block(1,3,3,IRON_FENCE:0)
+Block(1,4,2,STEP:9)
+Block(1,4,3,SANDSTONE:0)
+Block(1,5,3,STEP:1)
+Block(2,0,-3,SANDSTONE:0)
+Block(2,0,-2,SANDSTONE:0)
+Block(2,0,-1,SANDSTONE:0)
+Block(2,0,0,SANDSTONE:0)
+Block(2,0,1,SANDSTONE:0)
+Block(2,0,2,SANDSTONE:0)
+Block(2,0,3,SANDSTONE:0)
+Block(2,1,-3,SANDSTONE:0)
+Block(2,1,-2,SANDSTONE:0)
+Block(2,1,-1,SANDSTONE:0)
+Block(2,1,0,SANDSTONE:0)
+Block(2,1,1,SANDSTONE:0)
+Block(2,1,2,SANDSTONE:0)
+Block(2,1,3,SANDSTONE:0)
+Block(2,2,-3,SANDSTONE:0)
+Block(2,2,3,SANDSTONE:0)
+Block(2,3,-3,SANDSTONE:0)
+Block(2,3,3,SANDSTONE:0)
+Block(2,4,2,STEP:9)
+Block(2,4,3,SANDSTONE:0)
+Block(2,5,3,STEP:1)
+Block(3,0,-3,SANDSTONE:0)
+Block(3,0,-2,SANDSTONE:0)
+Block(3,0,-1,SANDSTONE:0)
+Block(3,0,0,SANDSTONE:0)
+Block(3,0,1,SANDSTONE:0)
+Block(3,0,2,SANDSTONE:0)
+Block(3,0,3,SANDSTONE:0)
+Block(3,1,-3,SANDSTONE:0)
+Block(3,1,-2,SANDSTONE:0)
+Block(3,1,-1,SANDSTONE:0)
+Block(3,1,0,SANDSTONE:0)
+Block(3,1,1,SANDSTONE:0)
+Block(3,1,2,SANDSTONE:0)
+Block(3,1,3,SANDSTONE:0)
+Block(3,2,-3,SANDSTONE:0)
+Block(3,2,3,SANDSTONE:0)
+Block(3,3,3,IRON_FENCE:0)
+Block(3,4,1,STEP:9)
+Block(3,4,3,SANDSTONE:0)
+Block(3,5,-3,STEP:1)
+Block(3,5,3,STEP:1)
+Block(4,0,-3,SANDSTONE:0)
+Block(4,0,-2,SANDSTONE:0)
+Block(4,0,-1,SANDSTONE:0)
+Block(4,0,0,SANDSTONE:0)
+Block(4,0,1,SANDSTONE:0)
+Block(4,0,2,SANDSTONE:0)
+Block(4,0,3,SANDSTONE:0)
+Block(4,1,-3,SANDSTONE:0)
+Block(4,1,0,SANDSTONE:0)
+Block(4,1,1,SANDSTONE:0)
+Block(4,1,2,SANDSTONE:0)
+Block(4,1,3,SANDSTONE:0)
+Block(4,2,-3,SANDSTONE:0)
+Block(4,3,-3,SANDSTONE:0)
+Block(4,4,-3,SANDSTONE:0)
+Block(4,4,-2,STEP:9)
+Block(4,4,-1,STEP:9)
+Block(4,4,0,STEP:9)
+Block(4,4,1,STEP:9)
+Block(5,0,-3,SANDSTONE:0)
+Block(5,0,-2,SANDSTONE:0)
+Block(5,0,-1,SANDSTONE:0)
+Block(5,0,0,SANDSTONE:0)
+Block(5,0,1,SANDSTONE:0)
+Block(5,0,2,SANDSTONE:0)
+Block(5,0,3,SANDSTONE:0)
+Block(5,1,-3,SANDSTONE:0)
+Block(5,1,-2,SANDSTONE:0)
+Block(5,1,-1,SANDSTONE:0)
+Block(5,1,0,SANDSTONE:0)
+Block(5,1,1,SANDSTONE:0)
+Block(5,1,2,SANDSTONE:0)
+Block(5,1,3,SANDSTONE:0)
+Block(5,2,-3,SANDSTONE:0)
+Block(5,2,-2,SANDSTONE:0)
+Block(5,2,-1,SANDSTONE:0)
+Block(5,2,0,SANDSTONE:0)
+Block(5,2,1,SANDSTONE:0)
+Block(5,2,3,SANDSTONE:0)
+Block(5,3,-3,SANDSTONE:0)
+Block(5,3,-2,SANDSTONE:0)
+Block(5,3,-1,SANDSTONE:0)
+Block(5,3,0,IRON_FENCE:0)
+Block(5,3,1,SANDSTONE:0)
+Block(5,3,3,SANDSTONE:0)
+Block(5,4,-3,SANDSTONE:0)
+Block(5,4,-2,SANDSTONE:0)
+Block(5,4,-1,SANDSTONE:0)
+Block(5,4,0,SANDSTONE:0)
+Block(5,4,1,SANDSTONE:0)
+Block(5,5,-3,STEP:1)
+Block(5,5,-2,STEP:1)
+Block(5,5,-1,STEP:1)
+Block(5,5,0,STEP:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

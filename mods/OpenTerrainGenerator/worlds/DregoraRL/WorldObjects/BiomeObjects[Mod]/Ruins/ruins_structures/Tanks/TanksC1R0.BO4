@@ -1,0 +1,275 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-1,rustic:iron_lattice:0)
+RandomBlock(-8,0,0,LADDER:5,50,AIR:0,100)
+Block(-8,0,1,rustic:iron_lattice:0)
+Block(-8,1,-1,rustic:iron_lattice:0)
+RandomBlock(-8,1,0,LADDER:5,50,AIR:0,100)
+Block(-8,1,1,rustic:iron_lattice:0)
+Block(-8,2,-1,rustic:iron_lattice:0)
+RandomBlock(-8,2,0,LADDER:5,50,AIR:0,100)
+Block(-8,2,1,rustic:iron_lattice:0)
+RandomBlock(-8,3,0,LADDER:5,50,AIR:0,100)
+Block(-8,3,1,rustic:iron_lattice:0)
+RandomBlock(-8,4,0,LADDER:5,50,AIR:0,100)
+Block(-8,4,1,rustic:iron_lattice:0)
+Block(-8,5,-1,rustic:iron_lattice:0)
+RandomBlock(-8,5,0,LADDER:5,50,AIR:0,100)
+Block(-8,5,1,rustic:iron_lattice:0)
+Block(-8,6,-1,rustic:iron_lattice:0)
+RandomBlock(-8,6,0,LADDER:5,50,AIR:0,100)
+Block(-8,6,1,rustic:iron_lattice:0)
+Block(-8,7,-1,rustic:iron_lattice:0)
+RandomBlock(-8,7,0,LADDER:5,50,AIR:0,100)
+Block(-8,7,1,rustic:iron_lattice:0)
+Block(-8,8,-1,rustic:iron_lattice:0)
+RandomBlock(-8,8,0,LADDER:5,50,AIR:0,100)
+Block(-8,8,1,rustic:iron_lattice:0)
+Block(-8,9,-1,rustic:iron_lattice:0)
+RandomBlock(-8,9,0,LADDER:5,50,AIR:0,100)
+Block(-8,9,1,rustic:iron_lattice:0)
+Block(-8,10,-2,STONE_BUTTON:1)
+Block(-8,10,-1,rustic:iron_lattice:0)
+RandomBlock(-8,10,0,LADDER:5,50,AIR:0,100)
+Block(-8,11,-1,rustic:iron_lattice:0)
+RandomBlock(-8,11,0,LADDER:5,50,AIR:0,100)
+Block(-8,11,1,rustic:iron_lattice:0)
+Block(-8,12,-1,rustic:iron_lattice:0)
+RandomBlock(-8,12,0,LADDER:5,50,AIR:0,100)
+Block(-8,12,1,rustic:iron_lattice:0)
+RandomBlock(-8,13,0,LADDER:5,50,AIR:0,100)
+Block(-8,13,1,rustic:iron_lattice:0)
+Block(-8,14,-1,rustic:iron_lattice:0)
+RandomBlock(-8,14,0,LADDER:5,50,AIR:0,100)
+Block(-8,14,1,rustic:iron_lattice:0)
+Block(-8,15,-2,STONE_BUTTON:1)
+Block(-8,15,-1,rustic:iron_lattice:0)
+RandomBlock(-8,15,0,LADDER:5,50,AIR:0,100)
+Block(-8,15,1,rustic:iron_lattice:0)
+Block(-8,16,-1,rustic:iron_lattice:0)
+RandomBlock(-8,16,0,LADDER:5,50,AIR:0,100)
+Block(-8,16,1,rustic:iron_lattice:0)
+Block(-8,17,-1,rustic:iron_lattice:0)
+RandomBlock(-8,17,0,LADDER:5,50,AIR:0,100)
+Block(-8,17,1,rustic:iron_lattice:0)
+Block(-8,18,-1,rustic:iron_lattice:0)
+RandomBlock(-8,18,0,LADDER:5,50,AIR:0,100)
+Block(-8,19,-2,STONE_BUTTON:1)
+Block(-8,19,-1,rustic:iron_lattice:0)
+RandomBlock(-8,19,0,LADDER:5,50,AIR:0,100)
+Block(-8,19,1,rustic:iron_lattice:0)
+Block(-8,20,-3,STEP:13)
+Block(-8,20,-2,STEP:13)
+Block(-8,20,-1,DOUBLE_STEP:5)
+RandomBlock(-8,20,0,LADDER:5,50,AIR:0,100)
+Block(-8,20,1,DOUBLE_STEP:5)
+Block(-8,20,2,STEP:13)
+Block(-8,21,-3,rustic:iron_lattice:0)
+Block(-8,21,-2,rustic:iron_lattice:0)
+Block(-8,21,-1,rustic:iron_lattice:0)
+Block(-8,21,1,rustic:iron_lattice:0)
+Block(-8,21,2,rustic:iron_lattice:0)
+Block(-7,0,-1,rustic:iron_lattice:0)
+Block(-7,0,1,rustic:iron_lattice:0)
+Block(-7,1,-1,rustic:iron_lattice:0)
+Block(-7,1,1,rustic:iron_lattice:0)
+Block(-7,2,-1,rustic:iron_lattice:0)
+Block(-7,2,1,rustic:iron_lattice:0)
+Block(-7,3,-1,rustic:iron_lattice:0)
+Block(-7,3,0,rustic:iron_lattice:0)
+Block(-7,3,1,rustic:iron_lattice:0)
+Block(-7,4,-1,rustic:iron_lattice:0)
+Block(-7,4,0,rustic:iron_lattice:0)
+Block(-7,4,1,rustic:iron_lattice:0)
+Block(-7,5,-1,rustic:iron_lattice:0)
+Block(-7,5,0,rustic:iron_lattice:0)
+Block(-7,5,1,rustic:iron_lattice:0)
+Block(-7,6,-1,rustic:iron_lattice:0)
+Block(-7,6,0,rustic:iron_lattice:0)
+Block(-7,6,1,rustic:iron_lattice:0)
+Block(-7,7,-1,rustic:iron_lattice:0)
+Block(-7,7,0,rustic:iron_lattice:0)
+Block(-7,7,1,rustic:iron_lattice:0)
+Block(-7,8,-1,rustic:iron_lattice:0)
+Block(-7,8,0,rustic:iron_lattice:0)
+Block(-7,8,1,rustic:iron_lattice:0)
+Block(-7,9,1,rustic:iron_lattice:0)
+Block(-7,10,0,rustic:iron_lattice:0)
+Block(-7,10,1,rustic:iron_lattice:0)
+Block(-7,11,-1,rustic:iron_lattice:0)
+Block(-7,11,1,rustic:iron_lattice:0)
+Block(-7,12,0,rustic:iron_lattice:0)
+Block(-7,12,1,rustic:iron_lattice:0)
+Block(-7,13,-1,rustic:iron_lattice:0)
+Block(-7,13,1,rustic:iron_lattice:0)
+Block(-7,14,-1,rustic:iron_lattice:0)
+Block(-7,14,1,rustic:iron_lattice:0)
+Block(-7,15,0,rustic:iron_lattice:0)
+Block(-7,15,1,rustic:iron_lattice:0)
+Block(-7,16,-1,rustic:iron_lattice:0)
+Block(-7,16,0,rustic:iron_lattice:0)
+Block(-7,16,1,rustic:iron_lattice:0)
+Block(-7,17,-1,rustic:iron_lattice:0)
+Block(-7,17,0,rustic:iron_lattice:0)
+Block(-7,17,1,rustic:iron_lattice:0)
+Block(-7,18,0,rustic:iron_lattice:0)
+Block(-7,18,1,rustic:iron_lattice:0)
+Block(-7,19,-1,rustic:iron_lattice:0)
+Block(-7,19,0,rustic:iron_lattice:0)
+Block(-7,19,1,rustic:iron_lattice:0)
+Block(-7,20,-1,rustic:iron_lattice:0)
+Block(-7,20,0,rustic:iron_lattice:0)
+Block(-7,20,1,rustic:iron_lattice:0)
+Block(-7,21,-1,rustic:iron_lattice:0)
+Block(-7,21,0,rustic:iron_lattice:0)
+Block(-6,0,-6,quark:iron_plate:1)
+Block(-6,0,-5,quark:iron_plate:1)
+Block(-6,1,-6,quark:iron_plate:1)
+Block(-6,1,-5,quark:iron_plate:1)
+Block(-6,2,-6,quark:iron_plate:1)
+Block(-6,2,-5,quark:iron_plate:1)
+Block(-6,3,-6,rustic:iron_lattice:0)
+Block(-6,3,-5,COBBLE_WALL:0)
+Block(-6,4,-5,rustic:iron_lattice:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

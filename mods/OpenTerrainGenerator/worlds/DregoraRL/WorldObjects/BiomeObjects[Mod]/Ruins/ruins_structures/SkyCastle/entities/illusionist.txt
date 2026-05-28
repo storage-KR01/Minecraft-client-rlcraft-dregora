@@ -1,0 +1,1 @@
+{HandItems:[{id:"minecraft:bow",tag:{ench:[{id:48,lvl:5},{id:49,lvl:2}]},Count:1},{}]}

@@ -1,0 +1,376 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestSolidBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: false
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: AIR
+
+ReplaceBelow: COBBLESTONE
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(-5,0,-4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,-3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,0,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-5,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-5,1,-2,WOOD_STEP:0)
+Block(-5,1,-1,WOOD_STEP:0)
+Block(-5,1,0,WOOD_STEP:0)
+Block(-5,1,2,WOOD_STEP:0)
+Block(-5,1,3,WOOD_STEP:0)
+Block(-5,3,-4,STEP:3)
+Block(-5,3,-3,COBBLESTONE_STAIRS:0)
+Block(-5,3,-2,COBBLESTONE_STAIRS:0)
+Block(-5,4,-1,COBBLESTONE_STAIRS:0)
+Block(-5,4,0,COBBLESTONE_STAIRS:0)
+Block(-5,4,1,COBBLESTONE_STAIRS:0)
+Block(-5,4,2,COBBLESTONE_STAIRS:0)
+Block(-5,4,4,COBBLESTONE_STAIRS:0)
+Block(-5,4,5,STEP:3)
+RandomBlock(-4,0,-4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,-3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,-1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,0,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-4,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-4,1,-4,LOG:0)
+Block(-4,1,-3,WOOD:0)
+Block(-4,1,-2,WOOD:0)
+Block(-4,1,-1,WOOD:0)
+Block(-4,1,0,WOOD:0)
+Block(-4,1,1,WOOD:0)
+Block(-4,1,2,WOOD:0)
+Block(-4,1,3,WOOD:0)
+Block(-4,1,4,LOG:0)
+Block(-4,2,-4,LOG:0)
+Block(-4,2,-3,WOOD:0)
+Block(-4,2,0,WOOD:0)
+Block(-4,2,3,WOOD:0)
+Block(-4,2,4,LOG:0)
+Block(-4,3,-4,DOUBLE_STEP:3)
+Block(-4,3,-3,DOUBLE_STEP:3)
+Block(-4,3,-2,WOOD:0)
+Block(-4,3,-1,WOOD:0)
+Block(-4,3,0,WOOD:0)
+Block(-4,3,1,WOOD:0)
+Block(-4,3,2,WOOD:0)
+Block(-4,3,4,LOG:0)
+Block(-4,4,-3,STEP:3)
+Block(-4,4,-1,DOUBLE_STEP:3)
+Block(-4,4,0,WOOD:0)
+Block(-4,4,1,WOOD:0)
+Block(-4,4,4,DOUBLE_STEP:3)
+Block(-4,4,5,COBBLESTONE_STAIRS:3)
+Block(-4,5,-1,STEP:3)
+Block(-4,5,2,COBBLESTONE_STAIRS:0)
+Block(-4,5,4,STEP:3)
+Block(-3,0,-4,WOOD:0)
+Block(-3,0,-3,WOOD:0)
+Block(-3,0,-2,WOOD:0)
+Block(-3,0,-1,WOOD:0)
+Block(-3,0,0,WOOD:0)
+Block(-3,0,1,WOOD:0)
+Block(-3,0,2,WOOD:0)
+Block(-3,0,3,WOOD:0)
+RandomBlock(-3,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-3,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-3,1,4,WOOD:0)
+Block(-3,1,5,WOOD_STEP:0)
+Block(-3,3,-4,DOUBLE_STEP:3)
+Block(-3,3,-3,DOUBLE_STEP:3)
+Block(-3,3,-2,WOOD:0)
+Block(-3,3,-1,WOOD_STEP:0)
+Block(-3,3,4,WOOD:0)
+Block(-3,4,-3,STEP:3)
+Block(-3,4,-2,COBBLESTONE_STAIRS:2)
+Block(-3,4,-1,WOOD:0)
+Block(-3,4,4,WOOD:0)
+Block(-3,4,5,COBBLESTONE_STAIRS:3)
+Block(-3,5,-1,COBBLESTONE_STAIRS:2)
+Block(-3,5,4,COBBLESTONE_STAIRS:3)
+Block(-2,0,-2,WOOD:0)
+Block(-2,0,-1,WOOD:0)
+Block(-2,0,0,WOOL:7)
+Block(-2,0,1,WOOL:7)
+Block(-2,0,2,biomesoplenty:other_slab)
+Block(-2,0,3,biomesoplenty:other_slab)
+RandomBlock(-2,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-2,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-2,1,4,WOOD:0)
+Block(-2,1,5,WOOD_STEP:0)
+Block(-2,3,-1,WOOD_STEP:0)
+Block(-2,3,4,WOOD:0)
+Block(-2,4,-1,WOOD:0)
+Block(-2,4,4,WOOD:0)
+Block(-2,4,5,COBBLESTONE_STAIRS:3)
+Block(-2,5,4,COBBLESTONE_STAIRS:3)
+RandomBlock(-1,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-1,0,-1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-1,0,0,WOOL:7)
+Block(-1,0,1,biomesoplenty:other_slab)
+Block(-1,0,2,biomesoplenty:other_slab)
+Block(-1,0,3,WOOD:0)
+RandomBlock(-1,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(-1,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(-1,1,-2,WOOD:0)
+Block(-1,1,4,WOOD:0)
+Block(-1,1,5,WOOD_STEP:0)
+Block(-1,4,1,WOOD:0)
+Block(-1,4,4,WOOD:0)
+Block(-1,4,5,COBBLESTONE_STAIRS:3)
+Block(-1,5,0,COBBLESTONE:0)
+Block(-1,5,1,COBBLESTONE:0)
+Block(-1,5,2,COBBLESTONE:0)
+Block(-1,5,3,COBBLESTONE:0)
+Block(-1,5,4,COBBLESTONE_STAIRS:3)
+RandomBlock(0,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(0,0,-1,WOOD:0)
+Block(0,0,0,WOOL:7)
+Block(0,0,1,biomesoplenty:other_slab)
+Block(0,0,2,WOOL:7)
+Block(0,0,3,biomesoplenty:other_slab)
+RandomBlock(0,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(0,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(0,1,-2,WOOD:0)
+Block(0,1,4,WOOD:0)
+Block(0,1,5,WOOD_STEP:0)
+Block(0,3,4,WOOD:0)
+Block(0,4,4,WOOD:0)
+Block(0,4,5,COBBLESTONE_STAIRS:3)
+Block(0,5,4,COBBLESTONE_STAIRS:3)
+RandomBlock(1,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(1,0,-1,biomesoplenty:other_slab)
+Block(1,0,0,biomesoplenty:other_slab)
+Block(1,0,1,biomesoplenty:other_slab)
+Block(1,0,2,WOOD:0)
+Block(1,0,3,WOOD:0)
+RandomBlock(1,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(1,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(1,1,4,WOOD:0)
+Block(1,1,5,WOOD_STEP:0)
+Block(1,3,4,WOOD:0)
+Block(1,4,0,FENCE:0)
+Block(1,4,3,FENCE:0)
+Block(1,4,4,WOOD:0)
+Block(1,4,5,COBBLESTONE_STAIRS:3)
+Block(1,5,4,COBBLESTONE_STAIRS:3)
+RandomBlock(2,0,-3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(2,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(2,0,-1,WOOD:0)
+Block(2,0,0,WOOD:0)
+RandomBlock(2,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(2,0,2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(2,0,3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(2,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(2,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(2,1,-3,WOOD_STEP:0)
+Block(2,1,-2,WOOD:0)
+Block(2,1,1,WOOD:0)
+Block(2,1,2,WOOD:0)
+Block(2,1,3,WOOD:0)
+Block(2,1,4,LOG:0)
+Block(2,2,4,LOG:0)
+Block(2,3,-1,WOOD_STEP:0)
+Block(2,3,0,WOOD_STEP:0)
+Block(2,3,1,WOOD:0)
+Block(2,3,2,WOOD:0)
+Block(2,3,3,WOOD:0)
+Block(2,3,4,LOG:0)
+Block(2,4,0,WOOD:0)
+Block(2,4,1,WOOD:0)
+Block(2,4,2,WOOD:0)
+Block(2,4,3,WOOD:0)
+Block(2,4,4,WOOD:0)
+Block(2,4,5,COBBLESTONE_STAIRS:3)
+Block(2,5,0,COBBLESTONE_STAIRS:1)
+Block(2,5,1,COBBLESTONE_STAIRS:1)
+Block(2,5,2,COBBLESTONE_STAIRS:1)
+Block(2,5,3,COBBLESTONE_STAIRS:1)
+Block(2,5,4,STEP:3)
+RandomBlock(3,0,-3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(3,0,-1,WOOD:0)
+RandomBlock(3,0,0,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(3,0,5,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(3,1,-3,WOOD_STEP:0)
+Block(3,1,-2,WOOD:0)
+Block(3,1,-1,WOOD_PLATE:0)
+Block(3,1,0,WOOD:0)
+Block(3,1,1,WOOD_STEP:0)
+Block(3,1,2,WOOD_STEP:0)
+Block(3,1,3,WOOD_STEP:0)
+Block(3,2,0,WOOD:0)
+Block(3,3,-2,WOOD:0)
+Block(3,3,-1,WOOD:0)
+Block(3,3,0,WOOD:0)
+Block(3,3,1,STEP:3)
+Block(3,3,2,WOOD_STEP:0)
+Block(3,3,3,WOOD_STEP:0)
+Block(3,4,1,COBBLESTONE_STAIRS:1)
+Block(3,4,2,COBBLESTONE_STAIRS:1)
+Block(3,4,3,COBBLESTONE_STAIRS:1)
+Block(3,4,4,COBBLESTONE_STAIRS:1)
+RandomBlock(4,0,-3,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(4,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(4,0,-1,WOOD:0)
+RandomBlock(4,0,0,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(4,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(4,0,2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(4,1,0,LOG:0)
+Block(4,2,0,LOG:0)
+Block(4,3,-2,DOUBLE_STEP:3)
+Block(4,3,-1,DOUBLE_STEP:3)
+Block(4,3,0,DOUBLE_STEP:3)
+Block(4,3,1,STEP:3)
+RandomBlock(5,0,-4,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(5,0,-2,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(5,0,0,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+RandomBlock(5,0,1,MONSTER_EGGS:4,6,MONSTER_EGGS:2,18,MONSTER_EGGS:3,6,SMOOTH_BRICK:2,12,SMOOTH_BRICK:1,12,SMOOTH_BRICK:0,60,COBBLESTONE:0,100)
+Block(5,3,-2,STEP:3)
+Block(5,3,-1,STEP:3)
+Block(5,3,0,STEP:3)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
