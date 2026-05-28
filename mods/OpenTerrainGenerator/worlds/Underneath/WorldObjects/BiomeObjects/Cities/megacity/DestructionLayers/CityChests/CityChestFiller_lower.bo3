@@ -1,0 +1,96 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 45
+
+MaxHeight: 60
+
+######################
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: false
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+RandomBlock(0,2,0,CHEST:2,../../../../../Chests/RLCraft/FishUndead/fish_undead.nbt,15,QUARK:MONSTER_BOX,5,CHEST:2,../../../../../Chests/Loot/moderncity_epic_loot.nbt,10,CHARM:CRATE_SEALED:5,../../../../../Chests/RLCraft/Charm/treasure/rare.nbt,1,CHARM:CRATE_SEALED:5,../../../../../Chests/RLCraft/Charm/treasure/valuable.nbt,1,CHARM:CRATE_SEALED:2,../../../../../Chests/RLCraft/Charm/village/smith.nbt,1,CHARM:CRATE_SEALED:2,../../../../../Chests/RLCraft/Charm/village/librarian.nbt,1,CHEST:2,../../../../../Chests/Loot/end_city_treasure.nbt,10,CHEST:2,../../../../../Chests/Loot/stronghold_library.nbt,15,CHEST:2,../../../../../Chests/Loot/simple_dungeon.nbt,10,CHEST:2,../../../../../Chests/Loot/moderncity_rare_loot.nbt,15,CHEST:2,../../../../../Chests/Loot/stronghold_library.nbt,10,CHEST:2,../../../../../Chests/Loot/end_city_treasure.nbt,10,CONTENTTWEAKER:RESOURCE_CRATE:0,25,CHEST:2,../../../../../Chests/Loot/moderncity_epic_loot.nbt,50,CHEST:2,../../../../../Chests/Loot/moderncity_rare_loot.nbt,100)
+
+Block(0,1,0,MOB_SPAWNER:0,../Parasites/parasite_multi.nbt)
+BlockCheck(0,0,0,CONCRETE,STEP:8,STEP:15)
+
+
+
+
+
+
+
+
+
+
+
