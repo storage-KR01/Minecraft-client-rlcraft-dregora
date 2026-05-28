@@ -1,0 +1,5194 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "skipHashsumValidation": false,
+  "additionalFiles": [],
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": true,
+    "memory": 9147,
+    "id": -28133951819000,
+    "name": "RLCraft Dregora",
+    "favorite": false,
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 10000020,
+          "name": "TL skin and cape",
+          "author": "tlauncher.org",
+          "uuid": "cd3ef9ea-62dd-11e6-b39e-002590a1379b",
+          "linkProject": "https://tlauncher.org",
+          "favorite": false,
+          "categories": [],
+          "picture": 73988,
+          "pictures": [
+            73990,
+            73989
+          ],
+          "lanName": "tl-skin-and-cape",
+          "version": {
+            "id": 11000372,
+            "name": "1.4",
+            "updateDate": 1573765200000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 1,
+                "name": "1.12.2"
+              }
+            ],
+            "metadata": {
+              "sha1": "d0483ac68cbeea22d6a2c46984c4cc7de4d3ce42",
+              "size": 193898,
+              "path": "mods/tlskincape1.12.2-1.4.jar",
+              "url": "/mods/10000020/11000372/tlskincape1.12.2-1.4.jar"
+            },
+            "installed": 45798394,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 332992,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 63,
+            "name": "1.21.8"
+          },
+          "updated": 1759224231000,
+          "update": 1759224231000,
+          "downloadALL": 527411139,
+          "available": true,
+          "parser": false,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 9999999,
+          "name": "Optifine",
+          "author": "OptiFine.net",
+          "uuid": "cd3ef9ea-62dd-11e6-b39e-002590a1379b",
+          "linkProject": "https://optifine.net",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 2,
+              "name": "adventure_rpg",
+              "shortName": "rpg",
+              "nesting": 0
+            },
+            {
+              "id": 29,
+              "name": "world_gen",
+              "shortName": "world",
+              "nesting": 0
+            }
+          ],
+          "picture": 52103,
+          "pictures": [],
+          "lanName": "optifine",
+          "version": {
+            "id": 11001818,
+            "name": "OptiFine-1.12.2_HD_U_G5",
+            "updateDate": 1612558800000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 1,
+                "name": "1.12.2"
+              }
+            ],
+            "metadata": {
+              "sha1": "db971767e460269f2317bb5df57d8f522be65e2c",
+              "size": 2457427,
+              "path": "mods/OptiFine-1.12.2_HD_U_G5.jar",
+              "url": "/mods/9999999/11001818/OptiFine-1.12.2_HD_U_G5.jar"
+            },
+            "installed": 15919407,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 106929,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 63,
+            "name": "1.21.8"
+          },
+          "updated": 1756709003000,
+          "update": 1756709003000,
+          "downloadALL": 160801762,
+          "available": true,
+          "parser": false,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552638687600,
+          "name": "!mod-director-launchwrapper-1.9.1",
+          "favorite": false,
+          "version": {
+            "id": -8552661509600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "13d7c102ae616f8fa74b4ce5f2d8cc26fc397026",
+              "size": 2926946,
+              "path": "mods/!mod-director-launchwrapper-1.9.1.jar",
+              "url": "mods/!mod-director-launchwrapper-1.9.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552661532599,
+          "name": "OTG-Core",
+          "favorite": false,
+          "version": {
+            "id": -8552718143500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6ace04a0170b1c6c176770be44989e151f12b8b7",
+              "size": 18363,
+              "path": "mods/1.12.2/OTG-Core.jar",
+              "url": "mods/1.12.2/OTG-Core.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552718161600,
+          "name": "AARCAddon-1.0.1",
+          "favorite": false,
+          "version": {
+            "id": -8552760965300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7506b4f8a16010b35682b92015ad1429fd8b7650",
+              "size": 6776,
+              "path": "mods/AARCAddon-1.0.1.jar",
+              "url": "mods/AARCAddon-1.0.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552760989400,
+          "name": "AdHooks-1.12.2-3.3.1.0-build.0626",
+          "favorite": false,
+          "version": {
+            "id": -8552771240500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ffb66aaa3c08d718fad6250415cd94b8b9c74645",
+              "size": 99441,
+              "path": "mods/AdHooks-1.12.2-3.3.1.0-build.0626.jar",
+              "url": "mods/AdHooks-1.12.2-3.3.1.0-build.0626.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552771258600,
+          "name": "Advanced-Fishing-1.12.2-1.3.3",
+          "favorite": false,
+          "version": {
+            "id": -8552783794800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b5bf4b1c90c25ef8991abafc3f4df8a62d62a6d7",
+              "size": 277112,
+              "path": "mods/Advanced-Fishing-1.12.2-1.3.3.jar",
+              "url": "mods/Advanced-Fishing-1.12.2-1.3.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552783813599,
+          "name": "AIReducer-1.12.2-0.3.0",
+          "favorite": false,
+          "version": {
+            "id": -8552793939900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a68d2b0996e8146f4c4fa270d7100c496120bfd3",
+              "size": 85307,
+              "path": "mods/AIReducer-1.12.2-0.3.0.jar",
+              "url": "mods/AIReducer-1.12.2-0.3.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552793959099,
+          "name": "alcatrazcore-1.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8552804026399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "81f53ff51c5559ef93e599d489aa736d714b1ff9",
+              "size": 109321,
+              "path": "mods/alcatrazcore-1.0.4.jar",
+              "url": "mods/alcatrazcore-1.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552804048399,
+          "name": "Amphithere Mod-1.0.2",
+          "favorite": false,
+          "version": {
+            "id": -8552819518599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d93561ffb729bb35ab59cb5cee275201592f3a31",
+              "size": 1335515,
+              "path": "mods/Amphithere Mod-1.0.2.jar",
+              "url": "mods/Amphithere Mod-1.0.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552819540400,
+          "name": "antiqueatlas-1.12.2-4.6.3",
+          "favorite": false,
+          "version": {
+            "id": -8552834323400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9531e665ad5d5aa7a84890147dddb6eaf86a5752",
+              "size": 1239580,
+              "path": "mods/antiqueatlas-1.12.2-4.6.3.jar",
+              "url": "mods/antiqueatlas-1.12.2-4.6.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552834344400,
+          "name": "AntiqueAtlasAutoMarker-1.4.2.2",
+          "favorite": false,
+          "version": {
+            "id": -8552854108600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5efc6f2b6ae953ef1747c2ce548fc516838d3615",
+              "size": 2521905,
+              "path": "mods/AntiqueAtlasAutoMarker-1.4.2.2.jar",
+              "url": "mods/AntiqueAtlasAutoMarker-1.4.2.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552854129400,
+          "name": "antiquecities-1.2.1",
+          "favorite": false,
+          "version": {
+            "id": -8552864429300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2fba174ae236032a4da5a51ddebd7bedba663659",
+              "size": 132195,
+              "path": "mods/antiquecities-1.2.1.jar",
+              "url": "mods/antiquecities-1.2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552864450300,
+          "name": "anvilpatch-1.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8552945356599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2557a1d6718e9e5290f373d7c19397e7c6e81e51",
+              "size": 16936,
+              "path": "mods/anvilpatch-1.1.1.jar",
+              "url": "mods/anvilpatch-1.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552945378200,
+          "name": "Aquaculture-1.12.2-1.6.8",
+          "favorite": false,
+          "version": {
+            "id": -8552955356200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9db4558bc156fbcd201625c6ccb0df52fec52c0f",
+              "size": 186686,
+              "path": "mods/Aquaculture-1.12.2-1.6.8.jar",
+              "url": "mods/Aquaculture-1.12.2-1.6.8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552955378000,
+          "name": "armorunder-mc1.12.2-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8552965444600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e2d720daf5e0a261b32aac6f2809bde0d2b8eaab",
+              "size": 163703,
+              "path": "mods/armorunder-mc1.12.2-1.0.0.jar",
+              "url": "mods/armorunder-mc1.12.2-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552965476800,
+          "name": "astikorcarts-1.12.2-0.1.2.8",
+          "favorite": false,
+          "version": {
+            "id": -8552974949900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2a671d26e3e75cd7bfc8d41bc272f39197dc5458",
+              "size": 102639,
+              "path": "mods/astikorcarts-1.12.2-0.1.2.8.jar",
+              "url": "mods/astikorcarts-1.12.2-0.1.2.8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8552974975300,
+          "name": "AttributeFix-Forge-1.12.2-1.0.12",
+          "favorite": false,
+          "version": {
+            "id": -8553013869400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d293e08f5b11aa0afa1ad6be5864b85e4266dfde",
+              "size": 4525,
+              "path": "mods/AttributeFix-Forge-1.12.2-1.0.12.jar",
+              "url": "mods/AttributeFix-Forge-1.12.2-1.0.12.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553013929900,
+          "name": "AutoRegLib-1.3-32",
+          "favorite": false,
+          "version": {
+            "id": -8553023969899,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "267269ca7f1a71fb3bb35bdb8e61702a4da6263e",
+              "size": 108306,
+              "path": "mods/AutoRegLib-1.3-32.jar",
+              "url": "mods/AutoRegLib-1.3-32.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553023993600,
+          "name": "base-1.12.2-3.14.0",
+          "favorite": false,
+          "version": {
+            "id": -8553036832300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4fbf3bae670f626028e29b57622b0ee98a8ad4db",
+              "size": 690000,
+              "path": "mods/base-1.12.2-3.14.0.jar",
+              "url": "mods/base-1.12.2-3.14.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553036854399,
+          "name": "BattleTowers-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8553049408600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a67d73e74c211f0e958cab6f0acdec73d7d6236e",
+              "size": 886037,
+              "path": "mods/BattleTowers-1.12.2.jar",
+              "url": "mods/BattleTowers-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553049431800,
+          "name": "Baubles-1.12-1.5.2",
+          "favorite": false,
+          "version": {
+            "id": -8553058624100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cb13fcfb18a9cb0cbd825fd5fe8d813c77368549",
+              "size": 108450,
+              "path": "mods/Baubles-1.12-1.5.2.jar",
+              "url": "mods/Baubles-1.12-1.5.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553058648000,
+          "name": "Baubley-Elytra-v1.3.3-mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8553131985900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e604328e3ac289710971713be25825db1ecf8b63",
+              "size": 21814,
+              "path": "mods/Baubley-Elytra-v1.3.3-mc1.12.2.jar",
+              "url": "mods/Baubley-Elytra-v1.3.3-mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553132009100,
+          "name": "BedBreakBegone-1.0.2",
+          "favorite": false,
+          "version": {
+            "id": -8553193058100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9cb9197e487e688711434a9d39638d1e9e4968d9",
+              "size": 13139,
+              "path": "mods/BedBreakBegone-1.0.2.jar",
+              "url": "mods/BedBreakBegone-1.0.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553193081699,
+          "name": "betterbiomeblend-1.12.2-1.1.7-forge",
+          "favorite": false,
+          "version": {
+            "id": -8553337546299,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a9463fed7357f39515707b5bbb4cac780916abf5",
+              "size": 37657,
+              "path": "mods/betterbiomeblend-1.12.2-1.1.7-forge.jar",
+              "url": "mods/betterbiomeblend-1.12.2-1.1.7-forge.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553337570100,
+          "name": "bettercaves-1.12.2-2.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8553348586700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1924c9881c84373c4f887ad87b1089466b291d3f",
+              "size": 193604,
+              "path": "mods/bettercaves-1.12.2-2.0.4.jar",
+              "url": "mods/bettercaves-1.12.2-2.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553348610999,
+          "name": "BetterMineshaftsForge-1.12.2-2.2.1",
+          "favorite": false,
+          "version": {
+            "id": -8553360374200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "590de926876fb792f48b120a3483970e8fff3aa3",
+              "size": 305086,
+              "path": "mods/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+              "url": "mods/BetterMineshaftsForge-1.12.2-2.2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553360399400,
+          "name": "betternether-0.1.8.6",
+          "favorite": false,
+          "version": {
+            "id": -8553376923800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f82a17a9a32bd65579f5414a5162fb8fedf4b73d",
+              "size": 1769238,
+              "path": "mods/betternether-0.1.8.6.jar",
+              "url": "mods/betternether-0.1.8.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553376948900,
+          "name": "BetterQuesting-3.5.329",
+          "favorite": false,
+          "version": {
+            "id": -8553392549200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "45b1b20dfbd79c64f226625076f228e4efec4586",
+              "size": 1425671,
+              "path": "mods/BetterQuesting-3.5.329.jar",
+              "url": "mods/BetterQuesting-3.5.329.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553392574500,
+          "name": "BetterTabs-1.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8553500763399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dcdbfc5546c876799f1fa7dfb2eb5eeebb0f3bf4",
+              "size": 21728,
+              "path": "mods/BetterTabs-1.0.4.jar",
+              "url": "mods/BetterTabs-1.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553500789000,
+          "name": "better_survival-1.5.4",
+          "favorite": false,
+          "version": {
+            "id": -8553512762099,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "90ab3ca8d37bb2cc98a784e9816054878b7cac5e",
+              "size": 540454,
+              "path": "mods/better_survival-1.5.4.jar",
+              "url": "mods/better_survival-1.5.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553512788000,
+          "name": "BHMenu-Forge-1.12.2-2.4.5",
+          "favorite": false,
+          "version": {
+            "id": -8553526811500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aa1f434100af4870a1f310ced3d7407946a0f66a",
+              "size": 1055336,
+              "path": "mods/BHMenu-Forge-1.12.2-2.4.5.jar",
+              "url": "mods/BHMenu-Forge-1.12.2-2.4.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553526837800,
+          "name": "BiomesOPlenty-1.12.2-7.0.1.2445-universal",
+          "favorite": false,
+          "version": {
+            "id": -8553554498300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "13c1e58ffec2a550b9698e25cda93b8d155007b0",
+              "size": 4746208,
+              "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+              "url": "mods/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553554527000,
+          "name": "BlockOverlayFix-1.12.2-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8553600966600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e8cf85505a2439cbc3d2599ecafb5d12653b1453",
+              "size": 7809,
+              "path": "mods/BlockOverlayFix-1.12.2-1.0.0.jar",
+              "url": "mods/BlockOverlayFix-1.12.2-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553600993300,
+          "name": "Bloodmoon-MC1.12.2-1.5.3",
+          "favorite": false,
+          "version": {
+            "id": -8553750264900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "181062c89f2016f06e73864eab7c2ff016ccc754",
+              "size": 47505,
+              "path": "mods/Bloodmoon-MC1.12.2-1.5.3.jar",
+              "url": "mods/Bloodmoon-MC1.12.2-1.5.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553750292100,
+          "name": "BNBGamingLib-1.12.2-2.17.6",
+          "favorite": false,
+          "version": {
+            "id": -8553760718600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "06f0da5cf79645437ee5e666be23176eea1dfb94",
+              "size": 132644,
+              "path": "mods/BNBGamingLib-1.12.2-2.17.6.jar",
+              "url": "mods/BNBGamingLib-1.12.2-2.17.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553760746500,
+          "name": "BoatDeleteBegone-1.1.2",
+          "favorite": false,
+          "version": {
+            "id": -8553818313000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c014a66ee222a15bdc68e786e70b6b7ced204016",
+              "size": 32928,
+              "path": "mods/BoatDeleteBegone-1.1.2.jar",
+              "url": "mods/BoatDeleteBegone-1.1.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553818341900,
+          "name": "Born In A Barn 1.8-1.12-1.2",
+          "favorite": false,
+          "version": {
+            "id": -8553850747799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2a19c174eb4989d7ca33e6fcc543f44158ae8949",
+              "size": 4847,
+              "path": "mods/Born In A Barn 1.8-1.12-1.2.jar",
+              "url": "mods/Born In A Barn 1.8-1.12-1.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553850776499,
+          "name": "Bounceable-1.0.1",
+          "favorite": false,
+          "version": {
+            "id": -8553953573400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "953978600c3be4b3a8a53edfc6462f0c5ac57c99",
+              "size": 14266,
+              "path": "mods/Bounceable-1.0.1.jar",
+              "url": "mods/Bounceable-1.0.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553953600999,
+          "name": "Bountiful Baubles-1.12.2-0.1.8",
+          "favorite": false,
+          "version": {
+            "id": -8553966343300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9cddb1fab23e51119cefa379e1affb07ed0818d2",
+              "size": 447825,
+              "path": "mods/Bountiful Baubles-1.12.2-0.1.8.jar",
+              "url": "mods/Bountiful Baubles-1.12.2-0.1.8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553966377900,
+          "name": "Bountiful-1.12.2-2.2.3",
+          "favorite": false,
+          "version": {
+            "id": -8553977358000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a009f763526247268e70a737a5a75f6cbbdfadd1",
+              "size": 255987,
+              "path": "mods/Bountiful-1.12.2-2.2.3.jar",
+              "url": "mods/Bountiful-1.12.2-2.2.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553977386900,
+          "name": "BQTweaker-1.3.5",
+          "favorite": false,
+          "version": {
+            "id": -8553987424499,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dbc3c497e3ad604c4f02f66b2e919cda632e72fd",
+              "size": 201577,
+              "path": "mods/BQTweaker-1.3.5.jar",
+              "url": "mods/BQTweaker-1.3.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553987453399,
+          "name": "BQ_Multiblock_Structure_Integration-1.0.9",
+          "favorite": false,
+          "version": {
+            "id": -8553996880500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e6c40fbfa0020892e0ea4288e657f8910816ae85",
+              "size": 64896,
+              "path": "mods/BQ_Multiblock_Structure_Integration-1.0.9.jar",
+              "url": "mods/BQ_Multiblock_Structure_Integration-1.0.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8553996910200,
+          "name": "callablehorses-1.12.2-1.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8554007571800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5be26cff21c91e280f9717202585d263483c45d4",
+              "size": 130065,
+              "path": "mods/callablehorses-1.12.2-1.1.1.jar",
+              "url": "mods/callablehorses-1.12.2-1.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554007604099,
+          "name": "carrotslib-mc1.12.2-1.0.0b1",
+          "favorite": false,
+          "version": {
+            "id": -8554020239600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0fb74fdf5ea7f4830523255d6ce742e8007b0c12",
+              "size": 290843,
+              "path": "mods/carrotslib-mc1.12.2-1.0.0b1.jar",
+              "url": "mods/carrotslib-mc1.12.2-1.0.0b1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554020269000,
+          "name": "carryon-1.12.2-1.12.7.23",
+          "favorite": false,
+          "version": {
+            "id": -8554031555000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6b48020b113f227d92a2d5ea3d763c9bf6196554",
+              "size": 309188,
+              "path": "mods/carryon-1.12.2-1.12.7.23.jar",
+              "url": "mods/carryon-1.12.2-1.12.7.23.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554031594700,
+          "name": "CD4017BE_lib-1.12.2-6.5.1",
+          "favorite": false,
+          "version": {
+            "id": -8554044489700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b5820b90f0dab4d30d58298d54fda04385b6f674",
+              "size": 669428,
+              "path": "mods/CD4017BE_lib-1.12.2-6.5.1.jar",
+              "url": "mods/CD4017BE_lib-1.12.2-6.5.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554044540200,
+          "name": "champions-1.12.2-1.0.11.10",
+          "favorite": false,
+          "version": {
+            "id": -8554055059400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9f7e8a83d41fa923634dff487bec545b99c8e7cc",
+              "size": 230539,
+              "path": "mods/champions-1.12.2-1.0.11.10.jar",
+              "url": "mods/champions-1.12.2-1.0.11.10.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554055089900,
+          "name": "Charm-1.12.2-1.4.1",
+          "favorite": false,
+          "version": {
+            "id": -8554074129500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0afddc46fe43970d4586f99f3266279f262f6de5",
+              "size": 2383353,
+              "path": "mods/Charm-1.12.2-1.4.1.jar",
+              "url": "mods/Charm-1.12.2-1.4.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554074171400,
+          "name": "ChunkAnimator-1.12.2-1.2.1",
+          "favorite": false,
+          "version": {
+            "id": -8554198498199,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c3906436c1f04aab656dd1627a9378b673e644fa",
+              "size": 24940,
+              "path": "mods/ChunkAnimator-1.12.2-1.2.1.jar",
+              "url": "mods/ChunkAnimator-1.12.2-1.2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554198541500,
+          "name": "classyhats-1.6.0",
+          "favorite": false,
+          "version": {
+            "id": -8554210977500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8c7f05c8fbd2cc1dbbb591310cfde12d8b5fabbc",
+              "size": 325619,
+              "path": "mods/classyhats-1.6.0.jar",
+              "url": "mods/classyhats-1.6.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554211011900,
+          "name": "CollisionDamage-1.2.2",
+          "favorite": false,
+          "version": {
+            "id": -8554224826800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f1619bf823b8533039c78e6fddfb1a52641170b6",
+              "size": 294329,
+              "path": "mods/CollisionDamage-1.2.2.jar",
+              "url": "mods/CollisionDamage-1.2.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554224857900,
+          "name": "comforts-1.12.2-1.4.1.3",
+          "favorite": false,
+          "version": {
+            "id": -8554236022100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "30528a47630935ba8517dcd5a28263a8be117b5f",
+              "size": 167301,
+              "path": "mods/comforts-1.12.2-1.4.1.3.jar",
+              "url": "mods/comforts-1.12.2-1.4.1.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554236053700,
+          "name": "CompatSkills-1.12.2-1.17.0",
+          "favorite": false,
+          "version": {
+            "id": -8554248575600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d984e2e532c3fa6516f8c441bd3f727fe9fc891e",
+              "size": 378621,
+              "path": "mods/CompatSkills-1.12.2-1.17.0.jar",
+              "url": "mods/CompatSkills-1.12.2-1.17.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554248620799,
+          "name": "ContentCreator-1.3.7-fix2",
+          "favorite": false,
+          "version": {
+            "id": -8554261201300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1da585bb4d346a0b6228ec12f8c4e60a63d8da1c",
+              "size": 289208,
+              "path": "mods/ContentCreator-1.3.7-fix2.jar",
+              "url": "mods/ContentCreator-1.3.7-fix2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554261236700,
+          "name": "ContentTweaker-1.12.2-4.10.0",
+          "favorite": false,
+          "version": {
+            "id": -8554273191400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0d8efbe8c66e50b2cd82f30fb67f5bc368625f26",
+              "size": 278152,
+              "path": "mods/ContentTweaker-1.12.2-4.10.0.jar",
+              "url": "mods/ContentTweaker-1.12.2-4.10.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554273223200,
+          "name": "Controlling-3.0.12.4",
+          "favorite": false,
+          "version": {
+            "id": -8554426246700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d588b1fefb912c1080d397834b6300e59409183c",
+              "size": 34383,
+              "path": "mods/Controlling-3.0.12.4.jar",
+              "url": "mods/Controlling-3.0.12.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554426279200,
+          "name": "CoralReef-2.5-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8554436612899,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d3e1bf331eb3d875544062a48ed6ec39a701974a",
+              "size": 73465,
+              "path": "mods/CoralReef-2.5-1.12.2.jar",
+              "url": "mods/CoralReef-2.5-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554436645800,
+          "name": "corpsecomplex-1.12.2-1.0.12.0",
+          "favorite": false,
+          "version": {
+            "id": -8554447221599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9eaf0f7e33646774068755fd387e2fcd05e2d08d",
+              "size": 132594,
+              "path": "mods/corpsecomplex-1.12.2-1.0.12.0.jar",
+              "url": "mods/corpsecomplex-1.12.2-1.0.12.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554447255100,
+          "name": "craftablechainmail-1.0",
+          "favorite": false,
+          "version": {
+            "id": -8554522629100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e2602dccd3d6fc0edefa0b2f484a27597a06aae0",
+              "size": 12600,
+              "path": "mods/craftablechainmail-1.0.jar",
+              "url": "mods/craftablechainmail-1.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554522663399,
+          "name": "CraftTweaker2-1.12-4.1.20.704",
+          "favorite": false,
+          "version": {
+            "id": -8554539302800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2a66648b934c05e30d8f1f3f1ca8bd674caef3fb",
+              "size": 1589533,
+              "path": "mods/CraftTweaker2-1.12-4.1.20.704.jar",
+              "url": "mods/CraftTweaker2-1.12-4.1.20.704.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554539339200,
+          "name": "crafttweakerutils-0.7",
+          "favorite": false,
+          "version": {
+            "id": -8554634045900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8e766e3ae36bf0d3f8d28d0b2309c9a46ddc9a69",
+              "size": 22039,
+              "path": "mods/crafttweakerutils-0.7.jar",
+              "url": "mods/crafttweakerutils-0.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554634103300,
+          "name": "CreativeCore_v1.10.71_mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8554650286700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
+              "size": 1321137,
+              "path": "mods/CreativeCore_v1.10.71_mc1.12.2.jar",
+              "url": "mods/CreativeCore_v1.10.71_mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554650324700,
+          "name": "ctintegration-1.8.0",
+          "favorite": false,
+          "version": {
+            "id": -8554659716500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b833d3c1bcfe0936acad587b373846a451887c75",
+              "size": 78433,
+              "path": "mods/ctintegration-1.8.0.jar",
+              "url": "mods/ctintegration-1.8.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554659805300,
+          "name": "defiledlands-1.12.2-1.4.3",
+          "favorite": false,
+          "version": {
+            "id": -8554673364300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a5590fd607602a9f44b5d9c0511ee7756cd99591",
+              "size": 780421,
+              "path": "mods/defiledlands-1.12.2-1.4.3.jar",
+              "url": "mods/defiledlands-1.12.2-1.4.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554673403900,
+          "name": "DelightfulCuisineForWoodheads_1.12.2-1.1.0",
+          "favorite": false,
+          "version": {
+            "id": -8554686890999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1a955add047dce66fab581565152ed46063034ed",
+              "size": 816215,
+              "path": "mods/DelightfulCuisineForWoodheads_1.12.2-1.1.0.jar",
+              "url": "mods/DelightfulCuisineForWoodheads_1.12.2-1.1.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554686933299,
+          "name": "disenchanter[1.12]1.8",
+          "favorite": false,
+          "version": {
+            "id": -8554696744999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0d76f6f183e8098be5d073e8fdaa0751bd3d5552",
+              "size": 172724,
+              "path": "mods/disenchanter[1.12]1.8.jar",
+              "url": "mods/disenchanter[1.12]1.8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554696781299,
+          "name": "DoomlikeDungeons-1.14.12-MC1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8554708649700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d5cb5e4c4f1670658221e4af91fa66ecf0da8f0f",
+              "size": 725244,
+              "path": "mods/DoomlikeDungeons-1.14.12-MC1.12.2.jar",
+              "url": "mods/DoomlikeDungeons-1.14.12-MC1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8554708684300,
+          "name": "DregoraRL-3.5",
+          "favorite": false,
+          "version": {
+            "id": -8555260212900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8f688fe49b02fe025638707f36279c179887734e",
+              "size": 174660650,
+              "path": "mods/DregoraRL-3.5.jar",
+              "url": "mods/DregoraRL-3.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555260250600,
+          "name": "DynamicSurroundings-1.12.2-3.6.2.1",
+          "favorite": false,
+          "version": {
+            "id": -8555326129700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d264b6ac5970c72bc6d4bd00ba550dc076270b50",
+              "size": 15040104,
+              "path": "mods/DynamicSurroundings-1.12.2-3.6.2.1.jar",
+              "url": "mods/DynamicSurroundings-1.12.2-3.6.2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555326164900,
+          "name": "DynamicSurroundingsHuds-1.12.2-3.6.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8555336104600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "017d7b1ded52ea61561457d29c337d065c2dd8ff",
+              "size": 96279,
+              "path": "mods/DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar",
+              "url": "mods/DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555336138900,
+          "name": "DynamicTrees-1.12.2-0.9.29",
+          "favorite": false,
+          "version": {
+            "id": -8555349386200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "37c383df58c0c269c285e99e5498047c794eb7a3",
+              "size": 909851,
+              "path": "mods/DynamicTrees-1.12.2-0.9.29.jar",
+              "url": "mods/DynamicTrees-1.12.2-0.9.29.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555349426200,
+          "name": "DynamicTreesBOP-1.12.2-1.5.2",
+          "favorite": false,
+          "version": {
+            "id": -8555362300200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "145f3251a556dd9d5f2a75bcf9bfdd053a9f5b3e",
+              "size": 455541,
+              "path": "mods/DynamicTreesBOP-1.12.2-1.5.2.jar",
+              "url": "mods/DynamicTreesBOP-1.12.2-1.5.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555362337600,
+          "name": "dynamictreesdefiledlands-1.12.2-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8555492282100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a8f7119e7e7be0261937fd2e86ebe81f864e52d1",
+              "size": 33264,
+              "path": "mods/dynamictreesdefiledlands-1.12.2-1.0.0.jar",
+              "url": "mods/dynamictreesdefiledlands-1.12.2-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555492321399,
+          "name": "DynamicTreesQuark-1.12.2-1.0.6",
+          "favorite": false,
+          "version": {
+            "id": -8555502471500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6070f07e64e62c1fbd91ae391758c0d280062ac8",
+              "size": 231126,
+              "path": "mods/DynamicTreesQuark-1.12.2-1.0.6.jar",
+              "url": "mods/DynamicTreesQuark-1.12.2-1.0.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555502513900,
+          "name": "DynamicTreesTraverse-1.12.2-2.1",
+          "favorite": false,
+          "version": {
+            "id": -8555539478400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6d0f2c009a8332c811e5654affca54114747d441",
+              "size": 5414741,
+              "path": "mods/DynamicTreesTraverse-1.12.2-2.1.jar",
+              "url": "mods/DynamicTreesTraverse-1.12.2-2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555539538700,
+          "name": "EagleMixins-1.1.7",
+          "favorite": false,
+          "version": {
+            "id": -8555572683099,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0d76f981d113ad43f340d99833cefed1fe9f9485",
+              "size": 3674614,
+              "path": "mods/EagleMixins-1.1.7.jar",
+              "url": "mods/EagleMixins-1.1.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555572747700,
+          "name": "EditableEdibles-1.3.3",
+          "favorite": false,
+          "version": {
+            "id": -8555721376400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "791695393d4ede8ec380b30bf76f39e23b68d4a6",
+              "size": 27559,
+              "path": "mods/EditableEdibles-1.3.3.jar",
+              "url": "mods/EditableEdibles-1.3.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555721415100,
+          "name": "ElenaiDodge-1.12.2-2.1",
+          "favorite": false,
+          "version": {
+            "id": -8555732397000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ccfb7ce085af3f88bc3046e8997c2164b940f6ce",
+              "size": 228075,
+              "path": "mods/ElenaiDodge-1.12.2-2.1.jar",
+              "url": "mods/ElenaiDodge-1.12.2-2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555732435800,
+          "name": "EnchantmentDescriptions-1.12.2-1.1.20",
+          "favorite": false,
+          "version": {
+            "id": -8555796003400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d82e9d326b9d40904edb189077fabe0f5f47557a",
+              "size": 17072,
+              "path": "mods/EnchantmentDescriptions-1.12.2-1.1.20.jar",
+              "url": "mods/EnchantmentDescriptions-1.12.2-1.1.20.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555796042800,
+          "name": "EnhancedVisuals_v1.4.4_mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8555825436200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2028fa47c9b0cf2904d3179d86ce9054009af6a0",
+              "size": 4725314,
+              "path": "mods/EnhancedVisuals_v1.4.4_mc1.12.2.jar",
+              "url": "mods/EnhancedVisuals_v1.4.4_mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555825481500,
+          "name": "EntityCulling-1.12.2-6.5.0",
+          "favorite": false,
+          "version": {
+            "id": -8555836888200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cf4a4a6b11b1721fbda1edeb32bdc3b1ac3a8560",
+              "size": 63926,
+              "path": "mods/EntityCulling-1.12.2-6.5.0.jar",
+              "url": "mods/EntityCulling-1.12.2-6.5.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555836927300,
+          "name": "EpicSiegeMod-13.167",
+          "favorite": false,
+          "version": {
+            "id": -8555849013900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ac2ecd3437610954204f32c57fbff2424d58f625",
+              "size": 296070,
+              "path": "mods/EpicSiegeMod-13.167.jar",
+              "url": "mods/EpicSiegeMod-13.167.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555849053700,
+          "name": "FamiliarFauna-1.12.2-1.0.11",
+          "favorite": false,
+          "version": {
+            "id": -8555861460000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e38af1ced9f5ce3f39e87b8cf79241849b52945d",
+              "size": 381455,
+              "path": "mods/FamiliarFauna-1.12.2-1.0.11.jar",
+              "url": "mods/FamiliarFauna-1.12.2-1.0.11.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555861499299,
+          "name": "FancyBlockParticles-1.12.x-2.4.1",
+          "favorite": false,
+          "version": {
+            "id": -8555872962500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "256b53b26298c2f59590f02ba67889821afd79b1",
+              "size": 177413,
+              "path": "mods/FancyBlockParticles-1.12.x-2.4.1.jar",
+              "url": "mods/FancyBlockParticles-1.12.x-2.4.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555873004499,
+          "name": "fancymenu_forge_2.14.9_MC_1.12-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8555889259000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b85302e855530f799697b2850e70293111f0cdbe",
+              "size": 1260832,
+              "path": "mods/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
+              "url": "mods/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555889299599,
+          "name": "FantasticLib-1.12.2.070",
+          "favorite": false,
+          "version": {
+            "id": -8555902726900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "102d4d35c6b96fcbbb9a164f1a94f2e9aa76b41e",
+              "size": 713629,
+              "path": "mods/FantasticLib-1.12.2.070.jar",
+              "url": "mods/FantasticLib-1.12.2.070.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555902770100,
+          "name": "fermiumasm-5.28",
+          "favorite": false,
+          "version": {
+            "id": -8555915526299,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d3b4d15cebe24c822556de2c77e348f20afeb064",
+              "size": 526996,
+              "path": "mods/fermiumasm-5.28.jar",
+              "url": "mods/fermiumasm-5.28.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555915567300,
+          "name": "FermiumMixins-1.0.9",
+          "favorite": false,
+          "version": {
+            "id": -8555929809600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "367caf1b924ac7397d82ab6006a540cbbcb86384",
+              "size": 813002,
+              "path": "mods/FermiumMixins-1.0.9.jar",
+              "url": "mods/FermiumMixins-1.0.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555929854600,
+          "name": "firstaid-1.6.22",
+          "favorite": false,
+          "version": {
+            "id": -8555942484300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d9927b8c24def4b32e1ca81f3b8caf379391e34e",
+              "size": 493904,
+              "path": "mods/firstaid-1.6.22.jar",
+              "url": "mods/firstaid-1.6.22.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555942529700,
+          "name": "Fish's Undead Rising-1.4.2",
+          "favorite": false,
+          "version": {
+            "id": -8555977341600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bdc043d0abd318233e9272e7fc8bdeeea4afc6ba",
+              "size": 6453385,
+              "path": "mods/Fish's Undead Rising-1.4.2.jar",
+              "url": "mods/Fish's Undead Rising-1.4.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555977382800,
+          "name": "FishingMadeBetter-1.12.2-2.2.7",
+          "favorite": false,
+          "version": {
+            "id": -8555989586500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "47e808bf66e447474bf51cb4a842c8e7f5d37a60",
+              "size": 650817,
+              "path": "mods/FishingMadeBetter-1.12.2-2.2.7.jar",
+              "url": "mods/FishingMadeBetter-1.12.2-2.2.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8555989629700,
+          "name": "foamfix-0.10.15-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556000489300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b179ee981e06e396cb060045cb076c857985494a",
+              "size": 229335,
+              "path": "mods/foamfix-0.10.15-1.12.2.jar",
+              "url": "mods/foamfix-0.10.15-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556000535100,
+          "name": "FoodExpansion1.3.3-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556010368800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d2fe55e9c219c8c1b1f1918a90443faf05f4c1fe",
+              "size": 81460,
+              "path": "mods/FoodExpansion1.3.3-1.12.2.jar",
+              "url": "mods/FoodExpansion1.3.3-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556010412600,
+          "name": "FoodFix-1.12.2.001",
+          "favorite": false,
+          "version": {
+            "id": -8556038030600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8f5ebc89b7c1d20c83ce00d3f74338a2e62fea15",
+              "size": 3776,
+              "path": "mods/FoodFix-1.12.2.001.jar",
+              "url": "mods/FoodFix-1.12.2.001.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556038074200,
+          "name": "ForgeEndertech-1.12.2-4.5.6.1-build.0648",
+          "favorite": false,
+          "version": {
+            "id": -8556051173600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "747928e38d394c03bd7996568ae3baea4dd566cf",
+              "size": 950755,
+              "path": "mods/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar",
+              "url": "mods/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556051218299,
+          "name": "Forgelin-1.8.4",
+          "favorite": false,
+          "version": {
+            "id": -8556084071100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7a87553fcb808a45d9c7e03f113b355ac7fd10d7",
+              "size": 6278399,
+              "path": "mods/Forgelin-1.8.4.jar",
+              "url": "mods/Forgelin-1.8.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556084112900,
+          "name": "forgottenitems-1.12.2-1.3.1.4",
+          "favorite": false,
+          "version": {
+            "id": -8556098300000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dd6591445527edca398aa517d99e21e734bed674",
+              "size": 1106601,
+              "path": "mods/forgottenitems-1.12.2-1.3.1.4.jar",
+              "url": "mods/forgottenitems-1.12.2-1.3.1.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556098344000,
+          "name": "framevoidpatch-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8556111934600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0e9da52cb77ad1f15e5b1f264fa1377b2dca6d9e",
+              "size": 958635,
+              "path": "mods/framevoidpatch-1.0.0.jar",
+              "url": "mods/framevoidpatch-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556111977099,
+          "name": "FriendlyEndermite_v1.0.1_mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556119710999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b4965430799632c8f9f1231ee71e9740752e64e3",
+              "size": 2608,
+              "path": "mods/FriendlyEndermite_v1.0.1_mc1.12.2.jar",
+              "url": "mods/FriendlyEndermite_v1.0.1_mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556119758600,
+          "name": "FurnaceXPStorage-1.1.4",
+          "favorite": false,
+          "version": {
+            "id": -8556129316400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "99d19e8244d7a8308efa342f1d61e948691d4ab8",
+              "size": 87716,
+              "path": "mods/FurnaceXPStorage-1.1.4.jar",
+              "url": "mods/FurnaceXPStorage-1.1.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556129361400,
+          "name": "fxcontrol-1.12-0.1.15",
+          "favorite": false,
+          "version": {
+            "id": -8556141521100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "555437961a33e105a095ac1ad5c99f265803ce13",
+              "size": 121908,
+              "path": "mods/fxcontrol-1.12-0.1.15.jar",
+              "url": "mods/fxcontrol-1.12-0.1.15.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556141567400,
+          "name": "GlobalGameRules-1.12.2-2.2.7",
+          "favorite": false,
+          "version": {
+            "id": -8556220406900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ca223e0b0f7978c4c62f975cac7fbef29d8d2ca5",
+              "size": 24050,
+              "path": "mods/GlobalGameRules-1.12.2-2.2.7.jar",
+              "url": "mods/GlobalGameRules-1.12.2-2.2.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556220453600,
+          "name": "GooglyEyes-1.12.2-7.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8556303506900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5d6b6038acc27a289fc31dfc0efdcc7fe412f10c",
+              "size": 24273,
+              "path": "mods/GooglyEyes-1.12.2-7.1.1.jar",
+              "url": "mods/GooglyEyes-1.12.2-7.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556303549700,
+          "name": "grapplemod-1.12.2-v12.3",
+          "favorite": false,
+          "version": {
+            "id": -8556315696100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ef23c9c3293c5897bc8c9f5a066324b54d67497d",
+              "size": 431927,
+              "path": "mods/grapplemod-1.12.2-v12.3.jar",
+              "url": "mods/grapplemod-1.12.2-v12.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556315743800,
+          "name": "HelpFixer-1.12.1-1.5.18",
+          "favorite": false,
+          "version": {
+            "id": -8556365476600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "db399136a8f16fc1b42f130d245e3f524835d5f0",
+              "size": 6778,
+              "path": "mods/HelpFixer-1.12.1-1.5.18.jar",
+              "url": "mods/HelpFixer-1.12.1-1.5.18.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556365527200,
+          "name": "Ice and Fire-2.0.9",
+          "favorite": false,
+          "version": {
+            "id": -8556443523899,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d5058591b395e74cdd8fbeaaa9fe3f0088d893d5",
+              "size": 22152876,
+              "path": "mods/Ice and Fire-2.0.9.jar",
+              "url": "mods/Ice and Fire-2.0.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556443568600,
+          "name": "iChunUtil-1.12.2-7.2.2",
+          "favorite": false,
+          "version": {
+            "id": -8556455377900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2b53b0f9543c98adb0b89caa4da954a477259367",
+              "size": 581963,
+              "path": "mods/iChunUtil-1.12.2-7.2.2.jar",
+              "url": "mods/iChunUtil-1.12.2-7.2.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556455426700,
+          "name": "incontrol-1.12-3.9.18",
+          "favorite": false,
+          "version": {
+            "id": -8556466600100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a9a3b82dc6c8d9a9107f5e03eaa79b5854c2eed2",
+              "size": 152687,
+              "path": "mods/incontrol-1.12-3.9.18.jar",
+              "url": "mods/incontrol-1.12-3.9.18.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556466674400,
+          "name": "InfernalMobs-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556478291300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7488bdece40a58107bf540034e5f4696fa491756",
+              "size": 186600,
+              "path": "mods/InfernalMobs-1.12.2.jar",
+              "url": "mods/InfernalMobs-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556478345300,
+          "name": "Inspirations-1.12.2-0.2.9",
+          "favorite": false,
+          "version": {
+            "id": -8556493009300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5bb254759f738570c53ef0bddb46220cf8659895",
+              "size": 842254,
+              "path": "mods/Inspirations-1.12.2-0.2.9.jar",
+              "url": "mods/Inspirations-1.12.2-0.2.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556493057600,
+          "name": "InventoryTweaks-1.64+dev.151",
+          "favorite": false,
+          "version": {
+            "id": -8556505179000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3ba1e59a5109f3e94a4a0170877006b72fa77b1e",
+              "size": 286144,
+              "path": "mods/InventoryTweaks-1.64+dev.151.jar",
+              "url": "mods/InventoryTweaks-1.64+dev.151.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556505231200,
+          "name": "ItemPhysic_Full_1.4.37_mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556515266599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b8ceb668c021e137d8354e75df864127ba5756e7",
+              "size": 52615,
+              "path": "mods/ItemPhysic_Full_1.4.37_mc1.12.2.jar",
+              "url": "mods/ItemPhysic_Full_1.4.37_mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556515314800,
+          "name": "itlt-1.12.x-1.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8556594325000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "046b21212d93acb02adf7bc240be3ee990bce3db",
+              "size": 14649,
+              "path": "mods/itlt-1.12.x-1.0.4.jar",
+              "url": "mods/itlt-1.12.x-1.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556594369700,
+          "name": "IvToolkit-1.3.3-1.12",
+          "favorite": false,
+          "version": {
+            "id": -8556607707800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "522e60b48721b558f6dea1fdfa2b235162366649",
+              "size": 455763,
+              "path": "mods/IvToolkit-1.3.3-1.12.jar",
+              "url": "mods/IvToolkit-1.3.3-1.12.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556607753900,
+          "name": "jei_1.12.2-4.16.1.1012",
+          "favorite": false,
+          "version": {
+            "id": -8556620734900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a6d04d7e161d9af5c0e7077f649e30815927f14a",
+              "size": 649218,
+              "path": "mods/jei_1.12.2-4.16.1.1012.jar",
+              "url": "mods/jei_1.12.2-4.16.1.1012.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556620788599,
+          "name": "JSON-Paintings-v1.4.0-mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556631135800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e8e76fed0efce66de48a80168b2b3db10175bd73",
+              "size": 87607,
+              "path": "mods/JSON-Paintings-v1.4.0-mc1.12.2.jar",
+              "url": "mods/JSON-Paintings-v1.4.0-mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556631187100,
+          "name": "Kiwi-1.12.2-0.5.3.32",
+          "favorite": false,
+          "version": {
+            "id": -8556642821900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a7bf1a653653b7b6885af49be18348613874fb22",
+              "size": 119062,
+              "path": "mods/Kiwi-1.12.2-0.5.3.32.jar",
+              "url": "mods/Kiwi-1.12.2-0.5.3.32.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556642873200,
+          "name": "konkrete_forge_1.6.1_MC_1.12-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556655818699,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92",
+              "size": 618150,
+              "path": "mods/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+              "url": "mods/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556655871999,
+          "name": "lagbgonrevived-1.1.0",
+          "favorite": false,
+          "version": {
+            "id": -8556703789600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2f37d7c3f84f87d6eaa36e35899372015b1ae23f",
+              "size": 15451,
+              "path": "mods/lagbgonrevived-1.1.0.jar",
+              "url": "mods/lagbgonrevived-1.1.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556703841400,
+          "name": "LegendaryTooltips-1.12.2-1.1.11",
+          "favorite": false,
+          "version": {
+            "id": -8556817865999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f174a9ccf33df0bc1594713ef40dc8c0fce32205",
+              "size": 36553,
+              "path": "mods/LegendaryTooltips-1.12.2-1.1.11.jar",
+              "url": "mods/LegendaryTooltips-1.12.2-1.1.11.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556817917099,
+          "name": "Level Up! 2-1.1.23-1.12",
+          "favorite": false,
+          "version": {
+            "id": -8556828107200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e41da79233cb9e37824cb05e9a5db7588bec599d",
+              "size": 187346,
+              "path": "mods/Level Up! 2-1.1.23-1.12.jar",
+              "url": "mods/Level Up! 2-1.1.23-1.12.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556828158599,
+          "name": "librarianlib-1.12.2-4.22",
+          "favorite": false,
+          "version": {
+            "id": -8556960620700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f2e75d6899a26fe32b0b0ee2ad33c68a70bd91e6",
+              "size": 40713059,
+              "path": "mods/librarianlib-1.12.2-4.22.jar",
+              "url": "mods/librarianlib-1.12.2-4.22.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556960671700,
+          "name": "llibrary-1.7.20-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8556975332300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fba97f9dbe750f17904c00db8ff58291595106b8",
+              "size": 884550,
+              "path": "mods/llibrary-1.7.20-1.12.2.jar",
+              "url": "mods/llibrary-1.7.20-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8556975384400,
+          "name": "LoadingScreens-1.12.2-0.3.1",
+          "favorite": false,
+          "version": {
+            "id": -8557155938100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "53129de47388d323b76f5d50e0ba01ade7e0e9b5",
+              "size": 42647,
+              "path": "mods/LoadingScreens-1.12.2-0.3.1.jar",
+              "url": "mods/LoadingScreens-1.12.2-0.3.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557155997800,
+          "name": "Localizator-1.12.2-1.0.14",
+          "favorite": false,
+          "version": {
+            "id": -8557176389400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7a7db1847ed3d869a527a71bc1f4d35197583113",
+              "size": 2446754,
+              "path": "mods/Localizator-1.12.2-1.0.14.jar",
+              "url": "mods/Localizator-1.12.2-1.0.14.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557176440600,
+          "name": "Locks-1.12.2-3.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8557192757500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3ab3096add733c306bc9996b717f3c814e9f47d9",
+              "size": 1529957,
+              "path": "mods/Locks-1.12.2-3.0.0.jar",
+              "url": "mods/Locks-1.12.2-3.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557192812800,
+          "name": "LootTweaker-0.3.1+MC1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8557203045500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c8f19101b381333a549cc069a0e0814831bfedc9",
+              "size": 111302,
+              "path": "mods/LootTweaker-0.3.1+MC1.12.2.jar",
+              "url": "mods/LootTweaker-0.3.1+MC1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557203097800,
+          "name": "lostcities-1.12-2.0.22",
+          "favorite": false,
+          "version": {
+            "id": -8557216058600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dcea94d4a3d05f8282e014fcfe69048feafe4ce0",
+              "size": 789743,
+              "path": "mods/lostcities-1.12-2.0.22.jar",
+              "url": "mods/lostcities-1.12-2.0.22.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557216156799,
+          "name": "lycanitesmobs-1.12.2-2.0.8.10",
+          "favorite": false,
+          "version": {
+            "id": -8557513514200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "56c49cf01d62ee0715cc38b7d784165bcc1339d0",
+              "size": 94188882,
+              "path": "mods/lycanitesmobs-1.12.2-2.0.8.10.jar",
+              "url": "mods/lycanitesmobs-1.12.2-2.0.8.10.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557513571699,
+          "name": "Mantle-1.12-1.3.3.55",
+          "favorite": false,
+          "version": {
+            "id": -8557529266600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a1e5d5c197dae3e92637cafb8cd996185191165b",
+              "size": 843486,
+              "path": "mods/Mantle-1.12-1.3.3.55.jar",
+              "url": "mods/Mantle-1.12-1.3.3.55.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557529316599,
+          "name": "MaterialTweaker-1.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8557627457600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b49af2a881da71e80dbd157b59e1a1b40c9c77dc",
+              "size": 23286,
+              "path": "mods/MaterialTweaker-1.1.1.jar",
+              "url": "mods/MaterialTweaker-1.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557627515100,
+          "name": "mcw-bridges-1.0.6b-mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8557639341399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ecb9565db419ff5bf1c1bfbe1ea2b9b3d9507f96",
+              "size": 373298,
+              "path": "mods/mcw-bridges-1.0.6b-mc1.12.2.jar",
+              "url": "mods/mcw-bridges-1.0.6b-mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557639397800,
+          "name": "mcjtytools-0.0.21",
+          "favorite": false,
+          "version": {
+            "id": -8557649604599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f08f9b1be73b1d6f9c9fe80473f66edc4407675e",
+              "size": 62381,
+              "path": "mods/memory_repo/com/github/mcjty/mcjtytools/0.0.21/mcjtytools-0.0.21.jar",
+              "url": "mods/memory_repo/com/github/mcjty/mcjtytools/0.0.21/mcjtytools-0.0.21.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557649666100,
+          "name": "llibrary-core-1.0.11-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8557652859800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6bdaeaf52c53263ff545e2eafb90a1fb43c160b5",
+              "size": 446755,
+              "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar",
+              "url": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557652917900,
+          "name": "MmmMmmMmmMmm-1.12-2.0.5",
+          "favorite": false,
+          "version": {
+            "id": -8557817225100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "458840e397180dca219b8f89066338afdcb5ee9f",
+              "size": 47763,
+              "path": "mods/MmmMmmMmmMmm-1.12-2.0.5.jar",
+              "url": "mods/MmmMmmMmmMmm-1.12-2.0.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557817282600,
+          "name": "MoBends_1.12.2-1.2.1-19.12.21",
+          "favorite": false,
+          "version": {
+            "id": -8557830941000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "79b40921c29312c4acec13db282c2abe3274af3b",
+              "size": 770595,
+              "path": "mods/MoBends_1.12.2-1.2.1-19.12.21.jar",
+              "url": "mods/MoBends_1.12.2-1.2.1-19.12.21.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557830993199,
+          "name": "modtweaker-4.0.20.11",
+          "favorite": false,
+          "version": {
+            "id": -8557842932300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f0bdbf6f4257e392e59023289998aaa8c295df47",
+              "size": 493285,
+              "path": "mods/modtweaker-4.0.20.11.jar",
+              "url": "mods/modtweaker-4.0.20.11.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557842990200,
+          "name": "MouseTweaks-2.10.1-mc1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8557852350400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "17f778c7e64f1b71cee4e1f64d35a749bb6ea93d",
+              "size": 80528,
+              "path": "mods/MouseTweaks-2.10.1-mc1.12.2.jar",
+              "url": "mods/MouseTweaks-2.10.1-mc1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557852408000,
+          "name": "MTLib-3.0.7",
+          "favorite": false,
+          "version": {
+            "id": -8557963274500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7d2b9e97518dca1e9326fd347ba1eb93dec35999",
+              "size": 30009,
+              "path": "mods/MTLib-3.0.7.jar",
+              "url": "mods/MTLib-3.0.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557963331000,
+          "name": "MultiMine-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8557973045700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d817a648e3d4f26d2b281824a5a9a243da68c0e4",
+              "size": 64791,
+              "path": "mods/MultiMine-1.12.2.jar",
+              "url": "mods/MultiMine-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8557973102800,
+          "name": "Neat 1.4-17",
+          "favorite": false,
+          "version": {
+            "id": -8558032241800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "831c286d99fe78503e966ef80ad27f54ae6a81cb",
+              "size": 18527,
+              "path": "mods/Neat 1.4-17.jar",
+              "url": "mods/Neat 1.4-17.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558032303600,
+          "name": "NoiseThreader-1.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8558192741700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "abbb515818e51b422616e8e57c59d23eb6596c0a",
+              "size": 39311,
+              "path": "mods/NoiseThreader-1.1.1.jar",
+              "url": "mods/NoiseThreader-1.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558192798399,
+          "name": "notreepunching-2.0.21",
+          "favorite": false,
+          "version": {
+            "id": -8558211525999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4e3d074bb19ba82ac9135c929841e7381d3af25c",
+              "size": 2096298,
+              "path": "mods/notreepunching-2.0.21.jar",
+              "url": "mods/notreepunching-2.0.21.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558211584799,
+          "name": "nuclearcraft-1.12.2-2.19a",
+          "favorite": false,
+          "version": {
+            "id": -8558248875300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "05db28e36a141316f8fa511f226c794110e58d12",
+              "size": 6903578,
+              "path": "mods/nuclearcraft-1.12.2-2.19a.jar",
+              "url": "mods/nuclearcraft-1.12.2-2.19a.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558248933200,
+          "name": "OpenTerrainGenerator-1.12.2-v9.7",
+          "favorite": false,
+          "version": {
+            "id": -8558277434600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d3aa6998832c1d115b8c2397f0b8c33288642c9e",
+              "size": 4563471,
+              "path": "mods/OpenTerrainGenerator-1.12.2-v9.7.jar",
+              "url": "mods/OpenTerrainGenerator-1.12.2-v9.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558277495000,
+          "name": "OptifineCITPatch-1.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8558353695500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dc951d3d364c808f02d1b0fc28256d7406caf591",
+              "size": 9654,
+              "path": "mods/OptifineCITPatch-1.0.4.jar",
+              "url": "mods/OptifineCITPatch-1.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558353753500,
+          "name": "OptiFine_1.12.2_HD_U_G5",
+          "favorite": false,
+          "version": {
+            "id": -8558362590299,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ca3aea3a09ce215906c346fe190907fe0347b0c4",
+              "size": 2669107,
+              "path": "mods/OptiFine_1.12.2_HD_U_G5.jar",
+              "url": "mods/OptiFine_1.12.2_HD_U_G5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558362639200,
+          "name": "OreLib-1.12.2-3.6.0.1",
+          "favorite": false,
+          "version": {
+            "id": -8558375114200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5debb0481552c54bb6ad72d56b05b31d92e2f5d8",
+              "size": 341728,
+              "path": "mods/OreLib-1.12.2-3.6.0.1.jar",
+              "url": "mods/OreLib-1.12.2-3.6.0.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558375174299,
+          "name": "paintingselgui-PSG Revamed-1.12.2-1.1.0.1",
+          "favorite": false,
+          "version": {
+            "id": -8558384461100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2361fee3855e1841ab17373cbe7e4c9c583d43cb",
+              "size": 72756,
+              "path": "mods/paintingselgui-PSG Revamed-1.12.2-1.1.0.1.jar",
+              "url": "mods/paintingselgui-PSG Revamed-1.12.2-1.1.0.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558384521200,
+          "name": "particleculling-1.12.2-v1.4.3",
+          "favorite": false,
+          "version": {
+            "id": -8558455126800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2c4847ca6c7cf1d41ff320943394ff61028c7e72",
+              "size": 17450,
+              "path": "mods/particleculling-1.12.2-v1.4.3.jar",
+              "url": "mods/particleculling-1.12.2-v1.4.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558455186800,
+          "name": "phosphor-1.12.2-0.2.6+build50-universal",
+          "favorite": false,
+          "version": {
+            "id": -8558468899300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d4781f46fb18f0c6ed03893465244e7ec7dc8b8c",
+              "size": 1082311,
+              "path": "mods/phosphor-1.12.2-0.2.6+build50-universal.jar",
+              "url": "mods/phosphor-1.12.2-0.2.6+build50-universal.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558468961299,
+          "name": "PhosphorCrashFix-1.12.2-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8558478622000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b5b17501af82828e106617b6f1694088f426494b",
+              "size": 81988,
+              "path": "mods/PhosphorCrashFix-1.12.2-1.0.0.jar",
+              "url": "mods/PhosphorCrashFix-1.12.2-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558478682299,
+          "name": "pigstep-1.12",
+          "favorite": false,
+          "version": {
+            "id": -8558505858799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1eb2a9809d9d650264d547a50d15fb19052fce43",
+              "size": 4835065,
+              "path": "mods/pigstep-1.12.jar",
+              "url": "mods/pigstep-1.12.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558505915800,
+          "name": "Placebo-1.12.2-1.6.1",
+          "favorite": false,
+          "version": {
+            "id": -8558515285699,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d2142220e0944a8ad9d76ad7f50a5aa8d4e5fd80",
+              "size": 77207,
+              "path": "mods/Placebo-1.12.2-1.6.1.jar",
+              "url": "mods/Placebo-1.12.2-1.6.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558515347900,
+          "name": "playerbosses-1.12.2-1.1.0",
+          "favorite": false,
+          "version": {
+            "id": -8558525299499,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f96f0a60e9d3e81fabca03da4f9f8607e24e57c5",
+              "size": 109193,
+              "path": "mods/playerbosses-1.12.2-1.1.0.jar",
+              "url": "mods/playerbosses-1.12.2-1.1.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558525363200,
+          "name": "PortalDupeBegone-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8558577091200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bda7454ad62b7b756a91572124413cfaa7aefb2d",
+              "size": 11472,
+              "path": "mods/PortalDupeBegone-1.0.0.jar",
+              "url": "mods/PortalDupeBegone-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558577151199,
+          "name": "PotionCore-1.9_for_1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8558588092399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c22bce1ca24762712680b9e107b77df921847f14",
+              "size": 145329,
+              "path": "mods/PotionCore-1.9_for_1.12.2.jar",
+              "url": "mods/PotionCore-1.9_for_1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558588173000,
+          "name": "potiondescriptions-1.12.2-1.2.4",
+          "favorite": false,
+          "version": {
+            "id": -8558655326900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8fd141799a05622e7d8a19aa73b272ee5e16f240",
+              "size": 15640,
+              "path": "mods/potiondescriptions-1.12.2-1.2.4.jar",
+              "url": "mods/potiondescriptions-1.12.2-1.2.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558655386500,
+          "name": "PotionFingers-r1.0-8",
+          "favorite": false,
+          "version": {
+            "id": -8558701666999,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9c6383e4e6464f9c9fe8d2b49beeb56e7b4df326",
+              "size": 11319,
+              "path": "mods/PotionFingers-r1.0-8.jar",
+              "url": "mods/PotionFingers-r1.0-8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558701730999,
+          "name": "QualityTools-1.0.7_for_1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8558711789800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d48b86bfb5ca622a71332b7b3bffeff2b1729a04",
+              "size": 83553,
+              "path": "mods/QualityTools-1.0.7_for_1.12.2.jar",
+              "url": "mods/QualityTools-1.0.7_for_1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558711868200,
+          "name": "Quark-r1.6-179",
+          "favorite": false,
+          "version": {
+            "id": -8558737379500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "35521fd8911b6ef893afbfe7d0d5d04962b3360d",
+              "size": 3877577,
+              "path": "mods/Quark-r1.6-179.jar",
+              "url": "mods/Quark-r1.6-179.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558737440900,
+          "name": "ReachFix-1.12.2-1.1.3",
+          "favorite": false,
+          "version": {
+            "id": -8558747474600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d9994c089b4f30de9f7be0690624a535716456d1",
+              "size": 98093,
+              "path": "mods/ReachFix-1.12.2-1.1.3.jar",
+              "url": "mods/ReachFix-1.12.2-1.1.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558747532300,
+          "name": "RealBench-1.12.2-1.3.3",
+          "favorite": false,
+          "version": {
+            "id": -8558811985799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9a888f514200396fe83a93d8dc1ee2a8ed1f7ed6",
+              "size": 17104,
+              "path": "mods/RealBench-1.12.2-1.3.3.jar",
+              "url": "mods/RealBench-1.12.2-1.3.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558812050000,
+          "name": "RealisticTorches-1.12.2-2.1.2",
+          "favorite": false,
+          "version": {
+            "id": -8558821457399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "03100cc1b2a29013f815bce0fc5e7baa23fdbeff",
+              "size": 75064,
+              "path": "mods/RealisticTorches-1.12.2-2.1.2.jar",
+              "url": "mods/RealisticTorches-1.12.2-2.1.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558821520600,
+          "name": "RebornCore-1.12.2-3.19.5-universal",
+          "favorite": false,
+          "version": {
+            "id": -8558840209000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7a296b3ea8cbffce723b9949bf3726af3a4e8215",
+              "size": 2285146,
+              "path": "mods/RebornCore-1.12.2-3.19.5-universal.jar",
+              "url": "mods/RebornCore-1.12.2-3.19.5-universal.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558840272800,
+          "name": "RecurrentComplex-1.4.8.6",
+          "favorite": false,
+          "version": {
+            "id": -8558871379000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "31059d070bee48368050cf774ea3e8f9caea0356",
+              "size": 5749924,
+              "path": "mods/RecurrentComplex-1.4.8.6.jar",
+              "url": "mods/RecurrentComplex-1.4.8.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558871438100,
+          "name": "RenderLib-1.12.2-1.4.5",
+          "favorite": false,
+          "version": {
+            "id": -8558882455700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "da121ecfd63ea615de9a26276614bb0ab9306d95",
+              "size": 290334,
+              "path": "mods/RenderLib-1.12.2-1.4.5.jar",
+              "url": "mods/RenderLib-1.12.2-1.4.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558882524600,
+          "name": "Reskillable-1.12.2-1.13.0",
+          "favorite": false,
+          "version": {
+            "id": -8558893792499,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0050ad376cea7c372db1c6711a21f6e631db3410",
+              "size": 338650,
+              "path": "mods/Reskillable-1.12.2-1.13.0.jar",
+              "url": "mods/Reskillable-1.12.2-1.13.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558893858600,
+          "name": "ResourceLoader-MC1.12.1-1.5.3",
+          "favorite": false,
+          "version": {
+            "id": -8558957212600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d8c10e6e29df5f9bc51e468642d9b3cae5f2f8e4",
+              "size": 16612,
+              "path": "mods/ResourceLoader-MC1.12.1-1.5.3.jar",
+              "url": "mods/ResourceLoader-MC1.12.1-1.5.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558957280400,
+          "name": "RLArtifacts-1.1.2",
+          "favorite": false,
+          "version": {
+            "id": -8558969678199,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f6b09ccfe0f3bbf59a3e4a693a396cc050faec95",
+              "size": 687259,
+              "path": "mods/RLArtifacts-1.1.2.jar",
+              "url": "mods/RLArtifacts-1.1.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558969742600,
+          "name": "RLCombat-1.12.2-2.2.4",
+          "favorite": false,
+          "version": {
+            "id": -8558997941699,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2fb81ed0440f83e33fab88754ec73f2c71bdca69",
+              "size": 5043807,
+              "path": "mods/RLCombat-1.12.2-2.2.4.jar",
+              "url": "mods/RLCombat-1.12.2-2.2.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8558998003200,
+          "name": "RLCraftLuckified-1.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8559007946600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "04fb583c75f8cf72de5c2a3db88fc14a09cfc65e",
+              "size": 193958,
+              "path": "mods/RLCraftLuckified-1.1.1.jar",
+              "url": "mods/RLCraftLuckified-1.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559008012599,
+          "name": "RLFoliage-MC1.12-2.4.2",
+          "favorite": false,
+          "version": {
+            "id": -8559020112000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d5e830177845e39d8f81aea1c41bdfcf1397e31b",
+              "size": 743157,
+              "path": "mods/RLFoliage-MC1.12-2.4.2.jar",
+              "url": "mods/RLFoliage-MC1.12-2.4.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559020181899,
+          "name": "RLMixins-1.4.6",
+          "favorite": false,
+          "version": {
+            "id": -8559034209100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f0d11efa9e5fafa163060e42337bbf7fceae045e",
+              "size": 1267503,
+              "path": "mods/RLMixins-1.4.6.jar",
+              "url": "mods/RLMixins-1.4.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559034282299,
+          "name": "RLTweaker-1.12.2-0.7.5",
+          "favorite": false,
+          "version": {
+            "id": -8559046723800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "152a6884e6f1807be38e32030bede5d626fea854",
+              "size": 656223,
+              "path": "mods/RLTweaker-1.12.2-0.7.5.jar",
+              "url": "mods/RLTweaker-1.12.2-0.7.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559046789700,
+          "name": "RoguelikeDungeonsFnarEdition-1.12.2-2.4.6",
+          "favorite": false,
+          "version": {
+            "id": -8559061788900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e2c3cae834f8b5d2d2709f8ef36224adf1ca2dd6",
+              "size": 1308533,
+              "path": "mods/RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar",
+              "url": "mods/RoguelikeDungeonsFnarEdition-1.12.2-2.4.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559061856000,
+          "name": "roughTweaks0.2.4-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8559193983400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "15762393103157a5aac6c8ea8d69c8c4bc42ee77",
+              "size": 25875,
+              "path": "mods/roughTweaks0.2.4-1.12.2.jar",
+              "url": "mods/roughTweaks0.2.4-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559194050800,
+          "name": "rustic-1.1.7",
+          "favorite": false,
+          "version": {
+            "id": -8559209176200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "567832a6b073e59fa29f2f694e224008707db2f8",
+              "size": 1400465,
+              "path": "mods/rustic-1.1.7.jar",
+              "url": "mods/rustic-1.1.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559209245000,
+          "name": "ScalingHealth-1.12.2-1.3.42+147",
+          "favorite": false,
+          "version": {
+            "id": -8559220398600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e621a6b6319bd3a854055af2b21826068852f0ea",
+              "size": 369985,
+              "path": "mods/ScalingHealth-1.12.2-1.3.42+147.jar",
+              "url": "mods/ScalingHealth-1.12.2-1.3.42+147.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559220468500,
+          "name": "SereneSeasons-1.12.2-1.2.18-universal",
+          "favorite": false,
+          "version": {
+            "id": -8559230556799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "05acc4faf6f5ca31215599c0ebf778ba18a9121b",
+              "size": 185187,
+              "path": "mods/SereneSeasons-1.12.2-1.2.18-universal.jar",
+              "url": "mods/SereneSeasons-1.12.2-1.2.18-universal.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559230624700,
+          "name": "SetBonus-1.12.2.040",
+          "favorite": false,
+          "version": {
+            "id": -8559241119800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0f49c69b6c116c7a1668b4a646664785bb7e5fc5",
+              "size": 235466,
+              "path": "mods/SetBonus-1.12.2.040.jar",
+              "url": "mods/SetBonus-1.12.2.040.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559241191300,
+          "name": "ShieldBreak-1.1.3",
+          "favorite": false,
+          "version": {
+            "id": -8559250212800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6a0094c5aa334e737be55aecfcda62928c6564f6",
+              "size": 58071,
+              "path": "mods/ShieldBreak-1.1.3.jar",
+              "url": "mods/ShieldBreak-1.1.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559250283100,
+          "name": "SilentLib-1.12.2-3.0.14+168",
+          "favorite": false,
+          "version": {
+            "id": -8559261496800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5fca3fcef48502fdb26d020eb1d8427516724cb9",
+              "size": 369314,
+              "path": "mods/SilentLib-1.12.2-3.0.14+168.jar",
+              "url": "mods/SilentLib-1.12.2-3.0.14+168.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559261568200,
+          "name": "SimpleDifficulty-1.12.2-0.3.9",
+          "favorite": false,
+          "version": {
+            "id": -8559273583700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b312dfad60f0619badca1640090f99aa755104d4",
+              "size": 502574,
+              "path": "mods/SimpleDifficulty-1.12.2-0.3.9.jar",
+              "url": "mods/SimpleDifficulty-1.12.2-0.3.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559273652800,
+          "name": "sit-1.12.2-v1.3",
+          "favorite": false,
+          "version": {
+            "id": -8559313152299,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1a19c5aa9373e5e9b666cd1e8a2b3632c5983d72",
+              "size": 10110,
+              "path": "mods/sit-1.12.2-v1.3.jar",
+              "url": "mods/sit-1.12.2-v1.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559313226500,
+          "name": "SnowRealMagic-1.12.2-0.7.4",
+          "favorite": false,
+          "version": {
+            "id": -8559328494300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8f14407286f1ef53f8c032f7757cdb5d227bbc3c",
+              "size": 921015,
+              "path": "mods/SnowRealMagic-1.12.2-0.7.4.jar",
+              "url": "mods/SnowRealMagic-1.12.2-0.7.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559328567700,
+          "name": "SoManyEnchantments-1.0.7-1.12.2",
+          "favorite": false,
+          "version": {
+            "id": -8559346505100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d4cbfda2fbf7779705a930e18e86aedfc0bc7098",
+              "size": 1960923,
+              "path": "mods/SoManyEnchantments-1.0.7-1.12.2.jar",
+              "url": "mods/SoManyEnchantments-1.0.7-1.12.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559346576399,
+          "name": "SoundFilters-0.12.1_for_1.12",
+          "favorite": false,
+          "version": {
+            "id": -8559485990800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3f86c275c0e6cb55ec901a76edf517ae1c478043",
+              "size": 43194,
+              "path": "mods/SoundFilters-0.12.1_for_1.12.jar",
+              "url": "mods/SoundFilters-0.12.1_for_1.12.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559486062399,
+          "name": "spark-unforged-1.11.140-forge",
+          "favorite": false,
+          "version": {
+            "id": -8559510544200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "015557681e5f865c2aa42c8822600e4a064c0467",
+              "size": 3771370,
+              "path": "mods/spark-unforged-1.11.140-forge.jar",
+              "url": "mods/spark-unforged-1.11.140-forge.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559510615400,
+          "name": "spartandefiled-1.12.2-1.2",
+          "favorite": false,
+          "version": {
+            "id": -8559521913400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "66a86beabb6353deb1be94845617b5467eb9a142",
+              "size": 206044,
+              "path": "mods/spartandefiled-1.12.2-1.2.jar",
+              "url": "mods/spartandefiled-1.12.2-1.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559521988500,
+          "name": "spartanfire_rlcraft-1.3.3",
+          "favorite": false,
+          "version": {
+            "id": -8559534771799,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "26bc7ca12e0d38880dd9c88de39359cfa56a7e3f",
+              "size": 842851,
+              "path": "mods/spartanfire_rlcraft-1.3.3.jar",
+              "url": "mods/spartanfire_rlcraft-1.3.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559534846099,
+          "name": "SpartanHUDBaubles-1.12.2-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -8559544999899,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f08db9ce1becd829aacc1e531caf4384c0e208f5",
+              "size": 78418,
+              "path": "mods/SpartanHUDBaubles-1.12.2-1.0.0.jar",
+              "url": "mods/SpartanHUDBaubles-1.12.2-1.0.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559545083400,
+          "name": "SpartanShields-1.12.2-1.5.5",
+          "favorite": false,
+          "version": {
+            "id": -8559557744700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "89faa64364dfaa6799392e8f71da95e7b5af1144",
+              "size": 430876,
+              "path": "mods/SpartanShields-1.12.2-1.5.5.jar",
+              "url": "mods/SpartanShields-1.12.2-1.5.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559557824300,
+          "name": "SpartanWeaponry-1.12.2-1.6.1",
+          "favorite": false,
+          "version": {
+            "id": -8559577177100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0f4c533dbd1a9f6e9383bac0f6fef4cb80354fc3",
+              "size": 2371089,
+              "path": "mods/SpartanWeaponry-1.12.2-1.6.1.jar",
+              "url": "mods/SpartanWeaponry-1.12.2-1.6.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559577249399,
+          "name": "SpawnerControl-1.6.3b",
+          "favorite": false,
+          "version": {
+            "id": -8559731067100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2b6a39a30e5716306d3cfe38682a56805d619cf7",
+              "size": 49537,
+              "path": "mods/SpawnerControl-1.6.3b.jar",
+              "url": "mods/SpawnerControl-1.6.3b.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559731144100,
+          "name": "SRParasites-1.12.2v1.9.21",
+          "favorite": false,
+          "version": {
+            "id": -8559821635300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "17225b532334c4652a698be3d41d819af2b0f051",
+              "size": 27022807,
+              "path": "mods/SRParasites-1.12.2v1.9.21.jar",
+              "url": "mods/SRParasites-1.12.2v1.9.21.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559821703500,
+          "name": "SRPMixins-2.9.1.1",
+          "favorite": false,
+          "version": {
+            "id": -8559834439400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f0a1f896e737cd14a3908d60abaa52a8a3f70403",
+              "size": 759736,
+              "path": "mods/SRPMixins-2.9.1.1.jar",
+              "url": "mods/SRPMixins-2.9.1.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559834516400,
+          "name": "StandardExpansion-3.4.173",
+          "favorite": false,
+          "version": {
+            "id": -8559846617100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aeea1502862382cf9859c495f1494e2bc7cc1d33",
+              "size": 460454,
+              "path": "mods/StandardExpansion-3.4.173.jar",
+              "url": "mods/StandardExpansion-3.4.173.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559846695300,
+          "name": "Surge-1.12.2-2.0.79",
+          "favorite": false,
+          "version": {
+            "id": -8559861525200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f7197d44a0f1fb1af216d3ba6b7e3c1ed06a36e9",
+              "size": 957330,
+              "path": "mods/Surge-1.12.2-2.0.79.jar",
+              "url": "mods/Surge-1.12.2-2.0.79.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559861596299,
+          "name": "switchbow-1.6.8",
+          "favorite": false,
+          "version": {
+            "id": -8559874369900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d115c9d86fc9a47c685e19c4ecf04d9cfa4fc88c",
+              "size": 496455,
+              "path": "mods/switchbow-1.6.8.jar",
+              "url": "mods/switchbow-1.6.8.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559874452300,
+          "name": "tnt_utilities-mc1.12-1.2.3",
+          "favorite": false,
+          "version": {
+            "id": -8559998961300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4ec5d83ae703b63237675499b6445ecd63346c7e",
+              "size": 31034,
+              "path": "mods/tnt_utilities-mc1.12-1.2.3.jar",
+              "url": "mods/tnt_utilities-mc1.12-1.2.3.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8559999042199,
+          "name": "Toast Control-1.12.2-1.8.1",
+          "favorite": false,
+          "version": {
+            "id": -8560060649800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7365b5415d5f1a39997fe142ccc42ae732e31c01",
+              "size": 21668,
+              "path": "mods/Toast Control-1.12.2-1.8.1.jar",
+              "url": "mods/Toast Control-1.12.2-1.8.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560060729500,
+          "name": "ToolBelt-1.12.2-1.9.14",
+          "favorite": false,
+          "version": {
+            "id": -8560070774600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6a9078c5d0f9e92a9f66ded407cba4b48dadbdf8",
+              "size": 161592,
+              "path": "mods/ToolBelt-1.12.2-1.9.14.jar",
+              "url": "mods/ToolBelt-1.12.2-1.9.14.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560070854400,
+          "name": "Traverse-1.12.2-1.6.0-69",
+          "favorite": false,
+          "version": {
+            "id": -8560081926800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b16aaff09a6e77ba193e42f88f5d5bb8a85e063a",
+              "size": 270133,
+              "path": "mods/Traverse-1.12.2-1.6.0-69.jar",
+              "url": "mods/Traverse-1.12.2-1.6.0-69.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560082009199,
+          "name": "Trinkets and Baubles-0.32.5",
+          "favorite": false,
+          "version": {
+            "id": -8560099743100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1bf00686055662715c7b4bcf56251db034a3fccc",
+              "size": 2013100,
+              "path": "mods/Trinkets and Baubles-0.32.5.jar",
+              "url": "mods/Trinkets and Baubles-0.32.5.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560099829900,
+          "name": "trumpetskeleton-1.12-1.0.2.1",
+          "favorite": false,
+          "version": {
+            "id": -8560217261000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "98d55c7b43a2996057e3052337c7d103c74f426c",
+              "size": 42657,
+              "path": "mods/trumpetskeleton-1.12-1.0.2.1.jar",
+              "url": "mods/trumpetskeleton-1.12-1.0.2.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560217341199,
+          "name": "tschipplib-1.12.2-1.1.7",
+          "favorite": false,
+          "version": {
+            "id": -8560226528900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6260b29a034ad9852d5d4c73fb33c9cbb18f7483",
+              "size": 70966,
+              "path": "mods/tschipplib-1.12.2-1.1.7.jar",
+              "url": "mods/tschipplib-1.12.2-1.1.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560226610300,
+          "name": "tumbleweed-1.12-0.4.7",
+          "favorite": false,
+          "version": {
+            "id": -8560235974300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "22d151086fde79a7d34b5bc191a4d90ef1b24890",
+              "size": 87400,
+              "path": "mods/tumbleweed-1.12-0.4.7.jar",
+              "url": "mods/tumbleweed-1.12-0.4.7.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560236061800,
+          "name": "Underneath-1.9",
+          "favorite": false,
+          "version": {
+            "id": -8560369254800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d8ca90eb2c2002f9325b2741008aa46f895c969a",
+              "size": 40272424,
+              "path": "mods/Underneath-1.9.jar",
+              "url": "mods/Underneath-1.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560369330800,
+          "name": "VariedCommodities_1.12.2-(31Mar23)",
+          "favorite": false,
+          "version": {
+            "id": -8560386650599,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b51e7d731d347eed88c5d33969bbfd9bd4a43c60",
+              "size": 1766394,
+              "path": "mods/VariedCommodities_1.12.2-(31Mar23).jar",
+              "url": "mods/VariedCommodities_1.12.2-(31Mar23).jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560386730300,
+          "name": "VCFix-1.0.1",
+          "favorite": false,
+          "version": {
+            "id": -8560517119399,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "635a5f796ff07b5eb21ab23a2f1ad6176c758705",
+              "size": 25064,
+              "path": "mods/VCFix-1.0.1.jar",
+              "url": "mods/VCFix-1.0.1.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560517197400,
+          "name": "VerticallyStackedDimensions-1.12.2-0.1.9",
+          "favorite": false,
+          "version": {
+            "id": -8560528063700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "91a0696178f1e80b1ed172a57cf50a10cffbb38b",
+              "size": 240644,
+              "path": "mods/VerticallyStackedDimensions-1.12.2-0.1.9.jar",
+              "url": "mods/VerticallyStackedDimensions-1.12.2-0.1.9.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560528144700,
+          "name": "Waystones_1.12.2-4.1.0",
+          "favorite": false,
+          "version": {
+            "id": -8560538753400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "877a5cd3ed8e3f29e900b74c8c5400ee6e43c3bf",
+              "size": 178994,
+              "path": "mods/Waystones_1.12.2-4.1.0.jar",
+              "url": "mods/Waystones_1.12.2-4.1.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560538833900,
+          "name": "WearableBackpacks-RLCraft-1.12.2-3.2.6",
+          "favorite": false,
+          "version": {
+            "id": -8560552609300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2189a5d62455221cbce7f83b1839ebfe5553cd98",
+              "size": 503299,
+              "path": "mods/WearableBackpacks-RLCraft-1.12.2-3.2.6.jar",
+              "url": "mods/WearableBackpacks-RLCraft-1.12.2-3.2.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560552684599,
+          "name": "WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed",
+          "favorite": false,
+          "version": {
+            "id": -8560571696700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "01883bd1e831397c90b8065a332a9b7e7da24c3c",
+              "size": 2075228,
+              "path": "mods/WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed.jar",
+              "url": "mods/WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560571778300,
+          "name": "XPFromHarvest-1.12.2-1.2.0",
+          "favorite": false,
+          "version": {
+            "id": -8560622539500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "17d75a73915b4a9691dba91831f685d5d6fc9be7",
+              "size": 8479,
+              "path": "mods/XPFromHarvest-1.12.2-1.2.0.jar",
+              "url": "mods/XPFromHarvest-1.12.2-1.2.0.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560622618400,
+          "name": "xptome-1.12.2-v1.1.6",
+          "favorite": false,
+          "version": {
+            "id": -8560679584800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e4116cbe2afe5e8025a0e3596e1f8189242c3a38",
+              "size": 12161,
+              "path": "mods/xptome-1.12.2-v1.1.6.jar",
+              "url": "mods/xptome-1.12.2-v1.1.6.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560679663499,
+          "name": "YungsLaw-1.12.2-1.0.4",
+          "favorite": false,
+          "version": {
+            "id": -8560688947700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6538598da3c76de971d07cdcca270894b6e84180",
+              "size": 72145,
+              "path": "mods/YungsLaw-1.12.2-1.0.4.jar",
+              "url": "mods/YungsLaw-1.12.2-1.0.4.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8560689026700,
+          "name": "`FermiumBooter-1.3.2",
+          "favorite": false,
+          "version": {
+            "id": -8560706754700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d369a982962d8c2cddca97f90ae71ada7f3060d0",
+              "size": 1924087,
+              "path": "mods/`FermiumBooter-1.3.2.jar",
+              "url": "mods/`FermiumBooter-1.3.2.jar"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [],
+      "shaderpacks": [],
+      "gameVersionDTO": {
+        "id": 1,
+        "name": "1.12.2"
+      },
+      "minecraftVersionName": {
+        "id": 3004,
+        "name": "14.23.5.2860"
+      },
+      "id": -28133951828901,
+      "name": "1.0",
+      "available": false,
+      "remove": false,
+      "minecraftVersionTypes": [
+        {
+          "id": 1,
+          "name": "forge"
+        }
+      ]
+    },
+    "userInstall": false,
+    "populateStatus": false,
+    "available": false,
+    "parser": false,
+    "totalComments": 0
+  },
+  "source": "local_version_repo",
+  "jar": "1.12.2",
+  "skinVersion": true
+}
