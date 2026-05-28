@@ -1,0 +1,13 @@
+{Profession:2,CustomName:"Patriot The (bald) Priest",CustomNameVisible:0,Health:50,Attributes:[{Name:"generic.maxHealth",Base:50}],HandDropChances:[2F,0.3F],HandItems:[{id:"minecraft:stick",tag:{display:{Name:"It's a Pencil!",Lore:["He thinks it is a carpenters hammer"]}},Count:1},{id:"minecraft:gold_nugget",Count:4}],ArmorDropChances:[2F,2F,2F,2F],ArmorItems:[{id:"minecraft:book",tag:{display:{Name:"Holy book of Origin"}},Count:1},{},{},{}],ActiveEffects:[{Id:3,Amplifier:0,Duration:2147483647},{Id:10,Amplifier:0,Duration:2147483647},{Id:11,Amplifier:0,Duration:2147483647},{Id:12,Amplifier:0,Duration:2147483647},{Id:21,Amplifier:0,Duration:2147483647}],Offers:{Recipes:[
+
+{buy:{id:"emerald",Count:5},sell:{id:"potion",Count:1,tag:{CustomPotionEffects:[{Id:64,Amplifier:1,Duration:200},{Id:87,Amplifier:1,Duration:200},{Id:9,Amplifier:1,Duration:200},{Id:15,Amplifier:1,Duration:200}],HideFlags:32,CustomPotionColor:15414501,display:{Name:"Potion of Forget & Forgiveness",Lore:["Extra strength communion wine, it has herbs!"]}}}},
+
+{buy:{id:"emerald",Count:15},sell:{id:"potion",Count:1,tag:{CustomPotionEffects:[{Id:14,Amplifier:1,Duration:200},{Id:1,Amplifier:1,Duration:200}],HideFlags:32,CustomPotionColor:14724063,display:{Name:"Potion of Swiftly Invisible",Lore:["Use this to sneak away from mass!"]}}}},
+
+{buy:{id:"emerald",Count:42},sell:{id:"potion",Count:1,tag:{CustomPotionEffects:[{Id:73,Amplifier:1,Duration:100},{Id:138,Amplifier:1,Duration:400}],HideFlags:32,CustomPotionColor:3847130,display:{Name:"Potion of Shivaxi's Judgement",Lore:["Art thou worthy?"]}}}},
+
+{buy:{id:"emerald",Count:9},sell:{id:"potion",Count:1,tag:{CustomPotionEffects:[{Id:24,Amplifier:1,Duration:200},{Id:25,Amplifier:69,Duration:200}],HideFlags:32,CustomPotionColor:16383998,display:{Name:"Potion of Rapture",Lore:["Ascend to the heavens!"]}}}},
+
+{buy:{id:"emerald",Count:8},sell:{id:"potion",Count:1,tag:{CustomPotionEffects:[{Id:82,Amplifier:0,Duration:1},{Id:88,Amplifier:0,Duration:1}],CustomPotionColor:16701501,display:{Name:"Potion of Yin & Yang",Lore:["To achieve balance, one must achieve balance.  -Socrates"]}}}}
+
+]}}
