@@ -1,0 +1,445 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackHeavenNL
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: -1
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,BIOMESOPLENTY:DIRT,defiledlands:dirt_defiled,defiledlands:grass_defiled,defiledlands:sand_defiled
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-6,4,5,dynamictreesdefiledlands:tenebrabranch)
+Block(-5,4,5,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-4,4,-4,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-4,4,-3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-4,4,-2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-4,4,0,dynamictreesdefiledlands:tenebrabranch)
+Block(-4,4,2,dynamictreesdefiledlands:tenebrabranch)
+Block(-4,4,4,dynamictreesdefiledlands:tenebrabranch)
+Block(-4,4,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-4,5,-4,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-4,5,5,dynamictreesdefiledlands:tenebrabranch)
+Block(-4,6,-4,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-4,7,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-4,8,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-4,9,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-4,10,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,3,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,4,-2,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-3,4,-1,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-3,4,0,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-3,4,1,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-3,4,2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,4,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,5,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,5,0,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,5,2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,6,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,6,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,6,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,6,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-3,6,2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-3,7,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-3,8,-5,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-3,8,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,8,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-3,8,2,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,9,-5,dynamictreesdefiledlands:tenebrabranch)
+Block(-3,9,0,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,3,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,3,-3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(-2,3,-2,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-2,3,-1,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-2,3,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(-2,3,1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(-2,3,2,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,4,-3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(-2,4,0,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-2,4,3,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-2,4,4,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-2,4,5,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-2,4,6,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-2,4,7,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,4,8,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,5,-5,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,5,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,5,-3,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-2,5,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,5,3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-2,5,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,5,8,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,6,-5,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,6,-2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,6,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-2,6,3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-2,6,4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,6,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,6,8,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,7,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,7,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,7,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-2,7,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,7,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,7,7,dynamictreesdefiledlands:tenebrabranch)
+Block(-2,8,-5,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,8,-1,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,8,0,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-2,8,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,9,0,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,9,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-2,10,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,10,3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,11,3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,12,3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-2,13,3,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,3,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,3,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,3,1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(-1,4,0,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,4,2,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,4,3,dynamictreesdefiledlands:tenebrabranch:6)
+Block(-1,4,7,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,5,-3,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-1,5,-1,dynamictreesdefiledlands:tenebrabranch:5)
+Block(-1,5,1,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,6,-3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-1,6,-1,dynamictreesdefiledlands:tenebrabranch:5)
+Block(-1,6,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(-1,6,4,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,7,-6,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,7,-5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-1,7,-4,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-1,7,-3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(-1,7,1,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,8,-5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(-1,8,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,8,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-1,9,-5,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,9,-2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-1,9,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-1,10,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,10,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(-1,11,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(-1,11,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,3,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,3,1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,3,2,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,3,3,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,4,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(0,4,-1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,4,1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,4,3,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,4,4,dynamictreesdefiledlands:tenebrabranch:7)
+Block(0,5,-2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(0,5,-1,dynamictreesdefiledlands:tenebrabranch:6)
+Block(0,5,1,dynamictreesdefiledlands:tenebrabranch:6)
+Block(0,5,3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,5,5,dynamictreesdefiledlands:tenebrabranch)
+Block(0,6,-5,dynamictreesdefiledlands:tenebrabranch)
+Block(0,6,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,6,-2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(0,6,1,dynamictreesdefiledlands:tenebrabranch:6)
+Block(0,6,3,dynamictreesdefiledlands:tenebrabranch)
+Block(0,6,7,dynamictreesdefiledlands:tenebrabranch)
+Block(0,7,-2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(0,7,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,7,1,dynamictreesdefiledlands:tenebrabranch:5)
+Block(0,7,2,dynamictreesdefiledlands:tenebrabranch)
+Block(0,8,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(0,8,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,9,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,9,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(0,9,0,dynamictreesdefiledlands:tenebrabranch)
+Block(0,10,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(0,10,1,dynamictreesdefiledlands:tenebrabranch:3)
+Block(0,10,2,dynamictreesdefiledlands:tenebrabranch)
+Block(0,11,1,dynamictreesdefiledlands:tenebrabranch:3)
+Block(0,12,0,dynamictreesdefiledlands:tenebrabranch)
+Block(0,12,1,dynamictreesdefiledlands:tenebrabranch:2)
+Block(0,12,2,dynamictreesdefiledlands:tenebrabranch)
+Block(0,13,1,dynamictreesdefiledlands:tenebrabranch:2)
+Block(0,14,0,dynamictreesdefiledlands:tenebrabranch)
+Block(0,14,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(0,14,2,dynamictreesdefiledlands:tenebrabranch)
+Block(0,15,1,dynamictreesdefiledlands:tenebrabranch)
+Block(1,0,0,dynamictreesdefiledlands:rootydefileddirt:14)
+Block(1,1,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,2,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,3,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,3,2,dynamictreesdefiledlands:tenebrabranch)
+Block(1,4,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(1,4,-3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(1,4,-2,dynamictreesdefiledlands:tenebrabranch:6)
+Block(1,4,-1,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,4,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,4,4,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,4,5,dynamictreesdefiledlands:tenebrabranch:7)
+Block(1,4,6,dynamictreesdefiledlands:tenebrabranch:2)
+Block(1,4,7,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,4,8,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,4,9,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,5,-3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(1,5,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,5,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,5,5,dynamictreesdefiledlands:tenebrabranch:5)
+Block(1,5,9,dynamictreesdefiledlands:tenebrabranch)
+Block(1,6,-7,dynamictreesdefiledlands:tenebrabranch)
+Block(1,6,-4,dynamictreesdefiledlands:tenebrabranch:4)
+Block(1,6,-3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(1,6,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,6,0,dynamictreesdefiledlands:tenebrabranch)
+Block(1,6,2,dynamictreesdefiledlands:tenebrabranch)
+Block(1,6,4,dynamictreesdefiledlands:tenebrabranch)
+Block(1,6,5,dynamictreesdefiledlands:tenebrabranch:5)
+Block(1,6,6,dynamictreesdefiledlands:tenebrabranch:3)
+Block(1,6,7,dynamictreesdefiledlands:tenebrabranch:2)
+Block(1,6,8,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,7,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(1,7,1,dynamictreesdefiledlands:tenebrabranch:4)
+Block(1,7,3,dynamictreesdefiledlands:tenebrabranch)
+Block(1,7,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,7,8,dynamictreesdefiledlands:tenebrabranch)
+Block(1,8,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(1,8,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(1,8,1,dynamictreesdefiledlands:tenebrabranch:4)
+Block(1,8,2,dynamictreesdefiledlands:tenebrabranch)
+Block(1,8,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,9,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,9,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(1,9,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,9,1,dynamictreesdefiledlands:tenebrabranch:4)
+Block(1,9,3,dynamictreesdefiledlands:tenebrabranch)
+Block(1,9,6,dynamictreesdefiledlands:tenebrabranch)
+Block(1,10,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(1,10,1,dynamictreesdefiledlands:tenebrabranch:3)
+Block(1,11,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(1,12,1,dynamictreesdefiledlands:tenebrabranch)
+Block(2,4,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(2,4,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(2,4,1,dynamictreesdefiledlands:tenebrabranch:5)
+Block(2,4,2,dynamictreesdefiledlands:tenebrabranch:5)
+Block(2,4,3,dynamictreesdefiledlands:tenebrabranch:5)
+Block(2,4,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,5,-3,dynamictreesdefiledlands:tenebrabranch)
+Block(2,5,-1,dynamictreesdefiledlands:tenebrabranch:4)
+Block(2,5,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(2,5,3,dynamictreesdefiledlands:tenebrabranch:4)
+Block(2,5,4,dynamictreesdefiledlands:tenebrabranch)
+Block(2,6,-7,dynamictreesdefiledlands:tenebrabranch:1)
+Block(2,6,-6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(2,6,-5,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,6,-4,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,6,-2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,6,-1,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,6,1,dynamictreesdefiledlands:tenebrabranch)
+Block(2,6,3,dynamictreesdefiledlands:tenebrabranch:4)
+Block(2,6,5,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,7,-7,dynamictreesdefiledlands:tenebrabranch)
+Block(2,7,-5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,7,-3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,7,-2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,7,3,dynamictreesdefiledlands:tenebrabranch:4)
+Block(2,7,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,8,-6,dynamictreesdefiledlands:tenebrabranch)
+Block(2,8,-5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,8,-4,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,8,1,dynamictreesdefiledlands:tenebrabranch)
+Block(2,8,3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,8,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,9,-4,dynamictreesdefiledlands:tenebrabranch:1)
+Block(2,9,3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,10,2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,10,3,dynamictreesdefiledlands:tenebrabranch:3)
+Block(2,10,4,dynamictreesdefiledlands:tenebrabranch)
+Block(2,11,2,dynamictreesdefiledlands:tenebrabranch:2)
+Block(2,12,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(2,13,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(2,13,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,4,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(3,4,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(3,4,3,dynamictreesdefiledlands:tenebrabranch)
+Block(3,4,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(3,4,6,dynamictreesdefiledlands:tenebrabranch:2)
+Block(3,4,7,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,4,8,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,5,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,5,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,5,6,dynamictreesdefiledlands:tenebrabranch)
+Block(3,5,8,dynamictreesdefiledlands:tenebrabranch)
+Block(3,6,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(3,6,1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,6,4,dynamictreesdefiledlands:tenebrabranch)
+Block(3,6,5,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,7,-3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(3,8,-3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,8,5,dynamictreesdefiledlands:tenebrabranch:2)
+Block(3,8,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,9,-3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,9,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,10,-4,dynamictreesdefiledlands:tenebrabranch)
+Block(3,10,-3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,10,2,dynamictreesdefiledlands:tenebrabranch)
+Block(3,10,5,dynamictreesdefiledlands:tenebrabranch)
+Block(3,10,6,dynamictreesdefiledlands:tenebrabranch:1)
+Block(3,13,1,dynamictreesdefiledlands:tenebrabranch)
+Block(4,4,0,dynamictreesdefiledlands:tenebrabranch:7)
+Block(4,4,1,dynamictreesdefiledlands:tenebrabranch:5)
+Block(4,4,2,dynamictreesdefiledlands:tenebrabranch:4)
+Block(4,5,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(4,5,-1,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,5,0,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,5,2,dynamictreesdefiledlands:tenebrabranch:4)
+Block(4,6,-1,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,6,2,dynamictreesdefiledlands:tenebrabranch:3)
+Block(4,6,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,7,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(4,7,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,8,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(4,8,1,dynamictreesdefiledlands:tenebrabranch)
+Block(4,8,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(4,8,3,dynamictreesdefiledlands:tenebrabranch:2)
+Block(4,9,3,dynamictreesdefiledlands:tenebrabranch)
+Block(5,4,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(5,4,0,dynamictreesdefiledlands:tenebrabranch:5)
+Block(5,4,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(5,4,3,dynamictreesdefiledlands:tenebrabranch:1)
+Block(5,6,0,dynamictreesdefiledlands:tenebrabranch)
+Block(5,6,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(5,7,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(5,7,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(5,7,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(5,8,0,dynamictreesdefiledlands:tenebrabranch)
+Block(6,4,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(6,4,1,dynamictreesdefiledlands:tenebrabranch)
+Block(6,4,3,dynamictreesdefiledlands:tenebrabranch)
+Block(6,5,-2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(6,5,-1,dynamictreesdefiledlands:tenebrabranch:1)
+Block(6,5,0,dynamictreesdefiledlands:tenebrabranch:4)
+Block(6,6,-2,dynamictreesdefiledlands:tenebrabranch)
+Block(6,6,0,dynamictreesdefiledlands:tenebrabranch:3)
+Block(6,7,0,dynamictreesdefiledlands:tenebrabranch:3)
+Block(6,7,2,dynamictreesdefiledlands:tenebrabranch:1)
+Block(6,8,0,dynamictreesdefiledlands:tenebrabranch:3)
+Block(6,8,2,dynamictreesdefiledlands:tenebrabranch)
+Block(6,9,0,dynamictreesdefiledlands:tenebrabranch:2)
+Block(6,10,0,dynamictreesdefiledlands:tenebrabranch:2)
+Block(6,10,1,dynamictreesdefiledlands:tenebrabranch)
+Block(6,11,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(7,4,0,dynamictreesdefiledlands:tenebrabranch)
+Block(7,8,0,dynamictreesdefiledlands:tenebrabranch)
+Block(7,11,0,dynamictreesdefiledlands:tenebrabranch:1)
+Block(7,12,-1,dynamictreesdefiledlands:tenebrabranch)
+Block(7,12,0,dynamictreesdefiledlands:tenebrabranch:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(1,-1,0,GRASS,DIRT,biomesoplenty:grass,biomesoplenty:dirt,defiledlands:dirt_defiled,defiledlands:grass_defiled,defiledlands:sand_defiled)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

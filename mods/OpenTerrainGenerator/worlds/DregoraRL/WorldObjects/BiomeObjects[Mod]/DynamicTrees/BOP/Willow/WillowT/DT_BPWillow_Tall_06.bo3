@@ -1,0 +1,269 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackHeavenNL
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: -1
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,biomesoplenty:dirt,biomesoplenty:grass,UNKNOWN_BLOCK
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-4,9,2,dynamictreesbop:leaves3:12)
+Block(-4,9,3,dynamictreesbop:leaves3:12)
+Block(-4,10,2,dynamictreesbop:leaves3:12)
+Block(-4,10,3,dynamictreesbop:leaves3:12)
+Block(-4,11,2,dynamictreesbop:leaves3:12)
+Block(-3,9,1,dynamictreesbop:leaves3:12)
+Block(-3,9,2,dynamictreesbop:leaves3:15)
+Block(-3,9,3,dynamictreesbop:leaves3:14)
+Block(-3,9,4,dynamictreesbop:leaves3:12)
+Block(-3,10,1,dynamictreesbop:leaves3:12)
+Block(-3,10,2,dynamictreesbop:leaves3:14)
+Block(-3,10,3,dynamictreesbop:leaves3:13)
+Block(-3,10,4,dynamictreesbop:leaves3:12)
+Block(-3,11,1,dynamictreesbop:leaves3:12)
+Block(-3,11,2,dynamictreesbop:leaves3:13)
+Block(-3,11,3,dynamictreesbop:leaves3:12)
+Block(-3,12,2,dynamictreesbop:leaves3:12)
+Block(-2,8,3,dynamictreesbop:willowbranch)
+Block(-2,9,0,dynamictreesbop:leaves3:12)
+Block(-2,9,2,dynamictreesbop:willowbranch)
+Block(-2,9,3,dynamictreesbop:leaves3:15)
+Block(-2,9,4,dynamictreesbop:leaves3:12)
+Block(-2,10,1,dynamictreesbop:leaves3:12)
+Block(-2,10,2,dynamictreesbop:leaves3:15)
+Block(-2,10,3,dynamictreesbop:leaves3:14)
+Block(-2,10,4,dynamictreesbop:leaves3:12)
+Block(-2,11,0,dynamictreesbop:leaves3:12)
+Block(-2,11,1,dynamictreesbop:leaves3:13)
+Block(-2,11,2,dynamictreesbop:leaves3:14)
+Block(-2,11,3,dynamictreesbop:leaves3:13)
+Block(-2,11,4,dynamictreesbop:leaves3:12)
+Block(-2,12,1,dynamictreesbop:leaves3:12)
+Block(-2,12,2,dynamictreesbop:leaves3:13)
+Block(-2,12,3,dynamictreesbop:leaves3:12)
+Block(-2,13,2,dynamictreesbop:leaves3:12)
+Block(-1,8,3,dynamictreesbop:willowbranch:1)
+Block(-1,9,2,dynamictreesbop:willowbranch:1)
+Block(-1,9,5,dynamictreesbop:leaves3:12)
+Block(-1,10,0,dynamictreesbop:leaves3:12)
+Block(-1,10,4,dynamictreesbop:leaves3:12)
+Block(-1,11,-1,dynamictreesbop:leaves3:12)
+Block(-1,11,0,dynamictreesbop:leaves3:13)
+Block(-1,11,1,dynamictreesbop:leaves3:14)
+Block(-1,11,2,dynamictreesbop:leaves3:15)
+Block(-1,11,3,dynamictreesbop:leaves3:14)
+Block(-1,11,4,dynamictreesbop:leaves3:13)
+Block(-1,11,5,dynamictreesbop:leaves3:12)
+Block(-1,12,0,dynamictreesbop:leaves3:12)
+Block(-1,12,1,dynamictreesbop:leaves3:13)
+Block(-1,12,2,dynamictreesbop:leaves3:14)
+Block(-1,12,3,dynamictreesbop:leaves3:13)
+Block(-1,12,4,dynamictreesbop:leaves3:12)
+Block(-1,13,1,dynamictreesbop:leaves3:12)
+Block(-1,13,2,dynamictreesbop:leaves3:12)
+Block(-1,13,3,dynamictreesbop:leaves3:12)
+Block(0,0,2,dynamictrees:rootydirt:0)
+Block(0,1,2,dynamictreesbop:willowbranch:7)
+Block(0,2,2,dynamictreesbop:willowbranch:7)
+Block(0,3,2,dynamictreesbop:willowbranch:7)
+Block(0,4,0,dynamictreesbop:willowbranch:2)
+Block(0,4,1,dynamictreesbop:willowbranch:3)
+Block(0,4,2,dynamictreesbop:willowbranch:6)
+Block(0,5,0,dynamictreesbop:willowbranch:2)
+Block(0,5,2,dynamictreesbop:willowbranch:5)
+Block(0,6,0,dynamictreesbop:willowbranch:1)
+Block(0,6,2,dynamictreesbop:willowbranch:5)
+Block(0,7,0,dynamictreesbop:willowbranch:1)
+Block(0,7,2,dynamictreesbop:willowbranch:4)
+Block(0,8,0,dynamictreesbop:willowbranch:1)
+Block(0,8,2,dynamictreesbop:willowbranch:4)
+Block(0,8,3,dynamictreesbop:willowbranch:2)
+Block(0,8,4,dynamictreesbop:willowbranch:1)
+Block(0,9,-2,dynamictreesbop:leaves3:12)
+Block(0,9,0,dynamictreesbop:willowbranch)
+Block(0,9,2,dynamictreesbop:willowbranch:2)
+Block(0,9,4,dynamictreesbop:willowbranch)
+Block(0,9,6,dynamictreesbop:leaves3:12)
+Block(0,10,-1,dynamictreesbop:leaves3:12)
+Block(0,10,0,dynamictreesbop:leaves3:15)
+Block(0,10,1,dynamictreesbop:willowbranch)
+Block(0,10,2,dynamictreesbop:willowbranch:1)
+Block(0,10,3,dynamictreesbop:willowbranch)
+Block(0,10,4,dynamictreesbop:leaves3:15)
+Block(0,10,5,dynamictreesbop:leaves3:12)
+Block(0,11,-2,dynamictreesbop:leaves3:12)
+Block(0,11,-1,dynamictreesbop:leaves3:12)
+Block(0,11,0,dynamictreesbop:leaves3:14)
+Block(0,11,1,dynamictreesbop:leaves3:15)
+Block(0,11,2,dynamictreesbop:willowbranch)
+Block(0,11,3,dynamictreesbop:leaves3:15)
+Block(0,11,4,dynamictreesbop:leaves3:14)
+Block(0,11,5,dynamictreesbop:leaves3:12)
+Block(0,11,6,dynamictreesbop:leaves3:12)
+Block(0,12,-1,dynamictreesbop:leaves3:12)
+Block(0,12,0,dynamictreesbop:leaves3:13)
+Block(0,12,1,dynamictreesbop:leaves3:14)
+Block(0,12,2,dynamictreesbop:leaves3:15)
+Block(0,12,3,dynamictreesbop:leaves3:14)
+Block(0,12,4,dynamictreesbop:leaves3:13)
+Block(0,12,5,dynamictreesbop:leaves3:12)
+Block(0,13,0,dynamictreesbop:leaves3:12)
+Block(0,13,1,dynamictreesbop:leaves3:12)
+Block(0,13,2,dynamictreesbop:leaves3:12)
+Block(0,13,3,dynamictreesbop:leaves3:12)
+Block(0,13,4,dynamictreesbop:leaves3:12)
+Block(1,8,2,dynamictreesbop:willowbranch:1)
+Block(1,9,-1,dynamictreesbop:leaves3:12)
+Block(1,10,-2,dynamictreesbop:leaves3:12)
+Block(1,10,0,dynamictreesbop:leaves3:12)
+Block(1,10,2,dynamictreesbop:willowbranch)
+Block(1,10,4,dynamictreesbop:leaves3:12)
+Block(1,11,-1,dynamictreesbop:leaves3:12)
+Block(1,11,0,dynamictreesbop:leaves3:13)
+Block(1,11,1,dynamictreesbop:leaves3:14)
+Block(1,11,2,dynamictreesbop:leaves3:15)
+Block(1,11,3,dynamictreesbop:leaves3:14)
+Block(1,11,4,dynamictreesbop:leaves3:13)
+Block(1,11,5,dynamictreesbop:leaves3:12)
+Block(1,12,0,dynamictreesbop:leaves3:12)
+Block(1,12,1,dynamictreesbop:leaves3:13)
+Block(1,12,2,dynamictreesbop:leaves3:14)
+Block(1,12,3,dynamictreesbop:leaves3:13)
+Block(1,12,4,dynamictreesbop:leaves3:12)
+Block(1,13,1,dynamictreesbop:leaves3:12)
+Block(1,13,2,dynamictreesbop:leaves3:12)
+Block(1,13,3,dynamictreesbop:leaves3:12)
+Block(2,8,2,dynamictreesbop:willowbranch)
+Block(2,9,2,dynamictreesbop:leaves3:15)
+Block(2,10,-1,dynamictreesbop:leaves3:12)
+Block(2,10,1,dynamictreesbop:leaves3:12)
+Block(2,10,2,dynamictreesbop:leaves3:15)
+Block(2,10,3,dynamictreesbop:leaves3:12)
+Block(2,11,0,dynamictreesbop:leaves3:12)
+Block(2,11,1,dynamictreesbop:leaves3:13)
+Block(2,11,2,dynamictreesbop:leaves3:14)
+Block(2,11,3,dynamictreesbop:leaves3:13)
+Block(2,11,4,dynamictreesbop:leaves3:12)
+Block(2,12,1,dynamictreesbop:leaves3:12)
+Block(2,12,2,dynamictreesbop:leaves3:13)
+Block(2,12,3,dynamictreesbop:leaves3:12)
+Block(2,13,2,dynamictreesbop:leaves3:12)
+Block(3,10,2,dynamictreesbop:leaves3:12)
+Block(3,11,1,dynamictreesbop:leaves3:12)
+Block(3,11,2,dynamictreesbop:leaves3:12)
+Block(3,11,3,dynamictreesbop:leaves3:12)
+Block(3,12,2,dynamictreesbop:leaves3:12)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,2,GRASS,DIRT,UNKNOWN_BLOCK,biomesoplenty:grass,biomesoplenty:dirt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
