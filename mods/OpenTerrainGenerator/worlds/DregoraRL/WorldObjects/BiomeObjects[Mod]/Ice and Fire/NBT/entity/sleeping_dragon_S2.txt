@@ -1,0 +1,7 @@
+{
+Sleeping:1b,
+Health:200.0f,
+Gender:1,
+AgeTicks:1000000,
+Attributes:[{Base:200.0d,Name:"generic.maxHealth"}]
+}

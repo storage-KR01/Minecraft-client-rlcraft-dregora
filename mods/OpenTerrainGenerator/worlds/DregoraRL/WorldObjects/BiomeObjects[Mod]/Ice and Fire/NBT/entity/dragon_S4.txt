@@ -1,0 +1,5 @@
+{AgeTicks:2000000,
+Health:400.0f,
+Gender:1,
+Attributes:[{Base:400.0d,Name:"generic.maxHealth"}]
+}

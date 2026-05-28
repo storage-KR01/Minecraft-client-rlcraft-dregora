@@ -1,0 +1,1 @@
+{ForgeData:{ScalingHealth.IsBlight:1b},CustomName:"Apollo Gigi",CustomNameVisible:1}

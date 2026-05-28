@@ -1,0 +1,386 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: STONE, SAND, BIOMESOPLENTY:DRIED_SAND
+
+ReplaceWithGroundBlock: STONE, SAND, BIOMESOPLENTY:DRIED_SAND
+
+ReplaceWithStoneBlock: STONE, SAND, BIOMESOPLENTY:DRIED_SAND
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-7,biomesoplenty:dried_sand)
+Block(-8,0,-6,biomesoplenty:dried_sand)
+Block(-8,0,-5,biomesoplenty:dried_sand)
+Block(-8,0,-4,biomesoplenty:dried_sand)
+Block(-8,0,-3,biomesoplenty:dried_sand)
+Block(-8,0,-2,biomesoplenty:dried_sand)
+Block(-8,0,-1,biomesoplenty:dried_sand)
+Block(-8,0,0,biomesoplenty:dried_sand)
+Block(-8,0,1,biomesoplenty:dried_sand)
+Block(-8,0,2,biomesoplenty:dried_sand)
+Block(-8,0,3,biomesoplenty:dried_sand)
+Block(-8,0,4,biomesoplenty:dried_sand)
+Block(-8,0,5,biomesoplenty:dried_sand)
+Block(-8,0,6,biomesoplenty:dried_sand)
+Block(-8,0,7,biomesoplenty:dried_sand)
+Block(-8,0,8,biomesoplenty:dried_sand)
+Block(-8,1,-7,biomesoplenty:dried_sand)
+Block(-8,1,-6,biomesoplenty:dried_sand)
+Block(-8,1,-5,biomesoplenty:dried_sand)
+Block(-8,1,-4,biomesoplenty:dried_sand)
+Block(-8,1,-3,biomesoplenty:dried_sand)
+Block(-8,1,-2,biomesoplenty:dried_sand)
+Block(-8,1,-1,biomesoplenty:dried_sand)
+Block(-8,1,0,biomesoplenty:dried_sand)
+Block(-8,1,1,biomesoplenty:dried_sand)
+Block(-8,1,2,biomesoplenty:dried_sand)
+Block(-8,1,3,biomesoplenty:dried_sand)
+Block(-8,1,4,biomesoplenty:dried_sand)
+Block(-8,1,5,biomesoplenty:dried_sand)
+Block(-8,1,6,biomesoplenty:dried_sand)
+Block(-8,1,7,biomesoplenty:dried_sand)
+Block(-8,1,8,biomesoplenty:dried_sand)
+Block(-8,2,-7,biomesoplenty:dried_sand)
+Block(-8,2,-6,biomesoplenty:dried_sand)
+Block(-8,2,-5,biomesoplenty:dried_sand)
+Block(-8,2,-4,biomesoplenty:dried_sand)
+Block(-8,2,-3,biomesoplenty:dried_sand)
+Block(-8,2,-2,biomesoplenty:dried_sand)
+Block(-8,2,-1,biomesoplenty:dried_sand)
+Block(-8,2,0,biomesoplenty:dried_sand)
+Block(-8,2,1,biomesoplenty:dried_sand)
+Block(-8,2,2,biomesoplenty:dried_sand)
+Block(-8,2,3,biomesoplenty:dried_sand)
+Block(-8,2,4,biomesoplenty:dried_sand)
+Block(-8,2,5,biomesoplenty:dried_sand)
+Block(-8,2,6,biomesoplenty:dried_sand)
+Block(-8,2,7,biomesoplenty:dried_sand)
+Block(-8,2,8,biomesoplenty:dried_sand)
+Block(-8,3,-7,biomesoplenty:dried_sand)
+Block(-8,3,-6,biomesoplenty:dried_sand)
+Block(-8,3,-5,biomesoplenty:dried_sand)
+Block(-8,3,-4,biomesoplenty:dried_sand)
+Block(-8,3,-3,biomesoplenty:dried_sand)
+Block(-8,3,-2,biomesoplenty:dried_sand)
+Block(-8,3,-1,biomesoplenty:dried_sand)
+Block(-8,3,0,biomesoplenty:dried_sand)
+Block(-8,3,1,biomesoplenty:dried_sand)
+Block(-8,3,2,biomesoplenty:dried_sand)
+Block(-8,3,3,biomesoplenty:dried_sand)
+Block(-8,3,4,biomesoplenty:dried_sand)
+Block(-8,3,5,biomesoplenty:dried_sand)
+Block(-8,3,6,biomesoplenty:dried_sand)
+Block(-8,3,7,biomesoplenty:dried_sand)
+Block(-8,3,8,biomesoplenty:dried_sand)
+Block(-8,4,-7,biomesoplenty:dried_sand)
+Block(-8,4,-6,biomesoplenty:dried_sand)
+Block(-8,4,-5,biomesoplenty:dried_sand)
+Block(-8,4,-4,biomesoplenty:dried_sand)
+Block(-8,4,-3,biomesoplenty:dried_sand)
+Block(-8,4,-2,biomesoplenty:dried_sand)
+Block(-8,4,-1,biomesoplenty:dried_sand)
+Block(-8,4,0,biomesoplenty:dried_sand)
+Block(-8,4,1,biomesoplenty:dried_sand)
+Block(-8,4,2,biomesoplenty:dried_sand)
+Block(-8,4,3,biomesoplenty:dried_sand)
+Block(-8,4,4,biomesoplenty:dried_sand)
+Block(-8,4,5,biomesoplenty:dried_sand)
+Block(-8,4,6,biomesoplenty:dried_sand)
+Block(-8,4,7,biomesoplenty:dried_sand)
+Block(-8,4,8,biomesoplenty:dried_sand)
+Block(-8,5,-7,biomesoplenty:dried_sand)
+Block(-8,5,-6,biomesoplenty:dried_sand)
+Block(-8,5,-5,biomesoplenty:dried_sand)
+Block(-8,5,-4,biomesoplenty:dried_sand)
+Block(-8,5,-3,biomesoplenty:dried_sand)
+Block(-8,5,-2,biomesoplenty:dried_sand)
+Block(-8,5,-1,biomesoplenty:dried_sand)
+Block(-8,5,0,biomesoplenty:dried_sand)
+Block(-8,5,1,biomesoplenty:dried_sand)
+Block(-8,5,2,biomesoplenty:dried_sand)
+Block(-8,5,3,biomesoplenty:dried_sand)
+Block(-8,5,4,biomesoplenty:dried_sand)
+Block(-8,5,5,biomesoplenty:dried_sand)
+Block(-8,5,6,biomesoplenty:dried_sand)
+Block(-8,5,7,biomesoplenty:dried_sand)
+Block(-8,5,8,biomesoplenty:dried_sand)
+Block(-8,6,-7,biomesoplenty:dried_sand)
+Block(-8,6,-6,biomesoplenty:dried_sand)
+Block(-8,6,-5,biomesoplenty:dried_sand)
+Block(-8,6,-4,biomesoplenty:dried_sand)
+Block(-8,6,-3,biomesoplenty:dried_sand)
+Block(-8,6,-2,biomesoplenty:dried_sand)
+Block(-8,6,-1,biomesoplenty:dried_sand)
+Block(-8,6,0,biomesoplenty:dried_sand)
+Block(-8,6,1,biomesoplenty:dried_sand)
+Block(-8,6,8,biomesoplenty:dried_sand)
+Block(-8,7,-7,biomesoplenty:dried_sand)
+Block(-8,7,-6,biomesoplenty:dried_sand)
+Block(-8,7,-5,biomesoplenty:dried_sand)
+Block(-8,7,-4,biomesoplenty:dried_sand)
+Block(-8,7,-3,biomesoplenty:dried_sand)
+Block(-8,7,-2,biomesoplenty:dried_sand)
+Block(-8,7,-1,biomesoplenty:dried_sand)
+Block(-8,8,-7,biomesoplenty:dried_sand)
+Block(-8,8,-6,biomesoplenty:dried_sand)
+Block(-8,8,-5,biomesoplenty:dried_sand)
+Block(-8,8,-4,biomesoplenty:dried_sand)
+Block(-8,8,-3,biomesoplenty:dried_sand)
+Block(-8,8,-2,biomesoplenty:dried_sand)
+Block(-8,9,-6,biomesoplenty:dried_sand)
+Block(-8,9,-5,biomesoplenty:dried_sand)
+Block(-8,9,-4,biomesoplenty:dried_sand)
+Block(-8,9,-3,biomesoplenty:dried_sand)
+Block(-8,10,-6,biomesoplenty:dried_sand)
+Block(-8,10,-5,biomesoplenty:dried_sand)
+Block(-8,10,-4,biomesoplenty:dried_sand)
+Block(-8,11,-6,biomesoplenty:dried_sand)
+Block(-8,11,-5,biomesoplenty:dried_sand)
+Block(-8,11,-4,biomesoplenty:dried_sand)
+Block(-7,0,-7,biomesoplenty:dried_sand)
+Block(-7,0,-6,biomesoplenty:dried_sand)
+Block(-7,0,-5,biomesoplenty:dried_sand)
+Block(-7,0,-4,biomesoplenty:dried_sand)
+Block(-7,0,-3,biomesoplenty:dried_sand)
+Block(-7,0,-2,biomesoplenty:dried_sand)
+Block(-7,0,-1,biomesoplenty:dried_sand)
+Block(-7,0,0,biomesoplenty:dried_sand)
+Block(-7,0,1,biomesoplenty:dried_sand)
+Block(-7,0,2,biomesoplenty:dried_sand)
+Block(-7,0,3,biomesoplenty:dried_sand)
+Block(-7,0,4,biomesoplenty:dried_sand)
+Block(-7,0,5,biomesoplenty:dried_sand)
+Block(-7,0,6,biomesoplenty:dried_sand)
+Block(-7,0,7,biomesoplenty:dried_sand)
+Block(-7,0,8,biomesoplenty:dried_sand)
+Block(-7,1,-7,biomesoplenty:dried_sand)
+Block(-7,1,-6,biomesoplenty:dried_sand)
+Block(-7,1,-5,biomesoplenty:dried_sand)
+Block(-7,1,-4,biomesoplenty:dried_sand)
+Block(-7,1,-3,biomesoplenty:dried_sand)
+Block(-7,1,-2,biomesoplenty:dried_sand)
+Block(-7,1,-1,biomesoplenty:dried_sand)
+Block(-7,1,0,biomesoplenty:dried_sand)
+Block(-7,1,1,biomesoplenty:dried_sand)
+Block(-7,1,2,biomesoplenty:dried_sand)
+Block(-7,1,3,biomesoplenty:dried_sand)
+Block(-7,1,4,biomesoplenty:dried_sand)
+Block(-7,1,5,biomesoplenty:dried_sand)
+Block(-7,1,6,biomesoplenty:dried_sand)
+Block(-7,1,7,biomesoplenty:dried_sand)
+Block(-7,1,8,biomesoplenty:dried_sand)
+Block(-7,2,-7,biomesoplenty:dried_sand)
+Block(-7,2,-6,biomesoplenty:dried_sand)
+Block(-7,2,-5,biomesoplenty:dried_sand)
+Block(-7,2,-4,biomesoplenty:dried_sand)
+Block(-7,2,-3,biomesoplenty:dried_sand)
+Block(-7,2,-2,biomesoplenty:dried_sand)
+Block(-7,2,-1,biomesoplenty:dried_sand)
+Block(-7,2,0,biomesoplenty:dried_sand)
+Block(-7,2,1,biomesoplenty:dried_sand)
+Block(-7,2,2,biomesoplenty:dried_sand)
+Block(-7,2,3,biomesoplenty:dried_sand)
+Block(-7,2,4,biomesoplenty:dried_sand)
+Block(-7,2,5,biomesoplenty:dried_sand)
+Block(-7,2,6,biomesoplenty:dried_sand)
+Block(-7,2,7,biomesoplenty:dried_sand)
+Block(-7,2,8,biomesoplenty:dried_sand)
+Block(-7,3,-7,biomesoplenty:dried_sand)
+Block(-7,3,-6,biomesoplenty:dried_sand)
+Block(-7,3,-5,biomesoplenty:dried_sand)
+Block(-7,3,-4,biomesoplenty:dried_sand)
+Block(-7,3,-3,biomesoplenty:dried_sand)
+Block(-7,3,-2,biomesoplenty:dried_sand)
+Block(-7,3,-1,biomesoplenty:dried_sand)
+Block(-7,3,0,biomesoplenty:dried_sand)
+Block(-7,3,1,biomesoplenty:dried_sand)
+Block(-7,3,2,biomesoplenty:dried_sand)
+Block(-7,3,3,biomesoplenty:dried_sand)
+Block(-7,3,4,biomesoplenty:dried_sand)
+Block(-7,3,5,biomesoplenty:dried_sand)
+Block(-7,3,6,biomesoplenty:dried_sand)
+Block(-7,3,7,biomesoplenty:dried_sand)
+Block(-7,3,8,biomesoplenty:dried_sand)
+Block(-7,4,-7,biomesoplenty:dried_sand)
+Block(-7,4,-6,biomesoplenty:dried_sand)
+Block(-7,4,-5,biomesoplenty:dried_sand)
+Block(-7,4,-4,biomesoplenty:dried_sand)
+Block(-7,4,-3,biomesoplenty:dried_sand)
+Block(-7,4,-2,biomesoplenty:dried_sand)
+Block(-7,4,-1,biomesoplenty:dried_sand)
+Block(-7,4,0,biomesoplenty:dried_sand)
+Block(-7,4,1,biomesoplenty:dried_sand)
+Block(-7,4,2,biomesoplenty:dried_sand)
+Block(-7,4,3,biomesoplenty:dried_sand)
+Block(-7,4,4,biomesoplenty:dried_sand)
+Block(-7,4,5,biomesoplenty:dried_sand)
+Block(-7,4,6,biomesoplenty:dried_sand)
+Block(-7,4,7,biomesoplenty:dried_sand)
+Block(-7,4,8,biomesoplenty:dried_sand)
+Block(-7,5,-6,biomesoplenty:dried_sand)
+Block(-7,5,-5,biomesoplenty:dried_sand)
+Block(-7,5,-4,biomesoplenty:dried_sand)
+Block(-7,5,-3,biomesoplenty:dried_sand)
+Block(-7,5,-2,biomesoplenty:dried_sand)
+Block(-7,5,-1,biomesoplenty:dried_sand)
+Block(-7,5,0,biomesoplenty:dried_sand)
+Block(-7,5,1,biomesoplenty:dried_sand)
+Block(-7,5,2,biomesoplenty:dried_sand)
+Block(-7,5,3,biomesoplenty:dried_sand)
+Block(-7,5,4,biomesoplenty:dried_sand)
+Block(-7,5,5,biomesoplenty:dried_sand)
+Block(-7,5,6,biomesoplenty:dried_sand)
+Block(-7,5,7,biomesoplenty:dried_sand)
+Block(-7,5,8,biomesoplenty:dried_sand)
+Block(-7,6,-6,biomesoplenty:dried_sand)
+Block(-7,6,-5,biomesoplenty:dried_sand)
+Block(-7,6,-4,biomesoplenty:dried_sand)
+Block(-7,6,-3,biomesoplenty:dried_sand)
+Block(-7,6,-2,biomesoplenty:dried_sand)
+Block(-7,6,-1,biomesoplenty:dried_sand)
+Block(-7,7,-5,biomesoplenty:dried_sand)
+Block(-7,7,-4,biomesoplenty:dried_sand)
+Block(-7,7,-3,biomesoplenty:dried_sand)
+Block(-7,7,-2,biomesoplenty:dried_sand)
+Block(-7,8,-5,biomesoplenty:dried_sand)
+Block(-7,8,-4,biomesoplenty:dried_sand)
+Block(-7,8,-3,biomesoplenty:dried_sand)
+Block(-7,9,-5,biomesoplenty:dried_sand)
+Block(-7,9,-4,biomesoplenty:dried_sand)
+Block(-7,10,-5,biomesoplenty:dried_sand)
+Block(-7,10,-4,biomesoplenty:dried_sand)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,true,GorgonTempleC12R7,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -1,0 +1,1 @@
+{ActiveEffects:[{Id:10,Amplifier:0,Duration:2147483647}]}
