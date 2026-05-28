@@ -1,0 +1,1 @@
+{CustomName:"Red Officer",CustomNameVisible:0,PersistenceRequired:1b,Health:60,Attributes:[{Name:"generic.maxHealth",Base:60}],HandItems:[{id:"lycanitesmobs:bloodsummoningstaff",Count:1},{id:"minecraft:totem_of_undying",Count:1}]}

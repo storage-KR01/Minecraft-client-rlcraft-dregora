@@ -1,0 +1,475 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-7,COBBLESTONE:0)
+Block(-8,0,-6,COBBLESTONE:0)
+Block(-8,0,-5,COBBLESTONE:0)
+Block(-8,0,-4,quark:world_stone_bricks:3)
+Block(-8,1,-5,COBBLESTONE:0)
+Block(-8,1,-4,quark:world_stone_bricks:3)
+Block(-8,2,-5,COBBLESTONE:0)
+Block(-8,2,-4,quark:world_stone_bricks:3)
+Block(-8,3,-5,COBBLESTONE:0)
+Block(-8,3,-4,quark:world_stone_bricks:3)
+Block(-8,4,-5,COBBLESTONE:0)
+Block(-8,4,-4,quark:world_stone_bricks:3)
+Block(-8,5,-5,COBBLESTONE:0)
+Block(-8,5,-4,COBBLESTONE_STAIRS:3)
+Block(-8,46,-7,quark:stone_marble_bricks_stairs:7)
+Block(-8,47,-7,iceandfire:dragon_bone_wall)
+Block(-8,48,-7,iceandfire:dragon_bone_wall)
+Block(-8,49,-7,iceandfire:dragon_bone_wall)
+Block(-8,50,-7,quark:world_stone_bricks:4)
+Block(-8,50,-6,quark:stone_marble_bricks_stairs:7)
+Block(-8,51,-6,iceandfire:dragon_bone_wall)
+Block(-8,52,-6,quark:basalt_wall)
+Block(-8,53,-6,iceandfire:dragon_bone_wall)
+Block(-8,54,-7,iceandfire:crackled_stone)
+Block(-8,54,-6,iceandfire:crackled_stone)
+Block(-8,54,-5,quark:stone_marble_bricks_stairs:7)
+Block(-8,55,-5,iceandfire:dragon_bone_wall)
+Block(-8,56,-5,iceandfire:dragon_bone_wall)
+Block(-8,57,-5,iceandfire:dragon_bone_wall)
+Block(-8,58,-7,iceandfire:crackled_stone)
+Block(-8,58,-6,quark:stone_marble_bricks_slab:8)
+Block(-8,58,-5,quark:world_stone_bricks:4)
+Block(-8,58,-4,iceandfire:chared_stone)
+Block(-8,59,-7,iceandfire:dragon_bone_wall)
+Block(-8,59,-4,quark:basalt_wall)
+Block(-8,60,-7,iceandfire:dragon_bone_wall)
+Block(-8,60,-4,quark:basalt_wall)
+Block(-8,61,-7,iceandfire:dragon_bone_wall)
+Block(-8,61,-4,quark:basalt_wall)
+Block(-8,62,-7,quark:world_stone_bricks:3)
+Block(-8,62,-6,iceandfire:crackled_stone)
+Block(-8,62,-5,iceandfire:crackled_stone)
+Block(-8,62,-4,iceandfire:chared_stone)
+Block(-8,62,-3,quark:stone_marble_bricks_stairs:7)
+Block(-8,63,-7,iceandfire:dragon_bone_wall)
+Block(-8,63,-6,iceandfire:dragon_bone_wall)
+Block(-8,63,-3,quark:basalt_wall)
+Block(-8,64,-7,iceandfire:dragon_bone_wall)
+Block(-8,64,-6,iceandfire:dragon_bone_wall)
+Block(-8,64,-3,quark:basalt_wall)
+Block(-8,65,-7,iceandfire:dragon_bone_wall)
+Block(-8,65,-6,iceandfire:dragon_bone_wall)
+Block(-8,65,-3,iceandfire:dragon_bone_wall)
+Block(-8,66,-7,quark:stone_marble_bricks_slab:8)
+Block(-8,66,-6,iceandfire:chared_stone)
+Block(-8,66,-5,quark:stone_marble_bricks_slab:8)
+Block(-8,66,-4,iceandfire:chared_stone)
+Block(-8,66,-3,iceandfire:chared_stone)
+Block(-8,66,-2,iceandfire:chared_stone)
+Block(-8,66,-1,iceandfire:chared_stone)
+Block(-8,67,-7,quark:world_stone_bricks:4)
+Block(-8,67,-6,quark:world_stone_bricks:4)
+Block(-8,67,-5,quark:world_stone_bricks:4)
+Block(-8,67,-4,quark:world_stone_bricks:4)
+Block(-8,67,-3,iceandfire:chared_stone)
+Block(-8,67,-2,quark:world_stone_bricks:4)
+Block(-8,67,-1,quark:world_stone_bricks:4)
+Block(-8,67,0,quark:world_stone_bricks:4)
+Block(-8,67,1,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-7,iceandfire:crackled_stone)
+Block(-8,68,-6,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-5,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-4,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-3,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-2,quark:stone_marble_bricks_slab:8)
+Block(-8,68,-1,quark:stone_marble_bricks_slab:8)
+Block(-8,68,0,quark:world_stone_bricks:4)
+Block(-8,68,1,quark:world_stone_bricks:4)
+Block(-8,68,2,quark:world_stone_bricks:4)
+Block(-8,68,3,quark:stone_marble_bricks_slab:8)
+Block(-7,0,-7,COBBLESTONE:0)
+Block(-7,0,-6,COBBLESTONE:0)
+Block(-7,0,-5,COBBLESTONE:0)
+Block(-7,0,-4,quark:world_stone_bricks:3)
+Block(-7,1,-5,COBBLESTONE:0)
+Block(-7,1,-4,quark:world_stone_bricks:3)
+Block(-7,2,-5,COBBLESTONE:0)
+Block(-7,2,-4,quark:world_stone_bricks:3)
+Block(-7,3,-5,COBBLESTONE:0)
+Block(-7,3,-4,quark:world_stone_bricks:3)
+Block(-7,4,-5,COBBLESTONE:0)
+Block(-7,4,-4,quark:world_stone_bricks:3)
+Block(-7,5,-5,COBBLESTONE:0)
+Block(-7,5,-4,COBBLESTONE_STAIRS:3)
+Block(-7,46,-7,quark:stone_marble_bricks_stairs:7)
+Block(-7,47,-7,quark:world_stone_bricks:4)
+Block(-7,48,-7,quark:world_stone_bricks:4)
+Block(-7,49,-7,quark:world_stone_bricks:4)
+Block(-7,50,-7,quark:world_stone_bricks:4)
+Block(-7,50,-6,quark:stone_marble_bricks_stairs:7)
+Block(-7,51,-7,quark:basalt_wall)
+Block(-7,51,-6,quark:world_stone_bricks:4)
+Block(-7,52,-7,quark:basalt_wall)
+Block(-7,52,-6,quark:world_stone_bricks:4)
+Block(-7,53,-7,quark:basalt_wall)
+Block(-7,53,-6,quark:world_stone_bricks:4)
+Block(-7,54,-7,quark:world_stone_bricks:4)
+Block(-7,54,-6,quark:world_stone_bricks:4)
+Block(-7,54,-5,quark:stone_marble_bricks_stairs:7)
+Block(-7,55,-7,iceandfire:dragon_bone_wall)
+Block(-7,55,-6,iceandfire:dragon_bone_wall)
+Block(-7,55,-5,quark:world_stone_bricks:4)
+Block(-7,56,-7,iceandfire:dragon_bone_wall)
+Block(-7,56,-6,iceandfire:dragon_bone_wall)
+Block(-7,56,-5,quark:world_stone_bricks:4)
+Block(-7,57,-7,iceandfire:dragon_bone_wall)
+Block(-7,57,-6,iceandfire:dragon_bone_wall)
+Block(-7,57,-5,quark:world_stone_bricks:4)
+Block(-7,58,-7,quark:world_stone_bricks:4)
+Block(-7,58,-6,quark:world_stone_bricks:4)
+Block(-7,58,-5,quark:world_stone_bricks:4)
+Block(-7,58,-4,quark:stone_marble_bricks_stairs:7)
+Block(-7,59,-7,quark:world_stone_bricks:4)
+Block(-7,59,-6,iceandfire:dragon_bone_wall)
+Block(-7,59,-5,quark:basalt_wall)
+Block(-7,59,-4,quark:world_stone_bricks:4)
+Block(-7,60,-7,quark:world_stone_bricks:4)
+Block(-7,60,-6,iceandfire:dragon_bone_wall)
+Block(-7,60,-5,quark:basalt_wall)
+Block(-7,60,-4,quark:world_stone_bricks:4)
+Block(-7,61,-7,quark:world_stone_bricks:4)
+Block(-7,61,-6,iceandfire:dragon_bone_wall)
+Block(-7,61,-5,quark:basalt_wall)
+Block(-7,61,-4,quark:world_stone_bricks:4)
+Block(-7,62,-7,quark:stone_marble_bricks_stairs:2)
+Block(-7,62,-6,quark:world_stone_bricks:4)
+Block(-7,62,-5,quark:world_stone_bricks:4)
+Block(-7,62,-4,quark:world_stone_bricks:4)
+Block(-7,62,-3,quark:stone_marble_bricks_stairs:7)
+Block(-7,63,-6,iceandfire:chared_stone)
+Block(-7,63,-5,STAINED_GLASS_PANE:7)
+Block(-7,63,-4,STAINED_GLASS_PANE:7)
+Block(-7,63,-3,iceandfire:chared_stone)
+Block(-7,64,-6,quark:world_stone_bricks:4)
+Block(-7,64,-5,STAINED_GLASS_PANE:7)
+Block(-7,64,-4,STAINED_GLASS_PANE:7)
+Block(-7,64,-3,iceandfire:chared_stone)
+Block(-7,65,-6,iceandfire:chared_stone)
+Block(-7,65,-5,STAINED_GLASS_PANE:7)
+Block(-7,65,-4,STAINED_GLASS_PANE:7)
+Block(-7,65,-3,iceandfire:chared_stone)
+Block(-7,66,-7,iceandfire:chared_stone)
+Block(-7,66,-6,iceandfire:chared_stone)
+Block(-7,66,-5,iceandfire:chared_stone)
+Block(-7,66,-4,iceandfire:chared_stone)
+Block(-7,66,-3,iceandfire:chared_stone)
+Block(-7,66,-2,iceandfire:chared_stone)
+Block(-7,66,-1,iceandfire:chared_stone)
+Block(-7,67,-7,quark:world_stone_bricks:4)
+Block(-7,67,-6,quark:world_stone_bricks:4)
+Block(-7,67,-5,quark:world_stone_bricks:4)
+Block(-7,67,-4,quark:world_stone_bricks:4)
+Block(-7,67,-3,quark:world_stone_bricks:4)
+Block(-7,67,-2,quark:world_stone_bricks:4)
+Block(-7,67,-1,quark:world_stone_bricks:4)
+Block(-7,67,0,quark:world_stone_bricks:4)
+Block(-7,67,1,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-7,iceandfire:crackled_stone)
+Block(-7,68,-6,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-5,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-4,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-3,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-2,quark:stone_marble_bricks_slab:8)
+Block(-7,68,-1,quark:stone_marble_bricks_slab:8)
+Block(-7,68,0,quark:world_stone_bricks:4)
+Block(-7,68,1,quark:world_stone_bricks:4)
+Block(-7,68,2,quark:world_stone_bricks:4)
+Block(-7,68,3,quark:stone_marble_bricks_slab:8)
+Block(-6,0,-7,COBBLESTONE:0)
+Block(-6,0,-6,COBBLESTONE:0)
+Block(-6,0,-5,COBBLESTONE:0)
+Block(-6,0,-4,quark:world_stone_bricks:3)
+Block(-6,1,-5,COBBLESTONE:0)
+Block(-6,1,-4,quark:world_stone_bricks:3)
+Block(-6,2,-5,COBBLESTONE:0)
+Block(-6,2,-4,quark:world_stone_bricks:3)
+Block(-6,3,-5,COBBLESTONE:0)
+Block(-6,3,-4,quark:world_stone_bricks:3)
+Block(-6,4,-5,COBBLESTONE:0)
+Block(-6,4,-4,quark:world_stone_bricks:3)
+Block(-6,5,-5,COBBLESTONE:0)
+Block(-6,5,-4,COBBLESTONE_STAIRS:3)
+Block(-6,66,-6,quark:stone_marble_bricks_slab:8)
+Block(-6,66,-5,quark:stone_marble_bricks_slab:8)
+Block(-6,66,-4,quark:stone_marble_bricks_slab:8)
+Block(-6,66,-3,quark:stone_marble_bricks_slab:8)
+Block(-6,66,-2,quark:stone_marble_bricks_slab:8)
+Block(-6,67,-7,quark:world_stone_bricks:4)
+Block(-6,67,-6,quark:world_stone_bricks:4)
+Block(-6,67,-5,quark:world_stone_bricks:4)
+Block(-6,67,-4,quark:world_stone_bricks:4)
+Block(-6,67,-3,quark:world_stone_bricks:4)
+Block(-6,67,-2,quark:world_stone_bricks:4)
+Block(-6,67,-1,quark:world_stone_bricks:4)
+Block(-6,67,0,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-7,iceandfire:crackled_stone)
+Block(-6,68,-6,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-5,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-4,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-3,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-2,quark:stone_marble_bricks_slab:8)
+Block(-6,68,-1,quark:world_stone_bricks:4)
+Block(-6,68,0,quark:world_stone_bricks:4)
+Block(-6,68,1,quark:world_stone_bricks:4)
+Block(-6,68,2,quark:stone_marble_bricks_slab:8)
+Block(-5,0,-7,COBBLESTONE:0)
+Block(-5,0,-6,COBBLESTONE:0)
+Block(-5,0,-5,quark:world_stone_bricks:3)
+Block(-5,0,-4,quark:world_stone_bricks:3)
+Block(-5,1,-6,COBBLESTONE:0)
+Block(-5,1,-5,quark:world_stone_bricks:3)
+Block(-5,1,-4,quark:world_stone_bricks:3)
+Block(-5,2,-6,COBBLESTONE:0)
+Block(-5,2,-5,quark:world_stone_bricks:3)
+Block(-5,2,-4,quark:world_stone_bricks:3)
+Block(-5,3,-6,COBBLESTONE:0)
+Block(-5,3,-5,quark:world_stone_bricks:3)
+Block(-5,3,-4,quark:world_stone_bricks:3)
+Block(-5,4,-6,COBBLESTONE:0)
+Block(-5,4,-5,quark:world_stone_bricks:3)
+Block(-5,4,-4,quark:world_stone_bricks:3)
+Block(-5,5,-6,COBBLESTONE:0)
+Block(-5,5,-5,COBBLESTONE_STAIRS:1)
+Block(-5,5,-4,COBBLESTONE_STAIRS:3)
+Block(-5,66,-5,quark:stone_marble_bricks_slab:8)
+Block(-5,66,-4,quark:stone_marble_bricks_slab:8)
+Block(-5,66,-3,quark:stone_marble_bricks_slab:8)
+Block(-5,67,-7,quark:stone_marble_bricks_slab:8)
+Block(-5,67,-6,quark:world_stone_bricks:4)
+Block(-5,67,-5,quark:world_stone_bricks:4)
+Block(-5,67,-4,quark:world_stone_bricks:4)
+Block(-5,67,-3,quark:world_stone_bricks:4)
+Block(-5,67,-2,quark:world_stone_bricks:4)
+Block(-5,67,-1,quark:stone_marble_bricks_slab:8)
+Block(-5,68,-7,quark:world_stone_bricks:4)
+Block(-5,68,-6,quark:world_stone_bricks:4)
+Block(-5,68,-5,quark:stone_marble_bricks_slab:8)
+Block(-5,68,-4,quark:stone_marble_bricks_slab:8)
+Block(-5,68,-3,quark:stone_marble_bricks_slab:8)
+Block(-5,68,-2,quark:world_stone_bricks:4)
+Block(-5,68,-1,quark:world_stone_bricks:4)
+Block(-5,68,0,quark:world_stone_bricks:4)
+Block(-5,68,1,quark:stone_marble_bricks_slab:8)
+Block(-4,0,-7,COBBLESTONE:0)
+Block(-4,0,-6,COBBLESTONE:0)
+Block(-4,0,-5,quark:world_stone_bricks:3)
+Block(-4,1,-6,COBBLESTONE:0)
+Block(-4,1,-5,quark:world_stone_bricks:3)
+Block(-4,2,-6,COBBLESTONE:0)
+Block(-4,2,-5,quark:world_stone_bricks:3)
+Block(-4,3,-6,COBBLESTONE:0)
+Block(-4,3,-5,quark:world_stone_bricks:3)
+Block(-4,4,-6,COBBLESTONE:0)
+Block(-4,4,-5,quark:world_stone_bricks:3)
+Block(-4,5,-6,COBBLESTONE:0)
+Block(-4,5,-5,COBBLESTONE_STAIRS:3)
+Block(-4,67,-6,quark:stone_marble_bricks_slab:8)
+Block(-4,67,-5,quark:world_stone_bricks:4)
+Block(-4,67,-4,quark:world_stone_bricks:4)
+Block(-4,67,-3,quark:world_stone_bricks:4)
+Block(-4,67,-2,quark:stone_marble_bricks_slab:8)
+Block(-4,68,-7,quark:world_stone_bricks:4)
+Block(-4,68,-6,quark:world_stone_bricks:4)
+Block(-4,68,-5,quark:world_stone_bricks:4)
+Block(-4,68,-4,quark:world_stone_bricks:4)
+Block(-4,68,-3,quark:world_stone_bricks:4)
+Block(-4,68,-2,quark:world_stone_bricks:4)
+Block(-4,68,-1,quark:world_stone_bricks:4)
+Block(-4,68,0,quark:stone_marble_bricks_slab:8)
+Block(-3,0,-7,COBBLESTONE:0)
+Block(-3,0,-6,quark:world_stone_bricks:3)
+Block(-3,0,-5,quark:world_stone_bricks:3)
+Block(-3,1,-7,COBBLESTONE:0)
+Block(-3,1,-6,quark:world_stone_bricks:3)
+Block(-3,1,-5,quark:world_stone_bricks:3)
+Block(-3,2,-7,COBBLESTONE:0)
+Block(-3,2,-6,quark:world_stone_bricks:3)
+Block(-3,2,-5,quark:world_stone_bricks:3)
+Block(-3,3,-7,COBBLESTONE:0)
+Block(-3,3,-6,quark:world_stone_bricks:3)
+Block(-3,3,-5,quark:world_stone_bricks:3)
+Block(-3,4,-7,COBBLESTONE:0)
+Block(-3,4,-6,quark:world_stone_bricks:3)
+Block(-3,4,-5,quark:world_stone_bricks:3)
+Block(-3,5,-7,COBBLESTONE:0)
+Block(-3,5,-6,COBBLESTONE_STAIRS:1)
+Block(-3,5,-5,COBBLESTONE_STAIRS:3)
+Block(-3,67,-5,quark:stone_marble_bricks_slab:8)
+Block(-3,67,-4,quark:stone_marble_bricks_slab:8)
+Block(-3,67,-3,quark:stone_marble_bricks_slab:8)
+Block(-3,68,-7,quark:stone_marble_bricks_slab:8)
+Block(-3,68,-6,quark:world_stone_bricks:4)
+Block(-3,68,-5,quark:world_stone_bricks:4)
+Block(-3,68,-4,quark:world_stone_bricks:4)
+Block(-3,68,-3,quark:world_stone_bricks:4)
+Block(-3,68,-2,quark:world_stone_bricks:4)
+Block(-3,68,-1,quark:stone_marble_bricks_slab:8)
+Block(-2,0,-7,quark:world_stone_bricks:3)
+Block(-2,0,-6,quark:world_stone_bricks:3)
+Block(-2,1,-7,quark:world_stone_bricks:3)
+Block(-2,1,-6,quark:world_stone_bricks:3)
+Block(-2,2,-7,quark:world_stone_bricks:3)
+Block(-2,2,-6,quark:world_stone_bricks:3)
+Block(-2,3,-7,quark:world_stone_bricks:3)
+Block(-2,3,-6,quark:world_stone_bricks:3)
+Block(-2,4,-7,quark:world_stone_bricks:3)
+Block(-2,4,-6,quark:world_stone_bricks:3)
+Block(-2,5,-7,COBBLESTONE_STAIRS:1)
+Block(-2,5,-6,COBBLESTONE_STAIRS:3)
+Block(-2,68,-6,quark:stone_marble_bricks_slab:8)
+Block(-2,68,-5,quark:stone_marble_bricks_slab:8)
+Block(-2,68,-4,quark:stone_marble_bricks_slab:8)
+Block(-2,68,-3,quark:stone_marble_bricks_slab:8)
+Block(-2,68,-2,quark:stone_marble_bricks_slab:8)
+Block(-1,0,-7,quark:world_stone_bricks:3)
+Block(-1,1,-7,quark:world_stone_bricks:3)
+Block(-1,2,-7,quark:world_stone_bricks:3)
+Block(-1,3,-7,quark:world_stone_bricks:3)
+Block(-1,4,-7,quark:world_stone_bricks:3)
+Block(-1,5,-7,COBBLESTONE_STAIRS:3)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,DeadPharC0R2,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

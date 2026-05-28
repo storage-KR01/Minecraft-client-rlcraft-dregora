@@ -1,0 +1,325 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(2,0,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,0,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,0,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,1,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,1,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,1,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,2,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,2,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,2,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,3,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,3,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,3,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,4,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,4,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,4,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,5,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,5,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,5,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,6,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(2,6,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,6,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,7,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,7,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,7,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,8,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,8,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,8,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,9,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,9,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,9,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,10,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,10,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,10,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,11,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,11,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,11,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,12,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,12,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,12,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,13,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,13,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,13,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,14,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,14,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,14,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,15,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,15,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,15,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,16,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,16,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,16,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,17,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,17,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,17,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,18,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,18,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,18,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,19,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,19,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(2,19,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,0,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+Block(3,0,-5,AIR:0)
+RandomBlock(3,0,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,1,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,1,-5,AIR:0)
+RandomBlock(3,1,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,2,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+Block(3,2,-5,AIR:0)
+RandomBlock(3,2,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,3,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,3,-5,AIR:0)
+RandomBlock(3,3,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,4,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,4,-5,AIR:0)
+RandomBlock(3,4,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,5,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+Block(3,5,-5,AIR:0)
+RandomBlock(3,5,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,6,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,6,-5,AIR:0)
+RandomBlock(3,6,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(3,7,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,7,-5,AIR:0)
+RandomBlock(3,7,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,8,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,8,-5,AIR:0)
+RandomBlock(3,8,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,9,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,9,-5,AIR:0)
+RandomBlock(3,9,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,10,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,10,-5,AIR:0)
+RandomBlock(3,10,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,11,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,11,-5,AIR:0)
+RandomBlock(3,11,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,12,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+Block(3,12,-5,AIR:0)
+RandomBlock(3,12,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,13,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,13,-5,AIR:0)
+RandomBlock(3,13,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,14,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,14,-5,AIR:0)
+RandomBlock(3,14,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,15,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,15,-5,AIR:0)
+RandomBlock(3,15,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,16,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,16,-5,AIR:0)
+RandomBlock(3,16,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,17,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,17,-5,AIR:0)
+RandomBlock(3,17,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,18,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,18,-5,AIR:0)
+RandomBlock(3,18,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(3,19,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(3,19,-5,AIR:0)
+RandomBlock(3,19,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,0,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,0,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,0,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,1,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,1,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,1,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,2,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,2,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,2,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,3,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,3,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,3,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,4,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,4,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,4,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,5,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,5,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,5,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,6,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,6,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,6,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,7,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,7,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,7,-4,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,8,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,8,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,8,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,9,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,9,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,9,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,10,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,10,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,10,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,11,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,11,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,11,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,12,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,12,-5,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,12,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,13,-6,rustic:iron_lattice,30,rustic:iron_lattice,30,biomesoplenty:leaves_2:7,30,quark:iron_plate_stairs:6,10,quark:iron_plate_stairs:0,10,quark:iron_plate_stairs:5,10,quark:iron_plate_stairs,10,quark:iron_plate_slab:8,10,quark:iron_plate_stairs:7,10,quark:iron_plate_stairs:1,10,quark:iron_plate_slab,10,quark:iron_plate_stairs:4,10,quark:iron_plate_stairs:2,10,rustic:iron_lattice,50,rustic:iron_lattice,50,biomesoplenty:leaves_2:7,100)
+RandomBlock(4,13,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,13,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,14,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,14,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,14,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,15,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,15,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,15,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,16,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,16,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,16,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,17,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,17,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,17,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,18,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,18,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,18,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,19,-6,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,19,-5,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+RandomBlock(4,19,-4,quark:iron_plate:1,70,STAINED_CLAY:15,30,STAINED_CLAY:7,30,null,30,quark:iron_plate:1,100)
+Block(7,750,8,AIR:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

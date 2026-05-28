@@ -1,0 +1,1 @@
+{CustomName:"Red Guard",CustomNameVisible:0,PersistenceRequired:1b,Health:40,Attributes:[{Name:"generic.maxHealth",Base:40}],HandItems:[{id:"mod_lavacow:moltenaxe",Count:1},{}]}
