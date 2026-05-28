@@ -1,0 +1,6 @@
+ACACIA TALL MAP
+Small 1 - 9
+Big 10 - 30
+
+Some trees have leaves sticking out 
+(Export was clean though maybe need to export again).

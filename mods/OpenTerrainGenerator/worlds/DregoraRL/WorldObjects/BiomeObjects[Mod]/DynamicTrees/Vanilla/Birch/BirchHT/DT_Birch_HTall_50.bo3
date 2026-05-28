@@ -1,0 +1,194 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackHeavenNL
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 1
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: -1
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,GRASS,DIRT,biomesoplenty:dirt
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(0,16,4,dynamictrees:leaves0:8)
+Block(1,13,4,dynamictrees:birchbranch:1)
+Block(1,14,4,dynamictrees:birchbranch:1)
+Block(1,15,4,dynamictrees:birchbranch)
+Block(1,16,3,dynamictrees:leaves0:8)
+Block(1,16,4,dynamictrees:leaves0:11)
+Block(1,16,5,dynamictrees:leaves0:8)
+Block(1,17,4,dynamictrees:leaves0:8)
+Block(2,0,2,dynamictrees:rootydirt:0)
+Block(2,1,2,dynamictrees:birchbranch:5)
+Block(2,2,2,dynamictrees:birchbranch:5)
+Block(2,3,2,dynamictrees:birchbranch:5)
+Block(2,4,2,dynamictrees:birchbranch:5)
+Block(2,5,2,dynamictrees:birchbranch:5)
+Block(2,6,2,dynamictrees:birchbranch:4)
+Block(2,7,2,dynamictrees:birchbranch:4)
+Block(2,8,2,dynamictrees:birchbranch:4)
+Block(2,9,2,dynamictrees:birchbranch:4)
+Block(2,10,2,dynamictrees:birchbranch:4)
+Block(2,11,2,dynamictrees:birchbranch:4)
+Block(2,11,3,dynamictrees:birchbranch:2)
+Block(2,11,4,dynamictrees:birchbranch:2)
+Block(2,12,2,dynamictrees:birchbranch:3)
+Block(2,12,4,dynamictrees:birchbranch:2)
+Block(2,13,2,dynamictrees:birchbranch:3)
+Block(2,13,4,dynamictrees:birchbranch:2)
+Block(2,13,5,dynamictrees:birchbranch:1)
+Block(2,14,5,dynamictrees:birchbranch:1)
+Block(2,15,5,dynamictrees:birchbranch:1)
+Block(2,16,4,dynamictrees:leaves0:8)
+Block(2,16,6,dynamictrees:leaves0:8)
+Block(2,17,5,dynamictrees:leaves0:11)
+Block(2,17,6,dynamictrees:leaves0:8)
+Block(2,18,4,dynamictrees:leaves0:11)
+Block(2,18,5,dynamictrees:leaves0:10)
+Block(2,18,6,dynamictrees:leaves0:8)
+Block(3,13,2,dynamictrees:birchbranch:1)
+Block(3,15,5,dynamictrees:birchbranch:1)
+Block(3,15,6,dynamictrees:leaves0:8)
+Block(3,16,5,dynamictrees:birchbranch)
+Block(3,16,6,dynamictrees:leaves0:11)
+Block(3,16,7,dynamictrees:leaves0:8)
+Block(3,17,4,dynamictrees:leaves0:11)
+Block(3,17,5,dynamictrees:leaves0:11)
+Block(3,17,6,dynamictrees:leaves0:10)
+Block(3,17,7,dynamictrees:leaves0:8)
+Block(3,18,4,dynamictrees:leaves0:10)
+Block(3,18,5,dynamictrees:leaves0:9)
+Block(3,18,6,dynamictrees:leaves0:8)
+Block(4,13,2,dynamictrees:birchbranch)
+Block(4,14,1,dynamictrees:leaves0:8)
+Block(4,14,2,dynamictrees:leaves0:11)
+Block(4,14,3,dynamictrees:leaves0:8)
+Block(4,15,2,dynamictrees:leaves0:8)
+Block(4,15,5,dynamictrees:leaves0:8)
+Block(4,15,6,dynamictrees:leaves0:8)
+Block(4,16,4,dynamictrees:leaves0:8)
+Block(4,16,5,dynamictrees:leaves0:11)
+Block(4,16,6,dynamictrees:leaves0:10)
+Block(4,16,7,dynamictrees:leaves0:8)
+Block(4,17,4,dynamictrees:leaves0:8)
+Block(4,17,5,dynamictrees:leaves0:10)
+Block(4,17,6,dynamictrees:leaves0:9)
+Block(4,17,7,dynamictrees:leaves0:8)
+Block(4,18,5,dynamictrees:leaves0:8)
+Block(4,18,6,dynamictrees:leaves0:8)
+Block(5,14,2,dynamictrees:leaves0:8)
+Block(5,16,5,dynamictrees:leaves0:8)
+Block(5,16,6,dynamictrees:leaves0:8)
+Block(5,17,5,dynamictrees:leaves0:8)
+Block(5,17,6,dynamictrees:leaves0:8)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(2,-1,2,GRASS,DIRT,biomesoplenty:grass,UNKNOWN_BLOCK)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

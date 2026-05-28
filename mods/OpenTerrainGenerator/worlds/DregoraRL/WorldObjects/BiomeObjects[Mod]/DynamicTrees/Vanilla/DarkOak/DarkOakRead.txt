@@ -1,0 +1,1 @@
+DarkOak BO3's are all 32x32 because of tree sizes.
