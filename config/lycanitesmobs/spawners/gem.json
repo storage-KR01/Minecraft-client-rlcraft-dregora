@@ -1,0 +1,64 @@
+{
+  "name": "gem",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 1,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreCollision": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "blockBreakRadius": 1,
+  "conditions": [
+    {
+      "type": "world",
+      "biomes": ["all", "-abyssal"]
+    }
+  ],
+  "triggers": [
+    {
+      "type": "block",
+      "onHarvest": false,
+      "chance": 0.02,
+      "blocks": [
+        "biomesoplenty:gem_ore",
+        "iceandfire:amethyst_ore",
+        "defiledlands:scarlite_ore",
+        "minecraft:quartz_ore",
+        "minecraft:diamond_ore",
+        "minecraft:lapis_ore",
+        "minecraft:redstone_ore",
+        "biomesoplenty:crystal",
+        "scalinghealth:crystalore",
+        "quark:biotite_ore",
+        "minecraft:emerald_ore",
+        "iceandfire:sapphire_ore",
+        "defiledlands:hephaestite_ore"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "type": "base",
+      "rangeMin": [
+        0,
+        0,
+        0
+      ],
+      "rangeMax": [
+        0,
+        0,
+        0
+      ],
+      "sorting": "random"
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:vapula",
+      "weight": 8
+    }
+  ]
+}
