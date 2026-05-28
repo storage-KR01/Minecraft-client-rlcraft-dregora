@@ -1,0 +1,211 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,69,-7,contentcreator:concrete_slab_reinforced:1)
+Block(-8,69,-6,contentcreator:concrete_slab_reinforced:1)
+Block(-8,69,-5,contentcreator:concrete_slab_reinforced:1)
+Block(-8,69,-4,contentcreator:concrete_slab_reinforced:1)
+Block(-8,70,-7,contenttweaker:reinforced_concrete)
+Block(-8,70,-6,contenttweaker:reinforced_concrete)
+Block(-8,70,-5,contenttweaker:reinforced_concrete)
+Block(-8,70,-4,contenttweaker:reinforced_concrete_danger)
+Block(-7,69,-7,contentcreator:concrete_slab_reinforced:1)
+Block(-7,69,-6,contentcreator:concrete_slab_reinforced:1)
+Block(-7,69,-5,contentcreator:concrete_slab_reinforced:1)
+Block(-7,69,-4,contentcreator:concrete_slab_reinforced:1)
+Block(-7,70,-7,contenttweaker:reinforced_concrete)
+Block(-7,70,-6,contenttweaker:reinforced_concrete)
+Block(-7,70,-5,contenttweaker:reinforced_concrete)
+Block(-7,70,-4,contenttweaker:reinforced_concrete_danger)
+Block(-6,69,-7,contentcreator:concrete_slab_reinforced:1)
+Block(-6,69,-6,contentcreator:concrete_slab_reinforced:1)
+Block(-6,69,-5,contentcreator:concrete_slab_reinforced:1)
+Block(-6,69,-4,contentcreator:concrete_slab_reinforced:1)
+Block(-6,70,-7,contenttweaker:iron_plate_reinforced)
+Block(-6,70,-6,contenttweaker:iron_plate_reinforced)
+Block(-6,70,-5,contenttweaker:reinforced_concrete)
+Block(-6,70,-4,contenttweaker:reinforced_concrete_danger)
+Block(-5,66,-7,contentcreator:concrete_stairs_reinforced:7)
+Block(-5,67,-7,contenttweaker:reinforced_concrete)
+Block(-5,67,-6,contentcreator:concrete_stairs_reinforced:7)
+Block(-5,68,-6,contentcreator:concrete_stairs_reinforced:2)
+Block(-5,68,-5,contentcreator:concrete_stairs_reinforced:7)
+Block(-5,69,-7,contentcreator:concrete_slab_reinforced:1)
+Block(-5,69,-6,contentcreator:concrete_slab_reinforced:1)
+Block(-5,69,-5,contenttweaker:reinforced_concrete)
+Block(-5,69,-4,contentcreator:concrete_slab_reinforced:1)
+Block(-5,70,-7,contenttweaker:reinforced_concrete)
+Block(-5,70,-6,contenttweaker:reinforced_concrete)
+Block(-5,70,-5,contenttweaker:reinforced_concrete)
+Block(-5,70,-4,contenttweaker:reinforced_concrete_danger)
+Block(-4,69,-7,contentcreator:concrete_slab_reinforced:1)
+Block(-4,69,-6,contentcreator:concrete_slab_reinforced:1)
+Block(-4,69,-5,contentcreator:concrete_slab_reinforced:1)
+Block(-4,69,-4,contentcreator:concrete_slab_reinforced:1)
+Block(-4,70,-7,contenttweaker:reinforced_concrete_danger)
+Block(-4,70,-6,contenttweaker:reinforced_concrete_danger)
+Block(-4,70,-5,contenttweaker:reinforced_concrete_danger)
+Block(-4,70,-4,contenttweaker:reinforced_concrete_danger)
+Block(-3,70,-7,contentcreator:iron_plate_stairs_reinforced:5)
+Block(-3,70,-6,contentcreator:iron_plate_stairs_reinforced:5)
+Block(-3,70,-5,contentcreator:iron_plate_stairs_reinforced:5)
+Block(-3,70,-4,contentcreator:iron_plate_stairs_reinforced:5)
+Block(-3,71,-7,rustic:iron_lattice:0)
+Block(-3,71,-6,rustic:iron_lattice:0)
+Block(-3,71,-5,rustic:iron_lattice:0)
+Block(-3,71,-4,rustic:iron_lattice:0)
+
+Block(-8,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-7,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-6,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-5,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-4,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-3,70,-3,contentcreator:iron_plate_stairs_reinforced:7)
+Block(-8,71,-3,rustic:iron_lattice:0)
+Block(-7,71,-3,rustic:iron_lattice:0)
+Block(-6,71,-3,rustic:iron_lattice:0)
+Block(-5,71,-3,rustic:iron_lattice:0)
+Block(-4,71,-3,rustic:iron_lattice:0)
+Block(-3,71,-3,rustic:iron_lattice:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,TeleportTowerVS_C1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
