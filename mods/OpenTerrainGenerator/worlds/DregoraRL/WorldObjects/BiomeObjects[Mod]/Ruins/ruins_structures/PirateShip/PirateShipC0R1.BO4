@@ -1,0 +1,284 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-6,10,5,variedcommodities:lamp)
+Block(-6,11,5,inspirations:rope:1)
+Block(-6,12,5,inspirations:rope:1)
+Block(-6,13,5,biomesoplenty:wood_slab_1:6)
+Block(-5,12,5,biomesoplenty:wood_slab_1:14)
+Block(-5,13,5,biomesoplenty:wood_slab_1:6)
+Block(-4,12,5,biomesoplenty:double_wood_slab_1:6)
+Block(-3,9,5,biomesoplenty:cherry_stairs:0)
+Block(-3,10,5,biomesoplenty:cherry_stairs:4)
+Block(-3,11,5,biomesoplenty:double_wood_slab_1:6)
+Block(-3,12,5,biomesoplenty:wood_slab_1:6)
+Block(-2,9,5,biomesoplenty:log_0:1)
+Block(-2,10,5,biomesoplenty:cherry_stairs:1)
+Block(-2,11,5,biomesoplenty:double_wood_slab_1:6)
+Block(-1,9,5,biomesoplenty:log_0:1)
+Block(-1,10,5,biomesoplenty:wood_slab_1:14)
+Block(-1,11,5,biomesoplenty:wood_slab_1:6)
+Block(0,8,5,biomesoplenty:log_0:1)
+Block(0,9,5,biomesoplenty:cherry_stairs:1)
+Block(0,10,5,biomesoplenty:double_wood_slab_1:6)
+Block(1,8,5,biomesoplenty:log_0:1)
+Block(1,9,5,biomesoplenty:wood_slab_1:14)
+Block(1,10,5,biomesoplenty:wood_slab_1:6)
+Block(2,7,5,biomesoplenty:log_0:1)
+Block(2,8,5,biomesoplenty:cherry_stairs:1)
+Block(2,9,5,biomesoplenty:double_wood_slab_1:6)
+Block(3,5,5,biomesoplenty:planks_0:14)
+Block(3,6,5,biomesoplenty:planks_0:14)
+Block(3,7,5,biomesoplenty:log_0:1)
+Block(3,8,5,biomesoplenty:wood_slab_1:14)
+Block(3,9,5,biomesoplenty:wood_slab_1:6)
+Block(4,4,5,biomesoplenty:planks_0:1)
+Block(4,5,4,biomesoplenty:planks_0:14)
+Block(4,5,5,MOB_SPAWNER:0,../../ruins_spawners/pirate_multi.nbt)
+Block(4,5,6,biomesoplenty:planks_0:1)
+Block(4,6,4,biomesoplenty:planks_0:14)
+Block(4,6,6,biomesoplenty:planks_0:14)
+Block(4,7,4,biomesoplenty:planks_0:14)
+Block(4,7,5,biomesoplenty:planks_0:14)
+Block(4,7,6,biomesoplenty:planks_0:1)
+Block(4,8,4,biomesoplenty:ebony_stairs:6)
+Block(4,8,5,biomesoplenty:double_wood_slab_1:6)
+Block(4,8,6,biomesoplenty:ebony_stairs:7)
+Block(4,9,4,rustic:iron_lattice:0)
+Block(4,9,5,rustic:iron_lattice:0)
+Block(4,9,6,rustic:iron_lattice:0)
+Block(5,2,3,quark:basalt_wall)
+Block(5,2,5,WOOD:0)
+Block(5,2,7,quark:basalt_wall)
+Block(5,3,3,rustic:iron_lattice:0)
+Block(5,3,5,biomesoplenty:planks_0:1)
+Block(5,3,7,rustic:iron_lattice:0)
+Block(5,4,4,biomesoplenty:planks_0:1)
+Block(5,4,5,biomesoplenty:planks_0:1)
+Block(5,4,6,biomesoplenty:planks_0:1)
+Block(5,5,4,biomesoplenty:planks_0:14)
+Block(5,5,6,biomesoplenty:planks_0:14)
+Block(5,6,4,biomesoplenty:planks_0:14)
+Block(5,6,6,biomesoplenty:planks_0:14)
+Block(5,7,4,biomesoplenty:planks_0:14)
+Block(5,7,5,biomesoplenty:planks_0:14)
+Block(5,7,6,biomesoplenty:planks_0:14)
+Block(5,8,4,biomesoplenty:ebony_stairs:6)
+Block(5,8,5,biomesoplenty:wood_slab_1:6)
+Block(5,8,6,biomesoplenty:ebony_stairs:7)
+Block(5,9,4,rustic:iron_lattice:0)
+Block(5,9,6,rustic:iron_lattice:0)
+Block(6,1,5,WOOD:0)
+Block(6,2,3,quark:basalt_wall)
+Block(6,2,4,WOOD:0)
+Block(6,2,5,LADDER:5)
+Block(6,2,6,WOOD:0)
+Block(6,2,7,quark:basalt_wall)
+Block(6,3,3,quark:basalt_wall)
+Block(6,3,4,biomesoplenty:planks_0:1)
+Block(6,3,5,LADDER:5)
+Block(6,3,6,biomesoplenty:planks_0:1)
+Block(6,3,7,quark:basalt_wall)
+Block(6,4,3,inspirations:rope:1)
+Block(6,4,4,biomesoplenty:planks_0:1)
+Block(6,4,5,LADDER:5)
+Block(6,4,6,biomesoplenty:planks_0:1)
+Block(6,4,7,inspirations:rope:1)
+Block(6,5,3,inspirations:rope:1)
+Block(6,5,4,biomesoplenty:planks_0:14)
+Block(6,5,6,biomesoplenty:planks_0:14)
+Block(6,5,7,inspirations:rope:1)
+Block(6,6,3,inspirations:rope:1)
+Block(6,6,4,biomesoplenty:wood_slab_1:6)
+Block(6,6,6,biomesoplenty:wood_slab_1:6)
+Block(6,6,7,inspirations:rope:1)
+Block(6,7,3,biomesoplenty:planks_0:1)
+Block(6,7,4,biomesoplenty:planks_0:14)
+Block(6,7,5,biomesoplenty:planks_0:14)
+Block(6,7,6,biomesoplenty:planks_0:14)
+Block(6,7,7,biomesoplenty:planks_0:14)
+Block(6,8,3,biomesoplenty:cherry_stairs:6)
+Block(6,8,4,biomesoplenty:ebony_stairs:4)
+Block(6,8,6,biomesoplenty:ebony_stairs:4)
+Block(6,8,7,biomesoplenty:ebony_stairs:7)
+Block(6,9,3,rustic:iron_lattice:0)
+Block(6,9,4,rustic:iron_lattice:0)
+Block(6,9,6,rustic:iron_lattice:0)
+Block(6,9,7,rustic:iron_lattice:0)
+Block(7,0,5,WOOD:0)
+Block(7,1,4,WOOD:0)
+Block(7,1,5,WOOD:0)
+Block(7,1,6,WOOD:0)
+Block(7,2,3,quark:basalt_wall)
+Block(7,2,4,WOOD:0)
+Block(7,2,5,DARK_OAK_DOOR:6)
+Block(7,2,6,WOOD:0)
+Block(7,2,7,quark:basalt_wall)
+Block(7,3,3,rustic:iron_lattice:0)
+Block(7,3,4,WOOD:0)
+Block(7,3,5,DARK_OAK_DOOR:9)
+Block(7,3,6,biomesoplenty:planks_0:1)
+Block(7,3,7,rustic:iron_lattice:0)
+Block(7,4,4,biomesoplenty:planks_0:1)
+Block(7,4,5,biomesoplenty:double_wood_slab_1:6)
+Block(7,4,6,biomesoplenty:planks_0:14)
+Block(7,5,3,biomesoplenty:planks_0:14)
+Block(7,5,4,biomesoplenty:planks_0:14)
+Block(7,5,6,biomesoplenty:planks_0:14)
+Block(7,5,7,biomesoplenty:planks_0:14)
+Block(7,6,3,biomesoplenty:planks_0:14)
+Block(7,6,4,biomesoplenty:planks_0:14)
+Block(7,6,6,biomesoplenty:planks_0:14)
+Block(7,6,7,biomesoplenty:planks_0:14)
+Block(7,7,3,biomesoplenty:planks_0:14)
+Block(7,7,4,biomesoplenty:planks_0:1)
+Block(7,7,5,WOOD:0)
+Block(7,7,6,biomesoplenty:planks_0:14)
+Block(7,7,7,biomesoplenty:planks_0:14)
+Block(7,8,3,biomesoplenty:ebony_stairs:6)
+Block(7,8,7,biomesoplenty:ebony_stairs:7)
+Block(7,9,3,rustic:iron_lattice:0)
+Block(7,9,7,rustic:iron_lattice:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,PirateShipC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Entity(7,9,5,quark:pirate,1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

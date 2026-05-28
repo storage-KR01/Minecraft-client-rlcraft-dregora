@@ -1,0 +1,229 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,8,-7,AIR:0)
+Block(-8,9,-7,AIR:0)
+Block(-7,8,-7,AIR:0)
+Block(-7,9,-7,AIR:0)
+Block(-6,7,-7,AIR:0)
+Block(-6,8,-7,AIR:0)
+Block(-6,9,-7,AIR:0)
+Block(-5,7,-7,AIR:0)
+Block(-5,8,-7,AIR:0)
+Block(-5,9,-7,AIR:0)
+Block(-4,3,-7,STONE:0)
+Block(-4,6,-7,AIR:0)
+Block(-4,7,-7,AIR:0)
+Block(-4,8,-7,AIR:0)
+Block(-4,9,-7,AIR:0)
+RandomBlock(-3,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(-3,5,-7,COBBLESTONE:0)
+Block(-3,6,-7,AIR:0)
+Block(-3,7,-7,AIR:0)
+Block(-3,8,-7,AIR:0)
+Block(-3,9,-7,AIR:0)
+RandomBlock(-2,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(-2,5,-7,DOUBLE_STEP:0)
+Block(-2,6,-7,AIR:0)
+Block(-2,7,-7,AIR:0)
+Block(-2,8,-7,AIR:0)
+Block(-2,9,-7,AIR:0)
+RandomBlock(-1,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(-1,5,-7,STEP:0)
+Block(-1,6,-7,STEP:0)
+Block(-1,7,-7,AIR:0)
+Block(-1,8,-7,AIR:0)
+Block(-1,9,-7,AIR:0)
+RandomBlock(0,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(0,5,-7,STEP:0)
+Block(0,6,-7,STEP:0)
+Block(0,7,-7,AIR:0)
+Block(0,8,-7,AIR:0)
+Block(0,9,-7,AIR:0)
+RandomBlock(1,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(1,5,-7,STEP:0)
+Block(1,6,-7,STEP:0)
+Block(1,7,-7,AIR:0)
+Block(1,8,-7,AIR:0)
+Block(1,9,-7,AIR:0)
+RandomBlock(2,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(2,5,-7,DOUBLE_STEP:0)
+Block(2,6,-7,AIR:0)
+Block(2,7,-7,AIR:0)
+Block(2,8,-7,AIR:0)
+Block(2,9,-7,AIR:0)
+RandomBlock(3,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(3,5,-7,STEP:0)
+Block(3,6,-7,STEP:0)
+Block(3,7,-7,AIR:0)
+Block(3,8,-7,AIR:0)
+Block(3,9,-7,AIR:0)
+RandomBlock(4,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(4,5,-7,STEP:0)
+Block(4,6,-7,STEP:0)
+Block(4,7,-7,AIR:0)
+Block(4,8,-7,AIR:0)
+Block(4,9,-7,AIR:0)
+RandomBlock(5,0,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+RandomBlock(5,1,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+RandomBlock(5,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(5,5,-7,STEP:0)
+Block(5,6,-7,STEP:0)
+Block(5,7,-7,AIR:0)
+Block(5,8,-7,AIR:0)
+Block(5,9,-7,AIR:0)
+RandomBlock(6,0,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+RandomBlock(6,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(6,5,-7,DOUBLE_STEP:0)
+Block(6,6,-7,AIR:0)
+Block(6,7,-7,AIR:0)
+Block(6,8,-7,AIR:0)
+Block(6,9,-7,AIR:0)
+RandomBlock(7,0,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+RandomBlock(7,4,-7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,30,SMOOTH_BRICK:2,30,SMOOTH_STAIRS:0,15,SMOOTH_STAIRS:1,15,SMOOTH_STAIRS:2,15,SMOOTH_STAIRS:3,15,STEP:5,15,STEP:13,15,COBBLE_WALL:0,10,COBBLESTONE_STAIRS:0,10,STEP:3,10,COBBLE_WALL:1,20,COBBLESTONE_STAIRS:2,20,COBBLESTONE_STAIRS:3,20,MOSSY_COBBLESTONE:0,60,COBBLESTONE_STAIRS:1,20,STEP:11,20,COBBLESTONE:0,100)
+Block(7,5,-7,STEP:0)
+Block(7,6,-7,STEP:0)
+Block(7,7,-7,AIR:0)
+Block(7,8,-7,AIR:0)
+Block(7,9,-7,AIR:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

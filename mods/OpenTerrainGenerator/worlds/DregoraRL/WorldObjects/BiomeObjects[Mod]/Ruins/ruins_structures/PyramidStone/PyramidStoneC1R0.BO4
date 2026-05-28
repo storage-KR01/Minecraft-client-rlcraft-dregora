@@ -1,0 +1,334 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(-8,0,-6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,0,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,1,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,2,-5,lycanitesmobs:lushstone_slab)
+RandomBlock(-8,2,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,2,-3,SMOOTH_BRICK:2)
+Block(-8,2,-2,SMOOTH_BRICK:2)
+Block(-8,2,-1,SMOOTH_BRICK:1)
+Block(-8,2,0,SMOOTH_BRICK:1)
+Block(-8,2,1,SMOOTH_BRICK:2)
+Block(-8,2,2,SMOOTH_BRICK:2)
+Block(-8,2,3,SMOOTH_BRICK:2)
+Block(-8,2,4,SMOOTH_BRICK:2)
+RandomBlock(-8,2,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,2,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,2,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,2,8,SMOOTH_BRICK:2)
+Block(-8,3,-4,VINE:1)
+RandomBlock(-8,3,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,3,0,SMOOTH_BRICK:1)
+RandomBlock(-8,3,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,3,6,SMOOTH_BRICK:1)
+RandomBlock(-8,3,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-8,3,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-8,4,1,SMOOTH_BRICK:1)
+Block(-8,4,2,SMOOTH_STAIRS:1)
+Block(-8,4,3,SMOOTH_STAIRS:1)
+Block(-8,4,4,SMOOTH_STAIRS:1)
+Block(-8,4,5,SMOOTH_BRICK:1)
+Block(-8,4,8,VINE:2)
+Block(-8,5,1,lycanitesmobs:lushstonetile_stairs:1)
+Block(-8,5,5,lycanitesmobs:lushstonetile_stairs:1)
+RandomBlock(-7,0,-6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,0,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,1,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-7,2,-5,lycanitesmobs:lushstone_slab)
+RandomBlock(-7,2,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-7,2,0,SMOOTH_BRICK:1)
+RandomBlock(-7,2,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-7,2,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-7,2,8,SMOOTH_BRICK:1)
+Block(-7,3,-2,VINE:2)
+Block(-7,3,1,SMOOTH_BRICK:1)
+Block(-7,3,2,SMOOTH_STAIRS:1)
+Block(-7,3,3,SMOOTH_STAIRS:1)
+Block(-7,3,4,SMOOTH_STAIRS:1)
+Block(-7,3,5,SMOOTH_BRICK:1)
+Block(-7,4,1,lycanitesmobs:lushstonetile_stairs:1)
+Block(-7,4,5,lycanitesmobs:lushstonetile_stairs:1)
+RandomBlock(-6,0,-6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,0,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,1,-5,SMOOTH_BRICK:1)
+RandomBlock(-6,1,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,1,-2,SMOOTH_BRICK:1)
+RandomBlock(-6,1,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,1,0,SMOOTH_BRICK:1)
+RandomBlock(-6,1,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,1,6,SMOOTH_BRICK:1)
+RandomBlock(-6,1,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-6,1,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,2,-5,lycanitesmobs:lushstone_slab)
+Block(-6,2,-4,lycanitesmobs:lushstone_slab)
+Block(-6,2,-3,lycanitesmobs:lushstone_slab)
+Block(-6,2,-2,lycanitesmobs:lushstone_slab)
+Block(-6,2,-1,lycanitesmobs:lushstone_slab)
+Block(-6,2,0,lycanitesmobs:lushstone_slab)
+RandomBlock(-6,2,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-6,2,2,SMOOTH_STAIRS:1)
+Block(-6,2,3,SMOOTH_STAIRS:1)
+Block(-6,2,4,SMOOTH_STAIRS:1)
+Block(-6,2,5,SMOOTH_BRICK:1)
+Block(-6,2,6,lycanitesmobs:lushstone_slab)
+Block(-6,2,7,lycanitesmobs:lushstone_slab)
+Block(-6,2,8,lycanitesmobs:lushstone_slab)
+Block(-6,3,1,lycanitesmobs:lushstonetile_stairs:1)
+Block(-6,3,5,lycanitesmobs:lushstonetile_stairs:1)
+RandomBlock(-5,0,-6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,-5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,-4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,-3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,-2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,-1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,0,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,6,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,7,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-5,0,8,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-5,1,1,SMOOTH_BRICK:1)
+Block(-5,1,2,SMOOTH_STAIRS:1)
+Block(-5,1,3,SMOOTH_STAIRS:1)
+Block(-5,1,4,SMOOTH_STAIRS:1)
+RandomBlock(-5,1,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-5,2,1,lycanitesmobs:lushstonetile_stairs:1)
+Block(-5,2,5,lycanitesmobs:lushstonetile_stairs:1)
+RandomBlock(-4,0,1,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-4,0,2,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-4,0,3,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-4,0,4,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+RandomBlock(-4,0,5,SMOOTH_BRICK:0,40,SMOOTH_BRICK:1,20,SMOOTH_BRICK:2,30,SMOOTH_BRICK:0,100)
+Block(-4,1,1,lycanitesmobs:lushstonetile_stairs:1)
+Block(-4,1,5,lycanitesmobs:lushstonetile_stairs:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,true,PyramidStoneC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

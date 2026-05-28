@@ -1,0 +1,429 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,750,-7,AIR:0)
+Block(-7,2,-4,GOLD_BLOCK:0)
+Block(-7,3,-5,GOLD_BLOCK:0)
+Block(-7,3,-4,GOLD_BLOCK:0)
+Block(-7,3,-3,GOLD_BLOCK:0)
+Block(-7,4,-4,GOLD_BLOCK:0)
+Block(-6,3,-4,quark:iron_plate:1)
+Block(-5,0,-4,lycanitesmobs:ashenstone)
+Block(-5,1,-4,lycanitesmobs:ashenstone)
+Block(-5,2,-4,lycanitesmobs:ashenstone)
+Block(-5,3,-7,lycanitesmobs:ashenstone)
+Block(-5,3,-6,lycanitesmobs:ashenstone)
+Block(-5,3,-5,lycanitesmobs:ashenstone)
+Block(-5,3,-4,quark:iron_plate:1)
+Block(-5,3,-3,lycanitesmobs:ashenstone)
+Block(-5,3,-2,lycanitesmobs:ashenstone)
+Block(-5,3,-1,lycanitesmobs:ashenstone)
+Block(-5,4,-4,lycanitesmobs:ashenstone)
+Block(-5,5,-4,lycanitesmobs:ashenstone)
+Block(-5,6,-4,lycanitesmobs:ashenstone)
+Block(-4,1,-4,lycanitesmobs:ashenstone)
+Block(-4,2,-4,lycanitesmobs:ashenstone)
+Block(-4,3,-6,lycanitesmobs:ashenstone)
+Block(-4,3,-5,lycanitesmobs:ashenstone)
+Block(-4,3,-4,quark:iron_plate:1)
+Block(-4,3,-3,lycanitesmobs:ashenstone)
+Block(-4,3,-2,lycanitesmobs:ashenstone)
+Block(-4,4,-4,lycanitesmobs:ashenstone)
+Block(-4,5,-4,lycanitesmobs:ashenstone)
+Block(-3,2,-4,lycanitesmobs:ashenstone)
+Block(-3,3,-5,lycanitesmobs:ashenstone)
+Block(-3,3,-4,quark:iron_plate:1)
+Block(-3,3,-3,lycanitesmobs:ashenstone)
+Block(-3,4,-4,lycanitesmobs:ashenstone)
+Block(-2,1,-4,lycanitesmobs:ashenstone)
+Block(-2,2,-5,lycanitesmobs:ashenstone)
+Block(-2,2,-4,lycanitesmobs:ashenstone)
+Block(-2,2,-3,lycanitesmobs:ashenstone)
+Block(-2,3,-6,lycanitesmobs:ashenstone)
+Block(-2,3,-5,lycanitesmobs:ashenstone)
+Block(-2,3,-4,quark:iron_plate:1)
+Block(-2,3,-3,lycanitesmobs:ashenstone)
+Block(-2,3,-2,lycanitesmobs:ashenstone)
+Block(-2,4,-5,lycanitesmobs:ashenstone)
+Block(-2,4,-4,lycanitesmobs:ashenstone)
+Block(-2,4,-3,lycanitesmobs:ashenstone)
+Block(-2,5,-4,lycanitesmobs:ashenstone)
+Block(-1,1,-4,lycanitesmobs:ashenstone)
+Block(-1,2,-5,lycanitesmobs:ashenstone)
+Block(-1,2,-4,lycanitesmobs:ashenstone)
+Block(-1,2,-3,lycanitesmobs:ashenstone)
+Block(-1,3,-6,lycanitesmobs:ashenstone)
+Block(-1,3,-5,lycanitesmobs:ashenstone)
+Block(-1,3,-4,quark:iron_plate:1)
+Block(-1,3,-3,lycanitesmobs:ashenstone)
+Block(-1,3,-2,lycanitesmobs:ashenstone)
+Block(-1,4,-5,lycanitesmobs:ashenstone)
+Block(-1,4,-4,lycanitesmobs:ashenstone)
+Block(-1,4,-3,lycanitesmobs:ashenstone)
+Block(-1,5,-4,lycanitesmobs:ashenstone)
+Block(0,1,-5,lycanitesmobs:ashenstone)
+Block(0,1,-4,lycanitesmobs:ashenstone)
+Block(0,1,-3,lycanitesmobs:ashenstone)
+Block(0,2,-6,lycanitesmobs:ashenstone)
+Block(0,2,-5,quark:iron_plate:1)
+Block(0,2,-4,quark:iron_plate:1)
+Block(0,2,-3,quark:iron_plate:1)
+Block(0,2,-2,lycanitesmobs:ashenstone)
+Block(0,3,-6,lycanitesmobs:ashenstone)
+Block(0,3,-5,quark:iron_plate:1)
+Block(0,3,-4,quark:iron_plate:1)
+Block(0,3,-3,quark:iron_plate:1)
+Block(0,3,-2,lycanitesmobs:ashenstone)
+Block(0,4,-6,lycanitesmobs:ashenstone)
+Block(0,4,-5,quark:iron_plate:1)
+Block(0,4,-4,quark:iron_plate:1)
+Block(0,4,-3,quark:iron_plate:1)
+Block(0,4,-2,lycanitesmobs:ashenstone)
+Block(0,5,-5,lycanitesmobs:ashenstone)
+Block(0,5,-4,lycanitesmobs:ashenstone)
+Block(0,5,-3,lycanitesmobs:ashenstone)
+Block(1,1,-5,lycanitesmobs:ashenstone)
+Block(1,1,-4,lycanitesmobs:ashenstone)
+Block(1,1,-3,lycanitesmobs:ashenstone)
+Block(1,2,-6,lycanitesmobs:ashenstone)
+Block(1,2,-5,PISTON_BASE:4)
+Block(1,2,-4,PISTON_BASE:1)
+Block(1,2,-3,PISTON_BASE:4)
+Block(1,2,-2,lycanitesmobs:ashenstone)
+Block(1,3,-6,lycanitesmobs:ashenstone)
+Block(1,3,-5,PISTON_BASE:3)
+Block(1,3,-4,quark:iron_plate:1)
+Block(1,3,-3,PISTON_BASE:2)
+Block(1,3,-2,lycanitesmobs:ashenstone)
+Block(1,4,-6,lycanitesmobs:ashenstone)
+Block(1,4,-5,PISTON_BASE:4)
+Block(1,4,-4,PISTON_BASE:0)
+Block(1,4,-3,PISTON_BASE:4)
+Block(1,4,-2,lycanitesmobs:ashenstone)
+Block(1,5,-5,lycanitesmobs:ashenstone)
+Block(1,5,-4,lycanitesmobs:ashenstone)
+Block(1,5,-3,lycanitesmobs:ashenstone)
+Block(2,0,-4,lycanitesmobs:ashenstone)
+Block(2,1,-5,lycanitesmobs:ashenstone)
+Block(2,1,-4,lycanitesmobs:ashenstone)
+Block(2,1,-3,lycanitesmobs:ashenstone)
+Block(2,2,-6,lycanitesmobs:ashenstone)
+Block(2,2,-5,quark:iron_plate:1)
+Block(2,2,-4,quark:iron_plate:1)
+Block(2,2,-3,quark:iron_plate:1)
+Block(2,2,-2,lycanitesmobs:ashenstone)
+Block(2,3,-7,lycanitesmobs:ashenstone)
+Block(2,3,-6,lycanitesmobs:ashenstone)
+Block(2,3,-5,quark:iron_plate:1)
+Block(2,3,-4,quark:iron_plate:1)
+Block(2,3,-3,quark:iron_plate:1)
+Block(2,3,-2,lycanitesmobs:ashenstone)
+Block(2,3,-1,lycanitesmobs:ashenstone)
+Block(2,4,-6,lycanitesmobs:ashenstone)
+Block(2,4,-5,quark:iron_plate:1)
+Block(2,4,-4,quark:iron_plate:1)
+Block(2,4,-3,quark:iron_plate:1)
+Block(2,4,-2,lycanitesmobs:ashenstone)
+Block(2,5,-5,lycanitesmobs:ashenstone)
+Block(2,5,-4,lycanitesmobs:ashenstone)
+Block(2,5,-3,lycanitesmobs:ashenstone)
+Block(2,6,-4,lycanitesmobs:ashenstone)
+Block(3,0,-4,lycanitesmobs:ashenstone)
+Block(3,1,-5,lycanitesmobs:ashenstone)
+Block(3,1,-4,lycanitesmobs:ashenstone)
+Block(3,1,-3,lycanitesmobs:ashenstone)
+Block(3,2,-6,lycanitesmobs:ashenstone)
+Block(3,2,-5,REDSTONE_BLOCK:0)
+Block(3,2,-4,REDSTONE_BLOCK:0)
+Block(3,2,-3,REDSTONE_BLOCK:0)
+Block(3,2,-2,lycanitesmobs:ashenstone)
+Block(3,3,-7,lycanitesmobs:ashenstone)
+Block(3,3,-6,lycanitesmobs:ashenstone)
+Block(3,3,-5,REDSTONE_BLOCK:0)
+Block(3,3,-4,REDSTONE_BLOCK:0)
+Block(3,3,-3,REDSTONE_BLOCK:0)
+Block(3,3,-2,lycanitesmobs:ashenstone)
+Block(3,3,-1,lycanitesmobs:ashenstone)
+Block(3,4,-6,lycanitesmobs:ashenstone)
+Block(3,4,-5,REDSTONE_BLOCK:0)
+Block(3,4,-4,REDSTONE_BLOCK:0)
+Block(3,4,-3,REDSTONE_BLOCK:0)
+Block(3,4,-2,lycanitesmobs:ashenstone)
+Block(3,5,-5,lycanitesmobs:ashenstone)
+Block(3,5,-4,lycanitesmobs:ashenstone)
+Block(3,5,-3,lycanitesmobs:ashenstone)
+Block(3,6,-4,lycanitesmobs:ashenstone)
+Block(4,0,-4,lycanitesmobs:ashenstone)
+Block(4,1,-6,lycanitesmobs:ashenstone)
+Block(4,1,-5,lycanitesmobs:ashenstone)
+Block(4,1,-4,lycanitesmobs:ashenstone)
+Block(4,1,-3,lycanitesmobs:ashenstone)
+Block(4,1,-2,lycanitesmobs:ashenstone)
+Block(4,2,-6,lycanitesmobs:ashenstone)
+Block(4,2,-5,REDSTONE_BLOCK:0)
+Block(4,2,-4,REDSTONE_BLOCK:0)
+Block(4,2,-3,REDSTONE_BLOCK:0)
+Block(4,2,-2,lycanitesmobs:ashenstone)
+Block(4,3,-7,lycanitesmobs:ashenstone)
+Block(4,3,-6,lycanitesmobs:ashenstone)
+Block(4,3,-5,REDSTONE_BLOCK:0)
+Block(4,3,-4,REDSTONE_BLOCK:0)
+Block(4,3,-3,REDSTONE_BLOCK:0)
+Block(4,3,-2,lycanitesmobs:ashenstone)
+Block(4,3,-1,lycanitesmobs:ashenstone)
+Block(4,4,-6,lycanitesmobs:ashenstone)
+Block(4,4,-5,REDSTONE_BLOCK:0)
+Block(4,4,-4,REDSTONE_BLOCK:0)
+Block(4,4,-3,REDSTONE_BLOCK:0)
+Block(4,4,-2,lycanitesmobs:ashenstone)
+Block(4,5,-6,lycanitesmobs:ashenstone)
+Block(4,5,-5,lycanitesmobs:ashenstone)
+Block(4,5,-4,lycanitesmobs:ashenstone)
+Block(4,5,-3,lycanitesmobs:ashenstone)
+Block(4,5,-2,lycanitesmobs:ashenstone)
+Block(4,6,-4,lycanitesmobs:ashenstone)
+Block(5,0,-4,lycanitesmobs:ashenstone)
+Block(5,1,-6,lycanitesmobs:ashenstone)
+Block(5,1,-5,lycanitesmobs:ashenstone)
+Block(5,1,-4,lycanitesmobs:ashenstone)
+Block(5,1,-3,lycanitesmobs:ashenstone)
+Block(5,1,-2,lycanitesmobs:ashenstone)
+Block(5,2,-6,lycanitesmobs:ashenstone)
+Block(5,2,-5,OBSIDIAN:0)
+Block(5,2,-4,OBSIDIAN:0)
+Block(5,2,-3,OBSIDIAN:0)
+Block(5,2,-2,lycanitesmobs:ashenstone)
+Block(5,3,-7,lycanitesmobs:ashenstone)
+Block(5,3,-6,lycanitesmobs:ashenstone)
+Block(5,3,-5,OBSIDIAN:0)
+Block(5,3,-4,OBSIDIAN:0)
+Block(5,3,-3,OBSIDIAN:0)
+Block(5,3,-2,lycanitesmobs:ashenstone)
+Block(5,3,-1,lycanitesmobs:ashenstone)
+Block(5,4,-6,lycanitesmobs:ashenstone)
+Block(5,4,-5,OBSIDIAN:0)
+Block(5,4,-4,OBSIDIAN:0)
+Block(5,4,-3,OBSIDIAN:0)
+Block(5,4,-2,lycanitesmobs:ashenstone)
+Block(5,5,-6,lycanitesmobs:ashenstone)
+Block(5,5,-5,lycanitesmobs:ashenstone)
+Block(5,5,-4,lycanitesmobs:ashenstone)
+Block(5,5,-3,lycanitesmobs:ashenstone)
+Block(5,5,-2,lycanitesmobs:ashenstone)
+Block(5,6,-4,lycanitesmobs:ashenstone)
+Block(6,0,-5,lycanitesmobs:ashenstone)
+Block(6,0,-4,lycanitesmobs:ashenstone)
+Block(6,0,-3,lycanitesmobs:ashenstone)
+Block(6,1,-6,lycanitesmobs:ashenstone)
+Block(6,1,-5,OBSIDIAN:0)
+Block(6,1,-4,OBSIDIAN:0)
+Block(6,1,-3,OBSIDIAN:0)
+Block(6,1,-2,lycanitesmobs:ashenstone)
+Block(6,2,-7,lycanitesmobs:ashenstone)
+Block(6,2,-6,OBSIDIAN:0)
+Block(6,2,-5,DISPENSER:1)
+Block(6,2,-4,CONCRETE:15)
+Block(6,2,-3,mcwbridges:most1:5)
+Block(6,2,-2,OBSIDIAN:0)
+Block(6,2,-1,lycanitesmobs:ashenstone)
+Block(6,3,-7,lycanitesmobs:ashenstone)
+Block(6,3,-6,OBSIDIAN:0)
+Block(6,3,-5,rustic:iron_lattice:0)
+Block(6,3,-4,CONCRETE:15)
+Block(6,3,-3,OBSERVER:4)
+Block(6,3,-2,OBSIDIAN:0)
+Block(6,3,-1,lycanitesmobs:ashenstone)
+Block(6,4,-7,lycanitesmobs:ashenstone)
+Block(6,4,-6,OBSIDIAN:0)
+Block(6,4,-5,DISPENSER:0)
+Block(6,4,-4,CONCRETE:15)
+Block(6,4,-3,quark:iron_plate_slab_double)
+Block(6,4,-2,OBSIDIAN:0)
+Block(6,4,-1,lycanitesmobs:ashenstone)
+Block(6,5,-6,lycanitesmobs:ashenstone)
+Block(6,5,-5,OBSIDIAN:0)
+Block(6,5,-4,OBSIDIAN:0)
+Block(6,5,-3,OBSIDIAN:0)
+Block(6,5,-2,lycanitesmobs:ashenstone)
+Block(6,6,-5,lycanitesmobs:ashenstone)
+Block(6,6,-4,lycanitesmobs:ashenstone)
+Block(6,6,-3,lycanitesmobs:ashenstone)
+Block(7,0,-5,lycanitesmobs:ashenstone)
+Block(7,0,-4,lycanitesmobs:ashenstone)
+Block(7,0,-3,lycanitesmobs:ashenstone)
+Block(7,1,-6,lycanitesmobs:ashenstone)
+Block(7,1,-5,OBSIDIAN:0)
+Block(7,1,-4,OBSIDIAN:0)
+Block(7,1,-3,OBSIDIAN:0)
+Block(7,1,-2,lycanitesmobs:ashenstone)
+Block(7,2,-7,lycanitesmobs:ashenstone)
+Block(7,2,-6,OBSIDIAN:0)
+Block(7,2,-5,DISPENSER:1)
+Block(7,2,-4,AIR:0)
+Block(7,2,-3,mcwbridges:most1:5)
+Block(7,2,-2,OBSIDIAN:0)
+Block(7,2,-1,lycanitesmobs:ashenstone)
+Block(7,3,-7,lycanitesmobs:ashenstone_stairs:6)
+Block(7,3,-6,OBSIDIAN:0)
+Block(7,3,-5,biomesoplenty:ebony_fence)
+Block(7,3,-4,AIR:0)
+Block(7,3,-3,AIR:0)
+Block(7,3,-2,OBSIDIAN:0)
+Block(7,3,-1,lycanitesmobs:ashenstone_stairs:7)
+Block(7,4,-7,lycanitesmobs:ashenstone)
+Block(7,4,-6,OBSIDIAN:0)
+Block(7,4,-5,biomesoplenty:ebony_fence)
+Block(7,4,-4,IRON_TRAPDOOR:11)
+Block(7,4,-3,IRON_TRAPDOOR:11)
+Block(7,4,-2,OBSIDIAN:0)
+Block(7,4,-1,lycanitesmobs:ashenstone)
+Block(7,5,-6,lycanitesmobs:ashenstone)
+Block(7,5,-5,OBSIDIAN:0)
+Block(7,5,-4,OBSIDIAN:0)
+Block(7,5,-3,OBSIDIAN:0)
+Block(7,5,-2,lycanitesmobs:ashenstone)
+Block(7,6,-5,lycanitesmobs:ashenstone)
+Block(7,6,-4,lycanitesmobs:ashenstone)
+Block(7,6,-3,lycanitesmobs:ashenstone)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,LostSubmarineC1R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

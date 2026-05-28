@@ -1,0 +1,524 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-6,quark:iron_plate:1)
+Block(-8,1,-6,quark:iron_plate:1)
+Block(-8,2,-6,quark:iron_plate:1)
+Block(-8,3,-6,quark:iron_plate:1)
+Block(-8,4,-6,quark:iron_plate:1)
+Block(-8,9,-6,VINE:8)
+Block(-8,12,-7,VINE:8)
+Block(-8,13,-7,VINE:8)
+Block(-8,15,-6,VINE:8)
+Block(-8,16,-7,quark:iron_plate:1)
+Block(-8,16,-6,VINE:8)
+Block(-8,18,-7,VINE:8)
+Block(-8,19,-7,VINE:8)
+Block(-8,20,-7,VINE:8)
+Block(-8,21,-7,VINE:8)
+Block(-8,22,-7,VINE:8)
+Block(-8,23,-7,VINE:8)
+Block(-8,24,-7,VINE:8)
+Block(-7,0,-7,quark:iron_plate:1)
+Block(-7,0,-6,quark:iron_plate:1)
+Block(-7,0,-5,quark:iron_plate:1)
+Block(-7,1,-7,quark:iron_plate:1)
+Block(-7,1,-6,quark:iron_plate:1)
+Block(-7,1,-5,quark:iron_plate:1)
+Block(-7,2,-7,quark:iron_plate:1)
+Block(-7,2,-6,quark:iron_plate:1)
+Block(-7,2,-5,quark:iron_plate:1)
+Block(-7,3,-7,quark:iron_plate:1)
+Block(-7,3,-6,quark:iron_plate:1)
+Block(-7,3,-5,quark:iron_plate:1)
+Block(-7,4,-7,quark:iron_plate:1)
+Block(-7,4,-6,quark:iron_plate:1)
+Block(-7,4,-5,quark:iron_plate:1)
+Block(-7,5,-6,CONCRETE:15)
+Block(-7,6,-6,CONCRETE:4)
+Block(-7,7,-6,quark:iron_plate:1)
+Block(-7,8,-6,quark:iron_plate:1)
+Block(-7,9,-7,VINE:1)
+Block(-7,9,-6,quark:iron_plate:1)
+Block(-7,9,-5,VINE:4)
+Block(-7,10,-6,quark:iron_plate:1)
+Block(-7,11,-7,quark:iron_plate:1)
+Block(-7,11,-6,quark:iron_plate:1)
+Block(-7,12,-7,quark:iron_plate:1)
+Block(-7,12,-6,quark:iron_plate:1)
+Block(-7,13,-7,quark:iron_plate:1)
+Block(-7,13,2,VINE:8)
+Block(-7,14,-7,quark:iron_plate:1)
+Block(-7,14,2,VINE:8)
+Block(-7,15,-7,quark:iron_plate:1)
+Block(-7,15,-5,VINE:4)
+Block(-7,15,0,VINE:8)
+Block(-7,15,2,VINE:8)
+Block(-7,15,5,VINE:8)
+Block(-7,16,-7,quark:iron_plate:1)
+Block(-7,16,-6,quark:iron_plate:1)
+Block(-7,16,-5,VINE:4)
+Block(-7,16,-3,VINE:8)
+Block(-7,16,0,VINE:8)
+Block(-7,16,2,VINE:8)
+Block(-7,16,4,VINE:8)
+Block(-7,16,5,VINE:8)
+Block(-7,17,-7,quark:iron_plate:1)
+Block(-7,17,-6,IRON_FENCE:0)
+Block(-7,18,-7,quark:iron_plate:1)
+Block(-7,18,-6,IRON_FENCE:0)
+Block(-7,19,-7,quark:iron_plate:1)
+Block(-7,19,-6,IRON_FENCE:0)
+Block(-7,20,-7,quark:iron_plate:1)
+Block(-7,20,-6,IRON_FENCE:0)
+Block(-7,21,-7,quark:iron_plate:1)
+Block(-7,21,-6,IRON_FENCE:0)
+Block(-7,22,-7,quark:iron_plate:1)
+Block(-7,22,-6,IRON_FENCE:0)
+Block(-7,23,-7,quark:iron_plate:1)
+Block(-7,23,-6,IRON_FENCE:0)
+Block(-7,24,-7,quark:iron_plate:1)
+Block(-7,24,-6,quark:iron_plate:1)
+Block(-7,24,-5,rustic:iron_lattice:0)
+Block(-7,25,-7,IRON_FENCE:0)
+Block(-7,25,-6,IRON_FENCE:0)
+Block(-6,0,-6,quark:iron_plate:1)
+Block(-6,1,-6,quark:iron_plate:1)
+Block(-6,2,-6,quark:iron_plate:1)
+Block(-6,3,-6,quark:iron_plate:1)
+Block(-6,4,-6,quark:iron_plate:1)
+Block(-6,5,-6,IRON_FENCE:0)
+Block(-6,6,-6,IRON_FENCE:0)
+Block(-6,7,-6,IRON_FENCE:0)
+Block(-6,8,-6,IRON_FENCE:0)
+Block(-6,9,-6,IRON_FENCE:0)
+Block(-6,10,-6,IRON_FENCE:0)
+Block(-6,11,-7,quark:iron_plate)
+Block(-6,11,-6,IRON_FENCE:0)
+Block(-6,12,-7,quark:iron_plate_stairs)
+Block(-6,12,-6,quark:iron_plate_slab)
+Block(-6,13,-6,VINE:4)
+Block(-6,14,-6,VINE:4)
+Block(-6,15,-7,quark:iron_plate:1)
+Block(-6,15,-6,VINE:4)
+Block(-6,15,6,VINE:8)
+Block(-6,16,-7,quark:iron_plate:1)
+Block(-6,16,-6,quark:iron_plate:1)
+Block(-6,16,-5,quark:iron_plate:1)
+Block(-6,16,-4,quark:iron_plate:1)
+Block(-6,16,-3,quark:iron_plate:1)
+Block(-6,16,-2,quark:iron_plate:1)
+Block(-6,16,-1,quark:iron_plate:1)
+Block(-6,16,0,quark:iron_plate:1)
+Block(-6,16,1,quark:iron_plate:1)
+Block(-6,16,2,quark:iron_plate:1)
+Block(-6,16,3,quark:iron_plate:1)
+Block(-6,16,4,quark:iron_plate:1)
+Block(-6,16,5,quark:iron_plate:1)
+Block(-6,16,6,VINE:8)
+Block(-6,17,-7,quark:iron_plate:1)
+Block(-6,17,-6,rustic:iron_lattice:0)
+Block(-6,17,-5,rustic:iron_lattice:0)
+Block(-6,17,-4,rustic:iron_lattice:0)
+Block(-6,17,-3,rustic:iron_lattice:0)
+Block(-6,17,-2,rustic:iron_lattice:0)
+Block(-6,17,-1,rustic:iron_lattice:0)
+Block(-6,17,0,rustic:iron_lattice:0)
+Block(-6,17,1,rustic:iron_lattice:0)
+Block(-6,17,2,rustic:iron_lattice:0)
+Block(-6,17,3,rustic:iron_lattice:0)
+Block(-6,17,4,rustic:iron_lattice:0)
+Block(-6,17,5,rustic:iron_lattice:0)
+Block(-6,18,-7,quark:iron_plate:1)
+Block(-6,18,-6,VINE:4)
+Block(-6,19,-7,quark:iron_plate_stairs:0)
+Block(-6,21,-7,VINE:2)
+Block(-6,22,-7,VINE:2)
+Block(-6,23,-7,VINE:2)
+Block(-5,11,-7,quark:iron_plate:1)
+Block(-5,15,-7,quark:iron_plate:1)
+Block(-5,16,-7,quark:iron_plate:1)
+Block(-5,16,-6,quark:iron_plate:1)
+Block(-5,16,-5,quark:iron_plate:1)
+Block(-5,16,-4,quark:iron_plate:1)
+Block(-5,16,-3,quark:iron_plate:1)
+Block(-5,16,-2,quark:iron_plate:1)
+Block(-5,16,-1,quark:iron_plate:1)
+Block(-5,16,0,quark:iron_plate:1)
+Block(-5,16,1,quark:iron_plate:1)
+Block(-5,16,2,quark:iron_plate:1)
+Block(-5,16,3,quark:iron_plate:1)
+Block(-5,16,4,quark:iron_plate:1)
+Block(-5,16,5,quark:iron_plate:1)
+Block(-5,16,6,quark:iron_plate:1)
+Block(-5,16,7,quark:iron_plate:1)
+Block(-5,17,-7,VINE:2)
+Block(-5,17,5,rustic:iron_lattice:0)
+Block(-5,17,6,rustic:iron_lattice:0)
+Block(-5,17,7,rustic:iron_lattice:0)
+Block(-5,18,-7,VINE:2)
+Block(-5,19,-7,quark:iron_plate_slab:8)
+Block(-4,9,-6,VINE:4)
+Block(-4,10,-6,VINE:4)
+Block(-4,11,-7,quark:iron_plate:1)
+Block(-4,11,-6,VINE:4)
+Block(-4,16,-7,quark:iron_plate:1)
+Block(-4,16,-6,quark:grate)
+Block(-4,16,-5,quark:grate)
+Block(-4,16,-4,quark:grate)
+Block(-4,16,-3,quark:grate)
+Block(-4,16,-2,quark:grate)
+Block(-4,16,-1,quark:grate)
+Block(-4,16,0,quark:grate)
+Block(-4,16,1,quark:grate)
+Block(-4,16,2,quark:grate)
+Block(-4,16,3,quark:grate)
+Block(-4,16,4,quark:grate)
+Block(-4,16,5,quark:grate)
+Block(-4,16,6,quark:grate)
+Block(-4,16,7,quark:iron_plate:1)
+Block(-4,17,-7,quark:iron_plate:1)
+Block(-4,17,7,rustic:iron_lattice:0)
+Block(-4,18,-7,quark:iron_plate:1)
+Block(-4,19,-7,quark:iron_plate_stairs:1)
+Block(-3,11,-7,quark:iron_plate:1)
+Block(-3,11,-6,VINE:4)
+Block(-3,14,-6,VINE:4)
+Block(-3,15,-6,VINE:4)
+Block(-3,16,-6,VINE:4)
+Block(-3,16,6,quark:grate)
+Block(-3,16,7,quark:iron_plate:1)
+Block(-3,17,-7,quark:iron_plate:1)
+Block(-3,17,-6,VINE:4)
+Block(-3,17,7,rustic:iron_lattice:0)
+Block(-3,18,-7,IRON_FENCE:0)
+Block(-3,19,-7,quark:iron_plate_slab)
+Block(-2,11,-7,quark:iron_plate:1)
+Block(-2,16,6,quark:grate)
+Block(-2,16,7,quark:iron_plate:1)
+Block(-2,17,-7,IRON_FENCE:0)
+Block(-2,17,7,rustic:iron_lattice:0)
+Block(-2,18,-7,IRON_FENCE:0)
+Block(-2,19,-7,quark:iron_plate_slab)
+Block(-1,10,-6,VINE:4)
+Block(-1,11,-7,quark:iron_plate:1)
+Block(-1,11,-6,VINE:4)
+Block(-1,16,6,quark:grate)
+Block(-1,16,7,quark:iron_plate:1)
+Block(-1,17,-7,quark:iron_plate:1)
+Block(-1,17,7,rustic:iron_lattice:0)
+Block(-1,18,-7,IRON_FENCE:0)
+Block(-1,19,-7,quark:iron_plate_slab)
+Block(0,11,-7,quark:iron_plate:1)
+Block(0,16,-7,quark:iron_plate:1)
+Block(0,16,-6,quark:grate)
+Block(0,16,-5,quark:grate)
+Block(0,16,-4,quark:grate)
+Block(0,16,-3,quark:grate)
+Block(0,16,-2,quark:grate)
+Block(0,16,-1,quark:grate)
+Block(0,16,0,quark:grate)
+Block(0,16,1,quark:grate)
+Block(0,16,2,quark:grate)
+Block(0,16,3,quark:grate)
+Block(0,16,4,quark:grate)
+Block(0,16,5,quark:grate)
+Block(0,16,6,quark:grate)
+Block(0,16,7,quark:iron_plate:1)
+Block(0,17,-7,quark:iron_plate:1)
+Block(0,17,-6,VINE:4)
+Block(0,17,7,rustic:iron_lattice:0)
+Block(0,18,-7,quark:iron_plate:1)
+Block(0,18,-6,VINE:4)
+Block(0,19,-7,quark:iron_plate_stairs:0)
+Block(1,10,-6,VINE:4)
+Block(1,11,-7,quark:iron_plate:1)
+Block(1,11,-6,VINE:4)
+Block(1,15,-7,quark:iron_plate:1)
+Block(1,16,-7,quark:iron_plate:1)
+Block(1,16,-6,quark:iron_plate:1)
+Block(1,16,-5,quark:iron_plate:1)
+Block(1,16,-4,quark:iron_plate:1)
+Block(1,16,-3,quark:iron_plate:1)
+Block(1,16,-2,quark:iron_plate:1)
+Block(1,16,-1,quark:iron_plate:1)
+Block(1,16,0,quark:iron_plate:1)
+Block(1,16,1,quark:iron_plate:1)
+Block(1,16,2,quark:iron_plate:1)
+Block(1,16,3,quark:iron_plate:1)
+Block(1,16,4,quark:iron_plate:1)
+Block(1,16,5,quark:iron_plate:1)
+Block(1,16,6,quark:iron_plate:1)
+Block(1,16,7,quark:iron_plate:1)
+Block(1,17,5,rustic:iron_lattice:0)
+Block(1,17,6,rustic:iron_lattice:0)
+Block(1,17,7,rustic:iron_lattice:0)
+Block(1,19,-7,quark:iron_plate_slab:8)
+Block(2,0,-6,quark:iron_plate:1)
+Block(2,1,-6,quark:iron_plate:1)
+Block(2,2,-6,quark:iron_plate:1)
+Block(2,3,-6,quark:iron_plate:1)
+Block(2,4,-6,quark:iron_plate:1)
+Block(2,5,-6,IRON_FENCE:0)
+Block(2,6,-6,IRON_FENCE:0)
+Block(2,7,-6,IRON_FENCE:0)
+Block(2,8,-6,IRON_FENCE:0)
+Block(2,9,-6,IRON_FENCE:0)
+Block(2,10,-6,IRON_FENCE:0)
+Block(2,11,-7,quark:iron_plate)
+Block(2,11,-6,IRON_FENCE:0)
+Block(2,12,-7,quark:iron_plate_stairs)
+Block(2,12,-6,quark:iron_plate_slab)
+Block(2,15,-7,quark:iron_plate:1)
+Block(2,15,6,VINE:4)
+Block(2,16,-7,quark:iron_plate:1)
+Block(2,16,-6,quark:iron_plate:1)
+Block(2,16,-5,quark:iron_plate:1)
+Block(2,16,-4,quark:iron_plate:1)
+Block(2,16,-3,quark:iron_plate:1)
+Block(2,16,-2,quark:iron_plate:1)
+Block(2,16,-1,quark:iron_plate:1)
+Block(2,16,0,quark:iron_plate:1)
+Block(2,16,1,quark:iron_plate:1)
+Block(2,16,2,quark:iron_plate:1)
+Block(2,16,3,quark:iron_plate:1)
+Block(2,16,4,quark:iron_plate:1)
+Block(2,16,5,quark:iron_plate:1)
+Block(2,16,6,VINE:4)
+Block(2,17,-7,quark:iron_plate:1)
+Block(2,17,-6,rustic:iron_lattice:0)
+Block(2,17,-5,rustic:iron_lattice:0)
+Block(2,17,-4,rustic:iron_lattice:0)
+Block(2,17,-3,rustic:iron_lattice:0)
+Block(2,17,-2,rustic:iron_lattice:0)
+Block(2,17,-1,rustic:iron_lattice:0)
+Block(2,17,0,rustic:iron_lattice:0)
+Block(2,17,1,rustic:iron_lattice:0)
+Block(2,17,2,rustic:iron_lattice:0)
+Block(2,17,3,rustic:iron_lattice:0)
+Block(2,17,4,rustic:iron_lattice:0)
+Block(2,17,5,rustic:iron_lattice:0)
+Block(2,18,-7,quark:iron_plate:1)
+Block(2,19,-7,quark:iron_plate_stairs:1)
+Block(2,20,-7,VINE:8)
+Block(2,21,-7,VINE:8)
+Block(2,22,-7,VINE:8)
+Block(3,0,-7,quark:iron_plate:1)
+Block(3,0,-6,quark:iron_plate:1)
+Block(3,0,-5,quark:iron_plate:1)
+Block(3,1,-7,quark:iron_plate:1)
+Block(3,1,-6,quark:iron_plate:1)
+Block(3,1,-5,quark:iron_plate:1)
+Block(3,2,-7,quark:iron_plate:1)
+Block(3,2,-6,quark:iron_plate:1)
+Block(3,2,-5,quark:iron_plate:1)
+Block(3,3,-7,quark:iron_plate:1)
+Block(3,3,-6,quark:iron_plate:1)
+Block(3,3,-5,quark:iron_plate:1)
+Block(3,4,-7,quark:iron_plate:1)
+Block(3,4,-6,quark:iron_plate:1)
+Block(3,4,-5,quark:iron_plate:1)
+Block(3,5,-6,CONCRETE:15)
+Block(3,6,-6,CONCRETE:4)
+Block(3,7,-6,quark:iron_plate:1)
+Block(3,8,-7,VINE:1)
+Block(3,8,-6,quark:iron_plate:1)
+Block(3,9,-6,quark:iron_plate:1)
+Block(3,10,-6,quark:iron_plate:1)
+Block(3,11,-7,quark:iron_plate:1)
+Block(3,11,-6,quark:iron_plate:1)
+Block(3,12,-7,quark:iron_plate:1)
+Block(3,12,-6,quark:iron_plate:1)
+Block(3,13,-7,quark:iron_plate:1)
+Block(3,13,-3,VINE:2)
+Block(3,14,-7,quark:iron_plate:1)
+Block(3,14,-6,VINE:4)
+Block(3,14,-3,VINE:2)
+Block(3,15,-7,quark:iron_plate:1)
+Block(3,15,-6,VINE:4)
+Block(3,15,-3,VINE:2)
+Block(3,16,-7,quark:iron_plate:1)
+Block(3,16,-6,quark:iron_plate:1)
+Block(3,16,-3,VINE:2)
+Block(3,16,1,VINE:2)
+Block(3,16,2,VINE:2)
+Block(3,16,3,VINE:2)
+Block(3,16,5,VINE:2)
+Block(3,17,-7,quark:iron_plate:1)
+Block(3,17,-6,IRON_FENCE:0)
+Block(3,18,-7,quark:iron_plate:1)
+Block(3,18,-6,IRON_FENCE:0)
+Block(3,19,-7,quark:iron_plate:1)
+Block(3,19,-6,IRON_FENCE:0)
+Block(3,20,-7,quark:iron_plate:1)
+Block(3,20,-6,IRON_FENCE:0)
+Block(3,21,-7,quark:iron_plate:1)
+Block(3,21,-6,IRON_FENCE:0)
+Block(3,22,-7,quark:iron_plate:1)
+Block(3,22,-6,IRON_FENCE:0)
+Block(3,23,-7,quark:iron_plate:1)
+Block(3,23,-6,IRON_FENCE:0)
+Block(3,24,-7,quark:iron_plate:1)
+Block(3,24,-6,quark:iron_plate:1)
+Block(3,24,-5,rustic:iron_lattice:0)
+Block(3,25,-7,IRON_FENCE:0)
+Block(3,25,-6,IRON_FENCE:0)
+Block(4,0,-6,quark:iron_plate:1)
+Block(4,1,-6,quark:iron_plate:1)
+Block(4,2,-6,quark:iron_plate:1)
+Block(4,3,-6,quark:iron_plate:1)
+Block(4,4,-6,quark:iron_plate:1)
+Block(4,8,-6,VINE:2)
+Block(4,9,-6,VINE:2)
+Block(4,10,-6,VINE:6)
+Block(4,11,-6,VINE:6)
+Block(4,12,-6,VINE:6)
+Block(4,13,-6,VINE:4)
+Block(4,14,-6,VINE:4)
+Block(4,15,-6,VINE:4)
+Block(4,16,-7,quark:iron_plate:1)
+Block(4,16,-6,VINE:4)
+Block(4,23,-7,VINE:2)
+Block(4,24,-7,VINE:2)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,-16,true,GantryCraneC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

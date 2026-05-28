@@ -1,0 +1,178 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: -1
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR,DIRT,GRASS,SAND,GRAVEL,BIOMESOPLENTY:DIRT,BIOMESOPLENTY:GRASS,BIOMESOPLENTY:SAND,BIOMESOPLENTY:MUD
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(-3,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-3,0,-1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-3,0,0,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-3,0,1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-3,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-3,1,-2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(-3,1,0,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(-3,1,1,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(-2,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-2,0,-1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-2,0,0,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(-2,0,1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-2,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-2,1,-1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(-2,1,1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(-1,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-1,0,-1,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(-1,0,0,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-1,0,1,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(-1,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(-1,1,-2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(-1,1,0,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(0,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(0,0,-1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(0,0,0,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(0,0,1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(0,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(0,1,-2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(0,1,-1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(0,1,1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(1,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(1,0,-1,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(1,0,0,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(1,0,1,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(1,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(1,1,-2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(1,1,0,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(1,1,2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(2,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(2,0,-1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(2,0,0,biomesoplenty:mud,75,STATIONARY_WATER,50,GRAVEL,25,DIRT:1,100)
+RandomBlock(2,0,1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(2,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(2,1,-1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(2,1,1,MELON_BLOCK:0,20,AIR,100)
+RandomBlock(2,1,2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(3,0,-2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(3,0,-1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(3,0,0,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(3,0,1,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(3,0,2,GRASS,20,DIRT:0,40,biomesoplenty:mud,25,DIRT:1,50,DIRT:2,25,GRAVEL,100)
+RandomBlock(3,1,-2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(3,1,-1,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(3,1,0,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(3,1,1,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+RandomBlock(3,1,2,COBBLE_WALL:0,50,COBBLE_WALL:1,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

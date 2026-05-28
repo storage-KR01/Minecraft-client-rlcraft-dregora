@@ -1,0 +1,254 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-4,lycanitesmobs:ashenstone)
+Block(-8,1,-6,lycanitesmobs:ashenstone)
+Block(-8,1,-5,lycanitesmobs:ashenstone)
+Block(-8,1,-4,lycanitesmobs:ashenstone)
+Block(-8,1,-3,lycanitesmobs:ashenstone)
+Block(-8,1,-2,lycanitesmobs:ashenstone)
+Block(-8,2,-7,lycanitesmobs:ashenstone)
+Block(-8,2,-6,lycanitesmobs:ashenstone)
+Block(-8,2,-5,OBSIDIAN:0)
+Block(-8,2,-4,OBSERVER:5)
+Block(-8,2,-3,OBSIDIAN:0)
+Block(-8,2,-2,lycanitesmobs:ashenstone)
+Block(-8,2,-1,lycanitesmobs:ashenstone)
+Block(-8,3,-7,lycanitesmobs:ashenstone)
+Block(-8,3,-6,lycanitesmobs:ashenstone)
+Block(-8,3,-5,REDSTONE_BLOCK:0)
+Block(-8,3,-4,OBSERVER:5)
+Block(-8,3,-3,REDSTONE_BLOCK:0)
+Block(-8,3,-2,lycanitesmobs:ashenstone)
+Block(-8,3,-1,lycanitesmobs:ashenstone)
+Block(-8,4,-6,lycanitesmobs:ashenstone)
+Block(-8,4,-5,OBSIDIAN:0)
+Block(-8,4,-4,OBSERVER:1)
+Block(-8,4,-3,OBSIDIAN:0)
+Block(-8,4,-2,lycanitesmobs:ashenstone)
+Block(-8,5,-6,lycanitesmobs:ashenstone)
+Block(-8,5,-5,lycanitesmobs:ashenstone)
+Block(-8,5,-4,lycanitesmobs:ashenstone)
+Block(-8,5,-3,lycanitesmobs:ashenstone)
+Block(-8,5,-2,lycanitesmobs:ashenstone)
+Block(-8,6,-4,lycanitesmobs:ashenstone)
+Block(-7,0,-4,lycanitesmobs:ashenstone)
+Block(-7,1,-5,lycanitesmobs:ashenstone)
+Block(-7,1,-4,lycanitesmobs:ashenstone)
+Block(-7,1,-3,lycanitesmobs:ashenstone)
+Block(-7,2,-6,lycanitesmobs:ashenstone)
+Block(-7,2,-5,lycanitesmobs:ashenstone)
+Block(-7,2,-4,OBSIDIAN:0)
+Block(-7,2,-3,lycanitesmobs:ashenstone)
+Block(-7,2,-2,lycanitesmobs:ashenstone)
+Block(-7,3,-7,lycanitesmobs:ashenstone)
+Block(-7,3,-6,lycanitesmobs:ashenstone)
+Block(-7,3,-4,OBSIDIAN:0)
+Block(-7,3,-2,lycanitesmobs:ashenstone)
+Block(-7,3,-1,lycanitesmobs:ashenstone)
+Block(-7,4,-6,lycanitesmobs:ashenstone)
+Block(-7,4,-5,lycanitesmobs:ashenstone)
+Block(-7,4,-4,lycanitesmobs:ashenstone)
+Block(-7,4,-3,lycanitesmobs:ashenstone)
+Block(-7,4,-2,lycanitesmobs:ashenstone)
+Block(-7,5,-5,lycanitesmobs:ashenstone)
+Block(-7,5,-4,lycanitesmobs:ashenstone)
+Block(-7,5,-3,lycanitesmobs:ashenstone)
+Block(-7,6,-4,lycanitesmobs:ashenstone)
+Block(-6,0,-4,lycanitesmobs:ashenstone)
+Block(-6,1,-5,lycanitesmobs:ashenstone)
+Block(-6,1,-4,lycanitesmobs:ashenstone)
+Block(-6,1,-3,lycanitesmobs:ashenstone)
+Block(-6,2,-6,lycanitesmobs:ashenstone)
+Block(-6,2,-5,lycanitesmobs:ashenstone)
+Block(-6,2,-4,lycanitesmobs:ashenstone)
+Block(-6,2,-3,lycanitesmobs:ashenstone)
+Block(-6,2,-2,lycanitesmobs:ashenstone)
+Block(-6,3,-7,lycanitesmobs:ashenstone)
+Block(-6,3,-6,lycanitesmobs:ashenstone)
+Block(-6,3,-4,lycanitesmobs:ashenstone)
+Block(-6,3,-2,lycanitesmobs:ashenstone)
+Block(-6,3,-1,lycanitesmobs:ashenstone)
+Block(-6,4,-6,lycanitesmobs:ashenstone)
+Block(-6,4,-5,lycanitesmobs:ashenstone)
+Block(-6,4,-4,lycanitesmobs:ashenstone)
+Block(-6,4,-3,lycanitesmobs:ashenstone)
+Block(-6,4,-2,lycanitesmobs:ashenstone)
+Block(-6,5,-5,lycanitesmobs:ashenstone)
+Block(-6,5,-4,lycanitesmobs:ashenstone)
+Block(-6,5,-3,lycanitesmobs:ashenstone)
+Block(-6,6,-4,lycanitesmobs:ashenstone)
+Block(-5,1,-5,lycanitesmobs:ashenstone)
+Block(-5,1,-4,lycanitesmobs:ashenstone)
+Block(-5,1,-3,lycanitesmobs:ashenstone)
+Block(-5,2,-6,lycanitesmobs:ashenstone)
+Block(-5,2,-5,lycanitesmobs:ashenstone)
+Block(-5,2,-4,lycanitesmobs:ashenstone)
+Block(-5,2,-3,lycanitesmobs:ashenstone)
+Block(-5,2,-2,lycanitesmobs:ashenstone)
+Block(-5,3,-6,lycanitesmobs:ashenstone)
+Block(-5,3,-4,lycanitesmobs:ashenstone)
+Block(-5,3,-2,lycanitesmobs:ashenstone)
+Block(-5,4,-5,lycanitesmobs:ashenstone)
+Block(-5,4,-4,lycanitesmobs:ashenstone)
+Block(-5,4,-3,lycanitesmobs:ashenstone)
+Block(-5,5,-5,lycanitesmobs:ashenstone)
+Block(-5,5,-4,lycanitesmobs:ashenstone)
+Block(-5,5,-3,lycanitesmobs:ashenstone)
+Block(-4,1,-4,lycanitesmobs:ashenstone)
+Block(-4,2,-5,lycanitesmobs:ashenstone)
+Block(-4,2,-4,lycanitesmobs:ashenstone)
+Block(-4,2,-3,lycanitesmobs:ashenstone)
+Block(-4,3,-6,lycanitesmobs:ashenstone)
+Block(-4,3,-5,IRON_TRAPDOOR:6)
+Block(-4,3,-4,lycanitesmobs:ashenstone)
+Block(-4,3,-3,IRON_TRAPDOOR:6)
+Block(-4,3,-2,lycanitesmobs:ashenstone)
+Block(-4,4,-5,lycanitesmobs:ashenstone)
+Block(-4,4,-4,lycanitesmobs:ashenstone)
+Block(-4,4,-3,lycanitesmobs:ashenstone)
+Block(-4,5,-4,lycanitesmobs:ashenstone)
+Block(-3,2,-4,lycanitesmobs:ashenstone)
+Block(-3,3,-4,lycanitesmobs:ashenstone)
+Block(-3,4,-4,lycanitesmobs:ashenstone)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

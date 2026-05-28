@@ -1,0 +1,195 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(-8,0,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,0,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,0,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,0,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,1,-7,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-8,1,-6,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-8,1,-5,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-8,1,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,2,-7,WEB:0,14,AIR:0,100)
+RandomBlock(-8,2,-6,WEB:0,14,AIR:0,100)
+RandomBlock(-8,2,-5,WEB:0,14,AIR:0,100)
+RandomBlock(-8,2,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,3,-7,WEB:0,14,AIR:0,100)
+RandomBlock(-8,3,-6,WEB:0,14,AIR:0,100)
+RandomBlock(-8,3,-5,WEB:0,14,AIR:0,100)
+RandomBlock(-8,3,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,4,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,4,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,4,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,0,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,0,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,0,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,0,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,1,-7,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-7,1,-6,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-7,1,-5,CHEST:5,../../../../Chests/Loot/junk_loot.nbt,20,CHEST:5../../../../Chests/Loot/bottle_loot.nbt,2,CHEST:5,../../../../Chests/Loot/common_loot.nbt,2,CHEST:5,../../../../Chests/Loot/village_blacksmith.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_library.nbt,2,CHEST:5,../../../../Chests/Loot/stronghold_corridor.nbt,2,CHEST:5,../../../../Chests/Loot/simple_dungeon.nbt,5,MOB_SPAWNER:0,../../ruins_spawners/alchemist_multi.nbt,10,WEB:0,10,AIR:0,100)
+RandomBlock(-7,1,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,2,-7,WEB:0,14,AIR:0,100)
+RandomBlock(-7,2,-6,WEB:0,14,AIR:0,100)
+RandomBlock(-7,2,-5,WEB:0,14,AIR:0,100)
+RandomBlock(-7,2,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,3,-7,WEB:0,14,AIR:0,100)
+RandomBlock(-7,3,-6,WEB:0,14,AIR:0,100)
+RandomBlock(-7,3,-5,WEB:0,14,AIR:0,100)
+RandomBlock(-7,3,-4,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,4,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,4,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,4,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,0,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,0,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,0,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,1,-7,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,1,-6,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,1,-5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,2,-7,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,2,-6,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,2,-5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,3,-7,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,3,-6,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,3,-5,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,AlchemistsDungeonC0R3,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

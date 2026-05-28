@@ -1,0 +1,251 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RandomBlock(-8,1,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-8,1,-1,BRICK_STAIRS:0)
+RandomBlock(-8,1,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,2,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-8,2,-1,AIR:0)
+RandomBlock(-8,2,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,2,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,2,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,2,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,2,6,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,3,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-8,3,-1,AIR:0)
+RandomBlock(-8,3,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,3,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,3,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,3,6,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,4,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-8,4,-1,AIR:0)
+RandomBlock(-8,4,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,5,-1,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-8,8,4,BRICK_STAIRS:1,66,BRICK:0,100)
+RandomBlock(-8,8,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,9,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,9,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,9,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-8,10,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-8,10,4,AIR:0)
+RandomBlock(-8,11,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,2,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-7,2,-1,BRICK_STAIRS:0)
+RandomBlock(-7,2,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,3,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-7,3,-1,AIR:0)
+RandomBlock(-7,3,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,4,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-7,4,-1,AIR:0)
+RandomBlock(-7,4,0,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,4,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,5,-1,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-7,5,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,5,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,6,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,6,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,7,4,BRICK_STAIRS:1,66,BRICK:0,100)
+RandomBlock(-7,7,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,8,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,8,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,8,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,9,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-7,9,4,AIR:0)
+RandomBlock(-7,9,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-7,10,4,AIR:0)
+RandomBlock(-7,10,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-7,11,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,2,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,3,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+RandomBlock(-6,3,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,4,-2,BRICK:0,50,MONSTER_EGGS:2,15,MONSTER_EGGS:3,15,MONSTER_EGGS:4,15,BRICK_STAIRS:0,10,BRICK_STAIRS:1,10,BRICK_STAIRS:2,10,BRICK_STAIRS:3,10,STEP:12,15,STEP:4,50,BRICK:0,100)
+Block(-6,4,0,AIR:0)
+RandomBlock(-6,4,1,BRICK_STAIRS:2,66,BRICK:0,100)
+RandomBlock(-6,5,-2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,5,-1,AIR:0)
+RandomBlock(-6,5,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,5,1,AIR:0)
+RandomBlock(-6,5,2,BRICK_STAIRS:2,66,BRICK:0,100)
+RandomBlock(-6,6,-2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,6,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,6,0,AIR:0)
+RandomBlock(-6,6,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,6,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,6,3,BRICK_STAIRS:2,66,BRICK:0,100)
+RandomBlock(-6,6,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,7,1,AIR:0)
+Block(-6,7,2,AIR:0)
+Block(-6,7,3,AIR:0)
+Block(-6,7,4,AIR:0)
+RandomBlock(-6,7,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,8,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,8,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,8,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,8,3,AIR:0)
+RandomBlock(-6,8,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,8,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,9,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,9,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,9,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+Block(-6,9,4,AIR:0)
+RandomBlock(-6,9,5,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,10,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-6,11,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,3,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,3,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,4,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,4,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,5,-1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,5,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,5,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,6,0,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,6,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,6,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,7,1,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,7,2,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,7,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,7,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,8,3,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+RandomBlock(-5,9,4,DIRT:0,20,STONE:0,20,GRAVEL:0,20,BRICK:0,100)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,true,AlchemistsDungeonC1R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

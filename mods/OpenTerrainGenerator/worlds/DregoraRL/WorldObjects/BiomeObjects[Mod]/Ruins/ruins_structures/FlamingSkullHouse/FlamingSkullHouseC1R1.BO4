@@ -1,0 +1,507 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,0,-7,dimstack:bedrock:7)
+Block(-8,0,-6,dimstack:bedrock:7)
+Block(-8,0,-5,dimstack:bedrock:7)
+Block(-8,0,-4,dimstack:bedrock:7)
+Block(-8,0,-3,dimstack:bedrock:7)
+Block(-8,0,-2,dimstack:bedrock:7)
+Block(-8,0,-1,dimstack:bedrock:7)
+Block(-8,1,-7,MOSSY_COBBLESTONE:0)
+Block(-8,1,-6,AIR:0)
+Block(-8,1,-5,MOSSY_COBBLESTONE:0)
+Block(-8,1,-4,AIR:0)
+Block(-8,1,-3,COBBLESTONE:0)
+Block(-8,1,-2,AIR:0)
+Block(-8,1,-1,dimstack:bedrock:7)
+Block(-8,2,-7,MOSSY_COBBLESTONE:0)
+Block(-8,2,-6,MOSSY_COBBLESTONE:0)
+Block(-8,2,-5,AIR:0)
+Block(-8,2,-4,MOSSY_COBBLESTONE:0)
+Block(-8,2,-3,AIR:0)
+Block(-8,2,-2,COBBLESTONE:0)
+Block(-8,2,-1,dimstack:bedrock:7)
+Block(-8,3,-7,MOSSY_COBBLESTONE:0)
+Block(-8,3,-6,MOSSY_COBBLESTONE:0)
+Block(-8,3,-5,AIR:0)
+Block(-8,3,-4,MOSSY_COBBLESTONE:0)
+Block(-8,3,-3,AIR:0)
+Block(-8,3,-2,MOSSY_COBBLESTONE:0)
+Block(-8,3,-1,dimstack:bedrock:7)
+Block(-8,4,-7,COBBLESTONE:0)
+Block(-8,4,-6,MOSSY_COBBLESTONE:0)
+Block(-8,4,-5,MOSSY_COBBLESTONE:0)
+Block(-8,4,-4,MOSSY_COBBLESTONE:0)
+Block(-8,4,-3,MOSSY_COBBLESTONE:0)
+Block(-8,4,-2,MOSSY_COBBLESTONE:0)
+Block(-8,4,-1,dimstack:bedrock:7)
+Block(-8,5,-7,dimstack:bedrock:7)
+Block(-8,5,-6,dimstack:bedrock:7)
+Block(-8,5,-5,dimstack:bedrock:7)
+Block(-8,5,-4,dimstack:bedrock:7)
+Block(-8,5,-3,dimstack:bedrock:7)
+Block(-8,5,-2,dimstack:bedrock:7)
+Block(-8,5,-1,dimstack:bedrock:7)
+Block(-8,18,-3,COBBLESTONE:0)
+Block(-8,19,-6,MOSSY_COBBLESTONE:0)
+Block(-8,19,-5,COBBLESTONE:0)
+Block(-8,19,-4,MOSSY_COBBLESTONE:0)
+Block(-8,25,-7,COBBLESTONE:0)
+Block(-8,26,-7,MOSSY_COBBLESTONE:0)
+Block(-8,27,-7,MOSSY_COBBLESTONE:0)
+Block(-8,28,-7,MOSSY_COBBLESTONE:0)
+Block(-7,0,-7,dimstack:bedrock:7)
+Block(-7,0,-6,dimstack:bedrock:7)
+Block(-7,0,-5,dimstack:bedrock:7)
+Block(-7,0,-4,dimstack:bedrock:7)
+Block(-7,0,-3,dimstack:bedrock:7)
+Block(-7,0,-2,dimstack:bedrock:7)
+Block(-7,0,-1,dimstack:bedrock:7)
+Block(-7,1,-7,MOSSY_COBBLESTONE:0)
+Block(-7,1,-6,COBBLESTONE:0)
+Block(-7,1,-5,MOSSY_COBBLESTONE:0)
+Block(-7,1,-4,MOSSY_COBBLESTONE:0)
+Block(-7,1,-3,MOSSY_COBBLESTONE:0)
+Block(-7,1,-2,MOSSY_COBBLESTONE:0)
+Block(-7,1,-1,dimstack:bedrock:7)
+Block(-7,2,-7,COBBLESTONE:0)
+Block(-7,2,-6,MOSSY_COBBLESTONE:0)
+Block(-7,2,-5,AIR:0)
+Block(-7,2,-4,AIR:0)
+Block(-7,2,-3,AIR:0)
+Block(-7,2,-2,COBBLESTONE:0)
+Block(-7,2,-1,dimstack:bedrock:7)
+Block(-7,3,-7,MOSSY_COBBLESTONE:0)
+Block(-7,3,-6,MOSSY_COBBLESTONE:0)
+Block(-7,3,-5,AIR:0)
+Block(-7,3,-4,AIR:0)
+Block(-7,3,-3,AIR:0)
+Block(-7,3,-2,MOSSY_COBBLESTONE:0)
+Block(-7,3,-1,dimstack:bedrock:7)
+Block(-7,4,-7,COBBLESTONE:0)
+Block(-7,4,-6,MOSSY_COBBLESTONE:0)
+Block(-7,4,-5,MOSSY_COBBLESTONE:0)
+Block(-7,4,-4,MOSSY_COBBLESTONE:0)
+Block(-7,4,-3,COBBLESTONE:0)
+Block(-7,4,-2,MOSSY_COBBLESTONE:0)
+Block(-7,4,-1,dimstack:bedrock:7)
+Block(-7,5,-7,dimstack:bedrock:7)
+Block(-7,5,-6,dimstack:bedrock:7)
+Block(-7,5,-5,dimstack:bedrock:7)
+Block(-7,5,-4,dimstack:bedrock:7)
+Block(-7,5,-3,dimstack:bedrock:7)
+Block(-7,5,-2,dimstack:bedrock:7)
+Block(-7,5,-1,dimstack:bedrock:7)
+Block(-7,15,-3,GRASS:0)
+Block(-7,17,-3,MOSSY_COBBLESTONE:0)
+Block(-7,18,-6,MOSSY_COBBLESTONE:0)
+Block(-7,18,-4,MOSSY_COBBLESTONE:0)
+Block(-7,25,-7,MOSSY_COBBLESTONE:0)
+Block(-7,26,-7,MOSSY_COBBLESTONE:0)
+Block(-7,27,-7,MOSSY_COBBLESTONE:0)
+Block(-7,28,-7,MOSSY_COBBLESTONE:0)
+Block(-6,0,-7,dimstack:bedrock:7)
+Block(-6,0,-6,dimstack:bedrock:7)
+Block(-6,0,-5,dimstack:bedrock:7)
+Block(-6,0,-4,dimstack:bedrock:7)
+Block(-6,0,-3,dimstack:bedrock:7)
+Block(-6,0,-2,dimstack:bedrock:7)
+Block(-6,0,-1,dimstack:bedrock:7)
+Block(-6,1,-7,MOSSY_COBBLESTONE:0)
+Block(-6,1,-6,MOSSY_COBBLESTONE:0)
+Block(-6,1,-5,MOSSY_COBBLESTONE:0)
+Block(-6,1,-4,MOSSY_COBBLESTONE:0)
+Block(-6,1,-3,MOSSY_COBBLESTONE:0)
+Block(-6,1,-2,MOSSY_COBBLESTONE:0)
+Block(-6,1,-1,dimstack:bedrock:7)
+Block(-6,2,-7,MOSSY_COBBLESTONE:0)
+Block(-6,2,-6,MOSSY_COBBLESTONE:0)
+Block(-6,2,-5,AIR:0)
+Block(-6,2,-4,AIR:0)
+Block(-6,2,-3,AIR:0)
+Block(-6,2,-2,MOSSY_COBBLESTONE:0)
+Block(-6,2,-1,dimstack:bedrock:7)
+Block(-6,3,-7,MOSSY_COBBLESTONE:0)
+Block(-6,3,-6,MOSSY_COBBLESTONE:0)
+Block(-6,3,-5,AIR:0)
+Block(-6,3,-4,AIR:0)
+Block(-6,3,-3,AIR:0)
+Block(-6,3,-2,COBBLESTONE:0)
+Block(-6,3,-1,dimstack:bedrock:7)
+Block(-6,4,-7,MOSSY_COBBLESTONE:0)
+Block(-6,4,-6,MOSSY_COBBLESTONE:0)
+Block(-6,4,-5,COBBLESTONE:0)
+Block(-6,4,-4,MOSSY_COBBLESTONE:0)
+Block(-6,4,-3,MOSSY_COBBLESTONE:0)
+Block(-6,4,-2,MOSSY_COBBLESTONE:0)
+Block(-6,4,-1,dimstack:bedrock:7)
+Block(-6,5,-7,dimstack:bedrock:7)
+Block(-6,5,-6,dimstack:bedrock:7)
+Block(-6,5,-5,dimstack:bedrock:7)
+Block(-6,5,-4,dimstack:bedrock:7)
+Block(-6,5,-3,dimstack:bedrock:7)
+Block(-6,5,-2,dimstack:bedrock:7)
+Block(-6,5,-1,dimstack:bedrock:7)
+Block(-6,13,-2,DIRT:0)
+Block(-6,14,-2,MOSSY_COBBLESTONE:0)
+Block(-6,15,-2,MOSSY_COBBLESTONE:0)
+Block(-6,16,-2,MOSSY_COBBLESTONE:0)
+Block(-6,18,-6,MOSSY_COBBLESTONE:0)
+Block(-6,18,-4,MOSSY_COBBLESTONE:0)
+Block(-6,25,-7,MOSSY_COBBLESTONE:0)
+Block(-6,26,-7,MOSSY_COBBLESTONE:0)
+Block(-6,27,-7,MOSSY_COBBLESTONE:0)
+Block(-6,28,-7,MOSSY_COBBLESTONE:0)
+Block(-5,0,-7,dimstack:bedrock:7)
+Block(-5,0,-6,dimstack:bedrock:7)
+Block(-5,0,-5,dimstack:bedrock:7)
+Block(-5,0,-4,dimstack:bedrock:7)
+Block(-5,0,-3,dimstack:bedrock:7)
+Block(-5,0,-2,dimstack:bedrock:7)
+Block(-5,0,-1,dimstack:bedrock:7)
+Block(-5,1,-7,COBBLESTONE:0)
+Block(-5,1,-6,MOSSY_COBBLESTONE:0)
+Block(-5,1,-5,MOSSY_COBBLESTONE:0)
+Block(-5,1,-4,COBBLESTONE:0)
+Block(-5,1,-3,MOSSY_COBBLESTONE:0)
+Block(-5,1,-2,MOSSY_COBBLESTONE:0)
+Block(-5,1,-1,dimstack:bedrock:7)
+Block(-5,2,-7,MOSSY_COBBLESTONE:0)
+Block(-5,2,-6,MOSSY_COBBLESTONE:0)
+Block(-5,2,-5,AIR:0)
+Block(-5,2,-4,MOB_SPAWNER:0,../../ruins_spawners/crypt_multi.nbt)
+Block(-5,2,-3,AIR:0)
+Block(-5,2,-2,MOSSY_COBBLESTONE:0)
+Block(-5,2,-1,dimstack:bedrock:7)
+Block(-5,3,-7,MOSSY_COBBLESTONE:0)
+Block(-5,3,-6,MOSSY_COBBLESTONE:0)
+Block(-5,3,-5,AIR:0)
+Block(-5,3,-4,AIR:0)
+Block(-5,3,-3,AIR:0)
+Block(-5,3,-2,MOSSY_COBBLESTONE:0)
+Block(-5,3,-1,dimstack:bedrock:7)
+Block(-5,4,-7,MOSSY_COBBLESTONE:0)
+Block(-5,4,-6,MOSSY_COBBLESTONE:0)
+Block(-5,4,-5,MOSSY_COBBLESTONE:0)
+Block(-5,4,-4,MOSSY_COBBLESTONE:0)
+Block(-5,4,-3,MOSSY_COBBLESTONE:0)
+Block(-5,4,-2,MOSSY_COBBLESTONE:0)
+Block(-5,4,-1,dimstack:bedrock:7)
+Block(-5,5,-7,dimstack:bedrock:7)
+Block(-5,5,-6,dimstack:bedrock:7)
+Block(-5,5,-5,dimstack:bedrock:7)
+Block(-5,5,-4,dimstack:bedrock:7)
+Block(-5,5,-3,dimstack:bedrock:7)
+Block(-5,5,-2,dimstack:bedrock:7)
+Block(-5,5,-1,dimstack:bedrock:7)
+Block(-5,13,-1,DIRT:0)
+Block(-5,14,-6,DIRT:0)
+Block(-5,14,-4,DIRT:0)
+Block(-5,14,-1,AIR:0)
+Block(-5,15,-6,GRASS:0)
+Block(-5,15,-4,GRASS:0)
+Block(-5,15,-1,AIR:0)
+Block(-5,16,-1,AIR:0)
+Block(-5,17,-6,MOSSY_COBBLESTONE:0)
+Block(-5,17,-4,MOSSY_COBBLESTONE:0)
+Block(-5,25,-7,MOSSY_COBBLESTONE:0)
+Block(-5,26,-7,MOSSY_COBBLESTONE:0)
+Block(-5,27,-7,MOSSY_COBBLESTONE:0)
+Block(-5,28,-7,COBBLESTONE:0)
+Block(-4,0,-7,dimstack:bedrock:7)
+Block(-4,0,-6,dimstack:bedrock:7)
+Block(-4,0,-5,dimstack:bedrock:7)
+Block(-4,0,-4,dimstack:bedrock:7)
+Block(-4,0,-3,dimstack:bedrock:7)
+Block(-4,0,-2,dimstack:bedrock:7)
+Block(-4,0,-1,dimstack:bedrock:7)
+Block(-4,1,-7,MOSSY_COBBLESTONE:0)
+Block(-4,1,-6,MOSSY_COBBLESTONE:0)
+Block(-4,1,-5,MOSSY_COBBLESTONE:0)
+Block(-4,1,-4,MOSSY_COBBLESTONE:0)
+Block(-4,1,-3,MOSSY_COBBLESTONE:0)
+Block(-4,1,-2,MOSSY_COBBLESTONE:0)
+Block(-4,1,-1,dimstack:bedrock:7)
+Block(-4,2,-7,COBBLESTONE:0)
+Block(-4,2,-6,MOSSY_COBBLESTONE:0)
+Block(-4,2,-5,COBBLESTONE:0)
+Block(-4,2,-4,COBBLESTONE:0)
+Block(-4,2,-3,MOSSY_COBBLESTONE:0)
+Block(-4,2,-2,MOSSY_COBBLESTONE:0)
+Block(-4,2,-1,dimstack:bedrock:7)
+Block(-4,3,-7,COBBLESTONE:0)
+Block(-4,3,-6,MOSSY_COBBLESTONE:0)
+Block(-4,3,-5,MOSSY_COBBLESTONE:0)
+Block(-4,3,-4,MOSSY_COBBLESTONE:0)
+Block(-4,3,-3,MOSSY_COBBLESTONE:0)
+Block(-4,3,-2,MOSSY_COBBLESTONE:0)
+Block(-4,3,-1,dimstack:bedrock:7)
+Block(-4,4,-7,MOSSY_COBBLESTONE:0)
+Block(-4,4,-6,MOSSY_COBBLESTONE:0)
+Block(-4,4,-5,MOSSY_COBBLESTONE:0)
+Block(-4,4,-4,COBBLESTONE:0)
+Block(-4,4,-3,MOSSY_COBBLESTONE:0)
+Block(-4,4,-2,MOSSY_COBBLESTONE:0)
+Block(-4,4,-1,dimstack:bedrock:7)
+Block(-4,5,-7,dimstack:bedrock:7)
+Block(-4,5,-6,dimstack:bedrock:7)
+Block(-4,5,-5,dimstack:bedrock:7)
+Block(-4,5,-4,dimstack:bedrock:7)
+Block(-4,5,-3,dimstack:bedrock:7)
+Block(-4,5,-2,dimstack:bedrock:7)
+Block(-4,5,-1,dimstack:bedrock:7)
+Block(-4,13,-6,DIRT:0)
+Block(-4,13,-4,DIRT:0)
+Block(-4,14,-6,COBBLESTONE:0)
+Block(-4,14,-4,MOSSY_COBBLESTONE:0)
+Block(-4,15,-6,MOSSY_COBBLESTONE:0)
+Block(-4,15,-4,MOSSY_COBBLESTONE:0)
+Block(-4,16,-6,MOSSY_COBBLESTONE:0)
+Block(-4,16,-4,MOSSY_COBBLESTONE:0)
+Block(-4,25,-7,MOSSY_COBBLESTONE:0)
+Block(-4,26,-7,MOSSY_COBBLESTONE:0)
+Block(-4,27,-7,MOSSY_COBBLESTONE:0)
+Block(-4,28,-7,MOSSY_COBBLESTONE:0)
+Block(-3,0,-7,dimstack:bedrock:7)
+Block(-3,0,-6,dimstack:bedrock:7)
+Block(-3,0,-5,dimstack:bedrock:7)
+Block(-3,0,-4,dimstack:bedrock:7)
+Block(-3,0,-3,dimstack:bedrock:7)
+Block(-3,0,-2,dimstack:bedrock:7)
+Block(-3,0,-1,dimstack:bedrock:7)
+Block(-3,1,-7,MOSSY_COBBLESTONE:0)
+Block(-3,1,-6,AIR:0)
+Block(-3,1,-5,AIR:0)
+Block(-3,1,-4,AIR:0)
+Block(-3,1,-3,AIR:0)
+Block(-3,1,-2,AIR:0)
+Block(-3,1,-1,dimstack:bedrock:7)
+Block(-3,2,-7,MOSSY_COBBLESTONE:0)
+Block(-3,2,-6,AIR:0)
+Block(-3,2,-5,AIR:0)
+Block(-3,2,-4,AIR:0)
+Block(-3,2,-3,AIR:0)
+Block(-3,2,-2,AIR:0)
+Block(-3,2,-1,dimstack:bedrock:7)
+Block(-3,3,-7,MOSSY_COBBLESTONE:0)
+Block(-3,3,-6,AIR:0)
+Block(-3,3,-5,AIR:0)
+Block(-3,3,-4,AIR:0)
+Block(-3,3,-3,AIR:0)
+Block(-3,3,-2,AIR:0)
+Block(-3,3,-1,dimstack:bedrock:7)
+Block(-3,4,-7,MOSSY_COBBLESTONE:0)
+Block(-3,4,-6,MOSSY_COBBLESTONE:0)
+Block(-3,4,-5,COBBLESTONE:0)
+Block(-3,4,-4,MOSSY_COBBLESTONE:0)
+Block(-3,4,-3,MOSSY_COBBLESTONE:0)
+Block(-3,4,-2,COBBLESTONE:0)
+Block(-3,4,-1,dimstack:bedrock:7)
+Block(-3,5,-7,dimstack:bedrock:7)
+Block(-3,5,-6,dimstack:bedrock:7)
+Block(-3,5,-5,dimstack:bedrock:7)
+Block(-3,5,-4,dimstack:bedrock:7)
+Block(-3,5,-3,dimstack:bedrock:7)
+Block(-3,5,-2,dimstack:bedrock:7)
+Block(-3,5,-1,dimstack:bedrock:7)
+Block(-3,13,-6,DIRT:0)
+Block(-3,13,-4,DIRT:0)
+Block(-3,14,-6,AIR:0)
+Block(-3,14,-4,AIR:0)
+Block(-3,15,-6,AIR:0)
+Block(-3,15,-4,AIR:0)
+Block(-3,16,-6,AIR:0)
+Block(-3,16,-4,AIR:0)
+Block(-2,0,-7,dimstack:bedrock:7)
+Block(-2,0,-6,dimstack:bedrock:7)
+Block(-2,0,-5,dimstack:bedrock:7)
+Block(-2,0,-4,dimstack:bedrock:7)
+Block(-2,0,-3,dimstack:bedrock:7)
+Block(-2,0,-2,dimstack:bedrock:7)
+Block(-2,0,-1,dimstack:bedrock:7)
+Block(-2,1,-7,dimstack:bedrock:7)
+Block(-2,1,-6,dimstack:bedrock:7)
+Block(-2,1,-5,dimstack:bedrock:7)
+Block(-2,1,-4,dimstack:bedrock:7)
+Block(-2,1,-3,dimstack:bedrock:7)
+Block(-2,1,-2,dimstack:bedrock:7)
+Block(-2,1,-1,dimstack:bedrock:7)
+Block(-2,2,-7,dimstack:bedrock:7)
+Block(-2,2,-6,dimstack:bedrock:7)
+Block(-2,2,-5,dimstack:bedrock:7)
+Block(-2,2,-4,dimstack:bedrock:7)
+Block(-2,2,-3,dimstack:bedrock:7)
+Block(-2,2,-2,dimstack:bedrock:7)
+Block(-2,2,-1,dimstack:bedrock:7)
+Block(-2,3,-7,dimstack:bedrock:7)
+Block(-2,3,-6,dimstack:bedrock:7)
+Block(-2,3,-5,dimstack:bedrock:7)
+Block(-2,3,-4,dimstack:bedrock:7)
+Block(-2,3,-3,dimstack:bedrock:7)
+Block(-2,3,-2,dimstack:bedrock:7)
+Block(-2,3,-1,dimstack:bedrock:7)
+Block(-2,4,-7,dimstack:bedrock:7)
+Block(-2,4,-6,dimstack:bedrock:7)
+Block(-2,4,-5,dimstack:bedrock:7)
+Block(-2,4,-4,dimstack:bedrock:7)
+Block(-2,4,-3,dimstack:bedrock:7)
+Block(-2,4,-2,dimstack:bedrock:7)
+Block(-2,4,-1,dimstack:bedrock:7)
+Block(-2,5,-7,dimstack:bedrock:7)
+Block(-2,5,-6,dimstack:bedrock:7)
+Block(-2,5,-5,dimstack:bedrock:7)
+Block(-2,5,-4,dimstack:bedrock:7)
+Block(-2,5,-3,dimstack:bedrock:7)
+Block(-2,5,-2,dimstack:bedrock:7)
+Block(-2,5,-1,dimstack:bedrock:7)
+Block(-2,13,-6,DIRT:0)
+Block(-2,13,-4,DIRT:0)
+Block(-2,14,-6,AIR:0)
+Block(-2,14,-4,AIR:0)
+Block(-2,15,-6,AIR:0)
+Block(-2,15,-4,AIR:0)
+Block(-2,16,-6,AIR:0)
+Block(-2,16,-4,AIR:0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-16,0,0,true,FlamingSkullHouseC0R1,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
