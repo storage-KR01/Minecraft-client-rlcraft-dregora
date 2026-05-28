@@ -1,0 +1,1 @@
+SwampOak is exported in 32x32. exported with otg export <name> -t command to keep species data.
