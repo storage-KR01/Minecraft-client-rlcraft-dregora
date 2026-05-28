@@ -1,0 +1,4 @@
+P_VillageFarmhouse,1482,1494,-2717,-2705
+RLCraft_DecentWitch,1443,1443,-2721,-2721
+RLCraft_UndergroundRuin2,1438,1448,-2723,-2716
+StonePlantBoulder,1283,1293,-2941,-2931

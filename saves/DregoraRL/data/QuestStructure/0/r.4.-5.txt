@@ -1,0 +1,6 @@
+VillageInn,2185,2205,-2899,-2872
+VillageGuardTower,2153,2165,-2899,-2887
+ThreeTowers,2210,2241,-2896,-2864
+SeasonsGreenhouse,2158,2168,-2922,-2910
+SeasonsGreenhouse,2219,2231,-2921,-2911
+P_VillageFarmhouse,2247,2259,-2937,-2925

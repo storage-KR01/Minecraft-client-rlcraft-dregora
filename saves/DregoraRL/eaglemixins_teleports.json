@@ -1,0 +1,86 @@
+{
+  "0": {
+    "sender": {
+      "field_177962_a": -950,
+      "field_177960_b": 80,
+      "field_177961_c": -2228
+    },
+    "tempReceiver": {
+      "field_177962_a": -8247,
+      "field_177960_b": 80,
+      "field_177961_c": -12929
+    }
+  },
+  "1": {
+    "sender": {
+      "field_177962_a": -2355,
+      "field_177960_b": 80,
+      "field_177961_c": -642
+    },
+    "tempReceiver": {
+      "field_177962_a": -15878,
+      "field_177960_b": 80,
+      "field_177961_c": -4301
+    }
+  },
+  "2": {
+    "sender": {
+      "field_177962_a": -1987,
+      "field_177960_b": 80,
+      "field_177961_c": 1453
+    },
+    "tempReceiver": {
+      "field_177962_a": -13520,
+      "field_177960_b": 80,
+      "field_177961_c": 7636
+    }
+  },
+  "3": {
+    "sender": {
+      "field_177962_a": -116,
+      "field_177960_b": 80,
+      "field_177961_c": 2455
+    },
+    "tempReceiver": {
+      "field_177962_a": -2607,
+      "field_177960_b": 80,
+      "field_177961_c": 16323
+    }
+  },
+  "4": {
+    "sender": {
+      "field_177962_a": 2407,
+      "field_177960_b": 80,
+      "field_177961_c": -401
+    },
+    "tempReceiver": {
+      "field_177962_a": 13476,
+      "field_177960_b": 80,
+      "field_177961_c": -8398
+    }
+  },
+  "5": {
+    "sender": {
+      "field_177962_a": 1171,
+      "field_177960_b": 80,
+      "field_177961_c": -2126
+    },
+    "tempReceiver": {
+      "field_177962_a": 7070,
+      "field_177960_b": 80,
+      "field_177961_c": -15844
+    }
+  },
+  "6": {
+    "sender": {
+      "field_177962_a": 1831,
+      "field_177960_b": 80,
+      "field_177961_c": 1635
+    },
+    "tempReceiver": {
+      "field_177962_a": 5502,
+      "field_177960_b": 80,
+      "field_177961_c": 13754
+    }
+  }
+}

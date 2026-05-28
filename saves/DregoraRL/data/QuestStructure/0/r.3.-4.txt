@@ -1,0 +1,6 @@
+RLCraft_BasicCaveSpider,1990,1990,-2417,-2417
+RLCraft_UndergroundRuin1,1984,1993,-2423,-2414
+RLCraft_SmallUndergroundSkeleton,1828,1836,-2424,-2416
+StonePlantMound2,1725,1737,-2486,-2473
+RLCraft_BasicWitch,1641,1641,-2499,-2499
+RLCraft_UndergroundRuin1,1635,1644,-2505,-2496

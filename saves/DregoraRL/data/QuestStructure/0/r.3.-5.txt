@@ -1,0 +1,4 @@
+RLCraft_SmallUndergroundSkeleton,2009,2017,-2594,-2586
+StonePlantMound3,1843,1854,-2576,-2567
+StonePlantBoulder,1807,1817,-2720,-2710
+StonePlantBoulder,1779,1789,-2712,-2702
